@@ -1,0 +1,10 @@
+### Generate Message
+POST http://localhost:3000/api/message/generate
+Content-Type: application/json
+
+{
+  "text": "Sehr geehrtes Team der Rheinbahn, Auch heute lässt mich die Rheinbahn wieder etwas ratlos in der Kälte stehen. Heute Morgen fuhr die 732 nicht um 8:59 Uhr an der Bushaltestelle in Hamm ab, sondern fuhr um 9:58 ungebremst an der Haltestelle vorbei. Gerade habe ich versucht um 17:24 Uhr mit der 732 vom Rheinturm zurück nach Hamm zu fahren. Seid inzwischen 8 Minuten ist die Verbindung überfällig obwohl die App behauptet sie wäre pünktlich. Als ich um 17:22 Uhr bereits in Sichtweite der Bushaltestelle war, sah ich etwas entfernt einen Bus die Hammer Str. Richtung Süden fahren und muss davon ausgehen, dass es sich dabei um besagte 17.24 Verbindung handelt. Da ihre Busse auf dieser Strecke regelmäßig deutlich zu spät fahren und teilweise unangekündigt, ganz ausfallen, ist es umso ärgerlicher wenn die Busse wenn sie pünktlich sein könnten, zu früh abfahren. So macht ÖPNV einfach gar keinen Spaß. Und die Tatsache, dass ich ähnliche Fehler schon mehrfach angemerkt habe , sich aber wohl keine Besserung einstellt macht es sooo schwer den ÖPNV zu empfehlen. Zumindest ist die Rheinbahn kein gutes Beispiel. Bitte überprüfen sie die Fahrkarten der o.g. Verbindungen und bitten Sie die ehrenwerten Fahrer sich doch bitte an den Fahrplan zu halten. Ein enttäuschter Rheinbahnkunde."
+}
+
+### Create Email
+POST http://localhost:3000/api/create-email
