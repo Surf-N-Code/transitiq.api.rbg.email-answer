@@ -1,26 +1,44 @@
 import axios from 'axios';
-import OpenAI from 'openai';
-import dotenv from 'dotenv';
-
-dotenv.config();
-
-// Configure OpenAI
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+import { openai } from '@/lib/openai';
+import { logInfo, logError } from '@/lib/logger';
+import { sleep } from 'openai/core.mjs';
 
 async function classifyText(text: string): Promise<boolean> {
-  const prompt = `Analysiere den folgenden Text und bestimme, ob es sich um eine Beschwerde handelt, bei der jemand am Bahnhof oder an einer Haltestelle zurückgelassen wurde.
-    Ebenfalls könnte die Beschwerde darüber gehen, dass ein Fahrzeug, ein Bus, oder eine Bahn, an einer Haltestelle nicht gehalten hat und einfach vorbeigefahren ist.
+  const prompt = `Aufgabe: Analysiere die folgende Nachricht eines Kunden und entscheide, ob sie sich darauf bezieht, dass der Kunde an einer Haltestelle (Bahn, Bus, U-Bahn) stehen gelassen wurde – also der Fahrer nicht gehalten oder an der Haltestelle vorbeigefahren ist.
+
+Hinweise, die auf diesen Fall hindeuten können:
+
+Haltestellenbezug: Erwähnung von Haltestellen (z. B. „Haltestelle Bilker Kirche“, „Haltestelle Universität Südost“, „Haltestelle Pempelforter“, „Haltestelle Haan Pütt“, „Vautierstr.“ etc.).
+Formulierungen: Ausdrücke wie „stehen gelassen“, „vorbeifuhr“, „ohne zu halten“, „fährt an uns vorbei“ oder Hinweise darauf, dass Fahrgäste trotz Warteposition nicht bedient wurden.
+Situationsbeschreibung: Konkrete Zeitangaben, situative Details (z. B. „im Regen stehen“, „warten“, „wurde abgeblinkt“) oder Verhaltensbeschreibungen (wie Gesten des Fahrers oder Reaktionen der Fahrgäste).
+Unmut/Empörung: Aussagen, die auf Frust, Ärger oder Empörung über das Verhalten des Fahrers hinweisen.
+Beispiele für Beschwerden, die in diese Kategorie fallen:
+
+"Sehr geehrte Damen und Herren, heute, sogar gerade (Freitag, den 31.01.2025 um 12.23 Uhr) standen eine junge Dame mit einem Kinderwagen und ich an der Haltestelle Bilker Kirche in Düsseldorf und warteten auf den Bus 723 Richtung D-Eller, als der Busfahrer einfach ohne zu halten an uns vorbeifuhr. Man sah uns beiden an, dass wir auf diesen Bus warteten."
+
+"Hallo. Es ist jetzt 15:27h und stehe an der Haltestelle Universität Südost. Gerade eben kam der Bus 835 Richtung Belsenplatz. Der Bus fuhr zwar langsamer, schaute kurz, machte aber keine Anstalten zu bremsen. Mein Winken wurde mit undeutbaren Gesten erwidert. Dann gab er Gas. 5 weitere Fahrgäste und ich sahen uns ungläubig an, dessen was gerade passierte."
+
+"Sehr geehrte Damen und Herren, Ich stehe gerade an der Haltestelle Pempelforter im Regen. Ca. 13 Uhr und ihre nette Mitarbeiterin fährt mit voller Absicht an uns vorbei! Was soll das? Das ist mir noch nie passiert! Kundenfreundlich schaut anderes aus... Verärgert Grüße B. Blazejczak. Ich bitte um Stellungnahme."
+
+"Ich bin eben gerade Zeuge geworden von der Unfähigkeit eines Busfahrers/in. Der 792 Richtung Sohlingen Ohligs kam um 8:20 an der Haltestelle Haan Pütt an. Ein älterer Herr, der nicht gut zu Fuß war und die Haltestelle noch nicht erreicht hatte, winkte dem Fahrer/in zu, dass er mit wollte. Der Fahrer/in fuhr an die Haltestelle, da dort noch jemand zusteigen wollte. Kurz bevor der ältere Herr den Bus erreichte und noch winkte, wurde der Blinker gesetzt und der Bus fuhr ab. Das nenne ich mal richtig unverschämt. So viel Zeit sollte doch wohl sein. Kann man keine Rücksicht auf ältere Menschen nehmen?????"
+
+"Hallo, heute Samstag, 25.1., ist der Bus 733 an der Vautierstr. um 18.36 bzw. 18.37 direkt an der Haltestelle an uns vorbeigefahren. Danke, dass wir dadurch unseren Termin verpasst haben. Beste Grüße, Anett Wesoly."
+
+Anweisung:
+Lies die folgende Nachricht und entscheide, ob sie das Thema "Stehen gelassen werden an der Haltestelle" abdeckt. Antworte mit:
+
+"Ja" – wenn die Nachricht darauf hindeutet, dass der Kunde an einer Haltestelle stehen gelassen wurde oder ein Bus/Train/andere Verkehrsmittel ohne Halt vorbeigefahren ist.
+"Nein" – falls die Nachricht nicht in diese Kategorie fällt.
+
 Antworte nur mit "Ja" oder "Nein".
 
-Text: ${text}
+Analysiere nun den folgenden Text:
+Text: ${text}`;
 
-Ist dies eine Beschwerde über das Zurücklassen am Bahnhof?`;
-
+  await sleep(500);
   try {
     const response = await openai.chat.completions.create({
-      model: 'gpt-4o',
+      model: 'gpt-4o-mini',
       messages: [
         {
           role: 'system',
@@ -32,13 +50,15 @@ Ist dies eine Beschwerde über das Zurücklassen am Bahnhof?`;
           content: prompt,
         },
       ],
+      max_tokens: 1500,
       temperature: 0,
     });
 
     const answer = response.choices[0]?.message?.content?.toLowerCase() || '';
+    logInfo('Classification result:', answer);
     return answer.includes('ja');
   } catch (error) {
-    console.error('Error classifying text:', error);
+    console.error('Error classifying text:', JSON.stringify(error, null, 2));
     return false;
   }
 }
@@ -46,50 +66,62 @@ Ist dies eine Beschwerde über das Zurücklassen am Bahnhof?`;
 export async function POST(req: Request) {
   const { text, vorname, nachname, anrede } = await req.json();
   const clientData = { vorname, nachname, anrede };
+
   if (!text) {
-    console.error('Please provide text to analyze');
+    logError('No text provided to analyze');
     process.exit(1);
   }
-  console.log('\nAnalyzing text with GPT...');
+
+  logInfo('Starting message analysis:', {
+    userMessage: text,
+    clientData: {
+      vorname,
+      nachname,
+      anrede,
+    },
+  });
 
   // Anonymize text first and then classify the anonymized text
   const { anonymized_text, replacements } = await anonymizeText(text);
-  const isComplaintAboutBeingLeftBehind = await classifyText(anonymized_text);
 
-  console.log('\n\nAnonymized text:');
-  console.log(anonymized_text);
-  console.log('\n\nReplacements:');
-  console.log(replacements);
-  console.log(
-    '\n\nIs complaint about being left behind:',
-    isComplaintAboutBeingLeftBehind
-  );
+  //@TODO: add a retry logic for when the classification fails
+
+  logInfo('Text analysis results:', {
+    anonymized_text,
+    replacements,
+  });
 
   // Only generate response if it's a complaint about being left behind
   let finalResponse = null;
-  if (isComplaintAboutBeingLeftBehind) {
-    const aiResponse = await processTextWithAi(
+  const aiResponse = await processTextWithAi(
+    anonymized_text,
+    replacements,
+    clientData
+  );
+  if (!aiResponse) {
+    logError('AI response generation failed', {
       anonymized_text,
-      replacements,
-      clientData
-    );
-    if (!aiResponse) {
-      console.error('Error in GPT processing');
-      return Response.json({ error: 'Error in GPT processing' });
-    }
-    console.log('\n\nResponse:');
-    console.log(aiResponse);
-
-    finalResponse = deAnonymizeText(aiResponse, replacements);
-    console.log('\n\nDeanonymized text:');
-    console.log(finalResponse);
+      clientData,
+    });
+    return Response.json({ error: 'Error in GPT processing' });
   }
+
+  logInfo('AI response generated successfully:', {
+    originalMessage: text,
+    aiResponse,
+    clientData,
+  });
+
+  finalResponse = deAnonymizeText(aiResponse, replacements);
+  logInfo('Final response prepared:', {
+    finalResponse,
+    clientData,
+  });
 
   return Response.json({
     finalResponse,
     anonymized_text,
     replacements,
-    isComplaintAboutBeingLeftBehind,
   });
 }
 
@@ -100,8 +132,8 @@ async function anonymizeText(text: string) {
       text: text,
     });
     return response.data;
-  } catch (error) {
-    console.error(`Error anonymizing text: ${error?.message}`);
+  } catch (error: any) {
+    logError('Error anonymizing text:', { error: error?.message });
     return { anonymized_text: text, replacements: {} }; // Return original text if anonymization fails
   }
 }
@@ -150,7 +182,7 @@ async function processTextWithAi(
 ) {
   // Get just the placeholder keys
   const placeholderKeys = getPlaceholderKeys(anonymized_text_parts);
-  console.log('Placeholder keys:', placeholderKeys);
+  logInfo('Placeholder keys:', placeholderKeys);
 
   const prompt = `
 Du bist Kundensupport Mitarbeiter der Rheinbahn AG und schreibst antworten auf Kundenanliegen. Die Kundenanliegen befassen sich alle mit der Kernbeschwerde, dass der Kunde an einer Haltestelle von einem Bus oder Bahnfahrer stehen gelassen worden ist.
@@ -163,6 +195,8 @@ Notiz: In dem Kundenliegen sind die persönlich identifierbaren Informationen er
 - Namen der Personen die die Nachricht geschrieben haben
 - Namen von anderen Personen
 - Datum und Uhrzeit
+
+Bitte erfinde keine weiteren Platzhalter in deiner Antwort!
 
 Die Platzhalter sind wie folgt. Bitte verwende die Platzhalter in deiner Antwort. Du findest die Platzhalter ebenfalls in der anonymisierten Nachricht:
 ${placeholderKeys.join('\n')}
@@ -322,9 +356,9 @@ Anrede des Kunden: ${clientData.anrede}
 [KUNDENDATEN_ENDE]
 
 `
-    : `Wenn du das Geschlecht der Person ermitteln kannst, die die Nachricht geschrieben hat, dann verwende das Geschlecht in deiner Antwort in der Anrede. Zum Beispiel: "Sehr geehrte Frau Meier" oder "Sehr geehrter Herr Müller".
+    : `Wenn du das Geschlecht der Person ermitteln kannst, die die Nachricht geschrieben hat, dann verwende das Geschlecht in deiner Antwort in der Anrede. Zum Beispiel: "Sehr geehrte Frau Meier" oder "Sehr geehrter Herr Müller". Schreibe immer ein Sehr geehrte oder Sehr geehrter.
 Wenn du das Geschlecht nicht ermitteln kannst, dann verwende die Anrede "Sehr geehrter Kunde".
-Die Person die die Nachricht geschrieben hat, ist üblicherweise am Ende der Nachricht zu finden.
+Die Person die die Nachricht geschrieben hat, ist üblicherweise am Ende der Nachricht zu finden. Bitte stelle sicher, dass du hinter der Anrede ein Leerzeichen zwischen der Anrede und dem Namen der Person die die Nachricht geschrieben hat setzt. 
 [KUNDENDATEN_ENDE]
 `
 }
@@ -352,7 +386,13 @@ Antwort4: "sie berichten uns, dass unsere Mitarbeitenden im Fahrdienst die verle
 Formuliere eine sehr freundliche und ausführliche Antwort. Nenne in deiner Antwort auch auch mögliche Ursachen für die verspätung / den Grund für das stehen gelassen werden etc. Nenne das Datum, die Uhrzeit und die Haltestelle in der Antwort, sofern diese dir in dem Kundenanliegen genannt wurde.
 [REGELN_ENDE]
 
-Bitte formuliere nun eine sehr freundliche Antwort auf das oben genannte Kundenanliegen.`;
+Bitte formuliere nun eine sehr freundliche Antwort auf das oben genannte Kundenanliegen.
+
+Beende deinen Text stets mit einem der folgenden Abschlussformeln. Du kannst diese aber auch kombinieren oder leicht abändern:
+- Zukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.
+Ihr Kundenservice Team der Rheinbahn
+- Bitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.
+Ihr Kundenservice Team der Rheinbahn`;
 
   try {
     const completion = await openai.chat.completions.create({
@@ -368,8 +408,8 @@ Bitte formuliere nun eine sehr freundliche Antwort auf das oben genannte Kundena
     });
 
     return completion.choices[0].message.content;
-  } catch (error) {
-    console.error(`Error in GPT processing: ${error?.message}`);
+  } catch (error: any) {
+    logError('Error in GPT processing:', { error: error?.message });
     return null;
   }
 }

@@ -1,13 +1,14 @@
-"use client";
+'use client';
 
-import { useState } from "react";
+import { useState } from 'react';
 
 export function EmailClassificationForm() {
-  const [text, setText] = useState("");
+  const [text, setText] = useState('');
   const [response, setResponse] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [isComplaintAboutBeingLeftBehind, setIsComplaintAboutBeingLeftBehind] = useState<boolean | null>(null);
+  const [isComplaintAboutBeingLeftBehind, setIsComplaintAboutBeingLeftBehind] =
+    useState<boolean | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -16,32 +17,32 @@ export function EmailClassificationForm() {
     setError(null);
     setIsComplaintAboutBeingLeftBehind(null);
     setIsLoading(true);
-    
+
     try {
-      const res = await fetch("/api/message/generate", {
-        method: "POST",
+      const res = await fetch('/api/message/generate', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({ text }),
       });
 
       if (!res.ok) {
-        throw new Error("Failed to generate response");
+        throw new Error('Failed to generate response');
       }
 
       const data = await res.json();
-      setResponse(data.deanonymized_text);
+      setResponse(data.finalResponse);
       setIsComplaintAboutBeingLeftBehind(data.isComplaintAboutBeingLeftBehind);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Something went wrong");
+      setError(err instanceof Error ? err.message : 'Something went wrong');
     } finally {
       setIsLoading(false);
     }
   };
 
   const handleClear = () => {
-    setText("");
+    setText('');
     setResponse(null);
     setError(null);
     setIsComplaintAboutBeingLeftBehind(null);
@@ -65,7 +66,7 @@ export function EmailClassificationForm() {
           disabled={isLoading}
           className="px-6 py-2 bg-[#303134] text-white hover:border-[#8ab4f8] border border-[#5f6368] disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {isLoading ? "Generiere Antwort..." : "Antwort generieren"}
+          {isLoading ? 'Generiere Antwort...' : 'Antwort generieren'}
         </button>
         {(response || isComplaintAboutBeingLeftBehind === false) && (
           <button
@@ -94,9 +95,13 @@ export function EmailClassificationForm() {
         <div className="flex items-center gap-2 p-4 bg-[#303134] border border-[#5f6368]">
           <span className="text-white">Klassifizierung:</span>
           {isComplaintAboutBeingLeftBehind ? (
-            <span className="text-yellow-400">Beschwerde über Zurücklassen am Bahnhof</span>
+            <span className="text-yellow-400">
+              Beschwerde über Zurücklassen am Bahnhof
+            </span>
           ) : (
-            <span className="text-gray-400">Keine Beschwerde über "Zurücklassen an der Haltestellt"</span>
+            <span className="text-gray-400">
+              Keine Beschwerde über "Zurücklassen an der Haltestellt"
+            </span>
           )}
         </div>
       )}
@@ -108,4 +113,4 @@ export function EmailClassificationForm() {
       )}
     </form>
   );
-} 
+}
