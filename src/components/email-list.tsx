@@ -11,6 +11,8 @@ export function EmailList() {
   const [generatedResponse, setGeneratedResponse] =
     useState<GeneratedResponse | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isClassifying, setIsClassifying] = useState(false);
+  const [classification, setClassification] = useState<boolean | null>(null);
 
   useEffect(() => {
     fetchEmails();
@@ -29,12 +31,34 @@ export function EmailList() {
   };
 
   const handleEmailClick = async (fields: Fields) => {
-    console.log('Fields:', fields);
     setSelectedEmail(fields);
+    setIsClassifying(true);
+    let isComplaintAboutBeingLeftBehind = false;
+    try {
+      console.log('xxxx');
+      const response = await fetch('/api/classifyText', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          text: fields.message,
+        }),
+      });
+      const data = await response.json();
+      console.log('Classification data:', data);
+      isComplaintAboutBeingLeftBehind = data.isComplaintAboutBeingLeftBehind;
+    } catch (error) {
+      console.error('Classification failed:', error);
+    } finally {
+      setIsClassifying(false);
+    }
+    setIsClassifying(false);
+
     setGeneratedResponse({
       response: '',
       status: 'loading',
-      isComplaintAboutBeingLeftBehind: false,
+      isComplaintAboutBeingLeftBehind,
     });
 
     try {
@@ -55,7 +79,7 @@ export function EmailList() {
       setGeneratedResponse({
         response: data.finalResponse,
         status: 'complete',
-        isComplaintAboutBeingLeftBehind: data.isComplaintAboutBeingLeftBehind,
+        isComplaintAboutBeingLeftBehind,
       });
     } catch (error) {
       console.error('Error generating response:', error);
@@ -74,9 +98,8 @@ export function EmailList() {
       </div>
     );
   }
-  console.log('Emails:', emails);
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className="grid grid-cols-3 gap-6">
       <div className="space-y-4">
         {!emails || emails.length === 0 ? (
           <div className="text-gray-400">
@@ -109,7 +132,7 @@ export function EmailList() {
       </div>
 
       {selectedEmail && (
-        <div className="bg-gray-800 p-6 rounded-lg space-y-4">
+        <div className="bg-gray-800 p-6 rounded-lg space-y-4 col-span-2">
           <div>
             <h2 className="text-xl font-semibold mb-2">
               {selectedEmail.subject}
@@ -125,28 +148,35 @@ export function EmailList() {
             <h3 className="text-lg font-semibold mb-2">Kundenanliegen</h3>
             {selectedEmail.message}
 
-            <h3 className="text-lg font-semibold mb-2 mt-8">
-              Generated Response
-            </h3>
-            {generatedResponse?.status === 'loading' ? (
-              <div className="flex items-center space-x-2">
-                <Loader2 className="w-4 h-4 animate-spin" />
-                <span>Generating response...</span>
+            {isClassifying ? (
+              <div className="flex items-center gap-2 p-4 bg-[#303134] border border-[#5f6368] mt-6">
+                <span className="text-white">Klassifizierung:</span>
+                <Loader2 className="h-4 w-4 animate-spin" />
               </div>
+            ) : (
+              <div className="flex items-center gap-2 p-4 bg-[#303134] border border-[#5f6368] mt-6">
+                <span className="text-white">Klassifizierung:</span>
+                {generatedResponse?.isComplaintAboutBeingLeftBehind ? (
+                  <span className="text-green-500">
+                    Beschwerde über Zurücklassen am Bahnhof
+                  </span>
+                ) : (
+                  <span className="text-yellow-400">
+                    Keine Beschwerde über "Zurücklassen an der Haltestelle"
+                  </span>
+                )}
+              </div>
+            )}
+
+            {generatedResponse?.status === 'loading' ? (
+              <>
+                <div className="flex items-center space-x-2 mt-6">
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  <span>Generating response...</span>
+                </div>
+              </>
             ) : generatedResponse?.status === 'complete' ? (
               <>
-                <div className="flex items-center gap-2 p-4 bg-[#303134] border border-[#5f6368]">
-                  <span className="text-white">Klassifizierung:</span>
-                  {generatedResponse.isComplaintAboutBeingLeftBehind ? (
-                    <span className="text-yellow-400">
-                      Beschwerde über Zurücklassen am Bahnhof
-                    </span>
-                  ) : (
-                    <span className="text-gray-400">
-                      Keine Beschwerde über "Zurücklassen an der Haltestellt"
-                    </span>
-                  )}
-                </div>
                 <p className="whitespace-pre-wrap mt-6">
                   {generatedResponse.response}
                 </p>

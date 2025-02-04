@@ -62,6 +62,10 @@ function extractCustomerFieldsFromComplaintEmail(
       vorname: '',
       nachname: '',
       message: '',
+      category: false,
+      id: '',
+      from: '',
+      date: new Date().toISOString(),
     };
 
     const startIndex = text.indexOf(comaplaintFormStartMarker);
@@ -96,7 +100,7 @@ function extractCustomerFieldsFromComplaintEmail(
       fields.message = messageText;
 
       return fields;
-    } else {
+    } else if (text.includes('Betreff:')) {
       //get new startindex
       console.log('Direct Mail Complaint:');
       const directMailComplaintMarker = 'Betreff:';
@@ -112,6 +116,9 @@ function extractCustomerFieldsFromComplaintEmail(
       messageText = messageText.replace(/\[Externe E-Mail\]/g, '');
       fields.message = messageText;
       console.log('Message Text:', messageText);
+      return fields;
+    } else {
+      fields.message = text;
       return fields;
     }
   } catch (error) {

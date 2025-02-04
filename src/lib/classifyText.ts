@@ -54,7 +54,7 @@ Text: ${text}`;
     });
 
     const answer = response.choices[0]?.message?.content?.toLowerCase() || '';
-    logInfo('Classification result:', answer);
+    logInfo('Classification result:', answer.includes('ja'));
     return answer.includes('ja');
   } catch (error) {
     console.error('Error classifying text:', JSON.stringify(error, null, 2));
