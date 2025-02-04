@@ -67,7 +67,7 @@ function extractEmailText(htmlContent: string): {
       if (endIndex !== -1) {
         messageText = messageText.substring(0, endIndex).trim();
       }
-      return messageText;
+      return { text: messageText, fields };
     } else {
       // This might be a direct mail
       const directMailStart = text.lastIndexOf(directMailComplaintMarker);
@@ -79,7 +79,10 @@ function extractEmailText(htmlContent: string): {
             endIndex !== -1 ? endIndex : undefined
           )
           .trim();
-        return messageText.replace(/\[Externe E-Mail\]/g, '');
+        return {
+          text: messageText.replace(/\[Externe E-Mail\]/g, ''),
+          fields,
+        };
       }
     }
 
@@ -87,7 +90,7 @@ function extractEmailText(htmlContent: string): {
     return { text, fields };
   } catch (error) {
     console.error('Error extracting email text:', error);
-    return 'Error extracting email content';
+    return { text: 'Error extracting email content', fields: {} };
   }
 }
 
@@ -139,19 +142,24 @@ class EmailCrawler {
         '$select=id,subject,body,from,receivedDateTime,isRead';
 
       const response = await axios.get(endpoint, { headers });
-      return response.data.value.map((email: any) => ({
-        id: email.id,
-        sender: email.from.emailAddress.address,
-        subject: email.subject,
-        text: extractEmailText(email.body.content).text,
-        fields: extractEmailText(email.body.content).fields,
-        timestamp: email.receivedDateTime,
-        isRead: email.isRead,
-        client:
-          msalUserEmail === process.env.MSAL_USER_EMAIL_RBG
-            ? 'rheinbahn'
-            : 'wsw',
-      }));
+
+      return response.data.value.map((email: any) => {
+        const extractedText = extractEmailText(email.body.content);
+        console.log('extractedText', extractedText);
+        return {
+          id: email.id,
+          sender: email.from.emailAddress.address,
+          subject: email.subject,
+          text: extractedText.text,
+          fields: extractedText.fields,
+          timestamp: email.receivedDateTime,
+          isRead: email.isRead,
+          client:
+            msalUserEmail === process.env.MSAL_USER_EMAIL_RBG
+              ? 'rheinbahn'
+              : 'wsw',
+        };
+      });
     } catch (error) {
       console.error(`Error fetching emails: ${error}`);
       throw error;

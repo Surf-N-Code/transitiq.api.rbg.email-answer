@@ -1,10 +1,9 @@
 import axios from 'axios';
 import { openai } from '@/lib/openai';
 import { logInfo, logError } from '@/lib/logger';
-import { classifyText } from '@/lib/classifyText';
 
 export async function POST(req: Request) {
-  const { text, vorname, nachname, anrede } = await req.json();
+  const { text, vorname, nachname, anrede, clientName } = await req.json();
   const clientData = { vorname, nachname, anrede };
 
   if (!text) {
@@ -25,53 +24,38 @@ export async function POST(req: Request) {
   const { anonymized_text, replacements } = await anonymizeText(text);
 
   try {
-    const isComplaintAboutBeingLeftBehind = await classifyText(anonymized_text);
-
-    logInfo('Text analysis results:', {
-      anonymized_text,
-      replacements,
-      isComplaintAboutBeingLeftBehind,
-    });
-
     // Only generate response if it's a complaint about being left behind
     let finalResponse = null;
-    if (isComplaintAboutBeingLeftBehind) {
-      const aiResponse = await processTextWithAi(
+    const aiResponse = await processTextWithAi(
+      anonymized_text,
+      replacements,
+      clientData,
+      clientName
+    );
+    if (!aiResponse) {
+      logError('AI response generation failed', {
         anonymized_text,
-        replacements,
-        clientData
-      );
-      if (!aiResponse) {
-        logError('AI response generation failed', {
-          anonymized_text,
-          clientData,
-        });
-        return Response.json({ error: 'Error in GPT processing' });
-      }
-
-      logInfo('AI response generated successfully:', {
-        originalMessage: text,
-        aiResponse,
         clientData,
       });
-
-      finalResponse = deAnonymizeText(aiResponse, replacements);
-      logInfo('Final response prepared:', {
-        finalResponse,
-        clientData,
-      });
-    } else {
-      logInfo('Message classified as not relevant:', {
-        originalMessage: text,
-        clientData,
-      });
+      return Response.json({ error: 'Error in GPT processing' });
     }
+
+    logInfo('AI response generated successfully:', {
+      originalMessage: text,
+      aiResponse,
+      clientData,
+    });
+
+    finalResponse = deAnonymizeText(aiResponse, replacements);
+    logInfo('Final response prepared:', {
+      finalResponse,
+      clientData,
+    });
 
     return Response.json({
       finalResponse,
       anonymized_text,
       replacements,
-      isComplaintAboutBeingLeftBehind,
     });
   } catch (error: any) {
     logError('Error in text classification:', { error: error?.message });
@@ -132,14 +116,22 @@ type ClientData = {
 async function processTextWithAi(
   anonymized_text: string,
   anonymized_text_parts: Record<string, any>,
-  clientData: ClientData
+  clientData: ClientData,
+  clientName: string
 ) {
   // Get just the placeholder keys
   const placeholderKeys = getPlaceholderKeys(anonymized_text_parts);
   logInfo('Placeholder keys:', placeholderKeys);
 
-  const clientName = process.env.CLIENT_NAME;
-  const clientClose = process.env.CLIENT_CLOSE;
+  let clientClose = '';
+  if (clientName === 'rheinbahn') {
+    clientClose = process.env.CLIENT_CLOSE_RBG || '';
+  } else if (clientName === 'wsw') {
+    clientClose = process.env.CLIENT_CLOSE_WSW || '';
+  }
+
+  console.log('clientClose', clientClose, clientName);
+
   const prompt = `
 Du bist Kundensupport Mitarbeiter der ${clientName} und schreibst antworten auf Kundenanliegen. Die Kundenanliegen befassen sich alle mit der Kernbeschwerde, dass der Kunde an einer Haltestelle von einem Bus oder Bahnfahrer stehen gelassen worden ist.
 
@@ -346,7 +338,6 @@ Bitte formuliere nun eine sehr freundliche Antwort auf das oben genannte Kundena
 
 Beende deinen Text stets mit einem der folgenden Abschlussformeln. Du kannst diese aber auch kombinieren oder leicht abändern:
 - Zukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.
-Ihr Kundenservice Team der ${clientName}
 ${clientClose}
 - Bitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.
 ${clientClose}`;
