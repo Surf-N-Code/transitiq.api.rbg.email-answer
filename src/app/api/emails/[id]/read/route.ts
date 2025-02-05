@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import axios from 'axios';
-import { EmailHandler } from '@/lib/EmailHandler';
+import { EmailHandler } from '@/controller/EmailHandler';
 const msal = require('@azure/msal-node');
 
 class EmailCrawler {

@@ -4,8 +4,9 @@ import {
   CrawledEmail,
   CrawledEmailWithExtractedCustomerFields,
 } from '@/types/email';
-import { EmailHandler } from '@/lib/EmailHandler';
+import { EmailHandler } from '@/controller/EmailHandler';
 import { logError } from '@/lib/logger';
+import { extractStructuredInfoFromEmail } from '@/lib/extractStructuredInfoFromEmail';
 
 export async function GET(request: NextRequest) {
   try {
@@ -34,10 +35,9 @@ export async function GET(request: NextRequest) {
       [];
     for (const email of allEmails) {
       try {
-        const extractedFields =
-          emailHandler.extractCustomerFieldsFromComplaintEmail(
-            email.body.content
-          );
+        const extractedFields = extractStructuredInfoFromEmail(
+          email.body.content
+        );
         const emailWithFields = {
           ...email,
           text: extractedFields.message,

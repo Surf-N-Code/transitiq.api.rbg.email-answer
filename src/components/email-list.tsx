@@ -83,6 +83,7 @@ export function EmailList() {
     setSelectedEmail(email);
     setClassification(null);
     setIsClassifying(true);
+    setGeneration('');
 
     console.log('Email selected:', email);
     try {
@@ -115,7 +116,7 @@ export function EmailList() {
 
     setIsGenerating(true);
     try {
-      const response = await fetch('/api/message/generate', {
+      const response = await fetch('/api/emails/generate/answer', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -131,7 +132,7 @@ export function EmailList() {
 
       if (response.ok) {
         const data = await response.json();
-        setGeneration(data.finalResponse);
+        setGeneration(data.text);
       } else {
         console.error('Error generating response:', response.statusText);
       }
@@ -282,6 +283,13 @@ export function EmailList() {
                 </p>
                 <p className="text-sm text-gray-400 mb-4">
                   {new Date(selectedEmail.receivedDateTime).toLocaleString()}
+                </p>
+                <p className="text-sm text-gray-400 mb-4">
+                  Kundenname: {selectedEmail.extractedFields.vorname}{' '}
+                  {selectedEmail.extractedFields.nachname}
+                </p>
+                <p className="text-sm text-gray-400">
+                  Kundenanrede: {selectedEmail.extractedFields.anrede}
                 </p>
               </div>
               <button

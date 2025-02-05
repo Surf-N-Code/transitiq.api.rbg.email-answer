@@ -1,381 +1,685 @@
-[2025-02-05T11:23:14.320Z] [ERROR] Error processing email batch:
-{
-  "error": "Request failed with status code 401"
-}
-[2025-02-05T11:23:14.320Z] [ERROR] Error crawling unread emails:
-{
-  "error": "Request failed with status code 401"
-}
-[2025-02-05T11:28:59.454Z] [ERROR] Error processing email batch:
-{
-  "error": "Request failed with status code 401"
-}
-[2025-02-05T11:28:59.454Z] [ERROR] Error crawling unread emails:
-{
-  "error": "Request failed with status code 401"
-}
-[2025-02-05T11:29:32.108Z] [ERROR] Error processing email batch:
-{
-  "error": "Request failed with status code 401"
-}
-[2025-02-05T11:29:32.108Z] [ERROR] Error crawling unread emails:
-{
-  "error": "Request failed with status code 401"
-}
-[2025-02-05T11:30:34.408Z] [ERROR] Error processing email batch:
-{
-  "error": "Request failed with status code 404"
-}
-[2025-02-05T11:30:34.409Z] [ERROR] Error crawling unread emails:
-{
-  "error": "Request failed with status code 404"
-}
-[2025-02-05T11:32:37.153Z] [ERROR] Error processing email batch:
-{
-  "error": "Request failed with status code 404"
-}
-[2025-02-05T11:32:37.153Z] [ERROR] Error crawling unread emails:
-{
-  "error": "Request failed with status code 404"
-}
-[2025-02-05T11:33:13.945Z] [ERROR] Error processing email batch:
-{
-  "error": {
-    "message": "Request failed with status code 404",
-    "name": "AxiosError",
-    "stack": "AxiosError: Request failed with status code 404\n    at settle (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_df4d26._.js:6222:16)\n    at Unzip.handleStreamEnd (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_df4d26._.js:7106:21)\n    at Unzip.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_df4d26._.js:7962:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async EmailHandler.crawlUnreadEmails (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__ed295b._.js:878:38)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__ed295b._.js:1054:20)\n    at async POST (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__ed295b._.js:1038:9)\n    at async AppRouteRouteModule.do (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:32847)\n    at async AppRouteRouteModule.handle (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:39868)\n    at async doRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1452:42)\n    at async responseGenerator (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1822:28)\n    at async DevServer.renderToResponseWithComponentsImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1832:28)\n    at async DevServer.renderPageComponent (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2259:24)\n    at async DevServer.renderToResponseImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2297:32)\n    at async DevServer.pipeImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:959:25)\n    at async NextNodeServer.handleCatchallRenderRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/next-server.js:281:17)\n    at async DevServer.handleRequestImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:853:17)\n    at async /Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:371:20\n    at async Span.traceAsyncFn (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/trace/trace.js:153:20)\n    at async DevServer.handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:368:24)\n    at async invokeRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:230:21)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:408:24)\n    at async requestHandlerImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:432:13)\n    at async Server.requestListener (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/start-server.js:146:13)",
-    "config": {
-      "transitional": {
-        "silentJSONParsing": true,
-        "forcedJSONParsing": true,
-        "clarifyTimeoutError": false
-      },
-      "adapter": [
-        "xhr",
-        "http",
-        "fetch"
-      ],
-      "transformRequest": [
-        null
-      ],
-      "transformResponse": [
-        null
-      ],
-      "timeout": 0,
-      "xsrfCookieName": "XSRF-TOKEN",
-      "xsrfHeaderName": "X-XSRF-TOKEN",
-      "maxContentLength": -1,
-      "maxBodyLength": -1,
-      "env": {},
-      "headers": {
-        "Accept": "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IjBwdGhwUE81dk9qbjl5ZFRoNDVTbDhIOUFjcEVaM1p2cFFOUjJCR0pab3MiLCJhbGciOiJSUzI1NiIsIng1dCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyIsImtpZCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAvIiwiaWF0IjoxNzM4NzU0ODkzLCJuYmYiOjE3Mzg3NTQ4OTMsImV4cCI6MTczODc1ODc5MywiYWlvIjoiazJSZ1lLaS9mdi9Xa2o2SEkzVmMvTHQ2YnZpMUFRQT0iLCJhcHBfZGlzcGxheW5hbWUiOiJlbWFpbEZldGNoZXIiLCJhcHBpZCI6ImMzYWY4NDgyLTg4YzctNDYyMi05NDEwLWY3NGFkZTIxOWQ0YiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2Q0ZDczNzQ4LWRkY2UtNGFiMC1iZmQxLWJlYTc4Nzk2ZWE3MC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjJiMDk0MDEyLTYzNjItNDljMC1iODcxLWQ1NDA2ZDlmODcwNCIsInJoIjoiMS5BYjBBU0RmWDFNN2RzRXFfMGI2bmg1YnFjQU1BQUFBQUFBQUF3QUFBQUFBQUFBQURBUUM5QUEuIiwicm9sZXMiOlsiTWFpbC5SZWFkV3JpdGUiLCJNYWlsLlJlYWRCYXNpYy5BbGwiLCJNYWlsLlJlYWQiLCJNYWlsLlNlbmQiLCJNYWlsLlJlYWRCYXNpYyJdLCJzdWIiOiIyYjA5NDAxMi02MzYyLTQ5YzAtYjg3MS1kNTQwNmQ5Zjg3MDQiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiJkNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAiLCJ1dGkiOiJCZTFmOG1hamRFMkxFUEVKMGVNZUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX2lkcmVsIjoiMTggNyIsInhtc190Y2R0IjoxNzIwNTExODA2fQ.MSa_Cp-xp98Uo9cJ6XBdS3c4dkqKekUFyWOAeRjli22Tj--OtNxdmSY5h93BZ9tM8uvNg5UR1V5EzliMcZYuxXO4H0X4ADI2-eo-htQkene7FJNrTj2t1UOTc6ONh3M1No3hW6uY9tpcdFwTaNMci3AlILZTKFUd2ZiEYfrPZWRs_u-eXX4OXwZ5m9MOv4n0A9YSFPDoqTgoet-wMiX3oseC4d2AXY-n_4I85umedr0S6HHkY9Z3nRNEXAoswD3oXYEyV9AF6nmJEhTmtuuyEusk5xIcRPuG3bKX4rFtlAudq20xiAoEPJ6SQEUNKppJG7IcFQrzG_b-hpKLkBj6ng",
-        "User-Agent": "axios/1.7.9",
-        "Accept-Encoding": "gzip, compress, deflate, br"
-      },
-      "method": "get",
-      "url": "https://graph.microsoft.com/v1.0/users/ndilthey@gmail.com/messages?$filter=isRead eq false&$orderby=receivedDateTime desc&$top=999&$select=id,subject,body,from,receivedDateTime,isRead"
-    },
-    "code": "ERR_BAD_REQUEST",
-    "status": 404
-  }
-}
-[2025-02-05T11:33:13.945Z] [ERROR] Error crawling unread emails:
-{
-  "error": "Request failed with status code 404"
-}
-[2025-02-05T11:34:25.797Z] [INFO] Processing email batch
+[2025-02-05T15:12:53.495Z] [INFO] Processing email batch
 {
   "count": 1
 }
-[2025-02-05T11:34:25.818Z] [INFO] Extracted fields from email:
+[2025-02-05T15:12:53.516Z] [INFO] Extracted fields from email:
 {
-  "anrede": "Frau",
-  "email": "doro_esch@yahoo.com",
-  "vorname": "Dorothee",
-  "nachname": "Jung",
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
   "message": "[REDACTED]"
 }
-[2025-02-05T11:34:27.911Z] [INFO] Classification result:
-[2025-02-05T11:34:27.911Z] [INFO] Email is not a complaint about being left behind and returned to kundendialog
-[2025-02-05T11:34:28.205Z] [ERROR] Error sending email:
+[2025-02-05T15:13:04.487Z] [INFO] Email reply generated: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:13:04.488Z] [INFO] Processing complaint email:
 {
-  "error": "Request failed with status code 404"
-}
-[2025-02-05T11:37:36.494Z] [INFO] Processing email batch
-{
-  "count": 1
-}
-[2025-02-05T11:37:36.512Z] [INFO] Extracted fields from email:
-{
-  "anrede": "Frau",
-  "email": "doro_esch@yahoo.com",
-  "vorname": "Dorothee",
-  "nachname": "Jung",
-  "message": "[REDACTED]"
-}
-[2025-02-05T11:37:37.694Z] [INFO] Is complaint about being left behind:
-{
-  "isComplaintAboutBeingLeftBehind": false
-}
-[2025-02-05T11:37:37.694Z] [INFO] Email is not a complaint about being left behind and returned to kundendialog
-[2025-02-05T11:37:38.075Z] [ERROR] Error sending email:
-{
-  "error": "Request failed with status code 400"
-}
-[2025-02-05T11:39:15.332Z] [INFO] Processing email batch
-{
-  "count": 1
-}
-[2025-02-05T11:39:15.357Z] [INFO] Extracted fields from email:
-{
-  "anrede": "Frau",
-  "email": "doro_esch@yahoo.com",
-  "vorname": "Dorothee",
-  "nachname": "Jung",
-  "message": "[REDACTED]"
-}
-[2025-02-05T11:39:17.183Z] [INFO] Is complaint about being left behind:
-{
-  "isComplaintAboutBeingLeftBehind": false
-}
-[2025-02-05T11:39:17.183Z] [INFO] Email is not a complaint about being left behind and returned to kundendialog
-[2025-02-05T11:39:17.384Z] [ERROR] Error sending email:
-{
-  "error": "Request failed with status code 400"
-}
-[2025-02-05T11:42:17.381Z] [INFO] Processing email batch
-{
-  "count": 1
-}
-[2025-02-05T11:42:17.397Z] [INFO] Extracted fields from email:
-{
-  "anrede": "Frau",
-  "email": "doro_esch@yahoo.com",
-  "vorname": "Dorothee",
-  "nachname": "Jung",
-  "message": "[REDACTED]"
-}
-[2025-02-05T11:42:18.604Z] [INFO] Is complaint about being left behind:
-{
-  "isComplaintAboutBeingLeftBehind": false
-}
-[2025-02-05T11:42:18.604Z] [INFO] Email is not a complaint about being left behind and returned to kundendialog
-[2025-02-05T11:42:18.818Z] [ERROR] Failed to send email to non-category recipients:
-{
-  "error": {
-    "message": "Request failed with status code 400",
-    "name": "AxiosError",
-    "stack": "AxiosError: Request failed with status code 400\n    at settle (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_df4d26._.js:6222:16)\n    at Unzip.handleStreamEnd (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_df4d26._.js:7106:21)\n    at Unzip.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_df4d26._.js:7962:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async EmailHandler.sendEmail (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__ed295b._.js:930:13)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__ed295b._.js:1077:17)\n    at async POST (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__ed295b._.js:1032:9)\n    at async AppRouteRouteModule.do (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:32847)\n    at async AppRouteRouteModule.handle (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:39868)\n    at async doRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1452:42)\n    at async responseGenerator (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1822:28)\n    at async DevServer.renderToResponseWithComponentsImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1832:28)\n    at async DevServer.renderPageComponent (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2259:24)\n    at async DevServer.renderToResponseImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2297:32)\n    at async DevServer.pipeImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:959:25)\n    at async NextNodeServer.handleCatchallRenderRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/next-server.js:281:17)\n    at async DevServer.handleRequestImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:853:17)\n    at async /Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:371:20\n    at async Span.traceAsyncFn (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/trace/trace.js:153:20)\n    at async DevServer.handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:368:24)\n    at async invokeRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:230:21)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:408:24)\n    at async requestHandlerImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:432:13)\n    at async Server.requestListener (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/start-server.js:146:13)",
-    "config": {
-      "transitional": {
-        "silentJSONParsing": true,
-        "forcedJSONParsing": true,
-        "clarifyTimeoutError": false
-      },
-      "adapter": [
-        "xhr",
-        "http",
-        "fetch"
-      ],
-      "transformRequest": [
-        null
-      ],
-      "transformResponse": [
-        null
-      ],
-      "timeout": 0,
-      "xsrfCookieName": "XSRF-TOKEN",
-      "xsrfHeaderName": "X-XSRF-TOKEN",
-      "maxContentLength": -1,
-      "maxBodyLength": -1,
-      "env": {},
-      "headers": {
-        "Accept": "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IjdibVlVcWxmdk9wcEQ4UWFqMXZyQWU1YVB0VmVDcUtVRmNhT2NLMVR3Q0kiLCJhbGciOiJSUzI1NiIsIng1dCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyIsImtpZCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAvIiwiaWF0IjoxNzM4NzU1NDM2LCJuYmYiOjE3Mzg3NTU0MzYsImV4cCI6MTczODc1OTMzNiwiYWlvIjoiazJSZ1lPQzhMeEcxK09HbWwwejlqWUtpeDJSV0FBQT0iLCJhcHBfZGlzcGxheW5hbWUiOiJlbWFpbEZldGNoZXIiLCJhcHBpZCI6ImMzYWY4NDgyLTg4YzctNDYyMi05NDEwLWY3NGFkZTIxOWQ0YiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2Q0ZDczNzQ4LWRkY2UtNGFiMC1iZmQxLWJlYTc4Nzk2ZWE3MC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjJiMDk0MDEyLTYzNjItNDljMC1iODcxLWQ1NDA2ZDlmODcwNCIsInJoIjoiMS5BYjBBU0RmWDFNN2RzRXFfMGI2bmg1YnFjQU1BQUFBQUFBQUF3QUFBQUFBQUFBQURBUUM5QUEuIiwicm9sZXMiOlsiTWFpbC5SZWFkV3JpdGUiLCJNYWlsLlJlYWRCYXNpYy5BbGwiLCJNYWlsLlJlYWQiLCJNYWlsLlNlbmQiLCJNYWlsLlJlYWRCYXNpYyJdLCJzdWIiOiIyYjA5NDAxMi02MzYyLTQ5YzAtYjg3MS1kNTQwNmQ5Zjg3MDQiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiJkNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAiLCJ1dGkiOiJ1Y252VDJCZXRVU2dfUlB4RFZ4VEFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX2lkcmVsIjoiNyA2IiwieG1zX3RjZHQiOjE3MjA1MTE4MDZ9.EnmfxzNgOu6OjAGjPxlqMHXh-F26WOYxSoCSAEFGWOA_5csCBlUkYhuwcZCWwbMg1TusfXFbeL1B9zuR6GCPcNvbNDJBSOSx1ScZg-hvhRN0fW07ROdcuNfVa3B93UF_7i4K0lvYFNsLAf6l93pXr5YGXqJBZbn0Ov91R56ZqrKzDaKodYzD32UA5UGtv9I1OSrFzXlDYFr6t8zvNdT7O4Em4uHDTbCSZJBiWeDeGAMVl2SS1PWGI-JODKjSDLKdV-mU8vymy3sCen43104NpTAZW8S6A54w9E1I2I8icG176hDfsA4E7Ua7hDfZBRgPqr2ZIxfvSgKfAbeeyfvQxg",
-        "User-Agent": "axios/1.7.9",
-        "Content-Length": "17524",
-        "Accept-Encoding": "gzip, compress, deflate, br"
-      },
-      "method": "post",
-      "url": "https://graph.microsoft.com/v1.0/users/movemenTech-RBG@movementor.online/sendMail",
-      "data": "{\"message\":{\"subject\":\"❌ Kategorie: Andere Kategorie -> WG: [Externe E-Mail]  [202502051026525248]: Anfrage über das Kontaktformular\",\"body\":{\"contentType\":\"HTML\",\"content\":\"<html><head>\\r<br><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=utf-8\\\"><meta name=\\\"Generator\\\" content=\\\"Microsoft Word 15 (filtered medium)\\\"><style>\\r<br><!--\\r<br>@font-face\\r<br>\\t{font-family:\\\"Cambria Math\\\"}\\r<br>@font-face\\r<br>\\t{font-family:Calibri}\\r<br>@font-face\\r<br>\\t{font-family:\\\"Calibri Light\\\"}\\r<br>@font-face\\r<br>\\t{font-family:\\\"roboto condensed\\\"}\\r<br>@font-face\\r<br>\\t{font-family:roboto}\\r<br>p.MsoNormal, li.MsoNormal, div.MsoNormal\\r<br>\\t{margin:0cm;\\r<br>\\tmargin-bottom:.0001pt;\\r<br>\\tfont-size:11.0pt;\\r<br>\\tfont-family:\\\"Calibri\\\",sans-serif}\\r<br>h1\\r<br>\\t{margin-right:0cm;\\r<br>\\tmargin-left:0cm;\\r<br>\\tfont-size:24.0pt;\\r<br>\\tfont-family:\\\"Calibri\\\",sans-serif;\\r<br>\\tfont-weight:bold}\\r<br>a:link, span.MsoHyperlink\\r<br>\\t{color:blue;\\r<br>\\ttext-decoration:underline}\\r<br>a:visited, span.MsoHyperlinkFollowed\\r<br>\\t{color:purple;\\r<br>\\ttext-decoration:underline}\\r<br>span.berschrift1Zchn\\r<br>\\t{font-family:\\\"Calibri Light\\\",sans-serif;\\r<br>\\tcolor:#2F5496}\\r<br>p.msonormal0, li.msonormal0, div.msonormal0\\r<br>\\t{margin-top:9.75pt;\\r<br>\\tmargin-right:0cm;\\r<br>\\tmargin-bottom:9.75pt;\\r<br>\\tmargin-left:0cm;\\r<br>\\tfont-size:11.0pt;\\r<br>\\tfont-family:\\\"Calibri\\\",sans-serif}\\r<br>p.mj-column-per-100, li.mj-column-per-100, div.mj-column-per-100\\r<br>\\t{margin-right:0cm;\\r<br>\\tmargin-left:0cm;\\r<br>\\tfont-size:11.0pt;\\r<br>\\tfont-family:\\\"Calibri\\\",sans-serif}\\r<br>p.mj-column-per-1001, li.mj-column-per-1001, div.mj-column-per-1001\\r<br>\\t{margin-top:9.75pt;\\r<br>\\tmargin-right:0cm;\\r<br>\\tmargin-bottom:9.75pt;\\r<br>\\tmargin-left:0cm;\\r<br>\\tfont-size:11.0pt;\\r<br>\\tfont-family:\\\"Calibri\\\",sans-serif}\\r<br>span.E-MailFormatvorlage21\\r<br>\\t{font-family:\\\"Arial\\\",sans-serif;\\r<br>\\tcolor:windowtext}\\r<br>span.E-MailFormatvorlage25\\r<br>\\t{font-family:\\\"Arial\\\",sans-serif;\\r<br>\\tcolor:windowtext}\\r<br>.MsoChpDefault\\r<br>\\t{font-size:10.0pt}\\r<br>@page WordSection1\\r<br>\\t{margin:70.85pt 70.85pt 2.0cm 70.85pt}\\r<br>div.WordSection1\\r<br>\\t{}\\r<br>-->\\r<br></style></head><body bgcolor=\\\"#F8F9F9\\\" lang=\\\"DE\\\" link=\\\"blue\\\" vlink=\\\"purple\\\"><div class=\\\"WordSection1\\\"><p class=\\\"MsoNormal\\\"><span style=\\\"font-size:10.0pt; font-family:&quot;Arial&quot;,sans-serif\\\">&nbsp;</span></p><p class=\\\"MsoNormal\\\"><span style=\\\"font-size:10.0pt; font-family:&quot;Arial&quot;,sans-serif\\\">&nbsp;</span></p><div><p class=\\\"MsoNormal\\\" style=\\\"margin-bottom:12.0pt\\\"><span style=\\\"font-size:12.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#A5A5A5\\\">___________________________</span></p><p class=\\\"MsoNormal\\\"><span style=\\\"font-size:12.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#3A728A\\\">i.A. Nina Sternagel</span></p><p class=\\\"MsoNormal\\\"><span style=\\\"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#3A728A\\\">Sachbearbeitung Kundendialog (K212.500)</span></p><p class=\\\"MsoNormal\\\"><span style=\\\"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#3A728A\\\">&nbsp;</span></p><p class=\\\"MsoNormal\\\"><span lang=\\\"EN-GB\\\" style=\\\"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#A5A5A5\\\">Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 49 0211 582 1430</span></p><p class=\\\"MsoNormal\\\"><span lang=\\\"EN-GB\\\" style=\\\"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#A5A5A5\\\">Mobil:&nbsp; + 49 172 309 7032</span></p><p class=\\\"MsoNormal\\\"><span lang=\\\"EN-GB\\\" style=\\\"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#A5A5A5\\\">Email:&nbsp;&nbsp; </span><u><span style=\\\"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#0563C1\\\"><a href=\\\"mailto:nina.sternagel@rheinbahn.de\\\"><span lang=\\\"EN-GB\\\">nina.sternagel@rheinbahn.de</span></a></span></u><span lang=\\\"EN-GB\\\" style=\\\"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#A5A5A5\\\"></span></p></div><p class=\\\"MsoNormal\\\"><span lang=\\\"EN-GB\\\" style=\\\"\\\">&nbsp;</span></p><div><div style=\\\"border:none; border-top:solid #E1E1E1 1.0pt; padding:3.0pt 0cm 0cm 0cm\\\"><p class=\\\"MsoNormal\\\"><b>Von:</b> Kundenanfrage &lt;<a href=\\\"mailto:kundenbetreuung@services.rheinbahn.de\\\">kundenbetreuung@services.rheinbahn.de</a>&gt; <br><b>Gesendet:</b> Mittwoch, 5. Februar 2025 10:27<br><b>An:</b> Kundendialog &lt;<a href=\\\"mailto:Kundendialog@rheinbahn.de\\\">Kundendialog@rheinbahn.de</a>&gt;<br><b>Betreff:</b> [Externe E-Mail] [202502051026525248]: Anfrage über das Kontaktformular</p></div></div><p class=\\\"MsoNormal\\\">&nbsp;</p><div><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"600\\\" style=\\\"width:450.0pt; background:#E10025; border-collapse:collapse\\\"><tbody><tr><td style=\\\"padding:0cm 0cm 0cm 0cm\\\"><div><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"100%\\\" style=\\\"width:100.0%; background:#E10025; border-collapse:collapse\\\"><tbody><tr><td style=\\\"padding:15.0pt 0cm 15.0pt 0cm\\\"><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" style=\\\"border-collapse:collapse\\\"><tbody><tr><td width=\\\"600\\\" valign=\\\"top\\\" style=\\\"width:450.0pt; padding:0cm 0cm 0cm 0cm\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"100%\\\" style=\\\"width:100.0%; border-collapse:collapse\\\"><tbody><tr><td style=\\\"padding:7.5pt 18.75pt 7.5pt 18.75pt\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" style=\\\"border-collapse:collapse\\\"><tbody><tr><td width=\\\"150\\\" style=\\\"width:112.5pt; padding:0cm 0cm 0cm 0cm\\\"><p class=\\\"MsoNormal\\\"><span style=\\\"border:solid windowtext 1.0pt; padding:0cm\\\"><img border=\\\"0\\\" width=\\\"150\\\" height=\\\"150\\\" id=\\\"_x0000_i1025\\\" src=\\\"cid:image001.jpg@01DB77B8.DE2FE450\\\" alt=\\\"Das Bild wurde vom Absender entfernt.\\\" style=\\\"width:1.5625in; height:1.5625in\\\"></span></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div></div></td></tr></tbody></table></div><p class=\\\"MsoNormal\\\" style=\\\"background:#F8F9F9\\\">&nbsp;</p><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"600\\\" style=\\\"width:450.0pt; background:white; border-collapse:collapse\\\"><tbody><tr style=\\\"\\\"><td style=\\\"padding:0cm 0cm 0cm 0cm\\\"><div><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"100%\\\" style=\\\"width:100.0%; background:white; border-collapse:collapse\\\"><tbody><tr style=\\\"\\\"><td style=\\\"padding:15.0pt 0cm 15.0pt 0cm\\\"><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" style=\\\"border-collapse:collapse\\\"><tbody><tr><td width=\\\"600\\\" valign=\\\"top\\\" style=\\\"width:450.0pt; padding:0cm 0cm 0cm 0cm\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"100%\\\" style=\\\"width:100.0%; border-collapse:collapse\\\"><tbody><tr><td style=\\\"padding:24.0pt 24.0pt 24.0pt 24.0pt\\\"><h1 style=\\\"margin:0cm; margin-bottom:.0001pt; line-height:150%\\\"><span style=\\\"font-family:&quot;roboto condensed&quot;; color:#4C6170; letter-spacing:.4pt\\\">Neue Anfrage</span></h1><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Thema</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Anregungen / Beschwerden </span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Anrede</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Frau </span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Kundennummer</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">- </span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">E-Mail</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"><a href=\\\"mailto:doro_esch@yahoo.com\\\"><span style=\\\"font-weight:normal\\\">doro_esch@yahoo.com</span></a> </span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Telefon</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">01736574087 </span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Eure Nachricht an uns</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Ergänzend zu meiner eben versandten Beschwerde: Da der Bus von der Haltestelle Meerbusch Zur Rheinfähre 4 min Verspätung hatte (geplante Abfahrtszeit 9:47 Uhr), hat mein Mann nun auch noch die U 76 am Haus Meer verpasst, obwohl doch eigentlich eine Anschlussgarantie gilt. Die Bahn (geplante Abfahrt am Haus Meer: 10:01 Uhr) stand sogar noch an der Haltestelle, als die Passagiere des Busses auf den Bahnsteig liefen, der Bahnfahrer hat jedoch die Türen nicht mehr geöffnet und ist dann losgefahren. Es ist für uns auch immer wieder unverständlich, warum der 839er Bus so häufig Verspätung hat, da es in Meerbusch um diese Uhrzeit ja schon lange keinen Stau mehr gibt. </span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Dokumenten-Upload</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">-</span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Vorname</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Dorothee </span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div><div style=\\\"margin-top:25.5pt\\\"><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Nachname</span></p></div><div><p class=\\\"MsoNormal\\\" style=\\\"line-height:27.0pt\\\"><strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\">Jung </span></strong><span style=\\\"font-size:13.5pt; font-family:roboto; color:#4C6170\\\"></span></p></div></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div></div></td></tr></tbody></table></div><p class=\\\"MsoNormal\\\" style=\\\"background:#F8F9F9\\\">&nbsp;</p><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"600\\\" style=\\\"width:450.0pt; border-collapse:collapse\\\"><tbody><tr style=\\\"\\\"><td style=\\\"padding:0cm 0cm 0cm 0cm\\\"><div><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"100%\\\" style=\\\"width:100.0%; border-collapse:collapse\\\"><tbody><tr style=\\\"\\\"><td style=\\\"padding:18.0pt 0cm 0cm 0cm\\\"><div align=\\\"center\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" style=\\\"border-collapse:collapse\\\"><tbody><tr><td width=\\\"600\\\" valign=\\\"top\\\" style=\\\"width:450.0pt; padding:0cm 0cm 0cm 0cm\\\"><table class=\\\"MsoNormalTable\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\\\"100%\\\" style=\\\"width:100.0%; border-collapse:collapse\\\"><tbody><tr><td style=\\\"padding:0cm 24.0pt 0cm 24.0pt\\\"><p style=\\\"margin:0cm; margin-bottom:.0001pt; line-height:200%\\\"><span style=\\\"font-size:10.5pt; line-height:200%; font-family:roboto; color:#4C6170\\\">Rheinbahn AG · Lierenfelder Str. 42 · 40231 Düsseldorf · (H) Lierenfeld Btf</span></p><p style=\\\"margin-right:0cm; margin-bottom:0cm; margin-left:0cm; margin-bottom:.0001pt; line-height:200%\\\"><span style=\\\"font-size:10.5pt; line-height:200%; font-family:roboto; color:#4C6170\\\">Vorständin Annette Grabbe, Vorstand Michael Richarz</span></p><p style=\\\"margin-right:0cm; margin-bottom:0cm; margin-left:0cm; margin-bottom:.0001pt; line-height:200%\\\"><span style=\\\"font-size:10.5pt; line-height:200%; font-family:roboto; color:#4C6170\\\">Vorsitzender des Aufsichtsrats: Andreas Hartnigk </span></p><p style=\\\"margin-right:0cm; margin-bottom:0cm; margin-left:0cm; margin-bottom:.0001pt; line-height:200%\\\"><span style=\\\"font-size:10.5pt; line-height:200%; font-family:roboto; color:#4C6170\\\">Sitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562</span></p><p style=\\\"margin-right:0cm; margin-bottom:0cm; margin-left:0cm; margin-bottom:.0001pt; line-height:200%\\\"><span style=\\\"font-size:10.5pt; line-height:200%; font-family:roboto; color:#4C6170\\\">Datenschutz: Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können. Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst. Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.</span></p></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div></div></td></tr></tbody></table></div><p class=\\\"MsoNormal\\\">&nbsp;</p></div></div><br><span>&nbsp;</span><span style=\\\"font-family:Arial\\\"><br><a href=\\\"https://www.rheinbahn.de/tickets-und-tarife/tarifreform?mtm_campaign=tarifreform&amp;mtm_source=e-mail_footer&amp;mtm_content=footer\\\"><img src=\\\"https://img.rheinbahn.de/E-Mai_Footer_Tarifreform.jpg\\\" width=\\\"400\\\" alt=\\\"\\\" class=\\\"selected \\\"></a><br><br><br><a href=\\\"http://www.rheinbahn.de\\\"><img src=\\\"https://img.rheinbahn.de/Rheinbahn_Wortbildmarke_Claim_RGB.JPG\\\" width=\\\"190\\\"></a><br><br><span>Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf<br><br><a href=\\\"http://de-de.facebook.com/Rheinbahn\\\"><img src=\\\"https://img.rheinbahn.de/01-facebook_25px.png\\\"></a> <a href=\\\"https://de.linkedin.com/company/rheinbahn-ag\\\"><img src=\\\"https://img.rheinbahn.de/Linked%20In%20klein.JPG\\\"></a> <a href=\\\"https://www.youtube.com/user/DieRheinbahn\\\"><img src=\\\"https://img.rheinbahn.de/03-youtube_25px.png\\\"></a> <a href=\\\"https://www.xing.com/companies/rheinbahnag\\\"><img src=\\\"https://img.rheinbahn.de/04-xing_25px.png\\\"></a> <a href=\\\"https://instagram.com/rheinbahn/\\\"><img src=\\\"https://img.rheinbahn.de/05-instagram_25px.png\\\"></a> <a href=\\\"https://blog.rheinbahn.de/\\\"><img src=\\\"https://img.rheinbahn.de/06-blog_25px.png\\\"></a><br>______________________________________________________<br><br>Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und Finanzvorständin<br>Michael Richarz - Vorstand Technik und Betrieb<br>Vorsitzender des Aufsichtsrats: Rolf Tups<br>Sitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562<br>&nbsp;<br><br>Datenschutz:<br>Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.<br>Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.<br>Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der <a href=\\\"https://www.rheinbahn.de/Datenschutz\\\">Datenschutzerklärung</a> behandelt.<br>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.<br>Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.</span></span> </body></html>\"},\"toRecipients\":[],\"ccRecipients\":[]}}"
-    },
-    "code": "ERR_BAD_REQUEST",
-    "status": 400
-  }
-}
-[2025-02-05T11:43:17.194Z] [INFO] Processing email batch
-{
-  "count": 1
-}
-[2025-02-05T11:43:17.214Z] [INFO] Extracted fields from email:
-{
-  "anrede": "Frau",
-  "email": "doro_esch@yahoo.com",
-  "vorname": "Dorothee",
-  "nachname": "Jung",
-  "message": "[REDACTED]"
-}
-[2025-02-05T11:43:18.114Z] [INFO] Is complaint about being left behind:
-{
-  "isComplaintAboutBeingLeftBehind": false
-}
-[2025-02-05T11:43:18.114Z] [INFO] Email is not a complaint about being left behind and returned to kundendialog
-[2025-02-05T11:43:18.438Z] [INFO] Email sent successfully
-{
-  "recipients": "ndilthey@gmail.com"
-}
-[2025-02-05T11:45:08.048Z] [INFO] Starting message analysis:
-{
-  "userMessage": "Ergänzend zu meiner eben versandten Beschwerde: Da der Bus von der Haltestelle Meerbusch Zur Rheinfähre 4 min Verspätung hatte (geplante Abfahrtszeit 9:47 Uhr), hat mein Mann nun auch noch die U 76 am Haus Meer verpasst, obwohl doch eigentlich eine Anschlussgarantie gilt. Die Bahn (geplante Abfahrt am Haus Meer: 10:01 Uhr) stand sogar noch an der Haltestelle, als die Passagiere des Busses auf den Bahnsteig liefen, der Bahnfahrer hat jedoch die Türen nicht mehr geöffnet und ist dann losgefahren. Es ist für uns auch immer wieder unverständlich, warum der 839er Bus so häufig Verspätung hat, da es in Meerbusch um diese Uhrzeit ja schon lange keinen Stau mehr gibt.",
-  "clientData": {}
-}
-[2025-02-05T11:47:15.840Z] [INFO] Processing email batch
-{
-  "count": 1
-}
-[2025-02-05T11:47:15.861Z] [INFO] Extracted fields from email:
-{
-  "anrede": "Frau",
-  "email": "doro_esch@yahoo.com",
-  "vorname": "Dorothee",
-  "nachname": "Jung",
-  "message": "[REDACTED]"
-}
-[2025-02-05T11:47:17.287Z] [INFO] Is complaint about being left behind:
-{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrter Herr Sommer,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Linie 722 informiert haben. Es tut uns leid zu hören, dass die Busfahrerin um [TIME_1] vor Ihrer Ankunft an der Haltestelle losgefahren ist, als Sie um [TIME_2] den Bus 8117 nehmen wollten, um Ihre Tochter von der Schule abzuholen.\n\nWir verstehen, dass es äußerst ärgerlich sein kann, wenn ein Bus zu früh abfährt, insbesondere wenn Sie wichtige Termine haben. Dies sollte natürlich nicht passieren. Es kann verschiedene Gründe geben, warum ein Bus früher abfährt, beispielsweise Missverständnisse im Fahrplan oder ein Fehler in der Zeiteinteilung des Fahrers. Dies ist keineswegs unser Standard und wir möchten uns aufrichtig für die entstandenen Unannehmlichkeiten entschuldigen.\n\nWir werden den Vorfall zur Überprüfung weiterleiten, um sicherzustellen, dass solche Situationen in Zukunft vermieden werden. Ihre Rückmeldung ist für uns von großer Bedeutung, um unseren Service kontinuierlich zu verbessern.\n\nWir hoffen, dass Sie uns Ihre Erfahrung nicht nachtragen und wünschen Ihnen zukünftig wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Sommer,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Linie 722 informiert haben. Es tut uns leid zu hören, dass die Busfahrerin um 11.21 vor Ihrer Ankunft an der Haltestelle losgefahren ist, als Sie um 11.24 den Bus 8117 nehmen wollten, um Ihre Tochter von der Schule abzuholen.\n\nWir verstehen, dass es äußerst ärgerlich sein kann, wenn ein Bus zu früh abfährt, insbesondere wenn Sie wichtige Termine haben. Dies sollte natürlich nicht passieren. Es kann verschiedene Gründe geben, warum ein Bus früher abfährt, beispielsweise Missverständnisse im Fahrplan oder ein Fehler in der Zeiteinteilung des Fahrers. Dies ist keineswegs unser Standard und wir möchten uns aufrichtig für die entstandenen Unannehmlichkeiten entschuldigen.\n\nWir werden den Vorfall zur Überprüfung weiterleiten, um sicherzustellen, dass solche Situationen in Zukunft vermieden werden. Ihre Rückmeldung ist für uns von großer Bedeutung, um unseren Service kontinuierlich zu verbessern.\n\nWir hoffen, dass Sie uns Ihre Erfahrung nicht nachtragen und wünschen Ihnen zukünftig wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
   "isComplaintAboutBeingLeftBehind": true
 }
-[2025-02-05T11:47:17.361Z] [INFO] Placeholder keys:
+[2025-02-05T15:13:05.025Z] [INFO] Email response sent successfully for email id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:13:05.028Z] [INFO] Email marked as read: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:15:29.600Z] [INFO] Processing email batch
+{
+  "count": 1
+}
+[2025-02-05T15:15:29.618Z] [INFO] Extracted fields from email:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "[REDACTED]"
+}
+[2025-02-05T15:15:44.947Z] [INFO] Email reply generated: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:15:44.947Z] [INFO] Processing complaint email:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht und die Mitteilung Ihrer Erfahrung mit der Buslinie 722. Es tut uns leid zu hören, dass die Busfahrerin bereits um [TIME_1] an Ihnen vorbeigefahren ist, obwohl Sie um [TIME_2] an der Haltestelle waren, um Ihre Tochter von der Schule abzuholen. \n\nWir verstehen, dass es sehr ärgerlich und frustrierend war, den Bus verpasst zu haben, insbesondere wenn Sie auf eine pünktliche Abholung Ihrer Tochter angewiesen sind. Normalerweise sollte ein Bus nicht vor der planmäßigen Abfahrtszeit die Haltestelle verlassen. Es könnte sein, dass es sich um ein Missverständnis bei der Zeitabstimmung oder um einen Fehler im Fahrplan gehandelt hat, wofür wir uns ausdrücklich entschuldigen möchten. \n\nIhre Rückmeldung ist für uns sehr wichtig, da sie uns hilft, unseren Service kontinuierlich zu verbessern. Wir werden diesen Vorfall an die zuständige Abteilung weiterleiten, um sicherzustellen, dass unsere Fahrer stets die vorgesehenen Abfahrtszeiten einhalten und solche Vorfälle sich nicht wiederholen.\n\nNochmals entschuldigen wir uns herzlich für die entstandenen Unannehmlichkeiten und hoffen, dass Sie uns die erlebte Situation nicht länger nachtragen. \n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht und die Mitteilung Ihrer Erfahrung mit der Buslinie 722. Es tut uns leid zu hören, dass die Busfahrerin bereits um 11.21 an Ihnen vorbeigefahren ist, obwohl Sie um 11.24 an der Haltestelle waren, um Ihre Tochter von der Schule abzuholen. \n\nWir verstehen, dass es sehr ärgerlich und frustrierend war, den Bus verpasst zu haben, insbesondere wenn Sie auf eine pünktliche Abholung Ihrer Tochter angewiesen sind. Normalerweise sollte ein Bus nicht vor der planmäßigen Abfahrtszeit die Haltestelle verlassen. Es könnte sein, dass es sich um ein Missverständnis bei der Zeitabstimmung oder um einen Fehler im Fahrplan gehandelt hat, wofür wir uns ausdrücklich entschuldigen möchten. \n\nIhre Rückmeldung ist für uns sehr wichtig, da sie uns hilft, unseren Service kontinuierlich zu verbessern. Wir werden diesen Vorfall an die zuständige Abteilung weiterleiten, um sicherzustellen, dass unsere Fahrer stets die vorgesehenen Abfahrtszeiten einhalten und solche Vorfälle sich nicht wiederholen.\n\nNochmals entschuldigen wir uns herzlich für die entstandenen Unannehmlichkeiten und hoffen, dass Sie uns die erlebte Situation nicht länger nachtragen. \n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-05T15:15:45.370Z] [INFO] Email response sent successfully for email id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:15:45.389Z] [ERROR] Failed to mark email as read:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "error": {
+    "message": "Request failed with status code 401",
+    "name": "AxiosError",
+    "stack": "AxiosError: Request failed with status code 401\n    at settle (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:1682:16)\n    at Unzip.handleStreamEnd (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:2566:21)\n    at Unzip.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:3422:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async EmailHandler.markEmailAsRead (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:267:13)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:1151:13)\n    at async POST (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:1105:9)\n    at async AppRouteRouteModule.do (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:32847)\n    at async AppRouteRouteModule.handle (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:39868)\n    at async doRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1452:42)\n    at async responseGenerator (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1822:28)\n    at async DevServer.renderToResponseWithComponentsImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1832:28)\n    at async DevServer.renderPageComponent (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2259:24)\n    at async DevServer.renderToResponseImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2297:32)\n    at async DevServer.pipeImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:959:25)\n    at async NextNodeServer.handleCatchallRenderRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/next-server.js:281:17)\n    at async DevServer.handleRequestImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:853:17)\n    at async /Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:371:20\n    at async Span.traceAsyncFn (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/trace/trace.js:153:20)\n    at async DevServer.handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:368:24)\n    at async invokeRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:230:21)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:408:24)\n    at async requestHandlerImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:432:13)\n    at async Server.requestListener (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/start-server.js:146:13)",
+    "config": {
+      "transitional": {
+        "silentJSONParsing": true,
+        "forcedJSONParsing": true,
+        "clarifyTimeoutError": false
+      },
+      "adapter": [
+        "xhr",
+        "http",
+        "fetch"
+      ],
+      "transformRequest": [
+        null
+      ],
+      "transformResponse": [
+        null
+      ],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {},
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "User-Agent": "axios/1.7.9",
+        "Content-Length": "15",
+        "Accept-Encoding": "gzip, compress, deflate, br"
+      },
+      "header": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IlZUeUd6cldBRkZyODBmNS1aM2RIbFFqOXJxdjBiOHFkNjZCYVdzNk9ZSXciLCJhbGciOiJSUzI1NiIsIng1dCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyIsImtpZCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAvIiwiaWF0IjoxNzM4NzY4MjI5LCJuYmYiOjE3Mzg3NjgyMjksImV4cCI6MTczODc3MjEyOSwiYWlvIjoiazJSZ1lOaHh1a2hRS3Z2OUxLMjJWMzRUUHU3ZENRQT0iLCJhcHBfZGlzcGxheW5hbWUiOiJlbWFpbEZldGNoZXIiLCJhcHBpZCI6ImMzYWY4NDgyLTg4YzctNDYyMi05NDEwLWY3NGFkZTIxOWQ0YiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2Q0ZDczNzQ4LWRkY2UtNGFiMC1iZmQxLWJlYTc4Nzk2ZWE3MC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjJiMDk0MDEyLTYzNjItNDljMC1iODcxLWQ1NDA2ZDlmODcwNCIsInJoIjoiMS5BYjBBU0RmWDFNN2RzRXFfMGI2bmg1YnFjQU1BQUFBQUFBQUF3QUFBQUFBQUFBQURBUUM5QUEuIiwicm9sZXMiOlsiTWFpbC5SZWFkV3JpdGUiLCJNYWlsLlJlYWRCYXNpYy5BbGwiLCJNYWlsLlJlYWQiLCJNYWlsLlNlbmQiLCJNYWlsLlJlYWRCYXNpYyJdLCJzdWIiOiIyYjA5NDAxMi02MzYyLTQ5YzAtYjg3MS1kNTQwNmQ5Zjg3MDQiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiJkNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAiLCJ1dGkiOiJjekhNUXhtZXhFcURnXy1Mc1JBZ0FBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX2lkcmVsIjoiNyAxMiIsInhtc190Y2R0IjoxNzIwNTExODA2fQ.Td7nplnliK412tcKJubjIIPIUpYM-kVC7PJuyIWjdNSE-GaUs7rxZI8idLNWm2sh0Si8-vXvdLdOWzAfEIUWMNDHaqJXOCTCQe9GnGVWdQkrd2U-t3UASzKadt5NlLC5CN3tpoFoimjn3-Nr0Vo_14aEl5gflFO_QmoyPXeEnHnWdF9KXNrf9dCp0R4RW9mqcjVclGAkquVtsm98w_gwDKGUADqChHhBYc3Te4U2RgBj3Fk2Od7IlJSH-FM4IHVVTH4IxMmFfZr5STZKe96lQJjZtCz_mEpPs-0mBS_c2-x82GgixTzJ-KLRxckQICMIteLXsneFseh4x2vQERS8NA"
+      },
+      "method": "patch",
+      "url": "https://graph.microsoft.com/v1.0/users/movemenTech-RBG@movementor.online/messages/AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+      "data": "{\"isRead\":true}"
+    },
+    "code": "ERR_BAD_REQUEST",
+    "status": 401
+  }
+}
+[2025-02-05T15:17:41.921Z] [INFO] Processing email batch
+{
+  "count": 1
+}
+[2025-02-05T15:17:41.935Z] [INFO] Extracted fields from email:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "[REDACTED]"
+}
+[2025-02-05T15:17:57.008Z] [INFO] Email reply generated: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:17:57.009Z] [INFO] Processing complaint email:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrter Herr Sommer,\n\nvielen Dank, dass Sie uns über die Herausforderung, die Sie mit der Buslinie 722 erlebt haben, informieren. Wir bedauern zutiefst, dass die Busfahrerin am [TIME_1] an der Haltestelle vorzeitig abgefahren ist, als Sie versuchten, Ihre Tochter von der Schule abzuholen. Wir verstehen, wie frustrierend und ärgerlich diese Situation für Sie gewesen sein muss.\n\nEs ist unser oberstes Ziel, dass alle unsere Fahrgäste zuverlässig und pünktlich zu ihren Zielen gelangen. Gründe für ein verfrühtes Abfahren können variieren, und manchmal spielt auch das Missverständnis über die Abfahrtszeiten eine Rolle. Dennoch sollten unsere Fahrer*innen alle Fahrgäste, die an der Haltestelle warten, auch mitnehmen. Wir werden sicherstellen, dass unser Team im Fahrdienst sensibilisiert wird, um ähnliche Vorfälle in der Zukunft zu vermeiden.\n\nIhre Rückmeldung ist von großer Bedeutung für uns, da sie uns hilft, unseren Service kontinuierlich zu optimieren und sicherzustellen, dass solche Situationen nicht wieder vorkommen. Wir bitten Sie vielmals um Entschuldigung für die entstandenen Unannehmlichkeiten.\n\nBitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Sommer,\n\nvielen Dank, dass Sie uns über die Herausforderung, die Sie mit der Buslinie 722 erlebt haben, informieren. Wir bedauern zutiefst, dass die Busfahrerin am 11.21 an der Haltestelle vorzeitig abgefahren ist, als Sie versuchten, Ihre Tochter von der Schule abzuholen. Wir verstehen, wie frustrierend und ärgerlich diese Situation für Sie gewesen sein muss.\n\nEs ist unser oberstes Ziel, dass alle unsere Fahrgäste zuverlässig und pünktlich zu ihren Zielen gelangen. Gründe für ein verfrühtes Abfahren können variieren, und manchmal spielt auch das Missverständnis über die Abfahrtszeiten eine Rolle. Dennoch sollten unsere Fahrer*innen alle Fahrgäste, die an der Haltestelle warten, auch mitnehmen. Wir werden sicherstellen, dass unser Team im Fahrdienst sensibilisiert wird, um ähnliche Vorfälle in der Zukunft zu vermeiden.\n\nIhre Rückmeldung ist von großer Bedeutung für uns, da sie uns hilft, unseren Service kontinuierlich zu optimieren und sicherzustellen, dass solche Situationen nicht wieder vorkommen. Wir bitten Sie vielmals um Entschuldigung für die entstandenen Unannehmlichkeiten.\n\nBitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-05T15:17:57.347Z] [INFO] Email response sent successfully for email id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:17:57.364Z] [ERROR] Failed to mark email as read:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "error": {
+    "message": "Request failed with status code 401",
+    "name": "AxiosError",
+    "stack": "AxiosError: Request failed with status code 401\n    at settle (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:1682:16)\n    at Unzip.handleStreamEnd (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:2566:21)\n    at Unzip.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:3422:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async EmailHandler.markEmailAsRead (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:267:13)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:1151:13)\n    at async POST (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:1105:9)\n    at async AppRouteRouteModule.do (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:32847)\n    at async AppRouteRouteModule.handle (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:39868)\n    at async doRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1452:42)\n    at async responseGenerator (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1822:28)\n    at async DevServer.renderToResponseWithComponentsImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1832:28)\n    at async DevServer.renderPageComponent (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2259:24)\n    at async DevServer.renderToResponseImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2297:32)\n    at async DevServer.pipeImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:959:25)\n    at async NextNodeServer.handleCatchallRenderRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/next-server.js:281:17)\n    at async DevServer.handleRequestImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:853:17)\n    at async /Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:371:20\n    at async Span.traceAsyncFn (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/trace/trace.js:153:20)\n    at async DevServer.handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:368:24)\n    at async invokeRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:230:21)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:408:24)\n    at async requestHandlerImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:432:13)\n    at async Server.requestListener (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/start-server.js:146:13)",
+    "config": {
+      "transitional": {
+        "silentJSONParsing": true,
+        "forcedJSONParsing": true,
+        "clarifyTimeoutError": false
+      },
+      "adapter": [
+        "xhr",
+        "http",
+        "fetch"
+      ],
+      "transformRequest": [
+        null
+      ],
+      "transformResponse": [
+        null
+      ],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {},
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "User-Agent": "axios/1.7.9",
+        "Content-Length": "15",
+        "Accept-Encoding": "gzip, compress, deflate, br"
+      },
+      "header": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6Im5vSmFXWVJhM2dYcm05Ym1WbDVhNDVWUTVMckFSOFIxNENRUXVvNnp1aWMiLCJhbGciOiJSUzI1NiIsIng1dCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyIsImtpZCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAvIiwiaWF0IjoxNzM4NzY4MzYxLCJuYmYiOjE3Mzg3NjgzNjEsImV4cCI6MTczODc3MjI2MSwiYWlvIjoiazJSZ1lDaUo4MTFlLzVGeDJ3WG0xM2VPOTRhZkFRQT0iLCJhcHBfZGlzcGxheW5hbWUiOiJlbWFpbEZldGNoZXIiLCJhcHBpZCI6ImMzYWY4NDgyLTg4YzctNDYyMi05NDEwLWY3NGFkZTIxOWQ0YiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2Q0ZDczNzQ4LWRkY2UtNGFiMC1iZmQxLWJlYTc4Nzk2ZWE3MC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjJiMDk0MDEyLTYzNjItNDljMC1iODcxLWQ1NDA2ZDlmODcwNCIsInJoIjoiMS5BYjBBU0RmWDFNN2RzRXFfMGI2bmg1YnFjQU1BQUFBQUFBQUF3QUFBQUFBQUFBQURBUUM5QUEuIiwicm9sZXMiOlsiTWFpbC5SZWFkV3JpdGUiLCJNYWlsLlJlYWRCYXNpYy5BbGwiLCJNYWlsLlJlYWQiLCJNYWlsLlNlbmQiLCJNYWlsLlJlYWRCYXNpYyJdLCJzdWIiOiIyYjA5NDAxMi02MzYyLTQ5YzAtYjg3MS1kNTQwNmQ5Zjg3MDQiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiJkNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAiLCJ1dGkiOiJKU05iWWFOSjJVU3B1b1FPalBZakFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX2lkcmVsIjoiNyAyOCIsInhtc190Y2R0IjoxNzIwNTExODA2fQ.Xiiihn2amXP3yuhJTHhfOV1KemjdT7hxd6ESV5r3gQ55FsoCuYRlSsuuzkng6b8lFObGQ9HmiCd57-Vs9ECEzelUhnrmwlZ4J-yNQof26GtfifPcI1HGzsA_cgO4VsjFoPiQOfhKDvZh4eOiNDC7SY7jBcIHjNDXPhtKwYK79oibxvbTlwwvdxU0_epawz5EqZpMeZ__gMXQOjJNtzaCDRURGft8EcoFDF6TZFUexTQabTXMwS8SQ67voCeheh7s2U-UDUjzj0EDIc3B6fd46-huDhHO0buWrRakd3Tpjmns-uIhSCW9jNy8ULIbGo3S00-EBZn_aCzOJE9uP8fWnw"
+      },
+      "method": "patch",
+      "url": "https://graph.microsoft.com/v1.0/users/movemenTech-RBG@movementor.online/messages/AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+      "data": "{\"isRead\":true}"
+    },
+    "code": "ERR_BAD_REQUEST",
+    "status": 401
+  }
+}
+[2025-02-05T15:19:04.919Z] [INFO] Processing email batch
+{
+  "count": 1
+}
+[2025-02-05T15:19:04.940Z] [INFO] Extracted fields from email:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "[REDACTED]"
+}
+[2025-02-05T15:19:18.256Z] [INFO] Email reply generated: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:19:18.257Z] [INFO] Processing complaint email:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht und dass Sie uns auf das Geschehene aufmerksam gemacht haben. Es tut uns sehr leid zu hören, dass Sie am [TIME_2] an der Haltestelle vom Bus 722 standen und die Busfahrerin ohne Sie um [TIME_1] weitergefahren ist.\n\nWir können gut nachvollziehen, wie ärgerlich und frustrierend es für Sie ist, gerade wenn es darum geht, Ihre Tochter rechtzeitig von der Schule abzuholen. Unser Anspruch ist es, unseren Fahrgästen stets einen pünktlichen und zuverlässigen Service zu bieten. Dass dies in Ihrem Fall nicht funktioniert hat, bedauern wir sehr.\n\nEine mögliche Ursache für das Ereignis könnte ein Missverständnis bezüglich des Fahrplans oder eine Verzögerung im Fahrablauf gewesen sein, die zu einem ungeplanten frühzeitigen Abfahren geführt hat. Denken Sie bitte daran, dass unsere Fahrerinnen und Fahrer nur dann ohne Fahrgäste an Haltestellen vorbeifahren dürfen, wenn das Fahrzeug voll besetzt ist. Dies war hier offensichtlich nicht der Fall, und daher wurde hier ein Fehler begangen.\n\nIhre Rückmeldung ist uns sehr wichtig und wir werden den Vorfall in unserem Team besprechen, um sicherzustellen, dass alle FahrerInnen in Zukunft aufmerksam darauf achten, Fahrgäste an den Haltestellen zu berücksichtigen. Es ist uns ein großes Anliegen, Ihre Erfahrungen bei der Nutzung unserer Busse und Bahnen zu verbessern.\n\nWir entschuldigen uns vielmals für die Unannehmlichkeiten, die Ihnen durch diese Erfahrung entstanden sind. Zukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen. \n\nBitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht und dass Sie uns auf das Geschehene aufmerksam gemacht haben. Es tut uns sehr leid zu hören, dass Sie am 11.24 an der Haltestelle vom Bus 722 standen und die Busfahrerin ohne Sie um 11.21 weitergefahren ist.\n\nWir können gut nachvollziehen, wie ärgerlich und frustrierend es für Sie ist, gerade wenn es darum geht, Ihre Tochter rechtzeitig von der Schule abzuholen. Unser Anspruch ist es, unseren Fahrgästen stets einen pünktlichen und zuverlässigen Service zu bieten. Dass dies in Ihrem Fall nicht funktioniert hat, bedauern wir sehr.\n\nEine mögliche Ursache für das Ereignis könnte ein Missverständnis bezüglich des Fahrplans oder eine Verzögerung im Fahrablauf gewesen sein, die zu einem ungeplanten frühzeitigen Abfahren geführt hat. Denken Sie bitte daran, dass unsere Fahrerinnen und Fahrer nur dann ohne Fahrgäste an Haltestellen vorbeifahren dürfen, wenn das Fahrzeug voll besetzt ist. Dies war hier offensichtlich nicht der Fall, und daher wurde hier ein Fehler begangen.\n\nIhre Rückmeldung ist uns sehr wichtig und wir werden den Vorfall in unserem Team besprechen, um sicherzustellen, dass alle FahrerInnen in Zukunft aufmerksam darauf achten, Fahrgäste an den Haltestellen zu berücksichtigen. Es ist uns ein großes Anliegen, Ihre Erfahrungen bei der Nutzung unserer Busse und Bahnen zu verbessern.\n\nWir entschuldigen uns vielmals für die Unannehmlichkeiten, die Ihnen durch diese Erfahrung entstanden sind. Zukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen. \n\nBitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-05T15:19:18.587Z] [INFO] Email response sent successfully for email id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:19:18.605Z] [ERROR] Failed to mark email as read:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "error": {
+    "message": "Request failed with status code 401",
+    "name": "AxiosError",
+    "stack": "AxiosError: Request failed with status code 401\n    at settle (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:1682:16)\n    at Unzip.handleStreamEnd (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:2566:21)\n    at Unzip.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:3422:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async EmailHandler.markEmailAsRead (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:268:13)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:1152:13)\n    at async POST (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:1106:9)\n    at async AppRouteRouteModule.do (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:32847)\n    at async AppRouteRouteModule.handle (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:39868)\n    at async doRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1452:42)\n    at async responseGenerator (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1822:28)\n    at async DevServer.renderToResponseWithComponentsImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1832:28)\n    at async DevServer.renderPageComponent (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2259:24)\n    at async DevServer.renderToResponseImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2297:32)\n    at async DevServer.pipeImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:959:25)\n    at async NextNodeServer.handleCatchallRenderRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/next-server.js:281:17)\n    at async DevServer.handleRequestImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:853:17)\n    at async /Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:371:20\n    at async Span.traceAsyncFn (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/trace/trace.js:153:20)\n    at async DevServer.handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:368:24)\n    at async invokeRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:230:21)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:408:24)\n    at async requestHandlerImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:432:13)\n    at async Server.requestListener (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/start-server.js:146:13)",
+    "config": {
+      "transitional": {
+        "silentJSONParsing": true,
+        "forcedJSONParsing": true,
+        "clarifyTimeoutError": false
+      },
+      "adapter": [
+        "xhr",
+        "http",
+        "fetch"
+      ],
+      "transformRequest": [
+        null
+      ],
+      "transformResponse": [
+        null
+      ],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {},
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "User-Agent": "axios/1.7.9",
+        "Content-Length": "15",
+        "Accept-Encoding": "gzip, compress, deflate, br"
+      },
+      "header": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer async getAccessToken() {\n        const scopes = [\n            'https://graph.microsoft.com/.default'\n        ];\n        try {\n            const response = await this.msalClient.acquireTokenByClientCredential({\n                scopes: scopes\n            });\n            this.accessToken = response.accessToken;\n            return response.accessToken;\n        } catch (error) {\n            (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$logger$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__[\"logError\"])('Error getting access token:', {\n                error: error?.message\n            });\n            throw error;\n        }\n    }"
+      },
+      "method": "patch",
+      "url": "https://graph.microsoft.com/v1.0/users/movemenTech-RBG@movementor.online/messages/AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+      "data": "{\"isRead\":true}"
+    },
+    "code": "ERR_BAD_REQUEST",
+    "status": 401
+  }
+}
+[2025-02-05T15:19:45.991Z] [INFO] Processing email batch
+{
+  "count": 1
+}
+[2025-02-05T15:19:46.011Z] [INFO] Extracted fields from email:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "[REDACTED]"
+}
+[2025-02-05T15:19:55.789Z] [INFO] Email reply generated: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:19:55.789Z] [INFO] Processing complaint email:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrter Herr Sommer,\n\nvielen Dank für Ihre Nachricht und Ihre Rückmeldung zur Linie 722. Es tut uns leid zu hören, dass der Bus mit der Nummer 8117 an der Haltestelle Stufstock früher als geplant um [TIME_1] abgefahren ist und Sie dadurch nicht die Möglichkeit hatten, rechtzeitig Ihre Tochter von der Schule abzuholen. Das ist äußerst ärgerlich und wir verstehen Ihren Unmut darüber.\n\nUnsere Fahrerinnen und Fahrer sind angewiesen, die Fahrpläne strikt einzuhalten, um sicherzustellen, dass alle Fahrgäste rechtzeitig von A nach B kommen. In seltenen Fällen kann es jedoch vorkommen, dass ein Bus aufgrund von technischen Problemen oder im Verkehrsfluss unvorhergesehen früher losfährt, um den Takt nicht allzu sehr ins Hintertreffen geraten zu lassen. Dennoch sollte dies nicht auf Kosten unserer Fahrgäste geschehen.\n\nIhre Rückmeldung ist uns wichtig, und wir werden diesen Vorfall an unsere zuständige Abteilung weiterleiten, damit sie Maßnahmen ergreifen kann, um solche Situationen in Zukunft zu vermeiden. Wir möchten sicherstellen, dass Ihre nächste Fahrt mit uns wieder reibungslos verläuft.\n\nBitte entschuldigen Sie vielmals die entstandenen Unannehmlichkeiten. Wir hoffen, dass Sie uns nachsehen können und uns weiterhin die Möglichkeit geben, Sie sicher und komfortabel zu transportieren.\n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Sommer,\n\nvielen Dank für Ihre Nachricht und Ihre Rückmeldung zur Linie 722. Es tut uns leid zu hören, dass der Bus mit der Nummer 8117 an der Haltestelle Stufstock früher als geplant um 11.21 abgefahren ist und Sie dadurch nicht die Möglichkeit hatten, rechtzeitig Ihre Tochter von der Schule abzuholen. Das ist äußerst ärgerlich und wir verstehen Ihren Unmut darüber.\n\nUnsere Fahrerinnen und Fahrer sind angewiesen, die Fahrpläne strikt einzuhalten, um sicherzustellen, dass alle Fahrgäste rechtzeitig von A nach B kommen. In seltenen Fällen kann es jedoch vorkommen, dass ein Bus aufgrund von technischen Problemen oder im Verkehrsfluss unvorhergesehen früher losfährt, um den Takt nicht allzu sehr ins Hintertreffen geraten zu lassen. Dennoch sollte dies nicht auf Kosten unserer Fahrgäste geschehen.\n\nIhre Rückmeldung ist uns wichtig, und wir werden diesen Vorfall an unsere zuständige Abteilung weiterleiten, damit sie Maßnahmen ergreifen kann, um solche Situationen in Zukunft zu vermeiden. Wir möchten sicherstellen, dass Ihre nächste Fahrt mit uns wieder reibungslos verläuft.\n\nBitte entschuldigen Sie vielmals die entstandenen Unannehmlichkeiten. Wir hoffen, dass Sie uns nachsehen können und uns weiterhin die Möglichkeit geben, Sie sicher und komfortabel zu transportieren.\n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-05T15:19:56.334Z] [INFO] Email response sent successfully for email id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:19:56.346Z] [ERROR] Failed to mark email as read:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "error": {
+    "message": "Request failed with status code 401",
+    "name": "AxiosError",
+    "stack": "AxiosError: Request failed with status code 401\n    at settle (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:1682:16)\n    at Unzip.handleStreamEnd (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:2566:21)\n    at Unzip.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/24c45_axios_05d938._.js:3422:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async EmailHandler.markEmailAsRead (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:269:13)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:1153:13)\n    at async POST (/Users/norman/dev/transitIQ/api/rbg/email-answer/.next/server/chunks/[root of the server]__e2606c._.js:1107:9)\n    at async AppRouteRouteModule.do (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:32847)\n    at async AppRouteRouteModule.handle (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:10:39868)\n    at async doRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1452:42)\n    at async responseGenerator (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1822:28)\n    at async DevServer.renderToResponseWithComponentsImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:1832:28)\n    at async DevServer.renderPageComponent (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2259:24)\n    at async DevServer.renderToResponseImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:2297:32)\n    at async DevServer.pipeImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:959:25)\n    at async NextNodeServer.handleCatchallRenderRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/next-server.js:281:17)\n    at async DevServer.handleRequestImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/base-server.js:853:17)\n    at async /Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:371:20\n    at async Span.traceAsyncFn (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/trace/trace.js:153:20)\n    at async DevServer.handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/dev/next-dev-server.js:368:24)\n    at async invokeRender (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:230:21)\n    at async handleRequest (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:408:24)\n    at async requestHandlerImpl (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/router-server.js:432:13)\n    at async Server.requestListener (/Users/norman/dev/transitIQ/api/rbg/email-answer/node_modules/.pnpm/next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/next/dist/server/lib/start-server.js:146:13)",
+    "config": {
+      "transitional": {
+        "silentJSONParsing": true,
+        "forcedJSONParsing": true,
+        "clarifyTimeoutError": false
+      },
+      "adapter": [
+        "xhr",
+        "http",
+        "fetch"
+      ],
+      "transformRequest": [
+        null
+      ],
+      "transformResponse": [
+        null
+      ],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {},
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "User-Agent": "axios/1.7.9",
+        "Content-Length": "15",
+        "Accept-Encoding": "gzip, compress, deflate, br"
+      },
+      "header": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6InJrNGI3MUF6ZDNLbEdLazhhd19fNVBnbFp2UkR6S2gwVy1wWi1JOXhsNDgiLCJhbGciOiJSUzI1NiIsIng1dCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyIsImtpZCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAvIiwiaWF0IjoxNzM4NzY4NDg1LCJuYmYiOjE3Mzg3Njg0ODUsImV4cCI6MTczODc3MjM4NSwiYWlvIjoiazJSZ1lCRFJuUFZtOVhScFV4L2ZGWUUvNTRuZEJRQT0iLCJhcHBfZGlzcGxheW5hbWUiOiJlbWFpbEZldGNoZXIiLCJhcHBpZCI6ImMzYWY4NDgyLTg4YzctNDYyMi05NDEwLWY3NGFkZTIxOWQ0YiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2Q0ZDczNzQ4LWRkY2UtNGFiMC1iZmQxLWJlYTc4Nzk2ZWE3MC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjJiMDk0MDEyLTYzNjItNDljMC1iODcxLWQ1NDA2ZDlmODcwNCIsInJoIjoiMS5BYjBBU0RmWDFNN2RzRXFfMGI2bmg1YnFjQU1BQUFBQUFBQUF3QUFBQUFBQUFBQURBUUM5QUEuIiwicm9sZXMiOlsiTWFpbC5SZWFkV3JpdGUiLCJNYWlsLlJlYWRCYXNpYy5BbGwiLCJNYWlsLlJlYWQiLCJNYWlsLlNlbmQiLCJNYWlsLlJlYWRCYXNpYyJdLCJzdWIiOiIyYjA5NDAxMi02MzYyLTQ5YzAtYjg3MS1kNTQwNmQ5Zjg3MDQiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiJkNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAiLCJ1dGkiOiJsRjRWWHYxU0JraTZaT1RmOWdZY0FBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX2lkcmVsIjoiMTAgNyIsInhtc190Y2R0IjoxNzIwNTExODA2fQ.c1yl0iuPc-bJ8mDDEaZMnkGSAJbRepeb5jCaRTnPRmlujUpuPo7Mkqa5DM27PJ_R4wMJRyHflqTqgh3lCk883DpaFqARsA3F4CplzDBJu-W3i3h6tTHu_pZZPpxdypDOEBD7TylDTZDvod1od664UB2Uw2DFPXivol5O8rYt91WOaiiXPZfpgQNDSKhxYRgq4_Gt5W-nnwyLcewKwC_Ws79Brs9Isw9Q_d0Hg3br14jCKAF1WbyDFlW_k0UYbBYfO2tQk2DMtgCSKrgDYAV2zjuRePAdzR9ybpSRbbTBLD_zItUcNYzNAmwS-w-N13QIBeY-FL-pxe0QZFXzvPxc5A"
+      },
+      "method": "patch",
+      "url": "https://graph.microsoft.com/v1.0/users/movemenTech-RBG@movementor.online/messages/AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+      "data": "{\"isRead\":true}"
+    },
+    "code": "ERR_BAD_REQUEST",
+    "status": 401
+  }
+}
+[2025-02-05T15:26:13.318Z] [INFO] Processing email batch
+{
+  "count": 1
+}
+[2025-02-05T15:26:13.340Z] [INFO] Extracted fields from email:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "[REDACTED]"
+}
+[2025-02-05T15:26:13.340Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer"
+}
+[2025-02-05T15:26:13.713Z] [INFO] Is complaint about being left behind:
+true
+[2025-02-05T15:26:27.578Z] [INFO] Email reply generated: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:26:27.578Z] [INFO] Processing complaint email:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrter Herr Sommer,\n\nvielen Dank für Ihre Nachricht und dass Sie sich die Zeit genommen haben, uns von Ihrem Erlebnis zu berichten. Es tut uns sehr leid zu hören, dass Sie die Buslinie 722 um [TIME_2] nehmen mussten, um Ihre Tochter von der Schule abzuholen, und unsere Busfahrerin bereits um [TIME_1] vor Ihrer Nase losgefahren ist. Wir verstehen, dass dies äußerst ärgerlich für Sie war.\n\nUnsere Fahrerinnen und Fahrer sind angehalten, sich strikt an den Fahrplan zu halten, um unsere Kunden pünktlich bedienen zu können. Es gibt jedoch manchmal Gründe, warum ein Bus etwas früher abfahren könnte, etwa Verkehrslagen, die eine Anpassung der Fahrweise erfordern, oder ein Missverständnis bezüglich der ordnungsgemäßen Abfahrtszeit. Dennoch sollte dies natürlich nicht vorkommen und wir entschuldigen uns vielmals für diese Unannehmlichkeit.\n\nWir werden Ihren Vorfall an die zuständige Fachabteilung weiterleiten, damit dieser Vorfall analysiert und mit der betreffenden Fahrerin besprochen wird. Ihr Feedback hilft uns, unseren Service kontinuierlich zu verbessern und solche Vorfälle in Zukunft zu minimieren.\n\nBitte zögern Sie nicht, uns bei weiteren Fragen oder Anliegen zu kontaktieren. Ihre Zufriedenheit liegt uns am Herzen, und wir setzen alles daran, Ihnen wieder eine positive Fahrerfahrung zu bieten.\n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Sommer,\n\nvielen Dank für Ihre Nachricht und dass Sie sich die Zeit genommen haben, uns von Ihrem Erlebnis zu berichten. Es tut uns sehr leid zu hören, dass Sie die Buslinie 722 um 11.24 nehmen mussten, um Ihre Tochter von der Schule abzuholen, und unsere Busfahrerin bereits um 11.21 vor Ihrer Nase losgefahren ist. Wir verstehen, dass dies äußerst ärgerlich für Sie war.\n\nUnsere Fahrerinnen und Fahrer sind angehalten, sich strikt an den Fahrplan zu halten, um unsere Kunden pünktlich bedienen zu können. Es gibt jedoch manchmal Gründe, warum ein Bus etwas früher abfahren könnte, etwa Verkehrslagen, die eine Anpassung der Fahrweise erfordern, oder ein Missverständnis bezüglich der ordnungsgemäßen Abfahrtszeit. Dennoch sollte dies natürlich nicht vorkommen und wir entschuldigen uns vielmals für diese Unannehmlichkeit.\n\nWir werden Ihren Vorfall an die zuständige Fachabteilung weiterleiten, damit dieser Vorfall analysiert und mit der betreffenden Fahrerin besprochen wird. Ihr Feedback hilft uns, unseren Service kontinuierlich zu verbessern und solche Vorfälle in Zukunft zu minimieren.\n\nBitte zögern Sie nicht, uns bei weiteren Fragen oder Anliegen zu kontaktieren. Ihre Zufriedenheit liegt uns am Herzen, und wir setzen alles daran, Ihnen wieder eine positive Fahrerfahrung zu bieten.\n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-05T15:26:27.919Z] [INFO] Email response sent successfully for email id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:26:28.215Z] [INFO] Email marked as read: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:31:17.613Z] [INFO] Processing email batch
+{
+  "count": 4
+}
+[2025-02-05T15:31:17.634Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren, als ich am Dienstag, 28.01.25 gegen 22 Uhr von einer kulturellen Veranstaltung in der Tonhalle mit der S1 von Düsseldorf nach Solingen zurückfahren wollte, musste ich den Schienenersatzverkehr nutzen. Das ist ja nicht so schlimm, entsetzt war ich jedoch über den Bereich der Haltestellen fernab des Bahnhofvorplatzes Konrad-Adenauer-Platz. Die Bushaltestellen 16, 17 und 18 waren von der örtlichen Drogenszene umgeben. Auf der Bank der Haltestelle 18 bereitete man sich seine nächste Dosis zu!! Diese Ecke ist zudem extrem schlecht beleuchtet. Dort im Dunkeln auf den Bus zu warten, ist unangenehm und beängstigend. Das Unbehagen war allen Fahrgästen anzusehen, nicht nur den allein reisenden weiblichen Fahrgästen. Keiner der Sicherheitsmitarbeiter, die den Hauptbahnhof bestreifen, lässt sich dort blicken. Ich bin kein ängstlicher Mensch, aber wenn ich im Dunkeln in Düsseldorf unterwegs sein muss, nehme ich mir in Zukunft doch wieder ein Auto. Da kann ich mir dann das Deutschlandticket auch sparen. Was die Stadt Düsseldorf hier den Fahrgästen zumutet, ist wirklich das Letzte! Ich erwarte vom Verkehrsverbund, dass hier Änderungen in Form von mehr Licht und Wachpersonen geschaffen werden. Hochachtungsvoll, Grohé"
+}
+[2025-02-05T15:31:18.054Z] [INFO] Is complaint about being left behind:
+[2025-02-05T15:31:18.406Z] [INFO] Email sent to non-category recipients: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjeAAA=
+[2025-02-05T15:31:18.643Z] [INFO] Email marked as read: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjeAAA=
+[2025-02-05T15:31:18.647Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Attached Image"
+}
+[2025-02-05T15:31:19.196Z] [INFO] Is complaint about being left behind:
+[2025-02-05T15:31:19.516Z] [INFO] Email sent to non-category recipients: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjdAAA=
+[2025-02-05T15:31:19.822Z] [INFO] Email marked as read: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjdAAA=
+[2025-02-05T15:31:19.831Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Info@marli-duesseldorf.de",
+  "vorname": "Claudia",
+  "nachname": "Marliani",
+  "message": "Sehr geehrte Damen und Herren, Am Dienstag, den 4. Februar 2025 bin ich vom Belsenplatz mit dem 833 um 18:56 Uhr zur Heinsberger Straße gefahren. Obwohl ich rechtzeitig den Stopknopf gedrückt habe, ist der Fahrer einfach weitergefahren, als ich ihn darauf angesprochen habe. bekam ich zur Antwort: ich solle mich nicht so aufregen und mich aus dem Bus schieben. Er ließ mich im letzten Moment an der darauf folgenden Haltestelle raus. Ich finde es eine absolute Unverschämtheit, wie ihre Mitarbeiter mit Fahrgästen umgehen. Eine Entschuldigung wär für mich vollkommen ausreichend gewesen aber mich mit einem solchen Satz aus dem Bus zu verabschieden, bin ich nicht gewohnt und halte ich für respektlos. Ich hoffe, das sie hierin was unternehmen werden und erwarte eine Info von Ihnen. Mit freundlichen Grüßen, Claudia Marliani"
+}
+[2025-02-05T15:31:20.174Z] [INFO] Is complaint about being left behind:
+[2025-02-05T15:31:20.494Z] [INFO] Email sent to non-category recipients: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjcAAA=
+[2025-02-05T15:31:20.743Z] [INFO] Email marked as read: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjcAAA=
+[2025-02-05T15:31:20.745Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer"
+}
+[2025-02-05T15:31:21.120Z] [INFO] Is complaint about being left behind:
+true
+[2025-02-05T15:31:31.842Z] [INFO] Ai response generated for email: Celina1102@googlemail.com
+[2025-02-05T15:31:31.842Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrter Herr Sommer,\n\nvielen Dank, dass Sie uns Ihr Erlebnis mit der Linie 722 am heutigen Tag mitgeteilt haben. Es tut uns sehr leid zu hören, dass der Bus mit der Nummer 8117 um [TIME_1] an der Haltestelle \"Stufstock\" ohne Sie stehen gelassen wurde, obwohl Sie ihn dringend nehmen mussten, um Ihre Tochter von der Schule abzuholen.\n\nEs ist verständlich, dass solch eine Erfahrung frustrierend ist, besonders wenn der Bus vor der geplanten Abfahrtszeit losfährt. Normalerweise achten unsere Fahrerinnen und Fahrer sehr darauf, die Abfahrtszeiten einzuhalten, um unseren Fahrgästen einen verlässlichen Service zu bieten. Mögliche Ursachen für das frühzeitige Abfahren könnten Missverständnisse im Fahrplan oder unvorhergesehene Verkehrsbedingungen sein. In seltenen Fällen kann es auch zu technischen Schwierigkeiten mit den Bordrechnern kommen, die zur korrekten Erfassung der Abfahrtszeiten führen sollen.\n\nWir nehmen Ihren Vorfall sehr ernst und werden diesen mit der zuständigen Abteilung prüfen. Ihre Rückmeldung ist für uns unglaublich wichtig, um solche Vorfälle zu minimieren und unseren Service kontinuierlich zu verbessern. Wir möchten uns aufrichtig bei Ihnen entschuldigen und hoffen, dass Sie uns die Chance geben, es in Zukunft besser zu machen.\n\nBitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.\n\nMit freundlichen Grüßen,  \nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Sommer,\n\nvielen Dank, dass Sie uns Ihr Erlebnis mit der Linie 722 am heutigen Tag mitgeteilt haben. Es tut uns sehr leid zu hören, dass der Bus mit der Nummer 8117 um 11.21 an der Haltestelle \"Stufstock\" ohne Sie stehen gelassen wurde, obwohl Sie ihn dringend nehmen mussten, um Ihre Tochter von der Schule abzuholen.\n\nEs ist verständlich, dass solch eine Erfahrung frustrierend ist, besonders wenn der Bus vor der geplanten Abfahrtszeit losfährt. Normalerweise achten unsere Fahrerinnen und Fahrer sehr darauf, die Abfahrtszeiten einzuhalten, um unseren Fahrgästen einen verlässlichen Service zu bieten. Mögliche Ursachen für das frühzeitige Abfahren könnten Missverständnisse im Fahrplan oder unvorhergesehene Verkehrsbedingungen sein. In seltenen Fällen kann es auch zu technischen Schwierigkeiten mit den Bordrechnern kommen, die zur korrekten Erfassung der Abfahrtszeiten führen sollen.\n\nWir nehmen Ihren Vorfall sehr ernst und werden diesen mit der zuständigen Abteilung prüfen. Ihre Rückmeldung ist für uns unglaublich wichtig, um solche Vorfälle zu minimieren und unseren Service kontinuierlich zu verbessern. Wir möchten uns aufrichtig bei Ihnen entschuldigen und hoffen, dass Sie uns die Chance geben, es in Zukunft besser zu machen.\n\nBitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.\n\nMit freundlichen Grüßen,  \nIhr Kundenservice Team der Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-05T15:31:32.131Z] [INFO] Email response sent successfully to: Celina1102@googlemail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:31:32.473Z] [INFO] Email marked as read: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=
+[2025-02-05T15:35:49.065Z] [INFO] Processing email batch
+{
+  "count": 1
+}
+[2025-02-05T15:35:49.066Z] [INFO] Start processing email from with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA= and subject: WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular
+[2025-02-05T15:35:49.093Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer"
+}
+[2025-02-05T15:35:49.590Z] [INFO] Is complaint about being left behind:
+true
+[2025-02-05T15:35:49.678Z] [INFO] Anonymized text:
+{
+  "text": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "anonymized_text": "Hallo Ich musste heute um [TIME_2] die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um [TIME_1] los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen [ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Angela Sommer"
+      }
+    ],
+    "locations": [],
+    "names": [],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "11.21"
+      },
+      {
+        "[TIME_2]": "11.24"
+      }
+    ]
+  }
+}
+[2025-02-05T15:35:49.679Z] [INFO] Placeholders:
 [
-  "[ANON_LOCATION_1]",
-  "[ANON_LOCATION_2]",
-  "[ANON_LOCATION_3]",
-  "[ANON_LOCATION_4]",
-  "[ANON_LOCATION_5]",
+  "[ANON_PERSON_1]",
   "[TIME_1]",
   "[TIME_2]"
 ]
-[2025-02-05T11:47:26.084Z] [INFO] Processing complaint email:
+[2025-02-05T15:36:05.312Z] [INFO] Ai response generated for email with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA= and subject: WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular
+[2025-02-05T15:36:05.313Z] [INFO] Deanonymized email reply:
 {
-  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjZAAA=",
-  "subject": "WG: [Externe E-Mail]  [202502051026525248]: Anfrage über das Kontaktformular",
-  "userMessage": "Ergänzend zu meiner eben versandten Beschwerde: Da der Bus von der Haltestelle Meerbusch Zur Rheinfähre 4 min Verspätung hatte (geplante Abfahrtszeit 9:47 Uhr), hat mein Mann nun auch noch die U 76 am Haus Meer verpasst, obwohl doch eigentlich eine Anschlussgarantie gilt. Die Bahn (geplante Abfahrt am Haus Meer: 10:01 Uhr) stand sogar noch an der Haltestelle, als die Passagiere des Busses auf den Bahnsteig liefen, der Bahnfahrer hat jedoch die Türen nicht mehr geöffnet und ist dann losgefahren. Es ist für uns auch immer wieder unverständlich, warum der 839er Bus so häufig Verspätung hat, da es in Meerbusch um diese Uhrzeit ja schon lange keinen Stau mehr gibt.",
-  "aiResponse": "Sehr geehrte Frau Jung,\n\nvielen Dank für Ihre Nachricht und dafür, dass Sie uns auf Ihre Erfahrungen aufmerksam gemacht haben. Es tut uns sehr leid zu hören, dass sowohl der Bus 839 als auch die U76 Ihnen und Ihrem Mann am [ANON_LOCATION_3] Schwierigkeiten bereitet haben.\n\nWir verstehen, dass es äußerst frustrierend ist, wenn der Bus 839 verspätet ist und dies dazu führt, dass Anschlussverbindungen, wie die U76 am [ANON_LOCATION_2] um [TIME_1], verpasst werden. Ihre beschriebenen Umstände zeigen deutlich, dass die bestehende Anschlussgarantie hier nicht eingehalten werden konnte, obwohl die U76 noch an der Haltestelle stand. Wir möchten uns in aller Form dafür entschuldigen.\n\nDie Verspätungen können viele Ursachen haben, darunter unvorhergesehene Verkehrsbedingungen, Baustellen oder größere Passagierströme. Auch wenn es nach [ANON_LOCATION_1] zu dieser Uhrzeit keinen Stau gibt, können andere Faktoren den öffentlichen Nahverkehr beeinflussen. Wir arbeiten kontinuierlich daran, solche Situationen zu minimieren und unseren Fahrplan so zuverlässig wie möglich zu gestalten. \n\nIhre Rückmeldung ist uns sehr wichtig, und wir werden das Thema in unseren Teams besprechen, um die Anschlussgarantie in Zukunft besser sicherzustellen. \n\nBitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.\n\nIhr Kundenservice Team der Rheinbahn",
-  "deAnonymizedEmailReply": "Sehr geehrte Frau Jung,\n\nvielen Dank für Ihre Nachricht und dafür, dass Sie uns auf Ihre Erfahrungen aufmerksam gemacht haben. Es tut uns sehr leid zu hören, dass sowohl der Bus 839 als auch die U76 Ihnen und Ihrem Mann am Haus Meer Schwierigkeiten bereitet haben.\n\nWir verstehen, dass es äußerst frustrierend ist, wenn der Bus 839 verspätet ist und dies dazu führt, dass Anschlussverbindungen, wie die U76 am Haus Meer um 10:01 Uhr, verpasst werden. Ihre beschriebenen Umstände zeigen deutlich, dass die bestehende Anschlussgarantie hier nicht eingehalten werden konnte, obwohl die U76 noch an der Haltestelle stand. Wir möchten uns in aller Form dafür entschuldigen.\n\nDie Verspätungen können viele Ursachen haben, darunter unvorhergesehene Verkehrsbedingungen, Baustellen oder größere Passagierströme. Auch wenn es nach Meerbusch zu dieser Uhrzeit keinen Stau gibt, können andere Faktoren den öffentlichen Nahverkehr beeinflussen. Wir arbeiten kontinuierlich daran, solche Situationen zu minimieren und unseren Fahrplan so zuverlässig wie möglich zu gestalten. \n\nIhre Rückmeldung ist uns sehr wichtig, und wir werden das Thema in unseren Teams besprechen, um die Anschlussgarantie in Zukunft besser sicherzustellen. \n\nBitte tragen Sie uns die von Ihnen erlebte Situation nicht länger nach und bleiben Sie uns gewogen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrte Frau Sommer,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung mit der Linie 722 zu informieren. Wir bedauern sehr, zu hören, dass die Busfahrerin Sie um [TIME_1] Uhr an der Haltestelle hat stehen lassen und zu früh abgefahren ist. Wir verstehen, dass dies besonders frustrierend war, da Sie Ihre Tochter von der Schule abholen wollten.\n\nEs könnte verschiedene Gründe geben, warum es zu dieser frühen Abfahrt gekommen ist. Eine mögliche Ursache könnte eine Missverständnis im Fahrplan oder ein technisches Problem mit der Anzeigetafel sein, das die genaue Abfahrtszeit beeinflusst hat. Natürlich erwarten wir von unserem Personal, dass die Fahrpläne strikt eingehalten werden, um solche Unannehmlichkeiten für unsere Fahrgäste zu vermeiden.\n\nIhre Rückmeldung ist uns sehr wichtig, und wir werden diesen Vorfall intern besprechen, um sicherzustellen, dass unsere Fahrerinnen und Fahrer die Haltestellen zu den angegebenen Zeiten bedienen. Wir entschuldigen uns aufrichtig für die Unannehmlichkeiten und danken Ihnen für Ihr Verständnis und Ihre Geduld.\n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrte Frau Sommer,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung mit der Linie 722 zu informieren. Wir bedauern sehr, zu hören, dass die Busfahrerin Sie um 11.21 Uhr an der Haltestelle hat stehen lassen und zu früh abgefahren ist. Wir verstehen, dass dies besonders frustrierend war, da Sie Ihre Tochter von der Schule abholen wollten.\n\nEs könnte verschiedene Gründe geben, warum es zu dieser frühen Abfahrt gekommen ist. Eine mögliche Ursache könnte eine Missverständnis im Fahrplan oder ein technisches Problem mit der Anzeigetafel sein, das die genaue Abfahrtszeit beeinflusst hat. Natürlich erwarten wir von unserem Personal, dass die Fahrpläne strikt eingehalten werden, um solche Unannehmlichkeiten für unsere Fahrgäste zu vermeiden.\n\nIhre Rückmeldung ist uns sehr wichtig, und wir werden diesen Vorfall intern besprechen, um sicherzustellen, dass unsere Fahrerinnen und Fahrer die Haltestellen zu den angegebenen Zeiten bedienen. Wir entschuldigen uns aufrichtig für die Unannehmlichkeiten und danken Ihnen für Ihr Verständnis und Ihre Geduld.\n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
   "isComplaintAboutBeingLeftBehind": true
 }
-[2025-02-05T11:47:26.486Z] [INFO] Email response sent successfully for email id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjZAAA=
-[2025-02-05T11:47:26.506Z] [ERROR] Failed to mark email as read:
-{
-  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjZAAA=",
-  "error": "Request failed with status code 401",
-  "subject": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IjhycnJyWnpwdS1ZbW5LYkhIX09Id3hzeXFMUmN0NUVQVGh2R2xyYnBTelEiLCJhbGciOiJSUzI1NiIsIng1dCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyIsImtpZCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAvIiwiaWF0IjoxNzM4NzU1NzM1LCJuYmYiOjE3Mzg3NTU3MzUsImV4cCI6MTczODc1OTYzNSwiYWlvIjoiazJSZ1lEaHdjL3R1ajIvSE5sYmN2cnVyVTJ4R0Z3QT0iLCJhcHBfZGlzcGxheW5hbWUiOiJlbWFpbEZldGNoZXIiLCJhcHBpZCI6ImMzYWY4NDgyLTg4YzctNDYyMi05NDEwLWY3NGFkZTIxOWQ0YiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2Q0ZDczNzQ4LWRkY2UtNGFiMC1iZmQxLWJlYTc4Nzk2ZWE3MC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjJiMDk0MDEyLTYzNjItNDljMC1iODcxLWQ1NDA2ZDlmODcwNCIsInJoIjoiMS5BYjBBU0RmWDFNN2RzRXFfMGI2bmg1YnFjQU1BQUFBQUFBQUF3QUFBQUFBQUFBQURBUUM5QUEuIiwicm9sZXMiOlsiTWFpbC5SZWFkV3JpdGUiLCJNYWlsLlJlYWRCYXNpYy5BbGwiLCJNYWlsLlJlYWQiLCJNYWlsLlNlbmQiLCJNYWlsLlJlYWRCYXNpYyJdLCJzdWIiOiIyYjA5NDAxMi02MzYyLTQ5YzAtYjg3MS1kNTQwNmQ5Zjg3MDQiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiJkNGQ3Mzc0OC1kZGNlLTRhYjAtYmZkMS1iZWE3ODc5NmVhNzAiLCJ1dGkiOiJYZnI5ZGhYSWRVZXhoMWlJX2lvaEFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX2lkcmVsIjoiNyAxNiIsInhtc190Y2R0IjoxNzIwNTExODA2fQ.Ph2WJk46ua86s_Ab9HnQbPaDS4o5ctxV67KfMuw17FWHN6I50gC9kGWN5x7SmvnQfMbElYghw9RAveezKtfElOvbVnKSebRPupAIWv3BikSRwMgigKiVxVY7JMnxl2wLd89pmn-UPBx2-h70H5gjK5wupvJy_JcekEQIqZ63mXe9_EstM2s_Y9TH2LzNOeqPJPnEb20bH4j2vJktN87pQbexqVuLTbPl5DnCYh2amT3AyhiuKRuXNyu4LSVpMJ9_EJsL8EXOiU1-ML7EJDmbmUwm_2paIbbLY4ujmXeNG_6n14Ngh_upYrPiM2NcWY-NobxIFPki7xi7kkyqS8fHEQ"
-}
-[2025-02-05T13:43:09.291Z] [INFO] Processing email batch
+[2025-02-05T15:36:05.807Z] [INFO] Email response sent successfully to: Celina1102@googlemail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA= and subject: WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular
+[2025-02-05T15:36:06.085Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA= and subject: WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular
+[2025-02-05T15:38:01.991Z] [INFO] Processing email batch
 {
   "count": 1
 }
-[2025-02-05T13:57:23.560Z] [INFO] Processing email batch
+[2025-02-05T15:38:01.991Z] [INFO] Start processing email
 {
-  "count": 3
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular"
 }
-[2025-02-05T13:57:23.575Z] [INFO] Extracted fields from email:
+[2025-02-05T15:38:02.009Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer"
+}
+[2025-02-05T15:38:03.368Z] [INFO] Is complaint about being left behind:
+true
+[2025-02-05T15:38:03.455Z] [INFO] Anonymized text:
+{
+  "text": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "anonymized_text": "Hallo Ich musste heute um [TIME_2] die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um [TIME_1] los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen [ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Angela Sommer"
+      }
+    ],
+    "locations": [],
+    "names": [],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "11.21"
+      },
+      {
+        "[TIME_2]": "11.24"
+      }
+    ]
+  }
+}
+[2025-02-05T15:38:19.644Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular"
+}
+[2025-02-05T15:38:19.644Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "aiResponse": "Sehr geehrter Herr Sommer,\n\nvielen Dank für Ihre Nachricht und dafür, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung mit der Linie 722 zu informieren. Es tut uns leid zu hören, dass Sie am [ANON_PERSON_1] um [TIME_1] Uhr von der Busfahrerin übersehen wurden und dadurch nicht wie geplant Ihre Tochter abholen konnten. Wir verstehen, dass es besonders frustrierend ist, wenn unsere Busse zu früh abfahren und Ihnen dadurch Unannehmlichkeiten entstehen.\n\nBitte erlauben Sie uns, Ihnen zu versichern, dass es nicht in unserem Interesse liegt, Fahrgäste an den Haltestellen stehen zu lassen. Unsere Fahrerinnen und Fahrer sind angehalten, pünktlich abzufahren und alle wartenden Fahrgäste mitzunehmen. Manchmal kann es jedoch durch unvorhersehbare Umstände, wie zum Beispiel Verkehrsfluss oder betriebliche Erfordernisse, zu Abweichungen von der planmäßigen Abfahrtszeit kommen.\n\nWir haben Ihr Anliegen intern weitergeleitet und werden sicherstellen, dass solche Vorfälle angesprochen und vermieden werden. Ihre Rückmeldung hilft uns dabei, unsere Services weiter zu verbessern und sicherzustellen, dass sich solche Situationen in Zukunft nicht wiederholen.\n\nWir entschuldigen uns aufrichtig für die Unannehmlichkeiten und hoffen, dass Ihre zukünftigen Fahrten mit der Rheinbahn reibungslos verlaufen. \n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Sommer,\n\nvielen Dank für Ihre Nachricht und dafür, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung mit der Linie 722 zu informieren. Es tut uns leid zu hören, dass Sie am Angela Sommer um 11.21 Uhr von der Busfahrerin übersehen wurden und dadurch nicht wie geplant Ihre Tochter abholen konnten. Wir verstehen, dass es besonders frustrierend ist, wenn unsere Busse zu früh abfahren und Ihnen dadurch Unannehmlichkeiten entstehen.\n\nBitte erlauben Sie uns, Ihnen zu versichern, dass es nicht in unserem Interesse liegt, Fahrgäste an den Haltestellen stehen zu lassen. Unsere Fahrerinnen und Fahrer sind angehalten, pünktlich abzufahren und alle wartenden Fahrgäste mitzunehmen. Manchmal kann es jedoch durch unvorhersehbare Umstände, wie zum Beispiel Verkehrsfluss oder betriebliche Erfordernisse, zu Abweichungen von der planmäßigen Abfahrtszeit kommen.\n\nWir haben Ihr Anliegen intern weitergeleitet und werden sicherstellen, dass solche Vorfälle angesprochen und vermieden werden. Ihre Rückmeldung hilft uns dabei, unsere Services weiter zu verbessern und sicherzustellen, dass sich solche Situationen in Zukunft nicht wiederholen.\n\nWir entschuldigen uns aufrichtig für die Unannehmlichkeiten und hoffen, dass Ihre zukünftigen Fahrten mit der Rheinbahn reibungslos verlaufen. \n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-05T15:38:20.080Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular"
+}
+[2025-02-05T15:38:20.342Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA= and subject: WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular
+[2025-02-05T15:41:22.736Z] [INFO] Processing email batch
+{
+  "count": 16
+}
+[2025-02-05T15:41:22.736Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjeAAA=",
+  "subject": "WG: [Externe E-Mail]  Weiterleitung VRR an Rheinbahn - MeldungsID 174178"
+}
+[2025-02-05T15:41:22.751Z] [INFO] Extracted fields:
 {
   "anrede": "",
   "email": "",
   "vorname": "",
   "nachname": "",
-  "message": "[REDACTED]"
+  "message": "Sehr geehrte Damen und Herren, als ich am Dienstag, 28.01.25 gegen 22 Uhr von einer kulturellen Veranstaltung in der Tonhalle mit der S1 von Düsseldorf nach Solingen zurückfahren wollte, musste ich den Schienenersatzverkehr nutzen. Das ist ja nicht so schlimm, entsetzt war ich jedoch über den Bereich der Haltestellen fernab des Bahnhofvorplatzes Konrad-Adenauer-Platz. Die Bushaltestellen 16, 17 und 18 waren von der örtlichen Drogenszene umgeben. Auf der Bank der Haltestelle 18 bereitete man sich seine nächste Dosis zu!! Diese Ecke ist zudem extrem schlecht beleuchtet. Dort im Dunkeln auf den Bus zu warten, ist unangenehm und beängstigend. Das Unbehagen war allen Fahrgästen anzusehen, nicht nur den allein reisenden weiblichen Fahrgästen. Keiner der Sicherheitsmitarbeiter, die den Hauptbahnhof bestreifen, lässt sich dort blicken. Ich bin kein ängstlicher Mensch, aber wenn ich im Dunkeln in Düsseldorf unterwegs sein muss, nehme ich mir in Zukunft doch wieder ein Auto. Da kann ich mir dann das Deutschlandticket auch sparen. Was die Stadt Düsseldorf hier den Fahrgästen zumutet, ist wirklich das Letzte! Ich erwarte vom Verkehrsverbund, dass hier Änderungen in Form von mehr Licht und Wachpersonen geschaffen werden. Hochachtungsvoll, Grohé"
 }
-[2025-02-05T13:57:23.581Z] [INFO] Extracted fields from email:
+[2025-02-05T15:41:23.185Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-05T15:41:23.490Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjeAAA= and subject: WG: [Externe E-Mail]  Weiterleitung VRR an Rheinbahn - MeldungsID 174178
+[2025-02-05T15:41:23.780Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjeAAA= and subject: WG: [Externe E-Mail]  Weiterleitung VRR an Rheinbahn - MeldungsID 174178
+[2025-02-05T15:41:23.780Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjdAAA=",
+  "subject": "WG: Attached Image"
+}
+[2025-02-05T15:41:23.785Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Attached Image"
+}
+[2025-02-05T15:41:24.425Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-05T15:41:24.782Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjdAAA= and subject: WG: Attached Image
+[2025-02-05T15:41:25.034Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjdAAA= and subject: WG: Attached Image
+[2025-02-05T15:41:25.035Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjcAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051317246431]: Anfrage über das Kontaktformular"
+}
+[2025-02-05T15:41:25.040Z] [INFO] Extracted fields:
 {
   "anrede": "Herr",
   "email": "Info@marli-duesseldorf.de",
   "vorname": "Claudia",
   "nachname": "Marliani",
-  "message": "[REDACTED]"
+  "message": "Sehr geehrte Damen und Herren, Am Dienstag, den 4. Februar 2025 bin ich vom Belsenplatz mit dem 833 um 18:56 Uhr zur Heinsberger Straße gefahren. Obwohl ich rechtzeitig den Stopknopf gedrückt habe, ist der Fahrer einfach weitergefahren, als ich ihn darauf angesprochen habe. bekam ich zur Antwort: ich solle mich nicht so aufregen und mich aus dem Bus schieben. Er ließ mich im letzten Moment an der darauf folgenden Haltestelle raus. Ich finde es eine absolute Unverschämtheit, wie ihre Mitarbeiter mit Fahrgästen umgehen. Eine Entschuldigung wär für mich vollkommen ausreichend gewesen aber mich mit einem solchen Satz aus dem Bus zu verabschieden, bin ich nicht gewohnt und halte ich für respektlos. Ich hoffe, das sie hierin was unternehmen werden und erwarte eine Info von Ihnen. Mit freundlichen Grüßen, Claudia Marliani"
 }
-[2025-02-05T13:57:23.585Z] [INFO] Extracted fields from email:
+[2025-02-05T15:41:25.442Z] [INFO] Is complaint about being left behind:
 {
-  "anrede": "",
-  "email": "",
-  "vorname": "",
-  "nachname": "",
-  "message": "[REDACTED]"
+  "isComplaintAboutBeingLeftBehind": false
 }
-[2025-02-05T13:58:54.221Z] [INFO] Processing email batch
+[2025-02-05T15:41:25.824Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjcAAA= and subject: WG: [Externe E-Mail]  [202502051317246431]: Anfrage über das Kontaktformular
+[2025-02-05T15:41:26.228Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjcAAA= and subject: WG: [Externe E-Mail]  [202502051317246431]: Anfrage über das Kontaktformular
+[2025-02-05T15:41:26.228Z] [INFO] Start processing email
 {
-  "count": 4
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular"
 }
-[2025-02-05T13:58:54.249Z] [INFO] Extracted fields from email:
-{
-  "anrede": "",
-  "email": "",
-  "vorname": "",
-  "nachname": "",
-  "message": "[REDACTED]"
-}
-[2025-02-05T13:58:54.252Z] [INFO] Extracted fields from email:
-{
-  "anrede": "",
-  "email": "",
-  "vorname": "",
-  "nachname": "",
-  "message": "[REDACTED]"
-}
-[2025-02-05T13:58:54.257Z] [INFO] Extracted fields from email:
+[2025-02-05T15:41:26.231Z] [INFO] Extracted fields:
 {
   "anrede": "Herr",
-  "email": "Info@marli-duesseldorf.de",
-  "vorname": "Claudia",
-  "nachname": "Marliani",
-  "message": "[REDACTED]"
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer"
 }
-[2025-02-05T13:58:54.259Z] [INFO] Extracted fields from email:
+[2025-02-05T15:41:26.572Z] [INFO] Is complaint about being left behind:
 {
-  "anrede": "",
-  "email": "",
-  "vorname": "",
-  "nachname": "",
-  "message": "[REDACTED]"
+  "isComplaintAboutBeingLeftBehind": true
 }
-[2025-02-05T14:01:03.827Z] [INFO] Processing email batch
+[2025-02-05T15:41:26.633Z] [INFO] Anonymized text:
 {
-  "count": 4
+  "text": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "anonymized_text": "Hallo Ich musste heute um [TIME_2] die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um [TIME_1] los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen [ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Angela Sommer"
+      }
+    ],
+    "locations": [],
+    "names": [],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "11.21"
+      },
+      {
+        "[TIME_2]": "11.24"
+      }
+    ]
+  }
 }
-[2025-02-05T14:01:03.842Z] [INFO] Extracted fields from email:
+[2025-02-05T15:41:39.305Z] [INFO] Processing email batch
 {
-  "anrede": "",
-  "email": "",
-  "vorname": "",
-  "nachname": "",
-  "message": "[REDACTED]"
+  "count": 13
 }
-[2025-02-05T14:01:03.845Z] [INFO] Extracted fields from email:
+[2025-02-05T15:41:39.306Z] [INFO] Start processing email
 {
-  "anrede": "",
-  "email": "",
-  "vorname": "",
-  "nachname": "",
-  "message": "[REDACTED]"
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular"
 }
-[2025-02-05T14:01:03.849Z] [INFO] Extracted fields from email:
+[2025-02-05T15:41:39.324Z] [INFO] Extracted fields:
 {
   "anrede": "Herr",
-  "email": "Info@marli-duesseldorf.de",
-  "vorname": "Claudia",
-  "nachname": "Marliani",
-  "message": "[REDACTED]"
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer"
 }
-[2025-02-05T14:01:03.850Z] [INFO] Extracted fields from email:
+[2025-02-05T15:41:39.826Z] [INFO] Is complaint about being left behind:
 {
-  "anrede": "",
-  "email": "",
-  "vorname": "",
-  "nachname": "",
-  "message": "[REDACTED]"
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-05T15:41:39.859Z] [INFO] Anonymized text:
+{
+  "text": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer",
+  "anonymized_text": "Hallo Ich musste heute um [TIME_2] die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um [TIME_1] los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen [ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Angela Sommer"
+      }
+    ],
+    "locations": [],
+    "names": [],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "11.21"
+      },
+      {
+        "[TIME_2]": "11.24"
+      }
+    ]
+  }
+}
+[2025-02-05T15:42:59.230Z] [INFO] Processing email batch
+{
+  "count": 13
+}
+[2025-02-05T15:42:59.230Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEjbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502051142642860]: Anfrage über das Kontaktformular"
+}
+[2025-02-05T15:42:59.248Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Celina1102@googlemail.com",
+  "vorname": "Angela",
+  "nachname": "Sommer",
+  "message": "Hallo Ich musste heute um 11.24 die Linie 722 am Stufstock nehmen. Bus Nummer 8117 . Um meine Tochter von der Schule abzuholen. Leider ist die Busfahrerin vor meiner Nase um 11.21 los gefahren. Finde es eine Frechheit zu früh los zu fahren. Mit freundlichen Grüßen Angela Sommer"
 }

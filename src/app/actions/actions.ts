@@ -17,16 +17,13 @@ export async function anonymizeText(text: string) {
   }
 }
 
-export async function generateEmailReply(
+export async function aiResponse(
   anonymized_text: string,
   anonymized_text_parts: Record<string, any>,
   clientData: EmailFields,
   clientName: string
 ) {
   // Get just the placeholder keys
-  const placeholderKeys = getPlaceholderKeys(anonymized_text_parts);
-  logInfo('Placeholder keys:', placeholderKeys);
-
   let clientClose = '';
   if (clientName === 'rheinbahn') {
     clientClose = process.env.CLIENT_CLOSE_RBG || '';
@@ -49,7 +46,7 @@ Notiz: In dem Kundenliegen sind die persönlich identifierbaren Informationen er
 Bitte erfinde keine weiteren Platzhalter in deiner Antwort!
 
 Die Platzhalter sind wie folgt. Bitte verwende die Platzhalter in deiner Antwort. Du findest die Platzhalter ebenfalls in der anonymisierten Nachricht:
-${placeholderKeys.join('\n')}
+${anonymized_text_parts.join('\n')}
 
 Stelle sicher, dass du die gleichen Platzhalter in deiner Antwort verwendest, dort wo Sie sinnvoll sind.
 
@@ -265,6 +262,8 @@ ${clientClose}`;
 
 export async function classifyText(text: string): Promise<boolean> {
   const prompt = `Aufgabe: Analysiere die folgende Nachricht eines Kunden und entscheide, ob sie sich darauf bezieht, dass der Kunde an einer Haltestelle (Bahn, Bus, U-Bahn) stehen gelassen wurde – also der Fahrer nicht gehalten oder an der Haltestelle vorbeigefahren ist.
+  Emails die darüber berichten, dass ein Bus / Bahn für einen Fahrgast der bereits mitfuhr nicht gehalten hat um diesen Fahrgast abzusetzen, sollen mit "Nein" beantwortet werden.
+  Emails die nicht zu dieser Kategorie gehören, sollen mit "Nein" beantwortet werden.
 
 Hinweise, die auf diesen Fall hindeuten können:
 
