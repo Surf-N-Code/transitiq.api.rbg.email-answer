@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import axios from 'axios';
+import { EmailHandler } from '@/lib/EmailHandler';
 const msal = require('@azure/msal-node');
 
 class EmailCrawler {
@@ -62,14 +63,16 @@ export async function POST(
 ) {
   try {
     const { id } = params;
-    const emailCrawler = new EmailCrawler();
-
+    const emailHandler = new EmailHandler();
+    await emailHandler.initializeToken();
     // Try both email addresses since we don't know which one owns the email
     try {
-      await emailCrawler.markEmailAsRead(id, process.env.MSAL_USER_EMAIL_RBG!);
+      emailHandler.setInboxToProcess(process.env.MSAL_USER_EMAIL_RBG!);
+      await emailHandler.markEmailAsRead(id);
     } catch (error) {
       // If the first attempt fails, try the second email address
-      await emailCrawler.markEmailAsRead(id, process.env.MSAL_USER_EMAIL_WSW!);
+      emailHandler.setInboxToProcess(process.env.MSAL_USER_EMAIL_WSW!);
+      await emailHandler.markEmailAsRead(id);
     }
 
     return NextResponse.json({ success: true });

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { classifyText } from '@/lib/classifyText';
+import { classifyText } from '@/app/actions/actions';
 
 export async function POST(request: NextRequest) {
   try {

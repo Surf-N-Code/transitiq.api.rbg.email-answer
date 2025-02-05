@@ -30,9 +30,9 @@ export function log(level: LogLevel, message: string, data?: any) {
 
   // Log to console
   if (level === 'error') {
-    console.error(formattedMessage);
+    console.error('[Error] ' + formattedMessage);
   } else {
-    console.log(formattedMessage);
+    console.log('[Info] ' + formattedMessage);
   }
 
   // Log to file

@@ -9,6 +9,36 @@ export interface Email {
   fields: { [key: string]: string };
 }
 
+export interface CrawledEmail {
+  id: string;
+  receivedDateTime: string;
+  subject: string;
+  isRead: boolean;
+  body: {
+    contentType: string;
+    content: string;
+  };
+  from: {
+    emailAddress: {
+      address: string;
+      name: string;
+    };
+  };
+}
+
+export interface CrawledEmailWithExtractedCustomerFields extends CrawledEmail {
+  extractedFields: EmailFields;
+}
+
+export interface EmailFields {
+  [key: string]: string;
+  anrede: string;
+  email: string;
+  vorname: string;
+  nachname: string;
+  message: string;
+}
+
 export type Client = 'rheinbahn' | 'wsw';
 
 export interface EmailResponse {

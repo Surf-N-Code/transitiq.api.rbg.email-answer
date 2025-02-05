@@ -1,15 +1,23 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Email, EmailFilters, GeneratedResponse } from '@/types/email';
+import {
+  CrawledEmailWithExtractedCustomerFields,
+  Email,
+  EmailFilters,
+  GeneratedResponse,
+} from '@/types/email';
 import { Loader2, Mail, MailOpen, RefreshCcw } from 'lucide-react';
 import { ClientSelector } from '@/components/client-selector';
 
 const PAGE_SIZE = 10;
 
 export function EmailList() {
-  const [emails, setEmails] = useState<Email[]>([]);
-  const [selectedEmail, setSelectedEmail] = useState<Email | null>(null);
+  const [emails, setEmails] = useState<
+    CrawledEmailWithExtractedCustomerFields[]
+  >([]);
+  const [selectedEmail, setSelectedEmail] =
+    useState<CrawledEmailWithExtractedCustomerFields | null>(null);
   const [loading, setLoading] = useState(false);
   const [isClassifying, setIsClassifying] = useState(false);
   const [classification, setClassification] = useState<boolean | null>(null);
@@ -51,7 +59,9 @@ export function EmailList() {
     }
   };
 
-  const handleMarkAsRead = async (email: Email) => {
+  const handleMarkAsRead = async (
+    email: CrawledEmailWithExtractedCustomerFields
+  ) => {
     try {
       const response = await fetch(`/api/emails/${email.id}/read`, {
         method: 'POST',
@@ -67,7 +77,9 @@ export function EmailList() {
     }
   };
 
-  const handleEmailSelect = async (email: Email) => {
+  const handleEmailSelect = async (
+    email: CrawledEmailWithExtractedCustomerFields
+  ) => {
     setSelectedEmail(email);
     setClassification(null);
     setIsClassifying(true);
@@ -80,7 +92,7 @@ export function EmailList() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          text: email.text,
+          text: email.extractedFields.message,
         }),
       });
 
@@ -93,7 +105,9 @@ export function EmailList() {
     }
   };
 
-  const handleGenerateResponse = async (email: Email) => {
+  const handleGenerateResponse = async (
+    email: CrawledEmailWithExtractedCustomerFields
+  ) => {
     if (classification === null) {
       console.error('Cannot generate response before classification');
       return;
@@ -107,10 +121,10 @@ export function EmailList() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          text: email.text,
-          vorname: email.fields.vorname,
-          nachname: email.fields.nachname,
-          anrede: email.fields.anrede,
+          text: email.extractedFields.message,
+          vorname: email.extractedFields.vorname,
+          nachname: email.extractedFields.nachname,
+          anrede: email.extractedFields.anrede,
           clientName: filters.client,
         }),
       });
@@ -203,9 +217,11 @@ export function EmailList() {
                     onClick={() => handleEmailSelect(email)}
                   >
                     <p className="font-medium">{email.subject}</p>
-                    <p className="text-sm text-gray-400">{email.sender}</p>
                     <p className="text-sm text-gray-400">
-                      {new Date(email.timestamp).toLocaleString()}
+                      {email.from.emailAddress.address}
+                    </p>
+                    <p className="text-sm text-gray-400">
+                      {new Date(email.receivedDateTime).toLocaleString()}
                     </p>
                   </div>
                   <button
@@ -262,10 +278,10 @@ export function EmailList() {
                   {selectedEmail.subject}
                 </h2>
                 <p className="text-sm text-gray-400">
-                  From: {selectedEmail.sender}
+                  From: {selectedEmail.from.emailAddress.address}
                 </p>
                 <p className="text-sm text-gray-400 mb-4">
-                  {new Date(selectedEmail.timestamp).toLocaleString()}
+                  {new Date(selectedEmail.receivedDateTime).toLocaleString()}
                 </p>
               </div>
               <button
@@ -278,7 +294,7 @@ export function EmailList() {
             </div>
 
             <div className="whitespace-pre-wrap bg-gray-900 p-4 rounded-lg">
-              {selectedEmail.text}
+              {selectedEmail.extractedFields.message}
             </div>
 
             {isClassifying ? (

@@ -7,4 +7,19 @@ Content-Type: application/json
 }
 
 ### Create Email
-POST http://localhost:3000/api/create-email
+POST http://localhost:3000/api/processEmails
+Content-Type: application/json
+
+{
+  "inboxToProcess": "movemenTech-RBG@movementor.online",
+  "toRecipients": ["ndilthey@gmail.com"],
+  "nonCategoryRecipients": ["ndilthey@gmail.com"]
+}
+
+### Classify Text
+POST http://localhost:3000/api/classifyText
+Content-Type: application/json
+
+{
+  "text": "Ergänzend zu meiner eben versandten Beschwerde: Da der Bus von der Haltestelle Meerbusch Zur Rheinfähre 4 min Verspätung hatte (geplante Abfahrtszeit 9:47 Uhr), hat mein Mann nun auch noch die U 76 am Haus Meer verpasst, obwohl doch eigentlich eine Anschlussgarantie gilt. Die Bahn (geplante Abfahrt am Haus Meer: 10:01 Uhr) stand sogar noch an der Haltestelle, als die Passagiere des Busses auf den Bahnsteig liefen, der Bahnfahrer hat jedoch die Türen nicht mehr geöffnet und ist dann losgefahren. Es ist für uns auch immer wieder unverständlich, warum der 839er Bus so häufig Verspätung hat, da es in Meerbusch um diese Uhrzeit ja schon lange keinen Stau mehr gibt."
+}
