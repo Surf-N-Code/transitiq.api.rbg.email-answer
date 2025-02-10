@@ -3,7 +3,19 @@ import { logError, logInfo } from './logger';
 
 const cheerio = require('cheerio');
 
-export function extractStructuredInfoFromEmail(textToAnalyze: string) {
+interface MarkerConfig {
+  type: string;
+  identifyingMarker: string;
+  startMarker: string;
+  endMarkers: string[];
+  fieldRecognitionPatterns?: {
+    [key: string]: RegExp;
+  };
+}
+
+export function extractStructuredInfoFromEmail(
+  textToAnalyze: string
+): EmailFields {
   try {
     const $ = cheerio.load(textToAnalyze);
 
@@ -26,150 +38,131 @@ export function extractStructuredInfoFromEmail(textToAnalyze: string) {
       .replace(/&gt;/g, '>')
       .replace(/&quot;/g, '"');
 
-    // Extract main message content
-    const markers = [
+    const markers: MarkerConfig[] = [
       {
         type: 'websiteComplaintForm',
         identifyingMarker: 'Eure Nachricht an uns',
         startMarker: 'Eure Nachricht an uns',
-        endMarker: 'Dokumenten-Upload',
+        endMarkers: ['Dokumenten-Upload'],
         fieldRecognitionPatterns: {
-          anrede: /Anrede(Frau|Herr|Divers|Keine Angabe)\s/,
-          email: /E-Mail([^\s]+@[^\s]+)\s/,
-          vorname: /Vorname([^\s]+)\s/,
-          nachname: /Nachname([^\s]+)/,
+          anrede: /Anrede+(Frau|Herr|Divers|Keine Angabe)/,
+          email: /E-Mail+([^\s]+@[^\s]+)/,
+          vorname: /Vorname+(\S+)/,
+          nachname: /Nachname+(\S+)/,
         },
-      },
-      {
-        type: 'directMailComplaint',
-        identifyingMarker: 'Betreff:',
-        startMarker: 'Betreff:',
-        endMarker: 'Rheinbahn AG | ',
       },
       {
         type: 'vrrForwardedComplaint',
         identifyingMarker: 'Meldungs ID:',
         startMarker: 'Anliegen:',
-        endMarker: 'Rheinbahn AG | ',
+        endMarkers: ['Rheinbahn AG | '],
         fieldRecognitionPatterns: {
-          anrede: /x/,
-          email: /Mail:\s*([^\s]+@[^\s]+)\s/,
+          email: /Mail:\s*([^\s]+@[^\s]+)/,
           vorname:
-            /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/,
+            /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/i,
           nachname:
-            /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/,
+            /Vorname, Name:\s*[^\s]+\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/i,
+          datum: /Empfangen am\s*(\d{4}-\d{2}-\d{2},\s*\d{2}:\d{2})/i,
         },
       },
       {
         type: 'callcenterForwardedComplaint',
         identifyingMarker: 'Datum/Uhrzeit des Vorfalls:',
         startMarker: 'Bemerkung:',
-        endMarker: 'Rheinbahn AG | ',
+        endMarkers: [
+          'Rheinbahn AG | ',
+          'i.A. Nina Sternagel',
+          '___________________________',
+        ],
         fieldRecognitionPatterns: {
-          anrede: /x/,
-          email: /Mail:\s*([^\s]+@[^\s]+)\s/,
-          vorname: /Vorname:\s*([^\s]+)\s/,
-          nachname: /Nachname:\s*([^\s]+)\s/,
-          metaInformation: /Datum\/Uhrzeit des Vorfalls:([^\s^-]+)/,
+          email: /E_Mail:\s*([^\n]+?)(?=\s*\n)/i,
+          vorname: /Vorname:\s*([\s\S]*?)(?=\s*Nachname:)/i,
+          nachname: /Nachname:\s*([\s\S]*?)(?=\s*Geburtsdatum:)/i,
+          stadt: /Ort_Vorfall:\s*([\s\S]*?)(?=\s*Linie:)/i,
+          linie: /Linie:\s*([\s\S]*?)(?=\s*Haltestelle:)/i,
+          haltestelle: /Haltestelle:\s*([\s\S]*?)(?=\s*Richtung:)/i,
+          richtung: /Richtung:\s*([\s\S]*?)(?=\s*[-]{3,})/i,
+          datum:
+            /Datum\/Uhrzeit des Vorfalls:\s*(\d{4}-\d{2}-\d{2},\s*\d{2}:\d{2})/i,
         },
+      },
+      {
+        type: 'directMailComplaint',
+        identifyingMarker: 'Betreff:',
+        startMarker: 'Betreff:',
+        endMarkers: ['Rheinbahn AG | '],
       },
     ];
 
-    //iterate over markers and determine the type of email
-    let markerType: string | null = null;
-    for (const marker of markers) {
-      if (text.includes(marker.identifyingMarker)) {
-        markerType = marker.type;
-        break;
-      }
-    }
-
-    if (!markerType) {
-      //@TODO handle uncategorized emails
-      throw new Error('Could not determine type of email');
-    }
-
+    // Initialize fields with empty values
     const fields: EmailFields = {
       anrede: '',
       email: '',
       vorname: '',
       nachname: '',
       message: '',
-      metaInformation: '',
+      linie: '',
+      haltestelle: '',
+      richtung: '',
+      stadt: '',
+      datum: '',
     };
 
-    const startIndex = text.indexOf(
-      markers.find(
-        (marker) => marker.identifyingMarker === 'websiteComplaintForm'
-      )
+    // Determine email type
+    const matchedMarker = markers.find((marker) =>
+      text.includes(marker.identifyingMarker)
     );
-    if (startIndex !== -1) {
-      // Extract fields using regex patterns
-      const patterns = {
-        anrede: /Anrede(Frau|Herr|Divers|Keine Angabe)\s/,
-        email: /E-Mail([^\s]+@[^\s]+)\s/,
-        vorname: /Vorname([^\s]+)\s/,
-        nachname: /Nachname([^\s]+)/,
-      };
 
-      for (const [field, pattern] of Object.entries(patterns)) {
+    if (!matchedMarker) {
+      throw new Error('Could not determine type of email');
+    }
+
+    // Extract message content
+    const startIndex = text.indexOf(matchedMarker.startMarker);
+    const endIndex = matchedMarker.endMarkers.reduce((minIndex, endMarker) => {
+      const index = text.indexOf(endMarker);
+      return index !== -1 && (index < minIndex || minIndex === -1)
+        ? index
+        : minIndex;
+    }, -1);
+
+    if (startIndex !== -1 && endIndex !== -1) {
+      let messageText = text
+        .substring(startIndex + matchedMarker.startMarker.length, endIndex)
+        .trim();
+
+      // Clean up common artifacts
+      messageText = messageText
+        .replace(/\[Externe E-Mail\]/g, '')
+        .replace(/Meldung des Kunden:/g, '')
+        .trim();
+
+      fields.message = messageText;
+    }
+
+    // Extract fields using the patterns defined for this email type
+    if (matchedMarker.fieldRecognitionPatterns) {
+      for (const [field, pattern] of Object.entries(
+        matchedMarker.fieldRecognitionPatterns
+      )) {
         const match = text.match(pattern);
         if (match && match[1]) {
           fields[field] = match[1].trim();
         }
       }
-      // Get text after start marker
-      let messageText = text
-        .substring(startIndex + comaplaintFormStartMarker.length)
-        .trim();
-
-      // Find end marker and cut there
-      const endIndex = messageText.indexOf(comaplaintFormEndMarker);
-      if (endIndex !== -1) {
-        messageText = messageText.substring(0, endIndex).trim();
-      }
-      fields.message = messageText;
-    } else if (text.includes(forwardedDirectComplaintMarker)) {
-      const forwardedComplaintMarkerDetails = 'Anliegen:';
-      const startIndex = text.lastIndexOf(forwardedComplaintMarkerDetails);
-      const endIndex = text.indexOf('Rheinbahn AG | ');
-
-      // Updated pattern to stop at "Straße/Hausnummer:"
-      const namePattern =
-        /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/;
-      const nameMatch = text.match(namePattern);
-      console.log('nameMatch', nameMatch);
-      if (nameMatch) {
-        fields.vorname = nameMatch[1].trim();
-        fields.nachname = nameMatch[2].trim();
-      }
-      let messageText = text
-        .substring(
-          startIndex + forwardedComplaintMarkerDetails.length,
-          endIndex
-        )
-        .trim();
-
-      messageText = messageText.replace(/Meldung des Kunden:/g, '');
-      fields.message = messageText;
-    } else if (text.includes('Betreff:')) {
-      const startIndex = text.lastIndexOf(directMailComplaintMarker);
-      const endIndex = text.indexOf('Rheinbahn AG | ');
-
-      let messageText = text
-        .substring(startIndex + directMailComplaintMarker.length, endIndex)
-        .trim();
-
-      messageText = messageText.replace(/\[Externe E-Mail\]/g, '');
-      fields.message = messageText;
-    } else {
-      fields.message = text;
     }
+
+    // Build meta information string
+    const metaFields = ['datum', 'linie', 'haltestelle', 'richtung', 'stadt']
+      .filter((field) => fields[field])
+      .map(
+        (field) =>
+          `${field.charAt(0).toUpperCase() + field.slice(1)}: ${fields[field]}`
+      );
+
     return fields;
   } catch (error: any) {
-    logError('Error parsing HTML:', { error: error?.message });
-    throw new Error('Could not extract text and fields from email', {
-      cause: error,
-    });
+    logError('Error parsing email:', { error: error?.message });
+    throw error;
   }
 }

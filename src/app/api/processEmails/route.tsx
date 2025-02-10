@@ -4,6 +4,11 @@ import { generateEmailResponse } from '@/controller/generateEmailResponseHandler
 import { logInfo, logError } from '@/lib/logger';
 import { createInterface } from 'readline';
 import { stdin as input, stdout as output } from 'process';
+import { ExtractMessageFromEmailError } from '@/exceptions/ExtractMessageFromEmailError';
+import { EmailCategorizationError } from '@/exceptions/EmailCategorizationError';
+import { SendEmailError } from '@/exceptions/SendEmailError';
+import { AiAnswerGenerationError } from '@/exceptions/AiAnswerGenerationError';
+
 dotenv.config();
 
 const askForConfirmation = async (

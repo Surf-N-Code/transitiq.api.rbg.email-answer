@@ -37,6 +37,11 @@ export interface EmailFields {
   vorname: string;
   nachname: string;
   message: string;
+  linie: string;
+  haltestelle: string;
+  richtung: string;
+  stadt: string;
+  datum: string;
 }
 
 export type Client = 'rheinbahn' | 'wsw';

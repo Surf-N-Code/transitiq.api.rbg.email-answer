@@ -1,8 +1,10 @@
+import { EmailFields } from '@/types/email';
+
 export const rbgClassifyAndAnswer = (
   clientName: string,
   anonymized_text: string,
   anonymized_text_parts: Record<string, any>,
-  clientData: any,
+  clientData: EmailFields,
   clientClose: string
 ) => `
 Du bist Kundensupport Mitarbeiter der ${clientName} und schreibst antworten auf Kundenanliegen. Die Kundenanliegen befassen sich alle mit der Kernbeschwerde, dass der Kunde an einer Haltestelle von einem Bus oder Bahnfahrer stehen gelassen worden ist.

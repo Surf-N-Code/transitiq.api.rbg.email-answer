@@ -31,6 +31,7 @@ export async function aiResponse(
     clientClose = process.env.CLIENT_CLOSE_WSW || '';
   }
 
+  console.log('clientData', clientData);
   const prompt = rbgClassifyAndAnswer(
     clientName,
     anonymized_text,
