@@ -1,4 +1,4 @@
-class EmailCategorizationError extends Error {
+export class EmailCategorizationError extends Error {
   constructor(
     message: string,
     public cause?: Error

@@ -26,68 +26,73 @@ export function extractStructuredInfoFromEmail(textToAnalyze: string) {
       .replace(/&gt;/g, '>')
       .replace(/&quot;/g, '"');
 
-    // Extract main message content
-    const markers = [
-      {
-        type: 'websiteComplaintForm',
-        identifyingMarker: 'Eure Nachricht an uns',
-        startMarker: 'Eure Nachricht an uns',
-        endMarker: 'Dokumenten-Upload',
-        fieldRecognitionPatterns: {
-          anrede: /Anrede(Frau|Herr|Divers|Keine Angabe)\s/,
-          email: /E-Mail([^\s]+@[^\s]+)\s/,
-          vorname: /Vorname([^\s]+)\s/,
-          nachname: /Nachname([^\s]+)/,
-        },
-      },
-      {
-        type: 'directMailComplaint',
-        identifyingMarker: 'Betreff:',
-        startMarker: 'Betreff:',
-        endMarker: 'Rheinbahn AG | ',
-      },
-      {
-        type: 'vrrForwardedComplaint',
-        identifyingMarker: 'Meldungs ID:',
-        startMarker: 'Anliegen:',
-        endMarker: 'Rheinbahn AG | ',
-        fieldRecognitionPatterns: {
-          anrede: /x/,
-          email: /Mail:\s*([^\s]+@[^\s]+)\s/,
-          vorname:
-            /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/,
-          nachname:
-            /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/,
-        },
-      },
-      {
-        type: 'callcenterForwardedComplaint',
-        identifyingMarker: 'Datum/Uhrzeit des Vorfalls:',
-        startMarker: 'Bemerkung:',
-        endMarker: 'Rheinbahn AG | ',
-        fieldRecognitionPatterns: {
-          anrede: /x/,
-          email: /Mail:\s*([^\s]+@[^\s]+)\s/,
-          vorname: /Vorname:\s*([^\s]+)\s/,
-          nachname: /Nachname:\s*([^\s]+)\s/,
-          metaInformation: /Datum\/Uhrzeit des Vorfalls:([^\s^-]+)/,
-        },
-      },
-    ];
+    const comaplaintFormStartMarker = 'Eure Nachricht an uns';
+    const comaplaintFormEndMarker = 'Dokumenten-Upload';
+    const directMailComplaintMarker = 'Betreff:';
+    const forwardedDirectComplaintMarker = 'Meldung des Kunden:';
+
+    // // Extract main message content
+    // const markers = [
+    //   {
+    //     type: 'websiteComplaintForm',
+    //     identifyingMarker: 'Eure Nachricht an uns',
+    //     startMarker: 'Eure Nachricht an uns',
+    //     endMarker: 'Dokumenten-Upload',
+    //     fieldRecognitionPatterns: {
+    //       anrede: /Anrede(Frau|Herr|Divers|Keine Angabe)\s/,
+    //       email: /E-Mail([^\s]+@[^\s]+)\s/,
+    //       vorname: /Vorname([^\s]+)\s/,
+    //       nachname: /Nachname([^\s]+)/,
+    //     },
+    //   },
+    //   {
+    //     type: 'directMailComplaint',
+    //     identifyingMarker: 'Betreff:',
+    //     startMarker: 'Betreff:',
+    //     endMarker: 'Rheinbahn AG | ',
+    //   },
+    //   {
+    //     type: 'vrrForwardedComplaint',
+    //     identifyingMarker: 'Meldungs ID:',
+    //     startMarker: 'Anliegen:',
+    //     endMarker: 'Rheinbahn AG | ',
+    //     fieldRecognitionPatterns: {
+    //       anrede: /x/,
+    //       email: /Mail:\s*([^\s]+@[^\s]+)\s/,
+    //       vorname:
+    //         /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/,
+    //       nachname:
+    //         /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/,
+    //     },
+    //   },
+    //   {
+    //     type: 'callcenterForwardedComplaint',
+    //     identifyingMarker: 'Datum/Uhrzeit des Vorfalls:',
+    //     startMarker: 'Bemerkung:',
+    //     endMarker: 'Rheinbahn AG | ',
+    //     fieldRecognitionPatterns: {
+    //       anrede: /x/,
+    //       email: /Mail:\s*([^\s]+@[^\s]+)\s/,
+    //       vorname: /Vorname:\s*([^\s]+)\s/,
+    //       nachname: /Nachname:\s*([^\s]+)\s/,
+    //       metaInformation: /Datum\/Uhrzeit des Vorfalls:([^\s^-]+)/,
+    //     },
+    //   },
+    // ];
 
     //iterate over markers and determine the type of email
-    let markerType: string | null = null;
-    for (const marker of markers) {
-      if (text.includes(marker.identifyingMarker)) {
-        markerType = marker.type;
-        break;
-      }
-    }
+    // let markerType: string | null = null;
+    // for (const marker of markers) {
+    //   if (text.includes(marker.identifyingMarker)) {
+    //     markerType = marker.type;
+    //     break;
+    //   }
+    // }
 
-    if (!markerType) {
-      //@TODO handle uncategorized emails
-      throw new Error('Could not determine type of email');
-    }
+    // if (!markerType) {
+    //   //@TODO handle uncategorized emails
+    //   throw new Error('Could not determine type of email');
+    // }
 
     const fields: EmailFields = {
       anrede: '',
@@ -98,11 +103,8 @@ export function extractStructuredInfoFromEmail(textToAnalyze: string) {
       metaInformation: '',
     };
 
-    const startIndex = text.indexOf(
-      markers.find(
-        (marker) => marker.identifyingMarker === 'websiteComplaintForm'
-      )
-    );
+    const startIndex = text.indexOf(comaplaintFormStartMarker);
+
     if (startIndex !== -1) {
       // Extract fields using regex patterns
       const patterns = {
@@ -135,14 +137,14 @@ export function extractStructuredInfoFromEmail(textToAnalyze: string) {
       const endIndex = text.indexOf('Rheinbahn AG | ');
 
       // Updated pattern to stop at "Straße/Hausnummer:"
-      const namePattern =
-        /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/;
-      const nameMatch = text.match(namePattern);
-      console.log('nameMatch', nameMatch);
-      if (nameMatch) {
-        fields.vorname = nameMatch[1].trim();
-        fields.nachname = nameMatch[2].trim();
-      }
+      // const namePattern =
+      //   /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/;
+      // const nameMatch = text.match(namePattern);
+      // console.log('nameMatch', nameMatch);
+      // if (nameMatch) {
+      //   fields.vorname = nameMatch[1].trim();
+      //   fields.nachname = nameMatch[2].trim();
+      // }
       let messageText = text
         .substring(
           startIndex + forwardedComplaintMarkerDetails.length,

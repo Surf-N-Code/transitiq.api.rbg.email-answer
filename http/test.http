@@ -4,5 +4,6 @@ Content-Type: application/json
 
 {
   "inboxToProcess": "movemenTech-RBG@movementor.online",
-  "toRecipients": ["ndilthey@gmail.com"]
+  "toRecipients": ["ndilthey@gmail.com"],
+  "nonCategoryRecipients": ["ndilthey@gmail.com"]
 }

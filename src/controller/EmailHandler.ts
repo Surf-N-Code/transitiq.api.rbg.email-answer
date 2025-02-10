@@ -116,7 +116,8 @@ export class EmailHandler {
     subject: string,
     content: string,
     toRecipients: string[],
-    ccRecipients?: string[]
+    ccRecipients?: string[],
+    replyTo?: string
   ) {
     try {
       const emailData = {
@@ -133,6 +134,7 @@ export class EmailHandler {
             ccRecipients?.map((email) => ({
               emailAddress: { address: email },
             })) || [],
+          replyTo: replyTo ? [{ emailAddress: { address: replyTo } }] : [],
         },
       };
 

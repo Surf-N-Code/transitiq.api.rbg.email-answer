@@ -4,6 +4,10 @@ import { logError, logInfo } from '@/lib/logger';
 import { CrawledEmail, EmailFields } from '@/types/email';
 import { EmailHandler } from './EmailHandler';
 import { deAnonymizeText, getPlaceholderKeys } from '@/lib/anonymization';
+import { ExtractMessageFromEmailError } from '@/exceptions/ExtractMessageFromEmailError';
+import { EmailCategorizationError } from '@/exceptions/EmailCategorizationError';
+import { SendEmailError } from '@/exceptions/SendEmailError';
+import { AiAnswerGenerationError } from '@/exceptions/AiAnswerGenerationError';
 
 export async function generateEmailResponse(
   emailHandler: EmailHandler,
@@ -58,10 +62,16 @@ export async function generateEmailResponse(
         `Email sent to non-category recipients: ${(nonCategoryRecipients || []).join(', ')} with id: ${email.id} and subject: ${email.subject}`
       );
     } catch (error: any) {
-      throw new SendEmailError(
+      logError('Failed to send email to non-category recipients:', {
+        emailErrorObject,
+        error,
+      });
+      const e = new SendEmailError(
         'Failed to send email to non-category recipients',
         new Error(JSON.stringify(emailErrorObject))
       );
+      e.cause = error;
+      throw e;
     }
     return;
   }
@@ -113,6 +123,7 @@ export async function generateEmailResponse(
 
   let content =
     `<strong>Kategorie:</strong>\nBeschwerde stehen gelassen` +
+    `\n\n<strong>Kunden E-Mail:</strong> ${extractedFields.email ?? 'Keine E-Mail vorhanden'}` +
     `${extractedFields.anrede ? `\n\n<strong>Kundendaten:</strong>\n${extractedFields.anrede} ${extractedFields.vorname} ${extractedFields.nachname}` : ''}` +
     `\n\n<strong>Kunden Beschwerde:</strong>\n${extractedFields.message}` +
     `\n\n<strong>KI Antwort:</strong>\n` +
@@ -124,7 +135,8 @@ export async function generateEmailResponse(
       `✅ Kategorie: Beschwerde stehen gelassen -> ${email.subject}`,
       content,
       toRecipients,
-      ccRecipients
+      ccRecipients,
+      extractedFields.email
     );
 
     logInfo(`Email response sent successfully.`, {

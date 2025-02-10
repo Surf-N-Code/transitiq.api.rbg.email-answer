@@ -1,4 +1,4 @@
-class SendEmailError extends Error {
+export class SendEmailError extends Error {
   constructor(
     message: string,
     public cause?: Error
