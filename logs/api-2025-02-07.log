@@ -1,0 +1,939 @@
+[2025-02-07T21:05:51.962Z] [INFO] Processing email batch
+{
+  "count": 20
+}
+[2025-02-07T21:05:51.962Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkMAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:05:51.975Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Vorname: AntoniaNachname: GaierGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: LodenheideHausnummer: 10PLZ: 40724Ort: HildenAdresse_Zusatz: Kontaktwunsch: schriftlichTelefonnummer: 017664379095E_Mail: tonigaier3@gmail.com--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 21:25 UhrOrt_Vorfall: DüsseldorfLinie: U79Haltestelle: Alte Landstr.Richtung: Uni Ost/ Botanischer Garten--------------------------Bemerkung: Kundin reklamiert dass die U79 nicht an der Bedarfshaltestelle angehalten hatte, obwohl sie den Bedarfshalteknopf gedrückt hatte. Sie musste in der Kälte stehen, das sie nicht an der gewünschten Haltestelle aussteigen konnte und nun bei diesen vorherrschenden Temperaturen lange auf den nächsten Anschluss warten musste. Die Kundin verlangt eine Stellungnahme. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich."
+}
+[2025-02-07T21:05:53.149Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:05:53.349Z] [INFO] Anonymized text:
+{
+  "text": "Vorname: AntoniaNachname: GaierGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: LodenheideHausnummer: 10PLZ: 40724Ort: HildenAdresse_Zusatz: Kontaktwunsch: schriftlichTelefonnummer: 017664379095E_Mail: tonigaier3@gmail.com--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 21:25 UhrOrt_Vorfall: DüsseldorfLinie: U79Haltestelle: Alte Landstr.Richtung: Uni Ost/ Botanischer Garten--------------------------Bemerkung: Kundin reklamiert dass die U79 nicht an der Bedarfshaltestelle angehalten hatte, obwohl sie den Bedarfshalteknopf gedrückt hatte. Sie musste in der Kälte stehen, das sie nicht an der gewünschten Haltestelle aussteigen konnte und nun bei diesen vorherrschenden Temperaturen lange auf den nächsten Anschluss warten musste. Die Kundin verlangt eine Stellungnahme. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "anonymized_text": "Vorname: AntoniaNachname: GaierGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: LodenheideHausnummer: 10PLZ: 40724Ort: [ANON_PERSON_4]: Kontaktwunsch: schriftlichTelefonnummer: 017664379095E_Mail: tonigaier3@gmail.com--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, [TIME_1] UhrOrt_Vorfall: DüsseldorfLinie: U79Haltestelle: [ANON_LOCATION_10].Richtung: [ANON_NAME_3]/ Botanischer Garten--------------------------Bemerkung: Kundin reklamiert dass die [ANON_LOCATION_9] nicht an der [ANON_LOCATION_8] angehalten hatte, obwohl sie den [ANON_LOCATION_7] gedrückt hatte. Sie musste in der Kälte stehen, das sie nicht an der gewünschten Haltestelle aussteigen konnte und nun bei diesen vorherrschenden Temperaturen lange auf den nächsten Anschluss warten musste. Die Kundin verlangt eine Stellungnahme. ___________________________i.A. [ANON_PERSON_3] SternagelSachbearbeitung Kundendialog (K212.500) [ANON_LOCATION_6]: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: [ANON_NAME_2] AG | [ANON_LOCATION_5] 42 | 40231 [ANON_LOCATION_4] | ([ANON_LOCATION_3]) Lierenfeld Btf ______________________________________________________[ANON_PERSON_2] - Sprecherin des Vorstands, Arbeitsdirektorin und [ANON_PERSON_1] - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der [ANON_NAME_1] [ANON_LOCATION_2], [ANON_LOCATION_1] - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "FinanzvorständinMichael Richarz"
+      },
+      {
+        "[ANON_PERSON_2]": "Annette Grabbe"
+      },
+      {
+        "[ANON_PERSON_3]": "Nina"
+      },
+      {
+        "[ANON_PERSON_4]": "HildenAdresse_Zusatz"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Amtsgericht Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_2]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_3]": "H"
+      },
+      {
+        "[ANON_LOCATION_4]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_5]": "Lierenfelder Str."
+      },
+      {
+        "[ANON_LOCATION_6]": "Tel"
+      },
+      {
+        "[ANON_LOCATION_7]": "Bedarfshalteknopf"
+      },
+      {
+        "[ANON_LOCATION_8]": "Bedarfshaltestelle"
+      },
+      {
+        "[ANON_LOCATION_9]": "U79"
+      },
+      {
+        "[ANON_LOCATION_10]": "Alte Landstr"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Gesellschaft:"
+      },
+      {
+        "[ANON_NAME_2]": "nina.sternagel@rheinbahn.de Rheinbahn"
+      },
+      {
+        "[ANON_NAME_3]": "Uni Ost"
+      }
+    ],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "21:25"
+      }
+    ]
+  }
+}
+[2025-02-07T21:06:02.855Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkMAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:06:02.855Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkMAAA=",
+  "subject": "Kundenmeldung",
+  "userMessage": "Vorname: AntoniaNachname: GaierGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: LodenheideHausnummer: 10PLZ: 40724Ort: HildenAdresse_Zusatz: Kontaktwunsch: schriftlichTelefonnummer: 017664379095E_Mail: tonigaier3@gmail.com--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 21:25 UhrOrt_Vorfall: DüsseldorfLinie: U79Haltestelle: Alte Landstr.Richtung: Uni Ost/ Botanischer Garten--------------------------Bemerkung: Kundin reklamiert dass die U79 nicht an der Bedarfshaltestelle angehalten hatte, obwohl sie den Bedarfshalteknopf gedrückt hatte. Sie musste in der Kälte stehen, das sie nicht an der gewünschten Haltestelle aussteigen konnte und nun bei diesen vorherrschenden Temperaturen lange auf den nächsten Anschluss warten musste. Die Kundin verlangt eine Stellungnahme. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "aiResponse": "Sehr geehrte*r [ANON_PERSON_4],\n\nvielen Dank, dass Sie uns über Ihre Erfahrung informiert haben. Wir bedauern zutiefst, dass die U-Bahn der Linie U79 am [ANON_LOCATION_8] nicht angehalten hat, obwohl Sie den [ANON_LOCATION_7] gedrückt hatten. Wir können Ihren Unmut und die entstandenen Umstände bei den aktuellen Temperaturen sehr gut nachvollziehen.\n\nIhrer Beschreibung zufolge fand der Vorfall am 05. Februar 2025 um [TIME_1] Uhr statt, in Fahrtrichtung [ANON_NAME_3]/ Botanischer Garten. Solche Vorkommnisse entsprechen nicht unseren Standards, und wir möchten uns aufrichtig bei Ihnen für die Unannehmlichkeiten entschuldigen.\n\nEs kann verschiedene Gründe geben, warum der Halt möglicherweise nicht erfolgte. Einerseits könnten technische Fehler am Türöffnungssystem vorliegen, andererseits könnte es auch eine Kommunikationslücke seitens des Fahrpersonals gegeben haben. Wir nehmen Ihren Fall sehr ernst und werden dies im Rahmen unserer internen Überprüfungen bei den entsprechenden Abteilungen genau untersuchen, um vergleichbare Situationen in der Zukunft zu vermeiden. \n\nIhre Rückmeldung ist für uns äußerst wertvoll, da sie uns hilft, unseren Service konstant zu verbessern und solche Fehler zu vermeiden. Wir danken Ihnen herzlich, dass Sie sich die Zeit genommen haben, uns zu informieren.\n\nBitte zögern Sie nicht, sich erneut an uns zu wenden, sollten Sie weitere Anliegen oder Fragen haben. Es ist unser Bestreben, Ihre zukünftigen Fahrten mit unseren Bussen und Bahnen wieder so angenehm und zuverlässig wie möglich zu gestalten.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrte*r HildenAdresse_Zusatz,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung informiert haben. Wir bedauern zutiefst, dass die U-Bahn der Linie U79 am Bedarfshaltestelle nicht angehalten hat, obwohl Sie den Bedarfshalteknopf gedrückt hatten. Wir können Ihren Unmut und die entstandenen Umstände bei den aktuellen Temperaturen sehr gut nachvollziehen.\n\nIhrer Beschreibung zufolge fand der Vorfall am 05. Februar 2025 um 21:25 Uhr statt, in Fahrtrichtung Uni Ost/ Botanischer Garten. Solche Vorkommnisse entsprechen nicht unseren Standards, und wir möchten uns aufrichtig bei Ihnen für die Unannehmlichkeiten entschuldigen.\n\nEs kann verschiedene Gründe geben, warum der Halt möglicherweise nicht erfolgte. Einerseits könnten technische Fehler am Türöffnungssystem vorliegen, andererseits könnte es auch eine Kommunikationslücke seitens des Fahrpersonals gegeben haben. Wir nehmen Ihren Fall sehr ernst und werden dies im Rahmen unserer internen Überprüfungen bei den entsprechenden Abteilungen genau untersuchen, um vergleichbare Situationen in der Zukunft zu vermeiden. \n\nIhre Rückmeldung ist für uns äußerst wertvoll, da sie uns hilft, unseren Service konstant zu verbessern und solche Fehler zu vermeiden. Wir danken Ihnen herzlich, dass Sie sich die Zeit genommen haben, uns zu informieren.\n\nBitte zögern Sie nicht, sich erneut an uns zu wenden, sollten Sie weitere Anliegen oder Fragen haben. Es ist unser Bestreben, Ihre zukünftigen Fahrten mit unseren Bussen und Bahnen wieder so angenehm und zuverlässig wie möglich zu gestalten.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:03.593Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkMAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:06:03.910Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkMAAA= and subject: Kundenmeldung
+[2025-02-07T21:06:03.910Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkLAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071420718516]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:06:03.918Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "juergen.heinig@outlook.de",
+  "vorname": "Jürgen",
+  "nachname": "Heinig",
+  "message": "Hallo Rheinbahn Heute (07.02.2025) ist wieder passiert. Könnt ihr mir bitte mal erklären warum die Bahn 4 Minuten!!!! zu früh abfährt? Passiert an der Haltestelle Lierenfeld Btf. Die U77 sollte planmäßig um 13.26 Uhr abfahren. Auf meinem Weg zur Haltestelle ist die Bahn um 13.22 Uhr an mir vorbei gefahren. Ich stand an der roten Ampel und habe die die Bahn natürlich nicht bekommen. Also dieser R(h)eintakt sollte mal ordentlich überarbeitet werden. Wenn die U77 nicht ausfällt (was sehr oft vorkommt) fährt sie viel zu früh los."
+}
+[2025-02-07T21:06:04.600Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:04.649Z] [INFO] Anonymized text:
+{
+  "text": "Hallo Rheinbahn Heute (07.02.2025) ist wieder passiert. Könnt ihr mir bitte mal erklären warum die Bahn 4 Minuten!!!! zu früh abfährt? Passiert an der Haltestelle Lierenfeld Btf. Die U77 sollte planmäßig um 13.26 Uhr abfahren. Auf meinem Weg zur Haltestelle ist die Bahn um 13.22 Uhr an mir vorbei gefahren. Ich stand an der roten Ampel und habe die die Bahn natürlich nicht bekommen. Also dieser R(h)eintakt sollte mal ordentlich überarbeitet werden. Wenn die U77 nicht ausfällt (was sehr oft vorkommt) fährt sie viel zu früh los.",
+  "anonymized_text": "[ANON_LOCATION_2] Heute ([DATE_1]) ist wieder passiert. Könnt ihr mir bitte mal erklären warum die Bahn 4 Minuten!!!! zu früh abfährt? Passiert an der Haltestelle [ANON_LOCATION_1]. Die U77 sollte planmäßig um [TIME_2] abfahren. Auf meinem Weg zur Haltestelle ist die Bahn um [TIME_1] an mir vorbei gefahren. Ich stand an der roten Ampel und habe die [ANON_NAME_1] natürlich nicht bekommen. Also dieser R(h)eintakt sollte mal ordentlich überarbeitet werden. Wenn die U77 nicht ausfällt (was sehr oft vorkommt) fährt sie viel zu früh los.",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Lierenfeld Btf"
+      },
+      {
+        "[ANON_LOCATION_2]": "Hallo Rheinbahn"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "die Bahn"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "07.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "13.22 Uhr"
+      },
+      {
+        "[TIME_2]": "13.26 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-07T21:06:13.607Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkLAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071420718516]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:06:13.607Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkLAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071420718516]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo Rheinbahn Heute (07.02.2025) ist wieder passiert. Könnt ihr mir bitte mal erklären warum die Bahn 4 Minuten!!!! zu früh abfährt? Passiert an der Haltestelle Lierenfeld Btf. Die U77 sollte planmäßig um 13.26 Uhr abfahren. Auf meinem Weg zur Haltestelle ist die Bahn um 13.22 Uhr an mir vorbei gefahren. Ich stand an der roten Ampel und habe die die Bahn natürlich nicht bekommen. Also dieser R(h)eintakt sollte mal ordentlich überarbeitet werden. Wenn die U77 nicht ausfällt (was sehr oft vorkommt) fährt sie viel zu früh los.",
+  "aiResponse": "Sehr geehrter Herr Heinig,\n\nvielen Dank, dass Sie uns auf Ihre Erfahrung mit der U-Bahn-Linie U77 hingewiesen haben. Es tut uns leid zu hören, dass die Bahn am [DATE_1] bereits um [TIME_1] an der Haltestelle [ANON_LOCATION_1] an Ihnen vorbeigefahren ist, obwohl die planmäßige Abfahrt auf [TIME_2] festgelegt war. Wir können Ihren Ärger über diese unbefriedigende Situation sehr gut nachvollziehen.\n\nEs gibt verschiedene Umstände, die zu einer verfrühten Abfahrt führen können. Gelegentlich sind es betriebliche Unregelmäßigkeiten oder technische Probleme, die die Abfahrtszeiten beeinflussen. Zudem kann es vorkommen, dass Verfrühungen auftreten, um Verspätungen im Gesamtnetz auszugleichen. Dies sollte jedoch nicht dazu führen, dass unsere Fahrgäste zu Unrecht an der Haltestelle warten müssen.\n\nBitte seien Sie versichert, dass wir Ihr Anliegen sehr ernst nehmen. Unsere Verkehrsabteilung wurde über den Vorfall informiert und wird die Angelegenheit genau untersuchen. Uns ist es wichtig, dass sich so eine Situation nicht wiederholt, und wir arbeiten kontinuierlich daran, unseren Service zu verbessern, damit unsere Kunden pünktlich und zuverlässig an ihr Ziel gelangen.\n\nWir entschuldigen uns aufrichtig für die Unannehmlichkeiten und die Wartezeit, die Ihnen dadurch entstanden sind. Ihre Rückmeldung hilft uns sehr dabei, unseren Service weiter zu verbessern. Zukünftig wünschen wir Ihnen wieder eine angenehme und pünktliche Fahrt mit unseren Bahnen und Bussen.\n\nFreundliche Grüße   \nIhre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Heinig,\n\nvielen Dank, dass Sie uns auf Ihre Erfahrung mit der U-Bahn-Linie U77 hingewiesen haben. Es tut uns leid zu hören, dass die Bahn am 07.02.2025 bereits um 13.22 Uhr an der Haltestelle Lierenfeld Btf an Ihnen vorbeigefahren ist, obwohl die planmäßige Abfahrt auf 13.26 Uhr festgelegt war. Wir können Ihren Ärger über diese unbefriedigende Situation sehr gut nachvollziehen.\n\nEs gibt verschiedene Umstände, die zu einer verfrühten Abfahrt führen können. Gelegentlich sind es betriebliche Unregelmäßigkeiten oder technische Probleme, die die Abfahrtszeiten beeinflussen. Zudem kann es vorkommen, dass Verfrühungen auftreten, um Verspätungen im Gesamtnetz auszugleichen. Dies sollte jedoch nicht dazu führen, dass unsere Fahrgäste zu Unrecht an der Haltestelle warten müssen.\n\nBitte seien Sie versichert, dass wir Ihr Anliegen sehr ernst nehmen. Unsere Verkehrsabteilung wurde über den Vorfall informiert und wird die Angelegenheit genau untersuchen. Uns ist es wichtig, dass sich so eine Situation nicht wiederholt, und wir arbeiten kontinuierlich daran, unseren Service zu verbessern, damit unsere Kunden pünktlich und zuverlässig an ihr Ziel gelangen.\n\nWir entschuldigen uns aufrichtig für die Unannehmlichkeiten und die Wartezeit, die Ihnen dadurch entstanden sind. Ihre Rückmeldung hilft uns sehr dabei, unseren Service weiter zu verbessern. Zukünftig wünschen wir Ihnen wieder eine angenehme und pünktliche Fahrt mit unseren Bahnen und Bussen.\n\nFreundliche Grüße   \nIhre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:13.960Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkLAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071420718516]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:06:14.243Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkLAAA= and subject: WG: [Externe E-Mail]  [202502071420718516]: Anfrage über das Kontaktformular
+[2025-02-07T21:06:14.243Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkKAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071322562859]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:06:14.252Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "margarita@glaser.su",
+  "vorname": "Margarita",
+  "nachname": "Glaser",
+  "message": "Heute am 7 Februar stand ich alleine auf der Bus 778 Haltestelle Stralsunder Straße Düsseldorf in Richtung Garath Ost ca. 10 Minuten mit vorbereiteten Ticket. Der Bus 778 fast leer ist mit 2 Minuten Verspätung um 10:40 ohne Halt ziemlich schnell weiter gefahren. Ich war in Rose Begleitung gut zu sehen und probierte noch mit Hände zu Schütteln sich aufmerksam zu machen. Kam zu spät zu Krankengymnastik. Das gleiche passierte am 25 Januar an gleicher Haltestelle ca. um 7:30 im Regen. Wartete über längere Zeit. Sollte im Garath meinen Enkel abholen. Die Tochter mit Verspätung zu Arbeit gekommen. Das ist kein Einzelfall. Habe 90 Prozent Gehbehinderung. War ohne Gehhilfe. Da kommt man schon zu Gedanken, dass es eine unfreundliche Absicht war. Danke im Voraus."
+}
+[2025-02-07T21:06:16.225Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:16.271Z] [INFO] Anonymized text:
+{
+  "text": "Heute am 7 Februar stand ich alleine auf der Bus 778 Haltestelle Stralsunder Straße Düsseldorf in Richtung Garath Ost ca. 10 Minuten mit vorbereiteten Ticket. Der Bus 778 fast leer ist mit 2 Minuten Verspätung um 10:40 ohne Halt ziemlich schnell weiter gefahren. Ich war in Rose Begleitung gut zu sehen und probierte noch mit Hände zu Schütteln sich aufmerksam zu machen. Kam zu spät zu Krankengymnastik. Das gleiche passierte am 25 Januar an gleicher Haltestelle ca. um 7:30 im Regen. Wartete über längere Zeit. Sollte im Garath meinen Enkel abholen. Die Tochter mit Verspätung zu Arbeit gekommen. Das ist kein Einzelfall. Habe 90 Prozent Gehbehinderung. War ohne Gehhilfe. Da kommt man schon zu Gedanken, dass es eine unfreundliche Absicht war. Danke im Voraus.",
+  "anonymized_text": "Heute am 7 Februar stand ich alleine auf der Bus 778 Haltestelle [ANON_LOCATION_4] [ANON_LOCATION_3] in Richtung [ANON_LOCATION_2] Ost ca. 10 Minuten mit vorbereiteten Ticket. Der Bus 778 fast leer ist mit 2 Minuten Verspätung um [TIME_2] ohne Halt ziemlich schnell weiter gefahren. Ich war in Rose Begleitung gut zu sehen und probierte noch mit Hände zu Schütteln sich aufmerksam zu machen. Kam zu spät zu Krankengymnastik. Das gleiche passierte am 25 Januar an gleicher Haltestelle ca. um [TIME_1] im Regen. Wartete über längere Zeit. Sollte im [ANON_LOCATION_1] meinen Enkel abholen. Die Tochter mit Verspätung zu Arbeit gekommen. Das ist kein Einzelfall. Habe 90 Prozent Gehbehinderung. War ohne Gehhilfe. Da kommt man schon zu Gedanken, dass es eine unfreundliche Absicht war. Danke im Voraus.",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Garath"
+      },
+      {
+        "[ANON_LOCATION_2]": "Garath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_4]": "Stralsunder Straße"
+      }
+    ],
+    "names": [],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "7:30"
+      },
+      {
+        "[TIME_2]": "10:40"
+      }
+    ]
+  }
+}
+[2025-02-07T21:06:27.843Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkKAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071322562859]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:06:27.843Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkKAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071322562859]: Anfrage über das Kontaktformular",
+  "userMessage": "Heute am 7 Februar stand ich alleine auf der Bus 778 Haltestelle Stralsunder Straße Düsseldorf in Richtung Garath Ost ca. 10 Minuten mit vorbereiteten Ticket. Der Bus 778 fast leer ist mit 2 Minuten Verspätung um 10:40 ohne Halt ziemlich schnell weiter gefahren. Ich war in Rose Begleitung gut zu sehen und probierte noch mit Hände zu Schütteln sich aufmerksam zu machen. Kam zu spät zu Krankengymnastik. Das gleiche passierte am 25 Januar an gleicher Haltestelle ca. um 7:30 im Regen. Wartete über längere Zeit. Sollte im Garath meinen Enkel abholen. Die Tochter mit Verspätung zu Arbeit gekommen. Das ist kein Einzelfall. Habe 90 Prozent Gehbehinderung. War ohne Gehhilfe. Da kommt man schon zu Gedanken, dass es eine unfreundliche Absicht war. Danke im Voraus.",
+  "aiResponse": "Sehr geehrte Frau Glaser,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns Ihr Anliegen mitzuteilen. Wir bedauern zutiefst, dass Sie am 07. Februar an der Haltestelle [ANON_LOCATION_4] [ANON_LOCATION_3] sowie bereits zuvor am 25. Januar an gleicher Stelle von der Buslinie 778 nicht mitgenommen wurden. Dies ist sowohl aus Ihrer Perspektive als auch aus unserer Sicht absolut unakzeptabel, und wir entschuldigen uns aufrichtig für die Unannehmlichkeiten, die Ihnen dadurch entstanden sind.\n\nEs ist unser erklärtes Ziel, allen unseren Kundinnen und Kunden einen sicheren und verlässlichen Service zu bieten. Dass der Bus sowohl um [TIME_2] am 7. Februar als auch um [TIME_1] am 25. Januar einfach weitergefahren ist, ohne Sie aufzunehmen, sollte nicht passieren. Besonders wenn Sie bereits sichtbar durch Handzeichen auf sich aufmerksam gemacht haben und die Haltestelle nicht stark frequentiert war. Wir verstehen, dass solche Erlebnisse besonders für Menschen mit eingeschränkter Mobilität, wie Ihrer 90-prozentigen Gehbehinderung, äußerst belastend und frustrierend sein können.\n\nAls mögliche Ursache kann es sein, dass das Fahrpersonal Sie im schlechten Wetter oder durch äußere Umstände übersehen hat. Nichtsdestotrotz sollte das nicht vorkommen, und wir möchten sicherstellen, dass sich solche Vorfälle nicht wiederholen. Wir werden mit dem verantwortlichen Personal diesen Vorfall besprechen und uns intern um eine Verbesserung der Schulungen bemühen, um sicherzustellen, dass alle Haltestellen ordnungsgemäß kontrolliert und bedient werden.\n\nEs tut uns sehr leid, dass Sie aufgrund dieser Vorfälle sowohl zu Ihrer Krankengymnastik als auch für das Abholen Ihres Enkels und im Alltag allgemein beeinträchtigt wurden. Wir schätzen Ihr Feedback sehr und sind Ihnen dankbar, dass Sie uns auf diese Problematik aufmerksam gemacht haben.\n\nWir hoffen, dass Sie uns trotz dieser Erfahrungen eine weitere Chance geben und wir Sie bei Ihren zukünftigen Fahrten wieder von unserem Service überzeugen können.\n\nFreundliche Grüße  \nIhre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrte Frau Glaser,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns Ihr Anliegen mitzuteilen. Wir bedauern zutiefst, dass Sie am 07. Februar an der Haltestelle Stralsunder Straße Düsseldorf sowie bereits zuvor am 25. Januar an gleicher Stelle von der Buslinie 778 nicht mitgenommen wurden. Dies ist sowohl aus Ihrer Perspektive als auch aus unserer Sicht absolut unakzeptabel, und wir entschuldigen uns aufrichtig für die Unannehmlichkeiten, die Ihnen dadurch entstanden sind.\n\nEs ist unser erklärtes Ziel, allen unseren Kundinnen und Kunden einen sicheren und verlässlichen Service zu bieten. Dass der Bus sowohl um 10:40 am 7. Februar als auch um 7:30 am 25. Januar einfach weitergefahren ist, ohne Sie aufzunehmen, sollte nicht passieren. Besonders wenn Sie bereits sichtbar durch Handzeichen auf sich aufmerksam gemacht haben und die Haltestelle nicht stark frequentiert war. Wir verstehen, dass solche Erlebnisse besonders für Menschen mit eingeschränkter Mobilität, wie Ihrer 90-prozentigen Gehbehinderung, äußerst belastend und frustrierend sein können.\n\nAls mögliche Ursache kann es sein, dass das Fahrpersonal Sie im schlechten Wetter oder durch äußere Umstände übersehen hat. Nichtsdestotrotz sollte das nicht vorkommen, und wir möchten sicherstellen, dass sich solche Vorfälle nicht wiederholen. Wir werden mit dem verantwortlichen Personal diesen Vorfall besprechen und uns intern um eine Verbesserung der Schulungen bemühen, um sicherzustellen, dass alle Haltestellen ordnungsgemäß kontrolliert und bedient werden.\n\nEs tut uns sehr leid, dass Sie aufgrund dieser Vorfälle sowohl zu Ihrer Krankengymnastik als auch für das Abholen Ihres Enkels und im Alltag allgemein beeinträchtigt wurden. Wir schätzen Ihr Feedback sehr und sind Ihnen dankbar, dass Sie uns auf diese Problematik aufmerksam gemacht haben.\n\nWir hoffen, dass Sie uns trotz dieser Erfahrungen eine weitere Chance geben und wir Sie bei Ihren zukünftigen Fahrten wieder von unserem Service überzeugen können.\n\nFreundliche Grüße  \nIhre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:28.406Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkKAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071322562859]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:06:28.764Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkKAAA= and subject: WG: [Externe E-Mail]  [202502071322562859]: Anfrage über das Kontaktformular
+[2025-02-07T21:06:28.765Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkJAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502071243782034]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:06:28.772Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": " [202502071243782034]: Anfrage über das Kontaktformular Neue AnfrageSubjectTickets and tariff SalutationMr. Customer number- E-Mailtim.vip.vipavec@gmail.com Phone- Your messageIch komme am Montag am Flughafen Wien an und übernachte in Düsseldorf. Ich werde mit Zügen und Bussen reisen und mich zwischen Düsseldorf und Dortmund bewegen. Was lohnt sich als Tourist am meisten zu besuchen? Vielen herzlichen Dank! Document upload-First nameTim SurnameVipavec Rheinbahn AG · Lierenfelder Str. 42 · 40231 Düsseldorf · (H) Lierenfeld BtfVorständin Annette Grabbe, Vorstand Michael RicharzVorsitzender des Aufsichtsrats: Andreas Hartnigk Sitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562Datenschutz: Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können. Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst. Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich."
+}
+[2025-02-07T21:06:29.261Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:06:29.590Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkJAAA= and subject: WG: [Externe E-Mail]  [202502071243782034]: Anfrage über das Kontaktformular
+[2025-02-07T21:06:29.874Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkJAAA= and subject: WG: [Externe E-Mail]  [202502071243782034]: Anfrage über das Kontaktformular
+[2025-02-07T21:06:29.874Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkHAAA=",
+  "subject": "Kundeneingabe"
+}
+[2025-02-07T21:06:29.878Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Anrede: Titel: Vorname: NicolNachname: KlotGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: Duisburgerstr.Hausnummer: 291PLZ: 47829Ort: KrefeldAdresse_Zusatz: Kontaktwunsch: schriftlichTelefonnummer: 0176 24136159E_Mail: keine--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 15:49 UhrOrt_Vorfall: Krefeld, Am RöttgenLinie: 831Haltestelle: CHEMPARK Tor 15, KrefeldRichtung: Krefeld HPZ--------------------------Bemerkung: Kunde beschwerte sich über das Fahrverhalten des Busfahrers. Ein Kinderwagen stand im Mehrzweckbereich und dieser schwankte bedenklich hin und her, aufgrund der ungünstigen Fahrweise. Auch telefonierte der Busfahrer und schimpfte mit den Kunden. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich."
+}
+[2025-02-07T21:06:30.862Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:06:31.178Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkHAAA= and subject: Kundeneingabe
+[2025-02-07T21:06:31.463Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkHAAA= and subject: Kundeneingabe
+[2025-02-07T21:06:31.463Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkGAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:06:31.466Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Vorname: AlessandroNachname: ArgentanoGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: Alretzstrasse Hausnummer: 2aPLZ: 4076Ort: MeerbuschAdresse_Zusatz: Kontaktwunsch: schriftlichTelefonnummer: E_Mail: afa79@live.it--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 9:16 UhrOrt_Vorfall: MeerbuschLinie: U76Haltestelle: HoterheideRichtung: D-Holthausen--------------------------Bemerkung: Der Kunde hat eine Beschwerde wegen der Linie U79. Der Fahrer ist da 2 Minuten vor Start, aber er öffnet nicht die Tür. Er wartete bis 09:16 Uhr und fuhr sofort los, ohne die Kunden mitzunehmen, Und es passiert mehrmals in der Woche. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich."
+}
+[2025-02-07T21:06:32.008Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:32.083Z] [INFO] Anonymized text:
+{
+  "text": "Vorname: AlessandroNachname: ArgentanoGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: Alretzstrasse Hausnummer: 2aPLZ: 4076Ort: MeerbuschAdresse_Zusatz: Kontaktwunsch: schriftlichTelefonnummer: E_Mail: afa79@live.it--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 9:16 UhrOrt_Vorfall: MeerbuschLinie: U76Haltestelle: HoterheideRichtung: D-Holthausen--------------------------Bemerkung: Der Kunde hat eine Beschwerde wegen der Linie U79. Der Fahrer ist da 2 Minuten vor Start, aber er öffnet nicht die Tür. Er wartete bis 09:16 Uhr und fuhr sofort los, ohne die Kunden mitzunehmen, Und es passiert mehrmals in der Woche. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "anonymized_text": "Vorname: AlessandroNachname: ArgentanoGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: [ANON_LOCATION_7] Hausnummer: 2aPLZ: 4076Ort: [ANON_PERSON_5]: Kontaktwunsch: schriftlichTelefonnummer: E_Mail: afa79@live.it--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, [TIME_2] UhrOrt_Vorfall: MeerbuschLinie: [ANON_NAME_4]: [ANON_NAME_3]: D-Holthausen--------------------------Bemerkung: Der Kunde hat eine Beschwerde wegen der Linie [ANON_PERSON_4] Der Fahrer ist da 2 Minuten vor Start, aber er öffnet nicht die Tür. Er wartete bis [TIME_1] und fuhr sofort los, ohne die Kunden mitzunehmen, Und es passiert mehrmals in der Woche. ___________________________i.A. [ANON_PERSON_3] SternagelSachbearbeitung Kundendialog (K212.500) [ANON_LOCATION_6]: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: [ANON_NAME_2] AG | [ANON_LOCATION_5] 42 | 40231 [ANON_LOCATION_4] | ([ANON_LOCATION_3]) Lierenfeld Btf ______________________________________________________[ANON_PERSON_2] - Sprecherin des Vorstands, Arbeitsdirektorin und [ANON_PERSON_1] - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der [ANON_NAME_1] [ANON_LOCATION_2], [ANON_LOCATION_1] - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "FinanzvorständinMichael Richarz"
+      },
+      {
+        "[ANON_PERSON_2]": "Annette Grabbe"
+      },
+      {
+        "[ANON_PERSON_3]": "Nina"
+      },
+      {
+        "[ANON_PERSON_4]": "U79."
+      },
+      {
+        "[ANON_PERSON_5]": "MeerbuschAdresse_Zusatz"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Amtsgericht Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_2]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_3]": "H"
+      },
+      {
+        "[ANON_LOCATION_4]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_5]": "Lierenfelder Str."
+      },
+      {
+        "[ANON_LOCATION_6]": "Tel"
+      },
+      {
+        "[ANON_LOCATION_7]": "Alretzstrasse"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Gesellschaft:"
+      },
+      {
+        "[ANON_NAME_2]": "nina.sternagel@rheinbahn.de Rheinbahn"
+      },
+      {
+        "[ANON_NAME_3]": "HoterheideRichtung"
+      },
+      {
+        "[ANON_NAME_4]": "U76Haltestelle"
+      }
+    ],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "09:16 Uhr"
+      },
+      {
+        "[TIME_2]": "9:16"
+      }
+    ]
+  }
+}
+[2025-02-07T21:06:46.750Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkGAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:06:46.750Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkGAAA=",
+  "subject": "Kundenmeldung",
+  "userMessage": "Vorname: AlessandroNachname: ArgentanoGeburtsdatum: Kundennummer/Abonummer: Abo_Typ: Ticketinhaber: Straße: Alretzstrasse Hausnummer: 2aPLZ: 4076Ort: MeerbuschAdresse_Zusatz: Kontaktwunsch: schriftlichTelefonnummer: E_Mail: afa79@live.it--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 9:16 UhrOrt_Vorfall: MeerbuschLinie: U76Haltestelle: HoterheideRichtung: D-Holthausen--------------------------Bemerkung: Der Kunde hat eine Beschwerde wegen der Linie U79. Der Fahrer ist da 2 Minuten vor Start, aber er öffnet nicht die Tür. Er wartete bis 09:16 Uhr und fuhr sofort los, ohne die Kunden mitzunehmen, Und es passiert mehrmals in der Woche. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "aiResponse": "Sehr geehrte*r [KUNDENDATEN], \n\nvielen Dank für Ihre Mitteilung und Ihre Rückmeldung zur Linie [ANON_PERSON_4] vom 05. Februar um [TIME_2] Uhr. Wir bedauern sehr, dass das Fahrpersonal an der Haltestelle in Meerbusch nicht angehalten hat, obwohl Fahrgäste auf den Einlass warteten. Wir verstehen vollkommen, dass diese Situation frustrierend und ärgerlich für Sie war, insbesondere da Sie erwähnen, dass dies häufiger vorkommt.\n\nUnsere Fahrzeuge sind verpflichtet, an den Haltestellen, wo Fahrgäste offensichtlich warten, zu halten und die Türen zu öffnen. Eine Ausnahme könnte bestehen, wenn das Fahrzeug zuvor voll besetzt war und keine weiteren Fahrgäste aufnehmen kann. Darüber hinaus sind Fahrplananpassungen oder technische Probleme wie defekte Türen mögliche Gründe, dass es zu Abweichungen im Betriebsablauf kommen kann. Auch hier werden wir gerne Ihre Rückmeldung nutzen, um die Vorfälle genau zu untersuchen und für die Zukunft zu vermeiden.\n\nBitte seien Sie versichert, dass wir den Vorfall mit unserer Betriebsleitung und dem betroffenen Fahrpersonal thematisieren, um sicherzustellen, dass eine sorgfältige Kontrolle der Haltestellen auf wartende Fahrgäste erfolgt. Wir möchten, dass Ihr Erlebnis mit uns stets positiv ist, und bedanken uns herzlich, dass Sie uns auf dieses Problem aufmerksam gemacht haben. Ihre Rückmeldung hilft uns, unseren Service kontinuierlich zu verbessern.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass wir Sie auch in Zukunft wieder sicher und komfortabel in unseren Bussen und Bahnen begrüßen dürfen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrte*r [KUNDENDATEN], \n\nvielen Dank für Ihre Mitteilung und Ihre Rückmeldung zur Linie U79. vom 05. Februar um 9:16 Uhr. Wir bedauern sehr, dass das Fahrpersonal an der Haltestelle in Meerbusch nicht angehalten hat, obwohl Fahrgäste auf den Einlass warteten. Wir verstehen vollkommen, dass diese Situation frustrierend und ärgerlich für Sie war, insbesondere da Sie erwähnen, dass dies häufiger vorkommt.\n\nUnsere Fahrzeuge sind verpflichtet, an den Haltestellen, wo Fahrgäste offensichtlich warten, zu halten und die Türen zu öffnen. Eine Ausnahme könnte bestehen, wenn das Fahrzeug zuvor voll besetzt war und keine weiteren Fahrgäste aufnehmen kann. Darüber hinaus sind Fahrplananpassungen oder technische Probleme wie defekte Türen mögliche Gründe, dass es zu Abweichungen im Betriebsablauf kommen kann. Auch hier werden wir gerne Ihre Rückmeldung nutzen, um die Vorfälle genau zu untersuchen und für die Zukunft zu vermeiden.\n\nBitte seien Sie versichert, dass wir den Vorfall mit unserer Betriebsleitung und dem betroffenen Fahrpersonal thematisieren, um sicherzustellen, dass eine sorgfältige Kontrolle der Haltestellen auf wartende Fahrgäste erfolgt. Wir möchten, dass Ihr Erlebnis mit uns stets positiv ist, und bedanken uns herzlich, dass Sie uns auf dieses Problem aufmerksam gemacht haben. Ihre Rückmeldung hilft uns, unseren Service kontinuierlich zu verbessern.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass wir Sie auch in Zukunft wieder sicher und komfortabel in unseren Bussen und Bahnen begrüßen dürfen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:47.193Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkGAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:06:47.492Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkGAAA= and subject: Kundenmeldung
+[2025-02-07T21:06:47.492Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkFAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:06:47.495Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Anrede: HerrTitel: Keine AngabeVorname: ChristianNachname: SassmannshausenGeburtsdatum: Keine AngabeKundennummer/Abonummer: Keine AngabeAbo_Typ: Keine AngabeTicketinhaber: Keine AngabeStraße: Keine AngabeHausnummer: Keine AngabePLZ: Keine AngabeOrt: Keine AngabeAdresse_Zusatz: Keine AngabeKontaktwunsch: Telefonnummer: 01754110702E_Mail: chris80.s@web.de--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 7:06 UhrOrt_Vorfall: RatingenLinie: 757Haltestelle: Gorch-Fock-StraßeRichtung: Ratingen Ost S--------------------------Bemerkung: Der Anrufer (Vater) beschwerte sich darüber, dass die Buslinie an der Haltestelle an der seine beiden Kinder gewartet hatten, vorbeigefahren war. Er wünschte eine Rückmeldung. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich."
+}
+[2025-02-07T21:06:47.909Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:47.982Z] [INFO] Anonymized text:
+{
+  "text": "Anrede: HerrTitel: Keine AngabeVorname: ChristianNachname: SassmannshausenGeburtsdatum: Keine AngabeKundennummer/Abonummer: Keine AngabeAbo_Typ: Keine AngabeTicketinhaber: Keine AngabeStraße: Keine AngabeHausnummer: Keine AngabePLZ: Keine AngabeOrt: Keine AngabeAdresse_Zusatz: Keine AngabeKontaktwunsch: Telefonnummer: 01754110702E_Mail: chris80.s@web.de--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 7:06 UhrOrt_Vorfall: RatingenLinie: 757Haltestelle: Gorch-Fock-StraßeRichtung: Ratingen Ost S--------------------------Bemerkung: Der Anrufer (Vater) beschwerte sich darüber, dass die Buslinie an der Haltestelle an der seine beiden Kinder gewartet hatten, vorbeigefahren war. Er wünschte eine Rückmeldung. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "anonymized_text": "Anrede: HerrTitel: Keine AngabeVorname: [ANON_NAME_4]: SassmannshausenGeburtsdatum: Keine AngabeKundennummer/Abonummer: Keine AngabeAbo_Typ: Keine AngabeTicketinhaber: Keine [ANON_NAME_3]: Keine AngabeHausnummer: Keine AngabePLZ: Keine AngabeOrt: Keine AngabeAdresse_Zusatz: Keine AngabeKontaktwunsch: Telefonnummer: 01754110702E_Mail: chris80.s@web.de--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, [TIME_1] UhrOrt_Vorfall: RatingenLinie: 757Haltestelle: Gorch-Fock-StraßeRichtung: [ANON_LOCATION_7] Ost S--------------------------Bemerkung: Der Anrufer (Vater) beschwerte sich darüber, dass die Buslinie an der Haltestelle an der seine beiden Kinder gewartet hatten, vorbeigefahren war. Er wünschte eine Rückmeldung. ___________________________i.A. [ANON_PERSON_3] SternagelSachbearbeitung Kundendialog (K212.500) [ANON_LOCATION_6]: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: [ANON_NAME_2] AG | [ANON_LOCATION_5] 42 | 40231 [ANON_LOCATION_4] | ([ANON_LOCATION_3]) Lierenfeld Btf ______________________________________________________[ANON_PERSON_2] - Sprecherin des Vorstands, Arbeitsdirektorin und [ANON_PERSON_1] - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der [ANON_NAME_1] [ANON_LOCATION_2], [ANON_LOCATION_1] - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "FinanzvorständinMichael Richarz"
+      },
+      {
+        "[ANON_PERSON_2]": "Annette Grabbe"
+      },
+      {
+        "[ANON_PERSON_3]": "Nina"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Amtsgericht Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_2]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_3]": "H"
+      },
+      {
+        "[ANON_LOCATION_4]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_5]": "Lierenfelder Str."
+      },
+      {
+        "[ANON_LOCATION_6]": "Tel"
+      },
+      {
+        "[ANON_LOCATION_7]": "Ratingen"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Gesellschaft:"
+      },
+      {
+        "[ANON_NAME_2]": "nina.sternagel@rheinbahn.de Rheinbahn"
+      },
+      {
+        "[ANON_NAME_3]": "AngabeStraße"
+      },
+      {
+        "[ANON_NAME_4]": "ChristianNachname"
+      }
+    ],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "7:06"
+      }
+    ]
+  }
+}
+[2025-02-07T21:06:58.955Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkFAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:06:58.955Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkFAAA=",
+  "subject": "Kundenmeldung",
+  "userMessage": "Anrede: HerrTitel: Keine AngabeVorname: ChristianNachname: SassmannshausenGeburtsdatum: Keine AngabeKundennummer/Abonummer: Keine AngabeAbo_Typ: Keine AngabeTicketinhaber: Keine AngabeStraße: Keine AngabeHausnummer: Keine AngabePLZ: Keine AngabeOrt: Keine AngabeAdresse_Zusatz: Keine AngabeKontaktwunsch: Telefonnummer: 01754110702E_Mail: chris80.s@web.de--------------------------Datum/Uhrzeit des Vorfalls: 2025-02-05, 7:06 UhrOrt_Vorfall: RatingenLinie: 757Haltestelle: Gorch-Fock-StraßeRichtung: Ratingen Ost S--------------------------Bemerkung: Der Anrufer (Vater) beschwerte sich darüber, dass die Buslinie an der Haltestelle an der seine beiden Kinder gewartet hatten, vorbeigefahren war. Er wünschte eine Rückmeldung. ___________________________i.A. Nina SternagelSachbearbeitung Kundendialog (K212.500) Tel: + 49 0211 582 1430Mobil: + 49 172 309 7032Email: nina.sternagel@rheinbahn.de Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf ______________________________________________________Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und FinanzvorständinMichael Richarz - Vorstand Technik und BetriebVorsitzender des Aufsichtsrats: Rolf TupsSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562 Datenschutz:Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "aiResponse": "Sehr geehrter Herr Sassmannshausen,\n\nvielen Dank, dass Sie sich an uns gewandt haben und uns von den Unannehmlichkeiten berichtet haben, die Ihre beiden Kinder erlebt haben. Wir möchten uns aufrichtig dafür entschuldigen, dass die Buslinie 757 an der Haltestelle Gorch-Fock-Straße in Ratingen am 05. Februar 2025 um [TIME_1] Uhr vorbeigefahren ist, ohne Ihre Kinder mitzunehmen.\n\nWir verstehen, wie frustrierend und ärgerlich eine solche Situation für Sie und Ihre Kinder ist. Es sollte selbstverständlich nicht vorkommen, dass Wartende an der Haltestelle übersehen werden. Eine mögliche Ursache könnte ein Missverständnis seitens unseres Fahrpersonals oder ein technisches Problem gewesen sein, wodurch die Halteverpflichtung an dieser Station nicht wahrgenommen wurde.\n\nBitte seien Sie versichert, dass wir mit den zuständigen Abteilungen Rücksprache halten werden, um solche Vorkommnisse in Zukunft zu vermeiden. Unser Ziel ist es, dass alle unsere Kunden pünktlich und sicher an ihr Ziel gelangen, und Ihre Rückmeldung ist uns eine wichtige Hilfe, um unseren Service stetig zu verbessern.\n\nGerne stehen wir Ihnen für weitere Fragen oder Anliegen zur Verfügung und wünschen Ihren Kindern zukünftig wieder eine problemfreie und angenehme Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße  \nIhre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Sassmannshausen,\n\nvielen Dank, dass Sie sich an uns gewandt haben und uns von den Unannehmlichkeiten berichtet haben, die Ihre beiden Kinder erlebt haben. Wir möchten uns aufrichtig dafür entschuldigen, dass die Buslinie 757 an der Haltestelle Gorch-Fock-Straße in Ratingen am 05. Februar 2025 um 7:06 Uhr vorbeigefahren ist, ohne Ihre Kinder mitzunehmen.\n\nWir verstehen, wie frustrierend und ärgerlich eine solche Situation für Sie und Ihre Kinder ist. Es sollte selbstverständlich nicht vorkommen, dass Wartende an der Haltestelle übersehen werden. Eine mögliche Ursache könnte ein Missverständnis seitens unseres Fahrpersonals oder ein technisches Problem gewesen sein, wodurch die Halteverpflichtung an dieser Station nicht wahrgenommen wurde.\n\nBitte seien Sie versichert, dass wir mit den zuständigen Abteilungen Rücksprache halten werden, um solche Vorkommnisse in Zukunft zu vermeiden. Unser Ziel ist es, dass alle unsere Kunden pünktlich und sicher an ihr Ziel gelangen, und Ihre Rückmeldung ist uns eine wichtige Hilfe, um unseren Service stetig zu verbessern.\n\nGerne stehen wir Ihnen für weitere Fragen oder Anliegen zur Verfügung und wünschen Ihren Kindern zukünftig wieder eine problemfreie und angenehme Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße  \nIhre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:06:59.358Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkFAAA=",
+  "subject": "Kundenmeldung"
+}
+[2025-02-07T21:06:59.698Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkFAAA= and subject: Kundenmeldung
+[2025-02-07T21:06:59.698Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkEAAA=",
+  "subject": "WG: [Externe E-Mail]  U76 6:25 Uhr am 3.2. ab Belsenplatz"
+}
+[2025-02-07T21:06:59.704Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": " U76 6:25 Uhr am 3.2. ab Belsenplatz 2. Versuch--Gesendet mit der GMX Mail App Am 03.02.25, 06:33 schrieb Kati Fritzsche <kati.fritzsche@gmx.de>:... es handelte sich um die Haltestelle Belsenplatz.--Gesendet mit der GMX Mail App Am 03.02.25, 06:32 schrieb Kati Fritzsche <kati.fritzsche@gmx.de>:Liebes Kundenservice Team,Ich konnte heute nicht in meine Bahn einsteigen, da eine Tür öffnete, aber keine Treppen ausfuhr. Die nächstgelegene Tür öffnete gar nicht nach Drücken des Knopfes. Als ich weiter Richtung Spitze des Zuges lief, weil dort ein Fahrgast eingestiegen war, wunk ich dabei Richtung Triebfahrzeug. Statt noch einen Augenblick zu warten (wir waren in Summe nur 2 Fahrgäste am Gleis), verriegelte die Bahn und fuhr weiter. Mir fehlen die Worte wegen dieses unnötigen Frustes und schlechtem Kundenservice. Ich verpasse nun meinen Anschlusszug und stehe unnötig in der Kälte an der Haltestelle.Viele GrüsseKati Fritzsche--Gesendet mit der GMX Mail App"
+}
+[2025-02-07T21:07:00.289Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:07:00.353Z] [INFO] Anonymized text:
+{
+  "text": " U76 6:25 Uhr am 3.2. ab Belsenplatz 2. Versuch--Gesendet mit der GMX Mail App Am 03.02.25, 06:33 schrieb Kati Fritzsche <kati.fritzsche@gmx.de>:... es handelte sich um die Haltestelle Belsenplatz.--Gesendet mit der GMX Mail App Am 03.02.25, 06:32 schrieb Kati Fritzsche <kati.fritzsche@gmx.de>:Liebes Kundenservice Team,Ich konnte heute nicht in meine Bahn einsteigen, da eine Tür öffnete, aber keine Treppen ausfuhr. Die nächstgelegene Tür öffnete gar nicht nach Drücken des Knopfes. Als ich weiter Richtung Spitze des Zuges lief, weil dort ein Fahrgast eingestiegen war, wunk ich dabei Richtung Triebfahrzeug. Statt noch einen Augenblick zu warten (wir waren in Summe nur 2 Fahrgäste am Gleis), verriegelte die Bahn und fuhr weiter. Mir fehlen die Worte wegen dieses unnötigen Frustes und schlechtem Kundenservice. Ich verpasse nun meinen Anschlusszug und stehe unnötig in der Kälte an der Haltestelle.Viele GrüsseKati Fritzsche--Gesendet mit der GMX Mail App",
+  "anonymized_text": " [ANON_LOCATION_3] [TIME_3] am 3.2. ab [ANON_LOCATION_2] 2. Versuch--Gesendet mit der GMX Mail App Am 03.02.25, [TIME_2] schrieb [ANON_PERSON_2] <kati.fritzsche@gmx.de>:... es handelte sich um die Haltestelle Belsenplatz.--Gesendet mit der GMX Mail App Am 03.02.25, [TIME_1] schrieb [ANON_PERSON_1] <kati.fritzsche@gmx.de>:Liebes Kundenservice Team,Ich konnte heute nicht in meine Bahn einsteigen, da eine Tür öffnete, aber keine Treppen ausfuhr. Die nächstgelegene Tür öffnete gar nicht nach Drücken des Knopfes. Als ich weiter Richtung Spitze des Zuges lief, weil dort ein Fahrgast eingestiegen war, [ANON_LOCATION_1] ich dabei Richtung Triebfahrzeug. Statt noch einen Augenblick zu warten (wir waren in Summe nur 2 Fahrgäste am Gleis), verriegelte die Bahn und fuhr weiter. Mir fehlen die Worte wegen dieses unnötigen Frustes und schlechtem Kundenservice. Ich verpasse nun meinen Anschlusszug und stehe unnötig in der Kälte an der Haltestelle.Viele GrüsseKati Fritzsche--Gesendet mit der GMX Mail App",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Kati Fritzsche"
+      },
+      {
+        "[ANON_PERSON_2]": "Kati Fritzsche"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "wunk"
+      },
+      {
+        "[ANON_LOCATION_2]": "Belsenplatz"
+      },
+      {
+        "[ANON_LOCATION_3]": "U76"
+      }
+    ],
+    "names": [],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "06:32"
+      },
+      {
+        "[TIME_2]": "06:33"
+      },
+      {
+        "[TIME_3]": "6:25 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-07T21:07:09.870Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkEAAA=",
+  "subject": "WG: [Externe E-Mail]  U76 6:25 Uhr am 3.2. ab Belsenplatz"
+}
+[2025-02-07T21:07:09.871Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkEAAA=",
+  "subject": "WG: [Externe E-Mail]  U76 6:25 Uhr am 3.2. ab Belsenplatz",
+  "userMessage": " U76 6:25 Uhr am 3.2. ab Belsenplatz 2. Versuch--Gesendet mit der GMX Mail App Am 03.02.25, 06:33 schrieb Kati Fritzsche <kati.fritzsche@gmx.de>:... es handelte sich um die Haltestelle Belsenplatz.--Gesendet mit der GMX Mail App Am 03.02.25, 06:32 schrieb Kati Fritzsche <kati.fritzsche@gmx.de>:Liebes Kundenservice Team,Ich konnte heute nicht in meine Bahn einsteigen, da eine Tür öffnete, aber keine Treppen ausfuhr. Die nächstgelegene Tür öffnete gar nicht nach Drücken des Knopfes. Als ich weiter Richtung Spitze des Zuges lief, weil dort ein Fahrgast eingestiegen war, wunk ich dabei Richtung Triebfahrzeug. Statt noch einen Augenblick zu warten (wir waren in Summe nur 2 Fahrgäste am Gleis), verriegelte die Bahn und fuhr weiter. Mir fehlen die Worte wegen dieses unnötigen Frustes und schlechtem Kundenservice. Ich verpasse nun meinen Anschlusszug und stehe unnötig in der Kälte an der Haltestelle.Viele GrüsseKati Fritzsche--Gesendet mit der GMX Mail App",
+  "aiResponse": "Sehr geehrte*r Kunde,\n\nvielen Dank für Ihre Nachricht und dafür, dass Sie uns von dem Vorfall an der Haltestelle Belsenplatz am 03. Februar um [TIME_1] Uhr berichtet haben. Wir verstehen Ihre Frustration und bedauern zutiefst, dass Sie auf diese Weise nicht in die Bahn einsteigen konnten und dadurch Ihren Anschlusszug verpasst haben.\n\nEs tut uns leid, dass die Tür der Bahn sich nicht korrekt geöffnet hat bzw. die Treppen nicht ausfuhren, was es Ihnen unmöglich machte, rechtzeitig einzusteigen. Gelegentlich können technische Störungen an den Türen auftreten, die eine reibungslose Ein- und Ausfahrt beeinträchtigen. Diese Geräte werden regelmäßig gewartet, um Probleme zu vermeiden, doch leider können solche Vorfälle nicht immer vollständig ausgeschlossen werden.\n\nWir möchten uns bei Ihnen dafür entschuldigen, dass das Fahrpersonal nicht auf Sie und den weiteren Fahrgast gewartet hat, obwohl nur wenige Fahrgäste am Gleis waren. Ihr Erlebnis entspricht nicht unserem Anspruch an guten Kundenservice.\n\nIhre Rückmeldung werden wir dazu nutzen, unser Fahrpersonal besser zu schulen, damit Situationen wie die von Ihnen beschriebene in Zukunft vermieden werden. Ihr Feedback ist uns sehr wichtig, da es uns hilft, den Service für unsere Kundschaft stetig zu verbessern.\n\nNochmals entschuldigen wir uns für die entstandenen Unannehmlichkeiten und hoffen, Sie bei Ihrer nächsten Fahrt von unserem besseren Service überzeugen zu können.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrte*r Kunde,\n\nvielen Dank für Ihre Nachricht und dafür, dass Sie uns von dem Vorfall an der Haltestelle Belsenplatz am 03. Februar um 06:32 Uhr berichtet haben. Wir verstehen Ihre Frustration und bedauern zutiefst, dass Sie auf diese Weise nicht in die Bahn einsteigen konnten und dadurch Ihren Anschlusszug verpasst haben.\n\nEs tut uns leid, dass die Tür der Bahn sich nicht korrekt geöffnet hat bzw. die Treppen nicht ausfuhren, was es Ihnen unmöglich machte, rechtzeitig einzusteigen. Gelegentlich können technische Störungen an den Türen auftreten, die eine reibungslose Ein- und Ausfahrt beeinträchtigen. Diese Geräte werden regelmäßig gewartet, um Probleme zu vermeiden, doch leider können solche Vorfälle nicht immer vollständig ausgeschlossen werden.\n\nWir möchten uns bei Ihnen dafür entschuldigen, dass das Fahrpersonal nicht auf Sie und den weiteren Fahrgast gewartet hat, obwohl nur wenige Fahrgäste am Gleis waren. Ihr Erlebnis entspricht nicht unserem Anspruch an guten Kundenservice.\n\nIhre Rückmeldung werden wir dazu nutzen, unser Fahrpersonal besser zu schulen, damit Situationen wie die von Ihnen beschriebene in Zukunft vermieden werden. Ihr Feedback ist uns sehr wichtig, da es uns hilft, den Service für unsere Kundschaft stetig zu verbessern.\n\nNochmals entschuldigen wir uns für die entstandenen Unannehmlichkeiten und hoffen, Sie bei Ihrer nächsten Fahrt von unserem besseren Service überzeugen zu können.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:07:10.335Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkEAAA=",
+  "subject": "WG: [Externe E-Mail]  U76 6:25 Uhr am 3.2. ab Belsenplatz"
+}
+[2025-02-07T21:07:10.623Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkEAAA= and subject: WG: [Externe E-Mail]  U76 6:25 Uhr am 3.2. ab Belsenplatz
+[2025-02-07T21:07:10.624Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkDAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502070929156390]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:10.632Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "Rheinbahn@tanjakleinausd.de",
+  "vorname": "Tanja",
+  "nachname": "Klein",
+  "message": "Hallo Rheinbahn, wenn ihr Unternehmen seine Monopol Stellung ständig ausnutzt, Preise erhöhen, dann stellen Sie verdammt noch mal sicher das wir zahlenden Fahrgäste auf Ihre Fahrpläne verlassen können. Mir geht es bei dieser Beschwerde um ihre Buslinie 723, wo regelmäßig einzelne Fahrten schlichtweg und ergreifend einfach nicht bedient werden. Das ist einfach eine unverschämtheit!!! Sie verschwenden meine Zeit, bringen mich mit meinen Terminen in Schwierigkeiten und unangenehme Situationen die nicht mein Verschulden sind. Ich erwarte eine Stellungnahme warum sie nicht gewährleisten können, daß ich mich auf ihre Fahrpläne bei meiner Planung verlassen kann oder passen die Pläne entsprechend an, wenn es an Kapazitäten dafür fehlt. Nur mal so, der Bus fährt in der Regel nur alle 30 Minuten, für ganz dumme erklärt - Der vermeintliche Fahrgast muß mindestens 30 Minuten warten und bei dem \"kommt-der-Bus-oder-auch-nicht\" Russisch Roulette würde man sich freuen, wenn der dann \"nur verspätet\" ist und nicht ebenfalls wieder nicht kommt. Mal an unsere älteren Mitmenschen gedacht, die extrem darauf angewiesen sind um z.B. zu Behandlung ins Martinus Krankenhaus müssen? Ich finde, eine entsprechenden Entschädigung der Rheinbahn mir gegenüber ist selbstredend! Da es bei mir kein Einzelner Vorfall ist und öfter in den letzten Wochen passiert ist. Deswegen war meine Beschwerde angemessen. Mit freundlichen Grüßen Tanja Klein"
+}
+[2025-02-07T21:07:11.216Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:07:11.637Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkDAAA= and subject: WG: [Externe E-Mail]  [202502070929156390]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:11.933Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkDAAA= and subject: WG: [Externe E-Mail]  [202502070929156390]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:11.933Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkCAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502070849496735]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:11.941Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Daniel.herrm@icloud.com",
+  "vorname": "Daniel",
+  "nachname": "Herrmann",
+  "message": "Guten Morgen Zusammen, fährt denn die Bahn die um 8:38 Uhr an der Rotdornstrasse Richtung Dome fährt nie? Bitte um Rückmeldung, dass ich mich darauf einstellen kann, die vorherige Bahn zu nehmen."
+}
+[2025-02-07T21:07:12.287Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:07:12.695Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkCAAA= and subject: WG: [Externe E-Mail]  [202502070849496735]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:12.997Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkCAAA= and subject: WG: [Externe E-Mail]  [202502070849496735]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:12.997Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkBAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502070807086205]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:13.005Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "ruben.stegbauer@gmail.com",
+  "vorname": "Ruben",
+  "nachname": "Stegbauer",
+  "message": "Guten Tag, ich möchte mich darüber beschweren, dass der Bus 733 welcher am Sankt Vinzenz Krankenhaus seine erste Haltestelle hat mehrfach pro Woche ausfällt oder starke Verspätung hat. Wir sind auf dem Bus angewiesen! Bitte verbessern sie den Service. Freundliche Grüßen, Ruben Stegbauer"
+}
+[2025-02-07T21:07:13.801Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:07:14.227Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkBAAA= and subject: WG: [Externe E-Mail]  [202502070807086205]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:14.537Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkBAAA= and subject: WG: [Externe E-Mail]  [202502070807086205]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:14.538Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkAAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502070740766968]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:14.544Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "ch.wiesner@gmx.de",
+  "vorname": "Christian",
+  "nachname": "Wiesner",
+  "message": "Guten Morgen, Busfahrer sollten eigentlich rücksichtsvolle Fahrer sein die nicht sich und andere Verkehrsteilnehmer gefährden. Leider war dies heute morgen nicht der Fall. Der Busfahrer der Linie 749 welche sich von der Balcke-Dürr-Allee in Fahrtrichtung Ratingen Ostbahnhof befand wollte wohl unbedingt wissen was sich in meinem Kofferraum befand und musste auf dem Teilstück bis auf unter einen Meter auffahren, kombiniert mit Lichthupe und aggressiven Handzeichen. Wenn ich richtig gesehen habe war es Wagen 23. Sollte der Fahrer sich weitergehend so verhalten ist dies durchaus eine Anzeige wegen Nötigung im Strassenverkehr wert. Mit freundlichen Grüssen Christian Wiesner"
+}
+[2025-02-07T21:07:14.943Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:07:15.230Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkAAAA= and subject: WG: [Externe E-Mail]  [202502070740766968]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:17.299Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEkAAAA= and subject: WG: [Externe E-Mail]  [202502070740766968]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:17.299Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj-AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde"
+}
+[2025-02-07T21:07:17.301Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": " Beschwerde Sehr geehrter Rheinbahn Kundendienst! Meine Ticket Nr.Deutschland TicketNr.44-1.000.442.364-4 Seit vielen Jahren bin ich Rheinbahn Kunde,nicht immer zufrieden. Seit etwa drei Jahren gelange ich immer wieder in eine unschöne Situation.Ich stehe an der Haltestelle,es befindet sich ein Bus am Straßenrand,der offenbar in Warteposition oder was auch immer,dort hält.Die Buslinie meiner Wahl kommt angefahren,sie müsste halten,um mich einsteigen zu lassen.Weit gedacht: Die Fahrer-innen brausen im Eiltempo daran vorbei und gucken garnicht ob jemand zusteigen will,ignorieren die Passagiere. Heute wieder passiert an der Haltestelle Düsseldorf Friedrichstr.in der Höhe Kirchplatz.Es handelte sich um die Linie 836,es war eine Fahrerin,hellhaarig,nicht mehr so ganz jung,es war ca.12.15 Uhr.Sie fuhr in schnellem Tempo!!!! vorbei.Ich wollte zum Belsenplatz.Diese Begebenheit ist mir auch oft im entgegengesetzten Verkehr aufgefallen Der nächste Bus wäre ca.10 Min.später gekommen.Ich bin schwerbehindert und stand dann diese Zeit in der kalten Witterung. Habe diese Beobachtung schon mal vor langer Zeit geschildert,aber keine Verbesserung!!!Ticketpreise hebt man an,oft ist Pünktlichkeit nicht gegeben.Streiks stehen wieder ins Haus .Wo bleibt der Dienst am Kunden??Ich bin einfach nur wütend. Es grüßt Ortrud BanerjeeDüsseldorf"
+}
+[2025-02-07T21:07:17.700Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:07:17.784Z] [INFO] Anonymized text:
+{
+  "text": " Beschwerde Sehr geehrter Rheinbahn Kundendienst! Meine Ticket Nr.Deutschland TicketNr.44-1.000.442.364-4 Seit vielen Jahren bin ich Rheinbahn Kunde,nicht immer zufrieden. Seit etwa drei Jahren gelange ich immer wieder in eine unschöne Situation.Ich stehe an der Haltestelle,es befindet sich ein Bus am Straßenrand,der offenbar in Warteposition oder was auch immer,dort hält.Die Buslinie meiner Wahl kommt angefahren,sie müsste halten,um mich einsteigen zu lassen.Weit gedacht: Die Fahrer-innen brausen im Eiltempo daran vorbei und gucken garnicht ob jemand zusteigen will,ignorieren die Passagiere. Heute wieder passiert an der Haltestelle Düsseldorf Friedrichstr.in der Höhe Kirchplatz.Es handelte sich um die Linie 836,es war eine Fahrerin,hellhaarig,nicht mehr so ganz jung,es war ca.12.15 Uhr.Sie fuhr in schnellem Tempo!!!! vorbei.Ich wollte zum Belsenplatz.Diese Begebenheit ist mir auch oft im entgegengesetzten Verkehr aufgefallen Der nächste Bus wäre ca.10 Min.später gekommen.Ich bin schwerbehindert und stand dann diese Zeit in der kalten Witterung. Habe diese Beobachtung schon mal vor langer Zeit geschildert,aber keine Verbesserung!!!Ticketpreise hebt man an,oft ist Pünktlichkeit nicht gegeben.Streiks stehen wieder ins Haus .Wo bleibt der Dienst am Kunden??Ich bin einfach nur wütend. Es grüßt Ortrud BanerjeeDüsseldorf",
+  "anonymized_text": " Beschwerde Sehr geehrter Rheinbahn Kundendienst! Meine Ticket Nr.Deutschland TicketNr.44-1.000.442.364-4 Seit vielen Jahren bin ich Rheinbahn Kunde,nicht immer zufrieden. Seit etwa drei Jahren gelange ich immer wieder in eine unschöne Situation.Ich stehe an der Haltestelle,es befindet sich ein Bus am Straßenrand,der offenbar in Warteposition oder was auch immer,dort hält.Die Buslinie meiner Wahl kommt angefahren,sie müsste halten,um mich einsteigen zu lassen.Weit gedacht: Die Fahrer-innen brausen im Eiltempo daran vorbei und gucken garnicht ob jemand zusteigen will,ignorieren die Passagiere. Heute wieder passiert an der Haltestelle [ANON_LOCATION_3] Friedrichstr.in der Höhe Kirchplatz.Es handelte sich um die Linie 836,es war eine Fahrerin,hellhaarig,nicht mehr so ganz jung,es war ca.12.15 Uhr.Sie fuhr in schnellem Tempo!!!! vorbei.Ich wollte zum [ANON_LOCATION_2].Diese Begebenheit ist mir auch oft im entgegengesetzten Verkehr aufgefallen Der nächste Bus wäre ca.10 Min.später gekommen.Ich bin schwerbehindert und stand dann diese Zeit in der kalten Witterung. Habe diese Beobachtung schon mal vor langer Zeit geschildert,aber keine Verbesserung!!!Ticketpreise hebt man an,oft ist Pünktlichkeit nicht gegeben.Streiks stehen wieder ins [ANON_LOCATION_1] bleibt der Dienst am Kunden??Ich bin einfach nur wütend. Es grüßt [ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Ortrud BanerjeeDüsseldorf"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Haus .Wo"
+      },
+      {
+        "[ANON_LOCATION_2]": "Belsenplatz"
+      },
+      {
+        "[ANON_LOCATION_3]": "Düsseldorf"
+      }
+    ],
+    "names": [],
+    "dates": [],
+    "times": []
+  }
+}
+[2025-02-07T21:07:30.428Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj-AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde"
+}
+[2025-02-07T21:07:30.428Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj-AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde",
+  "userMessage": " Beschwerde Sehr geehrter Rheinbahn Kundendienst! Meine Ticket Nr.Deutschland TicketNr.44-1.000.442.364-4 Seit vielen Jahren bin ich Rheinbahn Kunde,nicht immer zufrieden. Seit etwa drei Jahren gelange ich immer wieder in eine unschöne Situation.Ich stehe an der Haltestelle,es befindet sich ein Bus am Straßenrand,der offenbar in Warteposition oder was auch immer,dort hält.Die Buslinie meiner Wahl kommt angefahren,sie müsste halten,um mich einsteigen zu lassen.Weit gedacht: Die Fahrer-innen brausen im Eiltempo daran vorbei und gucken garnicht ob jemand zusteigen will,ignorieren die Passagiere. Heute wieder passiert an der Haltestelle Düsseldorf Friedrichstr.in der Höhe Kirchplatz.Es handelte sich um die Linie 836,es war eine Fahrerin,hellhaarig,nicht mehr so ganz jung,es war ca.12.15 Uhr.Sie fuhr in schnellem Tempo!!!! vorbei.Ich wollte zum Belsenplatz.Diese Begebenheit ist mir auch oft im entgegengesetzten Verkehr aufgefallen Der nächste Bus wäre ca.10 Min.später gekommen.Ich bin schwerbehindert und stand dann diese Zeit in der kalten Witterung. Habe diese Beobachtung schon mal vor langer Zeit geschildert,aber keine Verbesserung!!!Ticketpreise hebt man an,oft ist Pünktlichkeit nicht gegeben.Streiks stehen wieder ins Haus .Wo bleibt der Dienst am Kunden??Ich bin einfach nur wütend. Es grüßt Ortrud BanerjeeDüsseldorf",
+  "aiResponse": "Sehr geehrter [ANON_PERSON_1],\n\nvielen Dank, dass Sie sich die Zeit genommen haben, um uns von Ihrer unangenehmen Erfahrung mit der Linie 836 am Kirchplatz auf der Friedrichstraße am [ANON_LOCATION_3] zu berichten. Wir entschuldigen uns aufrichtig für die Ihnen entstandenen Unannehmlichkeiten, insbesondere da Sie aufgrund Ihrer Schwerbehinderung bei kaltem Wetter warten mussten.\n\nEs tut uns leid zu hören, dass unser Fahrpersonal um ca. 12:15 Uhr an Ihnen vorbeigefahren ist, ohne anzuhalten. Das entspricht keinesfalls unserem Anspruch an den Kundenservice. Unsere Fahrgäste sicher und komfortabel zu ihrem Ziel zu bringen, ist unsere oberste Priorität.\n\nEs gibt mehrere Umstände, die dazu führen können, dass unsere Busse nicht an einer Haltestelle halten: beispielsweise wenn der Bus überfüllt ist oder technische Schwierigkeiten auftreten. Dennoch ist es entscheidend, dass unser Fahrpersonal sich vergewissert, ob jemand an der Haltestelle auf eine Mitfahrgelegenheit wartet. Ihre Rückmeldung zeigt uns, dass hier Handlungsbedarf besteht, und wir werden dies umgehend mit den betreffenden Mitarbeitenden und auch in unseren regelmäßig stattfindenden Schulungen im Fahrdienst thematisieren.\n\nEs ist uns bewusst, dass unsere Kunden gelegentlich aufgrund von Streiks, Preisänderungen oder Verspätungen Unannehmlichkeiten erleben. Wir versichern Ihnen, dass wir kontinuierlich an der Verbesserung unseres Services arbeiten und schätzen Ihre langjährige Treue zur Rheinbahn sehr.\n\nWir hoffen, dass Sie uns weiterhin die Gelegenheit geben, Sie von unserem Engagement für einen besseren Service zu überzeugen. Ihre Rückmeldungen sind für uns von unschätzbarem Wert und helfen uns, solche Vorfälle in Zukunft zu vermeiden.\n\nSollten Sie weitere Anmerkungen oder Anliegen haben, zögern Sie bitte nicht, uns zu kontaktieren.\n\nFreundliche Grüße  \nIhre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Ortrud BanerjeeDüsseldorf,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, um uns von Ihrer unangenehmen Erfahrung mit der Linie 836 am Kirchplatz auf der Friedrichstraße am Düsseldorf zu berichten. Wir entschuldigen uns aufrichtig für die Ihnen entstandenen Unannehmlichkeiten, insbesondere da Sie aufgrund Ihrer Schwerbehinderung bei kaltem Wetter warten mussten.\n\nEs tut uns leid zu hören, dass unser Fahrpersonal um ca. 12:15 Uhr an Ihnen vorbeigefahren ist, ohne anzuhalten. Das entspricht keinesfalls unserem Anspruch an den Kundenservice. Unsere Fahrgäste sicher und komfortabel zu ihrem Ziel zu bringen, ist unsere oberste Priorität.\n\nEs gibt mehrere Umstände, die dazu führen können, dass unsere Busse nicht an einer Haltestelle halten: beispielsweise wenn der Bus überfüllt ist oder technische Schwierigkeiten auftreten. Dennoch ist es entscheidend, dass unser Fahrpersonal sich vergewissert, ob jemand an der Haltestelle auf eine Mitfahrgelegenheit wartet. Ihre Rückmeldung zeigt uns, dass hier Handlungsbedarf besteht, und wir werden dies umgehend mit den betreffenden Mitarbeitenden und auch in unseren regelmäßig stattfindenden Schulungen im Fahrdienst thematisieren.\n\nEs ist uns bewusst, dass unsere Kunden gelegentlich aufgrund von Streiks, Preisänderungen oder Verspätungen Unannehmlichkeiten erleben. Wir versichern Ihnen, dass wir kontinuierlich an der Verbesserung unseres Services arbeiten und schätzen Ihre langjährige Treue zur Rheinbahn sehr.\n\nWir hoffen, dass Sie uns weiterhin die Gelegenheit geben, Sie von unserem Engagement für einen besseren Service zu überzeugen. Ihre Rückmeldungen sind für uns von unschätzbarem Wert und helfen uns, solche Vorfälle in Zukunft zu vermeiden.\n\nSollten Sie weitere Anmerkungen oder Anliegen haben, zögern Sie bitte nicht, uns zu kontaktieren.\n\nFreundliche Grüße  \nIhre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:07:30.816Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj-AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde"
+}
+[2025-02-07T21:07:31.081Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj-AAA= and subject: WG: [Externe E-Mail]  Beschwerde
+[2025-02-07T21:07:31.081Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj_AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061913057361]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:31.087Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "hakan_keser_12@hotmail.de",
+  "vorname": "Hakan",
+  "nachname": "Keser",
+  "message": "Betreff: Beschwerde über Vorfall im Bus 725 Richtung Düsseldorf Zoo Sehr geehrte Damen und Herren, am heutigen Tag bin ich um ca. 13:41 Uhr an der Haltestelle Dreherstraße in den Bus der Linie 725 Richtung Düsseldorf Zoo eingestiegen. Die Wabennummer war meiner Erinnerung nach 7562 (möglicherweise liegt wegen der Aufregung ein Zahlendreher vor). An der Kreuzung zur Torfbruchstraße bat ich den Busfahrer höflich, mich an der roten Ampel aussteigen zu lassen. Er reagierte nicht verbal, sondern wies mich mit einem herablassenden Blick und einer Kopfbewegung ab. Ich bedankte mich dennoch und ging zurück zur mittleren Tür. An der nächsten Haltestelle wartete ich darauf, auszusteigen, um meinen Anschluss zu erreichen. Der Fahrer wusste, dass ich dringend aussteigen musste. Als die Tür geöffnet wurde wollte ich aussteigen, in der Bewegung schloss er die Tür, sodass ich eingeklemmt wurde. Dies passierte erneut, wobei die Tür mich an den Armen und am Becken traf. Nach dem Vorfall verspürte ich starke Schmerzen an den Armen und am Becken. Dies spürte ich, aber erst eine Zeit später, als die Aufregung nachließ Es handelte sich um einen der neuen Busse. An der Einstiegshaltestelle gab es keine Probleme mit den Türen, da ich problemlos durch die mittlere Tür einsteigen konnte. Zudem waren nicht viele Passagiere im Bus, sodass es keinen ersichtlichen Grund gab, den Einstieg vorne zu verwehren oder die Tickets nicht zu kontrollieren. Ich möchte dem Fahrer nichts unterstellen, aber sein Verhalten erschien mir äußerst fragwürdig. Wenn jemand seinen Beruf nicht gerne ausübt – insbesondere im direkten Kontakt mit Menschen – sollte er möglicherweise über einen Berufswechsel nachdenken. Während der gesamten Fahrt gab es keinerlei Kommunikation oder Ticketkontrolle durch den Fahrer. Aufgrund der anhaltenden Schmerzen erwäge ich, einen Arzt aufzusuchen und anschließend eine Anzeige bei der Polizei wegen Körperverletzung zu erstatten. Ich bitte um eine schriftliche Rückmeldung, welche Maßnahmen in dieser Angelegenheit ergriffen werden. Mit freundlichen Grüßen Hakan Keser"
+}
+[2025-02-07T21:07:31.481Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:07:31.807Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj_AAA= and subject: WG: [Externe E-Mail]  [202502061913057361]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:32.079Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj_AAA= and subject: WG: [Externe E-Mail]  [202502061913057361]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:32.080Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj9AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061944410975]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:32.082Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "F.sillekens@web.de",
+  "vorname": "Fabian",
+  "nachname": "Sillekens",
+  "message": "Moin, Heute um 19:37 fand euer Bahnfahrer der Linie U79, dass es ne richtig geile Idee ist an der Starthaltestelle Uni Ost/Botanischer Garten mal straight durchzufahren und gar nicht zu halten. Hammer"
+}
+[2025-02-07T21:07:32.433Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:07:32.466Z] [INFO] Anonymized text:
+{
+  "text": "Moin, Heute um 19:37 fand euer Bahnfahrer der Linie U79, dass es ne richtig geile Idee ist an der Starthaltestelle Uni Ost/Botanischer Garten mal straight durchzufahren und gar nicht zu halten. Hammer",
+  "anonymized_text": "[ANON_PERSON_2], Heute um [TIME_1] fand euer Bahnfahrer der Linie [ANON_LOCATION_3], dass es ne richtig geile Idee ist an der [ANON_LOCATION_2] [ANON_LOCATION_1]/Botanischer Garten mal straight durchzufahren und gar nicht zu halten. [ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Hammer"
+      },
+      {
+        "[ANON_PERSON_2]": "Moin"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Uni Ost"
+      },
+      {
+        "[ANON_LOCATION_2]": "Starthaltestelle"
+      },
+      {
+        "[ANON_LOCATION_3]": "U79"
+      }
+    ],
+    "names": [],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "19:37"
+      }
+    ]
+  }
+}
+[2025-02-07T21:07:44.978Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj9AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061944410975]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:44.979Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj9AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061944410975]: Anfrage über das Kontaktformular",
+  "userMessage": "Moin, Heute um 19:37 fand euer Bahnfahrer der Linie U79, dass es ne richtig geile Idee ist an der Starthaltestelle Uni Ost/Botanischer Garten mal straight durchzufahren und gar nicht zu halten. Hammer",
+  "aiResponse": "Sehr geehrter Herr Sillekens, \n\nvielen Dank für Ihre Nachricht und dass Sie uns auf die Situation aufmerksam gemacht haben, bei der das Fahrpersonal der Linie [ANON_LOCATION_3] an der Haltestelle [ANON_LOCATION_2] [ANON_LOCATION_1]/Botanischer Garten, heute um [TIME_1], ohne Halt vorbei gefahren ist. Wir verstehen Ihre Frustration und entschuldigen uns aufrichtig für die Unannehmlichkeiten, die Ihnen dadurch entstanden sind.\n\nUnsere Fahrzeuge sind verpflichtet, alle Haltestellen zu bedienen, an denen wartende Kundschaft sichtbar ist. Leider kann es in seltenen Fällen zu Fehlern kommen, z.B. durch interne Kommunikationsprobleme oder technische Störungen, die dazu führen, dass Haltestellen nicht planmäßig angefahren werden. Wir nehmen Ihre Rückmeldung sehr ernst und werden den Vorfall intern prüfen, um sicherzustellen, dass ähnliche Situationen in Zukunft vermieden werden.\n\nZur Verbesserung unseres Services ist Ihr Feedback für uns von unschätzbarem Wert. Wir möchten, dass Sie in Zukunft wieder eine zuverlässige und angenehme Fahrt mit unseren Bahnen erleben. Bitte entschuldigen Sie die entstandenen Unannehmlichkeiten nochmals. \n\nFreundliche Grüße  \nIhre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Sillekens, \n\nvielen Dank für Ihre Nachricht und dass Sie uns auf die Situation aufmerksam gemacht haben, bei der das Fahrpersonal der Linie U79 an der Haltestelle Starthaltestelle Uni Ost/Botanischer Garten, heute um 19:37, ohne Halt vorbei gefahren ist. Wir verstehen Ihre Frustration und entschuldigen uns aufrichtig für die Unannehmlichkeiten, die Ihnen dadurch entstanden sind.\n\nUnsere Fahrzeuge sind verpflichtet, alle Haltestellen zu bedienen, an denen wartende Kundschaft sichtbar ist. Leider kann es in seltenen Fällen zu Fehlern kommen, z.B. durch interne Kommunikationsprobleme oder technische Störungen, die dazu führen, dass Haltestellen nicht planmäßig angefahren werden. Wir nehmen Ihre Rückmeldung sehr ernst und werden den Vorfall intern prüfen, um sicherzustellen, dass ähnliche Situationen in Zukunft vermieden werden.\n\nZur Verbesserung unseres Services ist Ihr Feedback für uns von unschätzbarem Wert. Wir möchten, dass Sie in Zukunft wieder eine zuverlässige und angenehme Fahrt mit unseren Bahnen erleben. Bitte entschuldigen Sie die entstandenen Unannehmlichkeiten nochmals. \n\nFreundliche Grüße  \nIhre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:07:45.459Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj9AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061944410975]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:45.833Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj9AAA= and subject: WG: [Externe E-Mail]  [202502061944410975]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:45.834Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj8AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061842968457]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:45.842Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Amelung.thomas@web.de",
+  "vorname": "Thomas",
+  "nachname": "Amelung",
+  "message": "Warum muss in Düsseldorf die U72 und U73 , mittags und abends nur mit einem Zug unterwegs sein. Das ist echt eine Zumutung. Und so nicht tragbar. Ich bitte um eine qualifizierte Antwort und eine Verbesserung. Mit freundlichen Grüßen Thomas Amelung"
+}
+[2025-02-07T21:07:46.486Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:07:46.780Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj8AAA= and subject: WG: [Externe E-Mail]  [202502061842968457]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:47.058Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj8AAA= and subject: WG: [Externe E-Mail]  [202502061842968457]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:47.058Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj7AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061849285515]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:47.065Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "alexvogel2k7@gmail.com",
+  "vorname": "Alexander",
+  "nachname": "Vogel",
+  "message": "Am 06.02.2025 um 18:45 sollte die Linie 012 in Mettmann an der Bushaltestelle Metzkausen-Hassel halten. Der Busfahrer ist jedoch einfach vorbeigefahren weshalb ich meinen wichtigen Termin verpasst habe. Habe dem Busfahrer sogar zugewunken und ich war deutlich sichtbar."
+}
+[2025-02-07T21:07:48.636Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:07:48.673Z] [INFO] Anonymized text:
+{
+  "text": "Am 06.02.2025 um 18:45 sollte die Linie 012 in Mettmann an der Bushaltestelle Metzkausen-Hassel halten. Der Busfahrer ist jedoch einfach vorbeigefahren weshalb ich meinen wichtigen Termin verpasst habe. Habe dem Busfahrer sogar zugewunken und ich war deutlich sichtbar.",
+  "anonymized_text": "Am [DATE_1] um [TIME_1] sollte die Linie 012 in [ANON_LOCATION_2] an der Bushaltestelle [ANON_LOCATION_1] halten. Der Busfahrer ist jedoch einfach vorbeigefahren weshalb ich meinen wichtigen Termin verpasst habe. Habe dem Busfahrer sogar zugewunken und ich war deutlich sichtbar.",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Metzkausen-Hassel"
+      },
+      {
+        "[ANON_LOCATION_2]": "Mettmann"
+      }
+    ],
+    "names": [],
+    "dates": [
+      {
+        "[DATE_1]": "06.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "18:45"
+      }
+    ]
+  }
+}
+[2025-02-07T21:07:57.552Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj7AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061849285515]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:57.552Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj7AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061849285515]: Anfrage über das Kontaktformular",
+  "userMessage": "Am 06.02.2025 um 18:45 sollte die Linie 012 in Mettmann an der Bushaltestelle Metzkausen-Hassel halten. Der Busfahrer ist jedoch einfach vorbeigefahren weshalb ich meinen wichtigen Termin verpasst habe. Habe dem Busfahrer sogar zugewunken und ich war deutlich sichtbar.",
+  "aiResponse": "Sehr geehrter Herr Vogel,\n\nvielen Dank für Ihre Nachricht und die Schilderung Ihrer Erfahrung mit der Linie O12 an der Bushaltestelle [ANON_LOCATION_1] in [ANON_LOCATION_2] am [DATE_1] um [TIME_1]. Wir bedauern sehr, dass unser Fahrpersonal an Ihnen vorbeigefahren ist, obwohl Sie deutlich sichtbar auf sich aufmerksam gemacht haben.\n\nBitte entschuldigen Sie die Unannehmlichkeiten, die Ihnen hierdurch entstanden sind. Es ist unser Anspruch, dass unsere Kund*innen sicher und zuverlässig ans Ziel kommen. Das Erleben, einfach stehen gelassen zu werden, ist sehr frustrierend, insbesondere wenn dadurch wichtige Termine nicht wahrgenommen werden können.\n\nEin möglicher Grund könnte sein, dass unser Fahrpersonal die Situation möglicherweise nicht korrekt einschätzen konnte oder es eine temporäre Ablenkung gab. Trotzdem sollte dies natürlich nicht passieren und wir werden Ihr Anliegen zum Anlass nehmen, unsere Mitarbeitenden nochmals für solche Vorfälle zu sensibilisieren. Wir streben an, solche Erlebnisse zukünftig zu vermeiden.\n\nBitte seien Sie versichert, dass wir Ihre Rückmeldung sehr ernst nehmen und diese in unsere regelmäßigen Schulungen einbeziehen. Ihre Geduld und Ihr Vertrauen sind uns wichtig, und wir setzen alles daran, unsere Servicequalität stetig weiter zu verbessern.\n\nWir hoffen, Sie weiterhin als zufriedenen Fahrgast bei uns begrüßen zu dürfen und stehen Ihnen für weitere Rückfragen jederzeit zur Verfügung.\n\nFreundliche Grüße\n\nIhre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Vogel,\n\nvielen Dank für Ihre Nachricht und die Schilderung Ihrer Erfahrung mit der Linie O12 an der Bushaltestelle Metzkausen-Hassel in Mettmann am 06.02.2025 um 18:45. Wir bedauern sehr, dass unser Fahrpersonal an Ihnen vorbeigefahren ist, obwohl Sie deutlich sichtbar auf sich aufmerksam gemacht haben.\n\nBitte entschuldigen Sie die Unannehmlichkeiten, die Ihnen hierdurch entstanden sind. Es ist unser Anspruch, dass unsere Kund*innen sicher und zuverlässig ans Ziel kommen. Das Erleben, einfach stehen gelassen zu werden, ist sehr frustrierend, insbesondere wenn dadurch wichtige Termine nicht wahrgenommen werden können.\n\nEin möglicher Grund könnte sein, dass unser Fahrpersonal die Situation möglicherweise nicht korrekt einschätzen konnte oder es eine temporäre Ablenkung gab. Trotzdem sollte dies natürlich nicht passieren und wir werden Ihr Anliegen zum Anlass nehmen, unsere Mitarbeitenden nochmals für solche Vorfälle zu sensibilisieren. Wir streben an, solche Erlebnisse zukünftig zu vermeiden.\n\nBitte seien Sie versichert, dass wir Ihre Rückmeldung sehr ernst nehmen und diese in unsere regelmäßigen Schulungen einbeziehen. Ihre Geduld und Ihr Vertrauen sind uns wichtig, und wir setzen alles daran, unsere Servicequalität stetig weiter zu verbessern.\n\nWir hoffen, Sie weiterhin als zufriedenen Fahrgast bei uns begrüßen zu dürfen und stehen Ihnen für weitere Rückfragen jederzeit zur Verfügung.\n\nFreundliche Grüße\n\nIhre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-07T21:07:57.933Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj7AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061849285515]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:58.228Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj7AAA= and subject: WG: [Externe E-Mail]  [202502061849285515]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:58.228Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj6AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061711201529]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:07:58.233Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "silvia-pia-blum@gmx.de",
+  "vorname": "Silvia",
+  "nachname": "Blum",
+  "message": "Sehr geehrte Damen und Herren, warum bekommen Sie es einfach nicht geregelt, Ihre Kunden rechtzeitig zu informieren, wenn Züge ausfallen? Erst kommen Sie 10 Minuten später wegen Vorfahrt eines anderen Zuges, dann fallen diese Züge ganz aus, weil eine technische Störung am Zug vorliegt! Wenn Sie die Taktung nicht hinbekommen, warum streichen Sie nicht schon vorher die Züge, dann können sich Ihre Kunden darauf vorbereiten und so wie ich noch etwas länger arbeiten! Ihre Zugbegleiter tun mir sehr leid, denn Sie bekommen die Verärgerung Ihrer Kunden zu spüren! Mit freundlichen Grüßen Silvia Blum silvia-pia-blum@gmx.de"
+}
+[2025-02-07T21:07:58.533Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:07:58.834Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj6AAA= and subject: WG: [Externe E-Mail]  [202502061711201529]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:59.147Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj6AAA= and subject: WG: [Externe E-Mail]  [202502061711201529]: Anfrage über das Kontaktformular
+[2025-02-07T21:07:59.147Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj5AAA=",
+  "subject": "WG: [Externe E-Mail]  Fwd: [Ticket#2025020291000347] HF6"
+}
+[2025-02-07T21:07:59.149Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "HF6 Datum: 02.02.2025 12:01:13 > Guten Tag.Sind schon alle HF6 ausgeliefert worden? > > > ------------------------------------------------------------------------ > Gesendet mit der Telekom Mail App > > ---- Ende der weitergeleiteten Nachricht ---"
+}
+[2025-02-07T21:07:59.749Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:08:00.155Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj5AAA= and subject: WG: [Externe E-Mail]  Fwd: [Ticket#2025020291000347] HF6
+[2025-02-07T21:08:00.397Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj5AAA= and subject: WG: [Externe E-Mail]  Fwd: [Ticket#2025020291000347] HF6
+[2025-02-07T21:08:00.398Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj4AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502061350115520]: Anfrage über das Kontaktformular"
+}
+[2025-02-07T21:08:00.407Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "pascalgalabauschulz@gmail.com",
+  "vorname": "Pascal",
+  "nachname": "Schulz",
+  "message": "Ich fahre gerade mit der 770 von Heiligenhaus otterbeck Bus nach Velbert Willy Brandt Platz. Der Bus kam mal wieder zu spät, man muss sich von der unfreundlichen dame die den Bus um 13:37 Linie 770 fährt, beleidigen lassen. In dem sie sagte ich soll mal meine Frau ficken und so. Da frag ich mich wo ist die Freundlichkeit hin. Man zahlt jeden Monat viel Geld für immer mehr Verspätung und dann muss man sich sowas nicht gefallen lassen."
+}
+[2025-02-07T21:08:00.765Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-07T21:08:01.061Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj4AAA= and subject: WG: [Externe E-Mail]  [202502061350115520]: Anfrage über das Kontaktformular
+[2025-02-07T21:08:01.342Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAAA-CEj4AAA= and subject: WG: [Externe E-Mail]  [202502061350115520]: Anfrage über das Kontaktformular
+[2025-02-07T21:08:01.342Z] [INFO] Finished processing emails

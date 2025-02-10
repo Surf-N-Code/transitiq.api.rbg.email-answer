@@ -1,0 +1,8 @@
+### Create Email
+POST http://localhost:3000/api/processEmails
+Content-Type: application/json
+
+{
+  "inboxToProcess": "movemenTech-RBG@movementor.online",
+  "toRecipients": ["ndilthey@gmail.com"]
+}

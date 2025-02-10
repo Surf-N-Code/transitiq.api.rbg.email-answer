@@ -1,9 +1,32 @@
 import { EmailHandler } from '@/controller/EmailHandler';
-import { EmailFields } from '@/types/email';
 import dotenv from 'dotenv';
 import { generateEmailResponse } from '@/controller/generateEmailResponseHandler';
 import { logInfo, logError } from '@/lib/logger';
+import { createInterface } from 'readline';
+import { stdin as input, stdout as output } from 'process';
 dotenv.config();
+
+const askForConfirmation = async (
+  inboxToProcess: string,
+  toRecipients: string[],
+  ccRecipients: string[],
+  nonCategoryRecipients: string[]
+): Promise<boolean> => {
+  const rl = createInterface({ input, output });
+
+  try {
+    const redText = `\x1b[31mAre you sure you want to process emails for ${inboxToProcess}? ${toRecipients.join(
+      ', '
+    )} ${ccRecipients?.join(', ')} ${nonCategoryRecipients?.join(', ')}\x1b[0m`;
+    const answer = await new Promise<string>((resolve) => {
+      rl.question(`${redText} (y/n): `, resolve);
+    });
+
+    return answer.toLowerCase() === 'y';
+  } finally {
+    rl.close();
+  }
+};
 
 export async function POST(request: Request) {
   try {
@@ -13,6 +36,18 @@ export async function POST(request: Request) {
       ccRecipients,
       nonCategoryRecipients,
     } = await request.json();
+
+    const confirmed = await askForConfirmation(
+      inboxToProcess,
+      toRecipients,
+      ccRecipients,
+      nonCategoryRecipients
+    );
+
+    if (!confirmed) {
+      return Response.json({ message: 'Operation cancelled by user' });
+    }
+
     await handleRequest(
       inboxToProcess,
       toRecipients,
@@ -35,13 +70,6 @@ async function handleRequest(
   ccRecipients?: string[],
   nonCategoryRecipients?: string[]
 ) {
-  console.log('ENV:', {
-    nodeEnv: process.env.NODE_ENV,
-    hasKey: !!process.env.OPENAI_API_KEY,
-    keyPrefix: process.env.OPENAI_API_KEY?.slice(0, 3),
-    openaiApiKey: process.env.OPENAI_API_KEY,
-  });
-
   const emailHandler = new EmailHandler();
   await emailHandler.initializeToken();
   emailHandler.setInboxToProcess(inboxToProcess);
@@ -89,4 +117,5 @@ async function handleRequest(
       });
     }
   }
+  logInfo('Finished processing emails');
 }

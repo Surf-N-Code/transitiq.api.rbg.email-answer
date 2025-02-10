@@ -113,6 +113,7 @@ export async function generateEmailResponse(
 
   let content =
     `<strong>Kategorie:</strong>\nBeschwerde stehen gelassen` +
+    `${extractedFields.anrede ? `\n\n<strong>Kundendaten:</strong>\n${extractedFields.anrede} ${extractedFields.vorname} ${extractedFields.nachname}` : ''}` +
     `\n\n<strong>Kunden Beschwerde:</strong>\n${extractedFields.message}` +
     `\n\n<strong>KI Antwort:</strong>\n` +
     deAnonymizedEmailReply;
