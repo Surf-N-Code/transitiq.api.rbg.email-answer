@@ -1,0 +1,52 @@
+{
+  "client": "rheinbahn",
+  "startTime": "2025-02-12T11:02:41.694Z",
+  "emails": [
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRjAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  Anfrage zum Streik/ Busse + Bahnen",
+      "text": "WG:  Anfrage zum Streik/ Busse + Bahnen Von: Karin Lux <klduisburg2@gmx.de> Gesendet: Dienstag, 11. Februar 2025 17:19An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Anfrage zum Streik/ Busse + Bahnen Guten Tag,fähren die Linien der Rheinbahn Donnerstag, 13.2. und 14.2. normal?Kleine Info per Mail erbeten, danke.Viele GrüßeKarin Lux",
+      "timestamp": "2025-02-12T10:02:28Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "",
+        "email": "",
+        "vorname": "",
+        "nachname": "",
+        "message": "WG:  Anfrage zum Streik/ Busse + Bahnen Von: Karin Lux <klduisburg2@gmx.de> Gesendet: Dienstag, 11. Februar 2025 17:19An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Anfrage zum Streik/ Busse + Bahnen Guten Tag,fähren die Linien der Rheinbahn Donnerstag, 13.2. und 14.2. normal?Kleine Info per Mail erbeten, danke.Viele GrüßeKarin Lux",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    }
+  ],
+  "analysis": [
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRjAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Inquiry about service status during a strike",
+          "Request for information on bus and train operations on specific dates"
+        ],
+        "topic": "Request for schedule information",
+        "priority": "medium"
+      },
+      "allTopics": [
+        "Request for schedule information"
+      ]
+    }
+  ],
+  "allTopics": [
+    "Request for schedule information"
+  ],
+  "metadata": {
+    "total": 17,
+    "page": 1,
+    "pageSize": 10
+  },
+  "completedAt": "2025-02-12T11:02:43.409Z"
+}

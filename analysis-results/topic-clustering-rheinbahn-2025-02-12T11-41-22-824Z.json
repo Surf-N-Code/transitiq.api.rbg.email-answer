@@ -1,0 +1,100 @@
+{
+  "filename": "email-analysis-rheinbahn-2025-02-12T11-41-22-824Z.json",
+  "analysisTimestamp": "2025-02-12T12:41:09.850Z",
+  "originalAnalysisTime": "2025-02-12T11:41:22.824Z",
+  "clustering": {
+    "categories": [
+      {
+        "name": "Betriebsstörungen und Verspätungen",
+        "description": "Themen, die sich mit Verspätungen, Ausfällen und Störungen im Betrieb befassen.",
+        "topics": [
+          "Beschwerde über häufige Verspätungen",
+          "Beschwerde über Unpünktlichkeit und Abfahrtszeiten",
+          "Beschwerde über wiederholte Verspätungen",
+          "Beschwerde über Verspätungen",
+          "Beschwerde über Busausfälle und Verspätungen",
+          "Beschwerde über Zugausfälle und Informationspolitik",
+          "Beschwerde über Fahrtausfälle und falsche Fahrplaninformationen",
+          "Beschwerde über Verspätungen und Fahrerverhalten",
+          "Beschwerde über vorzeitige Abfahrt",
+          "Beschwerde über ungenaue Abfahrtszeiten",
+          "Beschwerde über Fahrplanänderungen",
+          "Beschwerde über nicht bediente Fahrten",
+          "Beschwerde über frühzeitige Abfahrt und fehlende Fahrplanuhr",
+          "Beschwerde über Überfüllung der Fahrzeuge",
+          "Beschwerde über Überfüllung und Servicequalität",
+          "Beschwerde über defekte Rolltreppe und Eingänge",
+          "Korrektur einer Beschwerde über nicht erfolgte Mitnahme an der Haltestelle"
+        ]
+      },
+      {
+        "name": "Kundenservice und Mitarbeiter",
+        "description": "Anfragen und Beschwerden bezüglich des Verhaltens und der Unterstützung durch Mitarbeiter.",
+        "topics": [
+          "Beschwerde über Mitarbeiterverhalten",
+          "Beschwerde über Mitarbeiterverhalten und Erstattungsantrag",
+          "Lob für Mitarbeiterverhalten",
+          "Lob über Mitarbeiterverhalten"
+        ]
+      },
+      {
+        "name": "Fahrplan und Information",
+        "description": "Anfragen und Beschwerden zu Fahrplänen, Informationen und deren Genauigkeit.",
+        "topics": [
+          "Anfrage zu Fahrplaninformationen",
+          "Anfrage zur Fahrplanänderung",
+          "Anfrage zu Fahrplaninformationen und Ticketpreisen",
+          "Anfrage zu Haltestellenansagen",
+          "Anfrage zu Fahrplananpassung",
+          "Beschwerde über Fahrplaninformationen und Verspätung",
+          "Beschwerde über falsche Haltestelleninformation",
+          "Beschwerde über Fahrpläne und Taktung",
+          "Beschwerde über fehlende Informationen in der App",
+          "Anfrage zu Ticketinformationen"
+        ]
+      },
+      {
+        "name": "Infrastruktur und Ausstattung",
+        "description": "Themen, die sich mit der physischen Infrastruktur und Ausstattung der Verkehrsmittel und Haltestellen befassen.",
+        "topics": [
+          "Beschwerde über defekte Haltestellenbeleuchtung",
+          "Meldung über defekten Ticketautomaten",
+          "Beschwerde über verschmutzte und blockierte Zugangsbereiche",
+          "Beschwerde über Sicherheitsbedingungen an Haltestellen",
+          "Beschwerde über Beleuchtung an Haltestelle",
+          "Meldung über defekte Beleuchtung an Haltestelle",
+          "Beschwerde über defekte Rolltreppe",
+          "Anfrage zu Instandhaltungsarbeiten",
+          "Beschwerde über Fahrzeugzustand",
+          "Beschwerde über verschmutzte Fahrzeuge",
+          "Beschwerde über Geräuschbelästigung durch Straßenbahnen",
+          "Sicherheitsanliegen bezüglich Verkehrsanlagen"
+        ]
+      },
+      {
+        "name": "Sicherheit und Sauberkeit",
+        "description": "Anliegen und Beschwerden bezüglich der Sicherheit und Sauberkeit im öffentlichen Nahverkehr.",
+        "topics": [
+          "Sicherheitsanliegen an Haltestelle",
+          "Beschwerde über Sicherheitsbedenken im Bus",
+          "Beschwerde über Lärmbelästigung",
+          "Beschwerde über verschmutzte Haltestelle",
+          "Beschwerde über unzureichende Kapazität und Fahrplanänderungen",
+          "Anfrage zu Alkoholverbot im öffentlichen Verkehr"
+        ]
+      },
+      {
+        "name": "Tickets und Abrechnung",
+        "description": "Anfragen und Beschwerden zu Ticketpreisen, -angeboten und -regelungen.",
+        "topics": [
+          "Beschwerde über Ticketpolitik für Senioren",
+          "Anfrage zu Ticketumtausch",
+          "Anfrage zu Ticketgültigkeit",
+          "Beschwerde über Ticketangebote",
+          "Anfrage zu Fahrpreisregelungen für Kinder",
+          "Erstattungsantrag wegen Verspätung"
+        ]
+      }
+    ]
+  }
+}

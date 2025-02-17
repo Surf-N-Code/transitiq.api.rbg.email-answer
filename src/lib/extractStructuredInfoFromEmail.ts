@@ -45,10 +45,10 @@ export function extractStructuredInfoFromEmail(
         startMarker: 'Eure Nachricht an uns',
         endMarkers: ['Dokumenten-Upload'],
         fieldRecognitionPatterns: {
-          anrede: /Anrede+(Frau|Herr|Divers|Keine Angabe)/,
-          email: /E-Mail+([^\s]+@[^\s]+)/,
-          vorname: /Vorname+(\S+)/,
-          nachname: /Nachname+(\S+)/,
+          anrede: /Anrede(Frau|Herr|Divers|Keine Angabe)/,
+          email: /E-Mail([^\s]+@[^\s]+)(\s+)(?=Telefon)/,
+          vorname: /Dokumenten-Upload-Vorname(\S+)(\s+)(?=Nachname)/,
+          nachname: /Nachname(\S+)/,
         },
       },
       {
@@ -92,6 +92,12 @@ export function extractStructuredInfoFromEmail(
         startMarker: 'Betreff:',
         endMarkers: ['Rheinbahn AG | '],
       },
+      {
+        type: 'other',
+        identifyingMarker: '',
+        startMarker: '',
+        endMarkers: [],
+      },
     ];
 
     // Initialize fields with empty values
@@ -118,13 +124,22 @@ export function extractStructuredInfoFromEmail(
     }
 
     // Extract message content
-    const startIndex = text.indexOf(matchedMarker.startMarker);
-    const endIndex = matchedMarker.endMarkers.reduce((minIndex, endMarker) => {
+    let startIndex = text.indexOf(matchedMarker.startMarker);
+    let endIndex = matchedMarker.endMarkers.reduce((minIndex, endMarker) => {
       const index = text.indexOf(endMarker);
       return index !== -1 && (index < minIndex || minIndex === -1)
         ? index
         : minIndex;
     }, -1);
+
+    //if none of the start or end markers are found, set the start and end index to the beginning and end of the text
+    if (startIndex === -1) {
+      startIndex = 0;
+    }
+
+    if (endIndex === -1) {
+      endIndex = text.length;
+    }
 
     if (startIndex !== -1 && endIndex !== -1) {
       let messageText = text
@@ -151,14 +166,6 @@ export function extractStructuredInfoFromEmail(
         }
       }
     }
-
-    // Build meta information string
-    const metaFields = ['datum', 'linie', 'haltestelle', 'richtung', 'stadt']
-      .filter((field) => fields[field])
-      .map(
-        (field) =>
-          `${field.charAt(0).toUpperCase() + field.slice(1)}: ${fields[field]}`
-      );
 
     return fields;
   } catch (error: any) {

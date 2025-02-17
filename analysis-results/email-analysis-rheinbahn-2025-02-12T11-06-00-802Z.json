@@ -1,0 +1,423 @@
+{
+  "client": "rheinbahn",
+  "startTime": "2025-02-12T11:06:00.802Z",
+  "emails": [
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRjAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  Anfrage zum Streik/ Busse + Bahnen",
+      "text": "WG:  Anfrage zum Streik/ Busse + Bahnen Von: Karin Lux <klduisburg2@gmx.de> Gesendet: Dienstag, 11. Februar 2025 17:19An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Anfrage zum Streik/ Busse + Bahnen Guten Tag,fähren die Linien der Rheinbahn Donnerstag, 13.2. und 14.2. normal?Kleine Info per Mail erbeten, danke.Viele GrüßeKarin Lux",
+      "timestamp": "2025-02-12T10:02:28Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "",
+        "email": "",
+        "vorname": "",
+        "nachname": "",
+        "message": "WG:  Anfrage zum Streik/ Busse + Bahnen Von: Karin Lux <klduisburg2@gmx.de> Gesendet: Dienstag, 11. Februar 2025 17:19An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Anfrage zum Streik/ Busse + Bahnen Guten Tag,fähren die Linien der Rheinbahn Donnerstag, 13.2. und 14.2. normal?Kleine Info per Mail erbeten, danke.Viele GrüßeKarin Lux",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRiAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  Weiterleitung VRR an Rheinbahn - MeldungsID 174477",
+      "text": "Haltestelle Düsseldorf Benrodestr Bus 789 Richtung Benrath:Guten Tag,o.g. Haltestelle ist seit einiger Zeit verlegt, ich finde jedoch keinen Hinweis in der Rheinbahn APP für wie lange die Haltestelle verlegt wird bzw überhaupt verlegt ist.Wird dann auch die Haltestelle Benrath Rathaus Richtung Benrath bedient? Laut der Rheinbahn APP hält der Bus dort, was eigentlich unmöglich ist bei dieser Umleitung.Die Ersatzhaltestelle der Benrodestr Richtung Benrath ist hinter einer Ampel, direkt an einer Parkbucht die nur gestern frei von parkenden Autos gewesen ist.Ansonsten standen da bisher immer geparkte Autos, so dass ein Ein bzw Ausstieg teilweise nicht einfach ist.Meine Nachbarn, beide mit Rollator, haben dann jedenfalls grosse Schwierigkeiten dort ein bzw. auszusteigen.Über eine baldige Antwort würde ich mich freuen.GrussMaria Reiners, Benrodestr. 113, 40597 Düsseldorf?",
+      "timestamp": "2025-02-12T09:48:39Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "",
+        "email": "info@vrr.deSie",
+        "vorname": "",
+        "nachname": "",
+        "message": "Haltestelle Düsseldorf Benrodestr Bus 789 Richtung Benrath:Guten Tag,o.g. Haltestelle ist seit einiger Zeit verlegt, ich finde jedoch keinen Hinweis in der Rheinbahn APP für wie lange die Haltestelle verlegt wird bzw überhaupt verlegt ist.Wird dann auch die Haltestelle Benrath Rathaus Richtung Benrath bedient? Laut der Rheinbahn APP hält der Bus dort, was eigentlich unmöglich ist bei dieser Umleitung.Die Ersatzhaltestelle der Benrodestr Richtung Benrath ist hinter einer Ampel, direkt an einer Parkbucht die nur gestern frei von parkenden Autos gewesen ist.Ansonsten standen da bisher immer geparkte Autos, so dass ein Ein bzw Ausstieg teilweise nicht einfach ist.Meine Nachbarn, beide mit Rollator, haben dann jedenfalls grosse Schwierigkeiten dort ein bzw. auszusteigen.Über eine baldige Antwort würde ich mich freuen.GrussMaria Reiners, Benrodestr. 113, 40597 Düsseldorf?",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRhAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  [202502120758400118]: Anfrage über das Kontaktformular",
+      "text": "Sehr geehrte Damen und Herren, erneut stelle ich mir die Frage, warum es Ihnen nicht gelingt, eine App zu pflegen!? Nicht nur, dass mir am gestrigen Tag meine Verbindung (Mülheim, Lehnerfeld-Düsseldorf, Heinrichstraße) als \"betrieben\" bestätigt worden war, suggerierte die App sogar eine 2-3 minütige Verspätung! Unnötig zu erwähnen, dass dieser Bus nicht fuhr!!! Ich bitte um eine Rückmeldung. Mit freundlichen Grüßen Christina Hitz",
+      "timestamp": "2025-02-12T09:48:10Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "Frau",
+        "email": "Christina.Hitz@arcor.de",
+        "vorname": "Christina",
+        "nachname": "Hitz",
+        "message": "Sehr geehrte Damen und Herren, erneut stelle ich mir die Frage, warum es Ihnen nicht gelingt, eine App zu pflegen!? Nicht nur, dass mir am gestrigen Tag meine Verbindung (Mülheim, Lehnerfeld-Düsseldorf, Heinrichstraße) als \"betrieben\" bestätigt worden war, suggerierte die App sogar eine 2-3 minütige Verspätung! Unnötig zu erwähnen, dass dieser Bus nicht fuhr!!! Ich bitte um eine Rückmeldung. Mit freundlichen Grüßen Christina Hitz",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRgAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  [202502120713456930]: Anfrage über das Kontaktformular",
+      "text": "Beschwerde gegen Busfahrer Fahrt gestern um 18:01 Uhr mit der Linie M1 vom Staufenplatz bis Reisholz(S). Ich bin mit meinem Rollator an Türe 2 eingestiegen. Im Bus klebte an der Türe der Hinweis,, Türstorung * jedoch nicht vom außen. An der Haltestelle Reisholz (S) ging die Türe nicht auf. Der Fahrer reagierte nicht und blieb sitzen anstatt die Türe manuell zu öffnen. Erst durch das beherzigste eingreifen von zwei mitfahrenden Leuten kam ich aus dem Bus raus, die dann meinen Rollator über die Sitze hinweg bis zur 3. Türe gehoben haben und ich letztlich dann aussteigen konnte. Ich finde das echt nicht gut, ich weiß das man die Türen manuell mit einem Schlüssel öffnen kann dieses aber nicht gemacht wurde. Ich hoffe der Busfahrer kommt nicht mal selber in die Lage eine Schwerbehinderung zu haben und auf Hilfe angewiesen zu sein. Mit freundlichen Grüßen Sascha Lenz",
+      "timestamp": "2025-02-12T09:40:42Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "Herr",
+        "email": "slenz74@yahoo.com",
+        "vorname": "Sascha",
+        "nachname": "Lenz",
+        "message": "Beschwerde gegen Busfahrer Fahrt gestern um 18:01 Uhr mit der Linie M1 vom Staufenplatz bis Reisholz(S). Ich bin mit meinem Rollator an Türe 2 eingestiegen. Im Bus klebte an der Türe der Hinweis,, Türstorung * jedoch nicht vom außen. An der Haltestelle Reisholz (S) ging die Türe nicht auf. Der Fahrer reagierte nicht und blieb sitzen anstatt die Türe manuell zu öffnen. Erst durch das beherzigste eingreifen von zwei mitfahrenden Leuten kam ich aus dem Bus raus, die dann meinen Rollator über die Sitze hinweg bis zur 3. Türe gehoben haben und ich letztlich dann aussteigen konnte. Ich finde das echt nicht gut, ich weiß das man die Türen manuell mit einem Schlüssel öffnen kann dieses aber nicht gemacht wurde. Ich hoffe der Busfahrer kommt nicht mal selber in die Lage eine Schwerbehinderung zu haben und auf Hilfe angewiesen zu sein. Mit freundlichen Grüßen Sascha Lenz",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRfAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  [202502120637456884]: Anfrage über das Kontaktformular",
+      "text": "Sehr geehrte Damen und Herren, ich nutze an Wochentagen täglich die Busnummer 785, um morgens um 6:06 von Hilden Weidenweg nach Düsseldorf Reißholz zu fahren. Das klappt normalerweise sehr gut. Das heute, am 12.02., abgelaufene Ereignis kann ich jedoch nicht unkommentiert lassen. Der Bus ist an der Haltestelle vorbeigefahren, obwohl dort einige Leute einsteigen wollten. Die Fahrgäste wurden einfach ignoriert Dass ein Busfahrer/in wissentlich an der Haltestelle vorbeifährt, obwohl dort mehrere (4 Personen wollten in den Bus einsteigen) Personen wild gestikulieren, auf die Straße in Richtung Bus rennen und laut rufen, geht überhaupt nicht. Ich kann mir beim besten Willen nicht vorstellen, dass wir bei dem Lärm und den Bewegungen nicht wahrgenommen wurden, zumal ich im Kegel einer Laterne stand. Mit Dunkelheit lässt sich dies also nicht rechtfertigen. Alle betroffenen Personen haben berufliche Verpflichtungen und ich bin aufgrund des heutigen Ereignisses verspätet an meinem Arbeitsplatz erschienen, was mich nach wie vor sehr ärgert. Ich bitte Sie, mit dem zu diesem Zeitpunkt aktiven Kollegen Kontakt aufzunehmen und den Vorfall zu besprechen und aufzuarbeiten! So etwas sollte keineswegs noch einmal vorkommen. Mit freundlichen Grüßen A. Grünewald",
+      "timestamp": "2025-02-12T09:39:34Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "Herr",
+        "email": "anna-gruenewald@gmx.de",
+        "vorname": "Anna",
+        "nachname": "Grünewald",
+        "message": "Sehr geehrte Damen und Herren, ich nutze an Wochentagen täglich die Busnummer 785, um morgens um 6:06 von Hilden Weidenweg nach Düsseldorf Reißholz zu fahren. Das klappt normalerweise sehr gut. Das heute, am 12.02., abgelaufene Ereignis kann ich jedoch nicht unkommentiert lassen. Der Bus ist an der Haltestelle vorbeigefahren, obwohl dort einige Leute einsteigen wollten. Die Fahrgäste wurden einfach ignoriert Dass ein Busfahrer/in wissentlich an der Haltestelle vorbeifährt, obwohl dort mehrere (4 Personen wollten in den Bus einsteigen) Personen wild gestikulieren, auf die Straße in Richtung Bus rennen und laut rufen, geht überhaupt nicht. Ich kann mir beim besten Willen nicht vorstellen, dass wir bei dem Lärm und den Bewegungen nicht wahrgenommen wurden, zumal ich im Kegel einer Laterne stand. Mit Dunkelheit lässt sich dies also nicht rechtfertigen. Alle betroffenen Personen haben berufliche Verpflichtungen und ich bin aufgrund des heutigen Ereignisses verspätet an meinem Arbeitsplatz erschienen, was mich nach wie vor sehr ärgert. Ich bitte Sie, mit dem zu diesem Zeitpunkt aktiven Kollegen Kontakt aufzunehmen und den Vorfall zu besprechen und aufzuarbeiten! So etwas sollte keineswegs noch einmal vorkommen. Mit freundlichen Grüßen A. Grünewald",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cReAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  [202502111745391918]: Anfrage über das Kontaktformular",
+      "text": "Sehr geehrte Damen und Herren, regelmäßig fährt der Bus 738 vom Düsseldorf Hbf nach Mettmann früher ab als es auf dem Fahrplan ausgewiesen ist. Dort steht Abfahrt 17:39 Uhr . Der Busfahrer fährt regelmäßig,soeben und gestern Abend auch, schon um 17.35 los. Es steht sogar auf dem Wagen \"Abfahrt in 3 Minuten\" während er fährt. Es ist sehr ärgerlich dadurch abends den Bus zu verpassen und es ergibt keinen Sinn einen Plan zu machen, an den sich die Busfahrer nicht halten.",
+      "timestamp": "2025-02-12T09:26:00Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "Frau",
+        "email": "isalibella@gmx.de",
+        "vorname": "Bella",
+        "nachname": "S.",
+        "message": "Sehr geehrte Damen und Herren, regelmäßig fährt der Bus 738 vom Düsseldorf Hbf nach Mettmann früher ab als es auf dem Fahrplan ausgewiesen ist. Dort steht Abfahrt 17:39 Uhr . Der Busfahrer fährt regelmäßig,soeben und gestern Abend auch, schon um 17.35 los. Es steht sogar auf dem Wagen \"Abfahrt in 3 Minuten\" während er fährt. Es ist sehr ärgerlich dadurch abends den Bus zu verpassen und es ergibt keinen Sinn einen Plan zu machen, an den sich die Busfahrer nicht halten.",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRdAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  [202502111630469055]: Anfrage über das Kontaktformular",
+      "text": "Sehr geehrte Damen und Herren, ich bin heute um 15:53 ab Ratingen \"Im Rott\" mit der Linie 758 in Richtung Golzheim gefahren (Busnummer 9180). Zwischen den Haltestellen Rtg Broichhof und D Dome/Am Hülserhof habe ich leider feststellen müssen, dass der Busfahrer längere Zeit sein Handy in der Hand und darauf getippt hat. Bis zum nördlichen Zubringer hatte er es dann auf das Armaturenbrett gelegt. (Siehe Fotos.) Ich bin in Düsseldorf eigentlich gerne und viel mit Bus und Bahn unterwegs, möchte mich aber in den Fahrzeugen der Rheinbahn sicher fühlen statt mich fragen zu müssen, ob dem:der Fahrer:in die WhatsApp-Nachricht gerade vielleicht wichtiger ist als der Verkehr. Mit freundlichen Grüßen Julia Arndt",
+      "timestamp": "2025-02-12T09:20:40Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "Frau",
+        "email": "jkf.arndt@gmail.com",
+        "vorname": "",
+        "nachname": "Arndt",
+        "message": "Sehr geehrte Damen und Herren, ich bin heute um 15:53 ab Ratingen \"Im Rott\" mit der Linie 758 in Richtung Golzheim gefahren (Busnummer 9180). Zwischen den Haltestellen Rtg Broichhof und D Dome/Am Hülserhof habe ich leider feststellen müssen, dass der Busfahrer längere Zeit sein Handy in der Hand und darauf getippt hat. Bis zum nördlichen Zubringer hatte er es dann auf das Armaturenbrett gelegt. (Siehe Fotos.) Ich bin in Düsseldorf eigentlich gerne und viel mit Bus und Bahn unterwegs, möchte mich aber in den Fahrzeugen der Rheinbahn sicher fühlen statt mich fragen zu müssen, ob dem:der Fahrer:in die WhatsApp-Nachricht gerade vielleicht wichtiger ist als der Verkehr. Mit freundlichen Grüßen Julia Arndt",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRcAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  [202502111628778622]: Anfrage über das Kontaktformular",
+      "text": "Im Bereich der Haltestelle \"Am Zault\" (Steig 2) in 40627 Düsseldorf-Unterbach befindet sich ein Graffiti auf den dort befindlichen Sitzen. Eine entsprechende Bilddatei füge ich Ihnen anliegend bei. Bitte lassen Sie das Graffiti kurzfristig entfernen.",
+      "timestamp": "2025-02-12T09:19:58Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "Herr",
+        "email": "pascal@pascalfriedrich.de",
+        "vorname": "",
+        "nachname": "Friedrich",
+        "message": "Im Bereich der Haltestelle \"Am Zault\" (Steig 2) in 40627 Düsseldorf-Unterbach befindet sich ein Graffiti auf den dort befindlichen Sitzen. Eine entsprechende Bilddatei füge ich Ihnen anliegend bei. Bitte lassen Sie das Graffiti kurzfristig entfernen.",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRbAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  [202502111555411906]: Anfrage über das Kontaktformular",
+      "text": "Viehtransporte auf der U73 Sehr geehrte Damen und Herren, leider wird seit geraumer Zeit und im ständig steigenden Anteil auf der U73 nur noch ein Kurzzug eingesetzt. Die Bahnen sind ständig komplett überfüllt und es ist eine Zumutung. Die Ticketpreise kräftig erhöhen und den Service deutlich reduzieren. Dann bitte nicht wundern wenn die Leute nicht mehr den ÖPNV nutzen wollen. Bitte teilen Sie mir mit warum das Platzangebot so deutlich reduziert wurde und wann mit einer Verbesserung zu rechnen ist. Sollte dies nicht kurzfristig möglich sein werde ich mein Ticket zurückgeben und auf andere Verkehrsmittel zurückgreifen. MfG Michael Adolph",
+      "timestamp": "2025-02-12T09:17:54Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "Herr",
+        "email": "michael.adolph@mail.de",
+        "vorname": "Michael",
+        "nachname": "Adolph",
+        "message": "Viehtransporte auf der U73 Sehr geehrte Damen und Herren, leider wird seit geraumer Zeit und im ständig steigenden Anteil auf der U73 nur noch ein Kurzzug eingesetzt. Die Bahnen sind ständig komplett überfüllt und es ist eine Zumutung. Die Ticketpreise kräftig erhöhen und den Service deutlich reduzieren. Dann bitte nicht wundern wenn die Leute nicht mehr den ÖPNV nutzen wollen. Bitte teilen Sie mir mit warum das Platzangebot so deutlich reduziert wurde und wann mit einer Verbesserung zu rechnen ist. Sollte dies nicht kurzfristig möglich sein werde ich mein Ticket zurückgeben und auf andere Verkehrsmittel zurückgreifen. MfG Michael Adolph",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    },
+    {
+      "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRaAAA=",
+      "sender": "Kundendialog@rheinbahn.de <Kundendialog@rheinbahn.de>",
+      "subject": "WG: [Externe E-Mail]  [202502111551637313]: Anfrage über das Kontaktformular",
+      "text": "Am 11.2.25 stand ich und mehrere andere Personen in kaiserswerth am Klemensplatz. Die 728 Richtung Duisburg über Angermund sollte um 15:44 fahren. Gegen 15:40 Uhr fuhr die 728 am klemensplatz vorbei, ohne anzuhalten. Gerade bei diesen Linien sehr ärgerlich, da man dann in der Kälte steht und die Linien leider ja nur alle 20-30 Minuten abfahren.",
+      "timestamp": "2025-02-12T09:17:14Z",
+      "isRead": false,
+      "client": "rheinbahn",
+      "fields": {
+        "anrede": "Frau",
+        "email": "jacky199510@hotmail.de",
+        "vorname": "Jaqueline",
+        "nachname": "Kyriakidis",
+        "message": "Am 11.2.25 stand ich und mehrere andere Personen in kaiserswerth am Klemensplatz. Die 728 Richtung Duisburg über Angermund sollte um 15:44 fahren. Gegen 15:40 Uhr fuhr die 728 am klemensplatz vorbei, ohne anzuhalten. Gerade bei diesen Linien sehr ärgerlich, da man dann in der Kälte steht und die Linien leider ja nur alle 20-30 Minuten abfahren.",
+        "linie": "",
+        "haltestelle": "",
+        "richtung": "",
+        "stadt": "",
+        "datum": ""
+      }
+    }
+  ],
+  "analysis": [
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRjAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Anfrage zu Fahrplaninformationen",
+          "Fragen zu möglichen Streiks an bestimmten Tagen"
+        ],
+        "topic": "Anfrage zu Fahrplaninformationen",
+        "priority": "medium"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRiAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Haltestelle Düsseldorf Benrodestr ist verlegt, keine Informationen in der Rheinbahn APP",
+          "Unklarheit über die Bedienung der Haltestelle Benrath Rathaus",
+          "Ersatzhaltestelle ist schwer zugänglich, insbesondere für Personen mit Rollator"
+        ],
+        "topic": "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRhAAA=",
+      "analysis": {
+        "mainPoints": [
+          "App zeigt falsche Informationen über Busverbindungen an",
+          "Busverbindung Mülheim, Lehnerfeld-Düsseldorf, Heinrichstraße fuhr nicht",
+          "Kundin erwartet Rückmeldung"
+        ],
+        "topic": "Beschwerde über falsche Informationen in der App",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "Beschwerde über falsche Informationen in der App"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRgAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Beschwerde über das Verhalten des Busfahrers",
+          "Probleme beim Aussteigen mit einem Rollator",
+          "Hinweis auf technische Störung der Tür"
+        ],
+        "topic": "Beschwerde über Mitarbeiterverhalten",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "Beschwerde über falsche Informationen in der App",
+        "Beschwerde über Mitarbeiterverhalten"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRfAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Busfahrer hat an Haltestelle vorbeigefahren",
+          "Mehrere Personen wollten einsteigen und wurden ignoriert",
+          "Verspätung am Arbeitsplatz aufgrund des Vorfalls"
+        ],
+        "topic": "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "Beschwerde über falsche Informationen in der App",
+        "Beschwerde über Mitarbeiterverhalten",
+        "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cReAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Bus 738 fährt regelmäßig früher ab",
+          "Fahrplanabweichung führt zu verpassten Fahrten",
+          "Unzufriedenheit über unzuverlässige Abfahrtszeiten"
+        ],
+        "topic": "Beschwerde über Fahrplanabweichung",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "Beschwerde über falsche Informationen in der App",
+        "Beschwerde über Mitarbeiterverhalten",
+        "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle",
+        "Beschwerde über Fahrplanabweichung"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRdAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Busfahrer hat während der Fahrt mit dem Handy hantiert",
+          "Sicherheitsbedenken bezüglich der Fahrweise des Fahrers",
+          "Kundin möchte sich in den Fahrzeugen sicher fühlen"
+        ],
+        "topic": "Beschwerde über Mitarbeiterverhalten",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "Beschwerde über falsche Informationen in der App",
+        "Beschwerde über Mitarbeiterverhalten",
+        "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle",
+        "Beschwerde über Fahrplanabweichung"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRcAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Graffiti auf Sitzen an Haltestelle Am Zault",
+          "Bitte um kurzfristige Entfernung des Graffitis",
+          "Bilddatei angehängt"
+        ],
+        "topic": "Beschwerde über verschmutzte Haltestelle",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "Beschwerde über falsche Informationen in der App",
+        "Beschwerde über Mitarbeiterverhalten",
+        "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle",
+        "Beschwerde über Fahrplanabweichung",
+        "Beschwerde über verschmutzte Haltestelle"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRbAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Überfüllte Züge auf der U73",
+          "Erhöhung der Ticketpreise bei reduziertem Service",
+          "Anfrage nach Verbesserung des Platzangebots"
+        ],
+        "topic": "Beschwerde über überfüllte Züge und Servicequalität",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "Beschwerde über falsche Informationen in der App",
+        "Beschwerde über Mitarbeiterverhalten",
+        "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle",
+        "Beschwerde über Fahrplanabweichung",
+        "Beschwerde über verschmutzte Haltestelle",
+        "Beschwerde über überfüllte Züge und Servicequalität"
+      ]
+    },
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRaAAA=",
+      "analysis": {
+        "mainPoints": [
+          "Bus 728 fuhr vorbei ohne anzuhalten",
+          "Wartezeit in der Kälte",
+          "Unregelmäßige Abfahrtszeiten"
+        ],
+        "topic": "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle",
+        "priority": "high"
+      },
+      "allTopics": [
+        "Anfrage zu Fahrplaninformationen",
+        "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+        "Beschwerde über falsche Informationen in der App",
+        "Beschwerde über Mitarbeiterverhalten",
+        "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle",
+        "Beschwerde über Fahrplanabweichung",
+        "Beschwerde über verschmutzte Haltestelle",
+        "Beschwerde über überfüllte Züge und Servicequalität"
+      ]
+    }
+  ],
+  "allTopics": [
+    "Anfrage zu Fahrplaninformationen",
+    "Anfrage zu Haltestellenverlegung und Zugänglichkeit",
+    "Beschwerde über falsche Informationen in der App",
+    "Beschwerde über Mitarbeiterverhalten",
+    "Beschwerde über nicht erfolgte Mitnahme an der Haltestelle",
+    "Beschwerde über Fahrplanabweichung",
+    "Beschwerde über verschmutzte Haltestelle",
+    "Beschwerde über überfüllte Züge und Servicequalität"
+  ],
+  "metadata": {
+    "total": 17,
+    "page": 1,
+    "pageSize": 10
+  },
+  "completedAt": "2025-02-12T11:06:26.692Z"
+}

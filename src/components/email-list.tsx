@@ -39,6 +39,9 @@ export function EmailList() {
 
   const fetchEmails = async () => {
     try {
+      setSelectedEmail(null);
+      setClassification(null);
+      setGeneration('');
       setLoading(true);
       const queryParams = new URLSearchParams({
         client: filters.client,
@@ -93,7 +96,7 @@ export function EmailList() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          text: email.extractedFields.message,
+          text: email.fields.message,
         }),
       });
 
@@ -122,10 +125,10 @@ export function EmailList() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          text: email.extractedFields.message,
-          vorname: email.extractedFields.vorname,
-          nachname: email.extractedFields.nachname,
-          anrede: email.extractedFields.anrede,
+          text: email.fields.message,
+          vorname: email.fields.vorname,
+          nachname: email.fields.nachname,
+          anrede: email.fields.anrede,
           clientName: filters.client,
         }),
       });
@@ -144,7 +147,7 @@ export function EmailList() {
   };
 
   const totalPages = Math.ceil(totalEmails / PAGE_SIZE);
-
+  console.log(emails);
   if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
@@ -218,9 +221,7 @@ export function EmailList() {
                     onClick={() => handleEmailSelect(email)}
                   >
                     <p className="font-medium">{email.subject}</p>
-                    <p className="text-sm text-gray-400">
-                      {email.from.emailAddress.address}
-                    </p>
+                    <p className="text-sm text-gray-400">{email.email}</p>
                     <p className="text-sm text-gray-400">
                       {new Date(email.receivedDateTime).toLocaleString()}
                     </p>
@@ -279,7 +280,7 @@ export function EmailList() {
                   {selectedEmail.subject}
                 </h2>
                 <p className="text-sm text-gray-400">
-                  From: {selectedEmail.from.emailAddress.address}
+                  From: {selectedEmail.sender}
                 </p>
                 <p className="text-sm text-gray-400 mb-4">
                   {new Date(selectedEmail.receivedDateTime).toLocaleString()}
@@ -302,7 +303,7 @@ export function EmailList() {
             </div>
 
             <div className="whitespace-pre-wrap bg-gray-900 p-4 rounded-lg">
-              {selectedEmail.extractedFields.message}
+              {selectedEmail.fields.message}
             </div>
 
             {isClassifying ? (

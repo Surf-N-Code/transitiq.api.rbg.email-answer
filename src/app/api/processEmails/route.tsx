@@ -78,7 +78,7 @@ async function handleRequest(
   const emailHandler = new EmailHandler();
   await emailHandler.initializeToken();
   emailHandler.setInboxToProcess(inboxToProcess);
-  const emails = await emailHandler.crawlUnreadEmails();
+  const emails = await emailHandler.crawlUnreadEmails(true);
   for (const email of emails) {
     try {
       logInfo(`Start processing email`, {

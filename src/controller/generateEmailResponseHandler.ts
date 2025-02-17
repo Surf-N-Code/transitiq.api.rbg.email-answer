@@ -36,6 +36,7 @@ export async function generateEmailResponse(
 
   let isComplaintAboutBeingLeftBehind = false;
   try {
+    //@TODO: pass anonymized text
     isComplaintAboutBeingLeftBehind = await classifyText(
       extractedFields.message
     );
@@ -84,12 +85,20 @@ export async function generateEmailResponse(
   const placeholders = getPlaceholderKeys(anonymizedText.replacements);
 
   let emailReply: string | null = null;
+  const gender =
+    extractedFields.anrede === 'Herr'
+      ? 'male'
+      : extractedFields.anrede === 'Frau'
+        ? 'female'
+        : 'neutral';
+  const hasLastname = extractedFields.nachname !== '';
   try {
     emailReply = await aiResponse(
       anonymizedText.anonymized_text,
       placeholders,
-      extractedFields,
-      'rheinbahn'
+      'rheinbahn',
+      gender,
+      hasLastname
     );
     logInfo(`Ai response generated for email`, {
       email: email.id,
@@ -111,7 +120,8 @@ export async function generateEmailResponse(
 
   const deAnonymizedEmailReply = deAnonymizeText(
     emailReply,
-    anonymizedText.replacements
+    anonymizedText.replacements,
+    extractedFields.nachname
   );
 
   // Log the original message and AI response
@@ -127,7 +137,6 @@ export async function generateEmailResponse(
   let content =
     `<strong>Kategorie:</strong>\nBeschwerde stehen gelassen` +
     `\n\n<strong>Kunden E-Mail:</strong> ${extractedFields.email ?? 'Keine E-Mail vorhanden'}` +
-    `${extractedFields.anrede ? `\n\n<strong>Kundendaten:</strong>\n${extractedFields.anrede} ${extractedFields.vorname} ${extractedFields.nachname}` : ''}` +
     `\n\n<strong>Kunden Beschwerde:</strong>\n${extractedFields.message}` +
     `\n\n<strong>KI Antwort:</strong>\n` +
     deAnonymizedEmailReply;

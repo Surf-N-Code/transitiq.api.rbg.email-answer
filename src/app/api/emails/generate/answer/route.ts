@@ -3,10 +3,10 @@ import { EmailFields } from '@/types/email';
 import { logError, logInfo } from '@/lib/logger';
 import { classifyText, anonymizeText, aiResponse } from '@/app/actions/actions';
 import { deAnonymizeText, getPlaceholderKeys } from '@/lib/anonymization';
+import { has } from 'node_modules/cheerio/dist/commonjs/api/traversing';
 
 export async function POST(req: Request) {
   const { text, vorname, nachname, anrede, clientName } = await req.json();
-  const clientData = { vorname, nachname, anrede, message: text, email: '' };
 
   if (!text) {
     logError('No text provided to analyze');
@@ -14,14 +14,20 @@ export async function POST(req: Request) {
   }
 
   const anonymizedText = await anonymizeText(text);
+  logInfo('Text & anonymized text:', { anonymizedText });
   const placeholders = getPlaceholderKeys(anonymizedText.replacements);
+  logInfo('Placeholders:', { placeholders });
 
   let emailReply: string | null = null;
+  const gender =
+    anrede === 'Herr' ? 'male' : anrede === 'Frau' ? 'female' : 'neutral';
+  const hasLastname = nachname !== '';
   emailReply = await aiResponse(
     anonymizedText.anonymized_text,
     placeholders,
-    clientData,
-    clientName
+    clientName,
+    gender,
+    hasLastname
   );
 
   if (!emailReply) {
@@ -31,8 +37,11 @@ export async function POST(req: Request) {
 
   const deAnonymizedEmailReply = deAnonymizeText(
     emailReply,
-    anonymizedText.replacements
+    anonymizedText.replacements,
+    nachname
   );
+  logInfo('emailReply', { emailReply });
+  logInfo('De-anonymized email reply:', { deAnonymizedEmailReply });
 
   return Response.json({
     text: deAnonymizedEmailReply,
