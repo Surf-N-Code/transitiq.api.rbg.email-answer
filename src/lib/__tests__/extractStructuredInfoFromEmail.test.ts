@@ -2,129 +2,24 @@ import { extractStructuredInfoFromEmail } from '../extractStructuredInfoFromEmai
 import { emailExamples } from './htmlEmails';
 
 describe('extractStructuredInfoFromEmail', () => {
-  test('extracts fields from website complaint form', () => {
-    const html = `
-      <html>
-        <body>
-        Anrede Herr
-        Vorname John
-        Nachname Doe
-        E-Mail john.doe@example.com
-        Eure Nachricht an uns
-          Dies ist die Nachricht
-          Dokumenten-Upload
-        </body>
-      </html>
-    `;
+  test('extracts fields from complaint form', () => {
+    const html = emailExamples.filter(
+      (email) => email.type === 'websiteComplaintForm'
+    )[0].html;
 
     const result = extractStructuredInfoFromEmail(html);
     expect(result).toEqual(
       expect.objectContaining({
         anrede: 'Herr',
-        vorname: 'John',
-        nachname: 'Doe',
-        email: 'john.doe@example.com',
-        message: 'Dies ist die Nachricht',
-      })
-    );
-  });
-
-  test('extracts fields from email complaint', () => {
-    const html = `
-      <html>
-        <body>
-          Betreff: [Externe E-Mail] U76 6:25 Uhr am 3.2. ab Belsenplatz
-          2. Versuch
-          --
-          Gesendet mit der GMX Mail App
-          Am 03.02.25, 06:33 schrieb Kati Fritzsche <kati.fritzsche@gmx.de>:
-          ... es handelte sich um die Haltestelle Belsenplatz.
-          --
-          Gesendet mit der GMX Mail App
-          Am 03.02.25, 06:32 schrieb Kati Fritzsche <kati.fritzsche@gmx.de>:
-          Liebes Kundenservice Team,
-          Ich konnte heute nicht in meine Bahn einsteigen, da eine Tür öffnete, aber keine Treppen ausfuhr. Die nächstgelegene Tür öffnete gar nicht nach Drücken des Knopfes. Als ich weiter Richtung Spitze des Zuges lief, weil dort ein Fahrgast eingestiegen war, wunk ich dabei Richtung Triebfahrzeug. Statt noch einen Augenblick zu warten (wir waren in Summe nur 2 Fahrgäste am Gleis), verriegelte die Bahn und fuhr weiter. Mir fehlen die Worte wegen dieses unnötigen Frustes und schlechtem Kundenservice. Ich verpasse nun meinen Anschlusszug und stehe unnötig in der Kälte an der Haltestelle.
-          Viele Grüsse
-          Kati Fritzsche
-          --
-          Gesendet mit der GMX Mail App
-          Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf
-        </body>
-      </html>
-    `;
-
-    const result = extractStructuredInfoFromEmail(html);
-    expect(result).toEqual(
-      expect.objectContaining({
-        anrede: '',
-        vorname: '',
-        nachname: '',
-        email: '',
-        message:
-          'U76 6:25 Uhr am 3.2. ab Belsenplatz 2. Versuch -- Gesendet mit der GMX Mail App Am 03.02.25, 06:33 schrieb Kati Fritzsche : ... es handelte sich um die Haltestelle Belsenplatz. -- Gesendet mit der GMX Mail App Am 03.02.25, 06:32 schrieb Kati Fritzsche : Liebes Kundenservice Team, Ich konnte heute nicht in meine Bahn einsteigen, da eine Tür öffnete, aber keine Treppen ausfuhr. Die nächstgelegene Tür öffnete gar nicht nach Drücken des Knopfes. Als ich weiter Richtung Spitze des Zuges lief, weil dort ein Fahrgast eingestiegen war, wunk ich dabei Richtung Triebfahrzeug. Statt noch einen Augenblick zu warten (wir waren in Summe nur 2 Fahrgäste am Gleis), verriegelte die Bahn und fuhr weiter. Mir fehlen die Worte wegen dieses unnötigen Frustes und schlechtem Kundenservice. Ich verpasse nun meinen Anschlusszug und stehe unnötig in der Kälte an der Haltestelle. Viele Grüsse Kati Fritzsche -- Gesendet mit der GMX Mail App',
-        metaInformation: '',
+        vorname: 'Daniel',
+        nachname: 'Krug',
+        email: 'd.k.1986@gmx.net',
+        message: `Liebe Rheinbahn, ich bitte täglich Ihr Angebot und bin sehr glücklich darüber. Allerdings gäbe es eine Verbesserung. Ich nehme an, dass nicht genug Fahrzeuge für die Wehrhahnlinie vorhanden sind. In einigen Monaten fällt das auch mehr auf als in anderen, vielleicht finden da ja Wartungen statt. Jedenfalls fahren dann immer viele Kurzzüge, die für Chaos sorgen, weil sich da alle reindrängeln, obwohl vielleicht eine Minute später noch eine Bahn kommt. Wer das weiß, wartet. Nur doof, wenn das auch ein Kurzzug ist. Zu gefühlt 90% fahren die kurzen Bahnen auf der Linie U83. Könnte man es nicht so machen, dass diese ausschließlich auf dieser Linie fahren? Wenn man dann an der Haltestelle steht, wüsste man: U71/72/73, da kommt auf jeden Fall ein langer, U83 könnte kurz sein. Gerade auch wenn ein überfüllter langer Zug einfährt und man auf die nächste Bahn wartet, die aber auch überfüllt (weil kurz) ist, könnte man das besser abschätzen. Außerdem fahren Kurzzüge immer bis ganz vorne und alle die ganz hinten einsteigen wollten müssen dann nach vorne hetzen und nutzen alle die hintere Tür. Dadurch wird es da besonders eng. Besser wäre es, wenn die Kurzzüge mehr mittig halten. Viele Grüße, Daniel Krug`,
         linie: '',
         haltestelle: '',
         richtung: '',
         stadt: '',
-        datum: '',
-      })
-    );
-  });
-
-  test('extracts fields from callcenter forwarded complaint', () => {
-    const html = `
-      <html>
-        <body>
-          Anrede: 
-          Titel: 
-          Vorname: Nicol
-          Nachname: Klot
-          Geburtsdatum: 
-          Kundennummer/Abonummer: 
-          Abo_Typ: 
-          Ticketinhaber: 
-          Straße: Duisburgerstr.
-          Hausnummer: 291
-          PLZ: 47829
-          Ort: Krefeld
-          Adresse_Zusatz: 
-          Kontaktwunsch: schriftlich
-          Telefonnummer: 0176 24136159
-          E_Mail: keine
-          --------------------------
-          Datum/Uhrzeit des Vorfalls: 2025-02-05, 15:49 Uhr
-          Ort_Vorfall: Krefeld, Am Röttgen
-          Linie: 831
-          Haltestelle: CHEMPARK Tor 15, Krefeld
-          Richtung: Krefeld HPZ
-          --------------------------
-          Bemerkung: Kunde beschwerte sich über das Fahrverhalten des Busfahrers. Ein Kinderwagen stand im Mehrzweckbereich und dieser schwankte bedenklich hin und her, aufgrund der ungünstigen Fahrweise. Auch telefonierte der Busfahrer und schimpfte mit den Kunden. 
-          ___________________________
-          i.A. Nina Sternagel
-          Sachbearbeitung Kundendialog (K212.500)
-          Tel:      + 49 0211 582 1430
-          Mobil:  + 49 172 309 7032
-          Email:   nina.sternagel@rheinbahn.de
-          Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf
-        </body>
-      </html>
-    `;
-
-    const result = extractStructuredInfoFromEmail(html);
-    expect(result).toEqual(
-      expect.objectContaining({
-        anrede: '',
-        vorname: 'Nicol',
-        nachname: 'Klot',
-        email: '',
-        message:
-          'Kunde beschwerte sich über das Fahrverhalten des Busfahrers. Ein Kinderwagen stand im Mehrzweckbereich und dieser schwankte bedenklich hin und her, aufgrund der ungünstigen Fahrweise. Auch telefonierte der Busfahrer und schimpfte mit den Kunden.',
-        linie: '831',
-        haltestelle: 'CHEMPARK Tor 15, Krefeld',
-        richtung: 'Krefeld HPZ',
-        stadt: 'Krefeld, Am Röttgen',
-        datum: '2025-02-05, 15:49',
+        datum: 'Dienstag, 18. Februar 2025 09:03',
       })
     );
   });

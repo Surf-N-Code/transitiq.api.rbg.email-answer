@@ -722,3 +722,169 @@
 [2025-02-18T13:20:03.777Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF3HA8AAA= and subject: WG: [Externe E-Mail] Automatische Weiterleitung eines Anliegens aus dem VRR-Kontaktformular
 [2025-02-18T13:20:04.134Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF3HA8AAA= and subject: WG: [Externe E-Mail] Automatische Weiterleitung eines Anliegens aus dem VRR-Kontaktformular
 [2025-02-18T13:20:04.134Z] [INFO] Finished processing emails
+[2025-02-18T14:08:41.064Z] [INFO] Processing emails
+{
+  "count": 14
+}
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 1 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 2 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 3 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 4 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 5 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 6 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 7 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 8 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 9 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 10 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 11 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 12 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 13 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Processed email 14 of 14
+[2025-02-18T14:08:41.064Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFVAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502180903651790]: Anfrage über das Kontaktformular"
+}
+[2025-02-18T14:08:41.080Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Liebe Rheinbahn, ich bitte täglich Ihr Angebot und bin sehr glücklich darüber. Allerdings gäbe es eine Verbesserung. Ich nehme an, dass nicht genug Fahrzeuge für die Wehrhahnlinie vorhanden sind. In einigen Monaten fällt das auch mehr auf als in anderen, vielleicht finden da ja Wartungen statt. Jedenfalls fahren dann immer viele Kurzzüge, die für Chaos sorgen, weil sich da alle reindrängeln, obwohl vielleicht eine Minute später noch eine Bahn kommt. Wer das weiß, wartet. Nur doof, wenn das auch ein Kurzzug ist. Zu gefühlt 90% fahren die kurzen Bahnen auf der Linie U83. Könnte man es nicht so machen, dass diese ausschließlich auf dieser Linie fahren? Wenn man dann an der Haltestelle steht, wüsste man: U71/72/73, da kommt auf jeden Fall ein langer, U83 könnte kurz sein. Gerade auch wenn ein überfüllter langer Zug einfährt und man auf die nächste Bahn wartet, die aber auch überfüllt (weil kurz) ist, könnte man das besser abschätzen. Außerdem fahren Kurzzüge immer bis ganz vorne und alle die ganz hinten einsteigen wollten müssen dann nach vorne hetzen und nutzen alle die hintere Tür. Dadurch wird es da besonders eng. Besser wäre es, wenn die Kurzzüge mehr mittig halten. Viele Grüße, Daniel Krug",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-18T14:08:42.116Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-18T14:08:42.668Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFVAAA= and subject: WG: [Externe E-Mail]  [202502180903651790]: Anfrage über das Kontaktformular
+[2025-02-18T14:08:43.017Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFVAAA= and subject: WG: [Externe E-Mail]  [202502180903651790]: Anfrage über das Kontaktformular
+[2025-02-18T14:08:43.017Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFUAAA=",
+  "subject": "WG: [Externe E-Mail]  Frage zum Ticketkauf nach Wegfall des DRK-Großkundenrabatts"
+}
+[2025-02-18T14:08:43.020Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Frage zum Ticketkauf nach Wegfall des DRK-Großkundenrabatts\nVon: Kevin Joswig <k.joswig@aol.com> \nGesendet: Sonntag, 16. Februar 2025 19:24\nAn: Rheinbahn <Rheinbahn@rheinbahn.de>\nBetreff:  Frage zum Ticketkauf nach Wegfall des DRK-Großkundenrabatts\nSehr geehrte Damen und Herren,\nich war bisher im Rahmen des DRK-Großkundenrabatts als Abonnent bei Ihnen registriert. Da dieser Rabatt nun wegfällt, muss ich mein Ticket selbst erwerben.\nIn der Rheinbahn-App habe ich bereits die Möglichkeit gefunden, mein Ticket zu kaufen. Allerdings bevorzuge ich ein physisches Ticket. Können Sie mir sagen, ob es eine Möglichkeit gibt, dieses zu erhalten? Muss ich dafür mein Abonnement vor Ort abschließen, oder gibt es eine andere Option zur Anforderung eines physischen Tickets?\nIch freue mich auf Ihre Rückmeldung und bedanke mich im Voraus für Ihre Unterstützung.\nMit freundlichen Grüßen\nRose Joswig",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-18T14:08:43.606Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-18T14:08:43.969Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFUAAA= and subject: WG: [Externe E-Mail]  Frage zum Ticketkauf nach Wegfall des DRK-Großkundenrabatts
+[2025-02-18T14:08:44.343Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFUAAA= and subject: WG: [Externe E-Mail]  Frage zum Ticketkauf nach Wegfall des DRK-Großkundenrabatts
+[2025-02-18T14:08:44.344Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFTAAA=",
+  "subject": "WG: [Externe E-Mail] Automatische Weiterleitung eines Anliegens aus dem VRR-Kontaktformular"
+}
+[2025-02-18T14:08:44.353Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "goethe1985@yahoo.de",
+  "vorname": "Lena-Mia",
+  "nachname": "Rolofs",
+  "message": "Die 706 ab Kruppstrasse Richtung Hamm S um 20:06 ist einfach ausgefallen. Es ist nicht nachvollziehbar wieso dies nicht in der Online Fahrplanauskunft angezeigt wird. Stehe bei Minusgraden mit einem Kleinkind und einem Säugling für 20 Minuten an der Haltestelle. Da weiss ich wieder warum ich fast immer das Fahrrad oder das Auto nehme und nicht gerne mit der Rheinbahn fahre. Ihre Arbeitsweise ist absolut nicht serviceorientiert und Ihre Fahrzeuge für Kinderwagen ungeeignet. Dies n6r als kleine Kirsche on top neben Unpünktlichkeit und Bahnausfällen.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": "16.02.2025 20:35:10"
+}
+[2025-02-18T14:08:44.868Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-18T14:08:45.226Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFTAAA= and subject: WG: [Externe E-Mail] Automatische Weiterleitung eines Anliegens aus dem VRR-Kontaktformular
+[2025-02-18T14:08:45.578Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFTAAA= and subject: WG: [Externe E-Mail] Automatische Weiterleitung eines Anliegens aus dem VRR-Kontaktformular
+[2025-02-18T14:08:45.578Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFSAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502171730443291]: Anfrage über das Kontaktformular"
+}
+[2025-02-18T14:08:45.582Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren, an der Haltestelle \"Am Ellerforst\" steht seit Wochen ein Schild, dass die Haltestelle ab dem 17.2., 7.00 Uhr, auf Höhe Boston-Club verlegt wird. Doch leider sind anscheinend die Busfahrer nicht informiert (oder sie interessiert es nicht) und fahren einfach an der Ersatzhaltestelle vorbei. Super Service und Kommunikation.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-18T14:08:46.061Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-18T14:08:46.142Z] [INFO] Anonymized text:
+{
+  "text": "Sehr geehrte Damen und Herren, an der Haltestelle \"Am Ellerforst\" steht seit Wochen ein Schild, dass die Haltestelle ab dem 17.2., 7.00 Uhr, auf Höhe Boston-Club verlegt wird. Doch leider sind anscheinend die Busfahrer nicht informiert (oder sie interessiert es nicht) und fahren einfach an der Ersatzhaltestelle vorbei. Super Service und Kommunikation.",
+  "anonymized_text": "Sehr geehrte Damen und Herren, an der Haltestelle \"Am [ANON_LOCATION_1]\" steht seit Wochen ein Schild, dass die Haltestelle ab dem 17.2., [TIME_1], auf Höhe Boston-Club verlegt wird. Doch leider sind anscheinend die Busfahrer nicht informiert (oder sie interessiert es nicht) und fahren einfach an der Ersatzhaltestelle vorbei. [ANON_NAME_1] und Kommunikation.",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Ellerforst"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Super Service"
+      }
+    ],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "7.00 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-18T14:09:42.220Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-18T14:09:42.220Z] [INFO] Processed email 1 of 1
+[2025-02-18T14:09:42.220Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFVAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502180903651790]: Anfrage über das Kontaktformular"
+}
+[2025-02-18T14:09:42.240Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Liebe Rheinbahn, ich bitte täglich Ihr Angebot und bin sehr glücklich darüber. Allerdings gäbe es eine Verbesserung. Ich nehme an, dass nicht genug Fahrzeuge für die Wehrhahnlinie vorhanden sind. In einigen Monaten fällt das auch mehr auf als in anderen, vielleicht finden da ja Wartungen statt. Jedenfalls fahren dann immer viele Kurzzüge, die für Chaos sorgen, weil sich da alle reindrängeln, obwohl vielleicht eine Minute später noch eine Bahn kommt. Wer das weiß, wartet. Nur doof, wenn das auch ein Kurzzug ist. Zu gefühlt 90% fahren die kurzen Bahnen auf der Linie U83. Könnte man es nicht so machen, dass diese ausschließlich auf dieser Linie fahren? Wenn man dann an der Haltestelle steht, wüsste man: U71/72/73, da kommt auf jeden Fall ein langer, U83 könnte kurz sein. Gerade auch wenn ein überfüllter langer Zug einfährt und man auf die nächste Bahn wartet, die aber auch überfüllt (weil kurz) ist, könnte man das besser abschätzen. Außerdem fahren Kurzzüge immer bis ganz vorne und alle die ganz hinten einsteigen wollten müssen dann nach vorne hetzen und nutzen alle die hintere Tür. Dadurch wird es da besonders eng. Besser wäre es, wenn die Kurzzüge mehr mittig halten. Viele Grüße, Daniel Krug",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-18T14:09:42.874Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-18T14:09:43.279Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFVAAA= and subject: WG: [Externe E-Mail]  [202502180903651790]: Anfrage über das Kontaktformular
+[2025-02-18T14:09:43.630Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABKdmFVAAA= and subject: WG: [Externe E-Mail]  [202502180903651790]: Anfrage über das Kontaktformular
+[2025-02-18T14:09:43.631Z] [INFO] Finished processing emails

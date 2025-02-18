@@ -18,6 +18,7 @@ export function extractStructuredInfoFromEmail(
   textToAnalyze: string
 ): EmailFields {
   try {
+    fs.writeFileSync('unedited_text.txt', textToAnalyze);
     const $ = cheerio.load(textToAnalyze);
 
     // Remove script and style tags
@@ -30,6 +31,8 @@ export function extractStructuredInfoFromEmail(
 
     // Get text and preserve some formatting
     let text = $('body').text();
+
+    console.log('text', text);
 
     // Clean up whitespace
     text = text
@@ -53,10 +56,11 @@ export function extractStructuredInfoFromEmail(
         startMarker: 'Eure Nachricht an uns',
         endMarkers: ['Dokumenten-Upload'],
         fieldRecognitionPatterns: {
-          anrede: /Anrede(Frau|Herr|Divers|Keine Angabe)/,
-          email: /E-Mail([^\s]+@[^\s]+)(\s+)(?=Telefon)/,
-          vorname: /Dokumenten-Upload-Vorname(\S+)(\s+)(?=Nachname)/,
-          nachname: /Nachname(\S+)/,
+          anrede: /Anrede\s*\n\s*([^\n]+)/,
+          email: /E-Mail\s*\n\s*([^\n]+)/,
+          vorname: /Vorname\s*\n\s*([^\n]+)/,
+          nachname: /Nachname\s*\n\s*([^\n]+)/,
+          datum: /Gesendet:\s*([\w,\s\.]+\d{2}:\d{2})/i,
         },
       },
       {
