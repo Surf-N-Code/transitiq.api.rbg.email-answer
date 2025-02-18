@@ -78,8 +78,6 @@ export async function generateEmailResponse(
         'Failed to send email to non-category recipients',
         new Error(JSON.stringify(emailErrorObject))
       );
-      e.cause = error;
-      throw e;
     }
     return;
   }

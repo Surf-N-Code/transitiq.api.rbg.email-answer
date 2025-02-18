@@ -125,9 +125,9 @@ export async function fetchEmails(
       const extractedFields = extractStructuredInfoFromEmail(
         email.body.content
       );
+      console.log('extractedFields', extractedFields);
       const emailWithFields = {
         ...email,
-        text: extractedFields.message,
         extractedFields,
       };
       emailsWithExtractedCustomerFields.push(emailWithFields);
@@ -159,6 +159,8 @@ export async function fetchEmails(
     client: filters.client === 'all' ? 'unknown' : filters.client,
     fields: email.extractedFields,
   }));
+
+  console.log('transformedEmails', transformedEmails);
 
   // Calculate pagination
   const total = transformedEmails.length;

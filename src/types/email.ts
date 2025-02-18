@@ -11,9 +11,10 @@ export interface Email {
 
 export interface CrawledEmail {
   id: string;
-  receivedDateTime: string;
+  timestamp: string;
   subject: string;
   isRead: boolean;
+  sender: string;
   body: {
     contentType: string;
     content: string;
@@ -27,7 +28,7 @@ export interface CrawledEmail {
 }
 
 export interface CrawledEmailWithExtractedCustomerFields extends CrawledEmail {
-  extractedFields: EmailFields;
+  fields: EmailFields;
 }
 
 export interface EmailFields {

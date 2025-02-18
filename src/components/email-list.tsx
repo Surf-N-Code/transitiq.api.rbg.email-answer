@@ -221,9 +221,9 @@ export function EmailList() {
                     onClick={() => handleEmailSelect(email)}
                   >
                     <p className="font-medium">{email.subject}</p>
-                    <p className="text-sm text-gray-400">{email.email}</p>
+                    <p className="text-sm text-gray-400">{email.sender}</p>
                     <p className="text-sm text-gray-400">
-                      {new Date(email.receivedDateTime).toLocaleString()}
+                      {new Date(email.timestamp).toLocaleString()}
                     </p>
                   </div>
                   <button
@@ -283,14 +283,14 @@ export function EmailList() {
                   From: {selectedEmail.sender}
                 </p>
                 <p className="text-sm text-gray-400 mb-4">
-                  {new Date(selectedEmail.receivedDateTime).toLocaleString()}
+                  {new Date(selectedEmail.timestamp).toLocaleString()}
                 </p>
                 <p className="text-sm text-gray-400 mb-4">
-                  Kundenname: {selectedEmail.extractedFields.vorname}{' '}
-                  {selectedEmail.extractedFields.nachname}
+                  Kundenname: {selectedEmail.fields.vorname}{' '}
+                  {selectedEmail.fields.nachname}
                 </p>
                 <p className="text-sm text-gray-400">
-                  Kundenanrede: {selectedEmail.extractedFields.anrede}
+                  Kundenanrede: {selectedEmail.fields.anrede}
                 </p>
               </div>
               <button
