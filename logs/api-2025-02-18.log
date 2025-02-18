@@ -1723,3 +1723,180 @@
 [2025-02-18T15:07:54.855Z] [INFO] Processed email 1 of 3
 [2025-02-18T15:07:54.855Z] [INFO] Processed email 2 of 3
 [2025-02-18T15:07:54.855Z] [INFO] Processed email 3 of 3
+[2025-02-18T15:12:04.032Z] [INFO] Processing emails
+{
+  "count": 3
+}
+[2025-02-18T15:12:04.033Z] [INFO] Processed email 1 of 3
+[2025-02-18T15:12:04.033Z] [INFO] Processed email 2 of 3
+[2025-02-18T15:12:04.033Z] [INFO] Processed email 3 of 3
+[2025-02-18T15:14:58.032Z] [INFO] Text & anonymized text:
+{
+  "anonymizedText": {
+    "text": "Sehr geehrte Damen und Herren,\nGestern ist der Busfahrer des 786 an der Haltestelle „Deller Straße“ um 7.26h, Richtung Haan Innenstadt, einfach an den wartenden Fahrgästen vorbei gefahren. Es kann nicht sein, dass deshalb die Kinder nicht pünktlich zur Schule kommen. Der Bus ist sehr voll und schon mehrfach habe ich Sie gebeten, auf die Sicherheit zu achten und größere Busse einzusetzen. Leider passiert hier seitens der Rheinbahn nichts.\nIst es Ihre Art von Kundenfreundlichkeit Schulkinder an Haltestellen stehen zu lassen?\nMit freundlichen Grüßen\nNina Köhler",
+    "anonymized_text": "Sehr geehrte Damen und Herren,\nGestern ist der Busfahrer des 786 an der Haltestelle „[ANON_LOCATION_2]“ um 7.26h, Richtung [ANON_LOCATION_1], einfach an den wartenden Fahrgästen vorbei gefahren. Es kann nicht sein, dass deshalb die Kinder nicht pünktlich zur Schule kommen. Der Bus ist sehr voll und schon mehrfach habe ich Sie gebeten, auf die Sicherheit zu achten und größere Busse einzusetzen. Leider passiert hier seitens der Rheinbahn nichts.\nIst es Ihre Art von Kundenfreundlichkeit Schulkinder an Haltestellen stehen zu lassen?\nMit freundlichen Grüßen\n[ANON_PERSON_1]",
+    "replacements": {
+      "persons": [
+        {
+          "[ANON_PERSON_1]": "Nina Köhler"
+        }
+      ],
+      "locations": [
+        {
+          "[ANON_LOCATION_1]": "Haan Innenstadt"
+        },
+        {
+          "[ANON_LOCATION_2]": "Deller Straße"
+        }
+      ],
+      "names": [],
+      "dates": [],
+      "times": []
+    }
+  }
+}
+[2025-02-18T15:14:58.032Z] [INFO] Placeholders:
+{
+  "placeholders": [
+    "[ANON_PERSON_1]",
+    "[ANON_LOCATION_1]",
+    "[ANON_LOCATION_2]"
+  ]
+}
+[2025-02-18T15:15:04.166Z] [INFO] emailReply
+{
+  "emailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 786 an der Haltestelle [ANON_LOCATION_2] am gestrigen Tag um 7:26 Uhr informiert haben. Wir bedauern sehr, dass der Bus, der in Richtung [ANON_LOCATION_1] unterwegs war, einfach an den wartenden Fahrgästen vorbeigefahren ist, wodurch die Kinder nicht pünktlich zur Schule gelangen konnten.\n\nDieses Verhalten entspricht nicht unserem Serviceverständnis, und wir möchten uns aufrichtig für die Unannehmlichkeiten und die Frustration entschuldigen, die Ihnen und den Kindern dadurch entstanden sind. Bitte seien Sie versichert, dass wir den Vorfall intern prüfen werden und das Fahrpersonal nochmals darauf sensibilisieren, unsere Fahrgäste zuverlässig und sicher zu befördern.\n\nUnsere Busse sollten an Haltestellen mit wartenden Fahrgästen immer anhalten, außer wenn das Fahrzeug bereits überfüllt ist. Sollte es sich in diesem Fall um ein Kapazitätsproblem gehandelt haben, werden wir Maßnahmen ergreifen, um die Situation zu verbessern. Ihre Rückmeldung bezüglich des Einsatzes größerer Busse nehmen wir sehr ernst und werden die Möglichkeiten einer solchen Maßnahme prüfen.\n\nIhre Rückmeldung ist äußerst wertvoll und hilft uns dabei, unseren Service laufend zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass Sie uns die Gelegenheit geben, Ihnen bei zukünftigen Fahrten einen besseren Service zu bieten. \n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Lob&Kritik Team"
+}
+[2025-02-18T15:15:04.167Z] [INFO] De-anonymized email reply:
+{
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 786 an der Haltestelle Deller Straße am gestrigen Tag um 7:26 Uhr informiert haben. Wir bedauern sehr, dass der Bus, der in Richtung Haan Innenstadt unterwegs war, einfach an den wartenden Fahrgästen vorbeigefahren ist, wodurch die Kinder nicht pünktlich zur Schule gelangen konnten.\n\nDieses Verhalten entspricht nicht unserem Serviceverständnis, und wir möchten uns aufrichtig für die Unannehmlichkeiten und die Frustration entschuldigen, die Ihnen und den Kindern dadurch entstanden sind. Bitte seien Sie versichert, dass wir den Vorfall intern prüfen werden und das Fahrpersonal nochmals darauf sensibilisieren, unsere Fahrgäste zuverlässig und sicher zu befördern.\n\nUnsere Busse sollten an Haltestellen mit wartenden Fahrgästen immer anhalten, außer wenn das Fahrzeug bereits überfüllt ist. Sollte es sich in diesem Fall um ein Kapazitätsproblem gehandelt haben, werden wir Maßnahmen ergreifen, um die Situation zu verbessern. Ihre Rückmeldung bezüglich des Einsatzes größerer Busse nehmen wir sehr ernst und werden die Möglichkeiten einer solchen Maßnahme prüfen.\n\nIhre Rückmeldung ist äußerst wertvoll und hilft uns dabei, unseren Service laufend zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass Sie uns die Gelegenheit geben, Ihnen bei zukünftigen Fahrten einen besseren Service zu bieten. \n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Lob&Kritik Team"
+}
+[2025-02-18T15:15:21.209Z] [INFO] Text & anonymized text:
+{
+  "anonymizedText": {
+    "text": "Hallo. Es ist jetzt 15:27h und stehe an der Haltestelle Universität Südost. Gerade eben kam der Bus 835 Richtung Belsenplatz. Planmäßige Abfahrt 15:24. der daher fuhr langsamer, schaute kurz, machte aber keine Anstalten zu bremsen. Mein Winken wurde seinerseits mit undeutbaren Gesten erwidert. Dann gab er Gas. 5 weitere Fahrgäste und ich sahen uns ungläubig an, dessen was gerade passierte. Das kann so nicht sein. Wir müssen nun auf den nächsten Bus warten. Grüße, Wolfgang Parlings",
+    "anonymized_text": "Hallo. Es ist jetzt 15:27h und stehe an der Haltestelle [ANON_NAME_1]. Gerade eben kam der Bus 835 Richtung [ANON_LOCATION_2]. Planmäßige Abfahrt [ANON_LOCATION_1] der daher fuhr langsamer, schaute kurz, machte aber keine Anstalten zu bremsen. [ANON_PERSON_2] wurde seinerseits mit undeutbaren Gesten erwidert. Dann gab er Gas. 5 weitere Fahrgäste und ich sahen uns ungläubig an, dessen was gerade passierte. Das kann so nicht sein. Wir müssen nun auf den nächsten Bus warten. Grüße, [ANON_PERSON_1]",
+    "replacements": {
+      "persons": [
+        {
+          "[ANON_PERSON_1]": "Wolfgang Parlings"
+        },
+        {
+          "[ANON_PERSON_2]": "Mein Winken"
+        }
+      ],
+      "locations": [
+        {
+          "[ANON_LOCATION_1]": "15:24."
+        },
+        {
+          "[ANON_LOCATION_2]": "Belsenplatz"
+        }
+      ],
+      "names": [
+        {
+          "[ANON_NAME_1]": "Universität Südost"
+        }
+      ],
+      "dates": [],
+      "times": []
+    }
+  }
+}
+[2025-02-18T15:15:21.209Z] [INFO] Placeholders:
+{
+  "placeholders": [
+    "[ANON_PERSON_1]",
+    "[ANON_PERSON_2]",
+    "[ANON_LOCATION_1]",
+    "[ANON_LOCATION_2]",
+    "[ANON_NAME_1]"
+  ]
+}
+[2025-02-18T15:15:26.806Z] [INFO] emailReply
+{
+  "emailReply": "Sehr geehrter Herr [NAMEPLACEHOLDER],\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 835 an der Haltestelle [ANON_NAME_1] informiert haben. Wir bedauern sehr, dass der Bus, der Richtung [ANON_LOCATION_2] unterwegs war, Sie und weitere Fahrgäste am heutigen Tag nicht mitgenommen hat.\n\nDieses Verhalten entspricht nicht unserem Serviceverständnis. Es ist unser Ziel, sämtliche Haltestellen anzufahren und Fahrgäste verlässlich und komfortabel zu befördern. Wir verstehen, dass die unerwartete Weiterfahrt ohne Halt sehr ärgerlich und frustrierend für Sie war. Möglicherweise kam es zu einem Missverständnis bezüglich der Sichtbarkeit der wartenden Fahrgäste oder es bestanden andere interne Gründe, die zur Weiterfahrt führten, die wir derzeit intern prüfen.\n\nBitte seien Sie versichert, dass wir diesen Vorfall ernst nehmen. Das verantwortliche Team wird über diese Angelegenheit informiert, und wir werden das Fahrpersonal nochmals darauf hinweisen, wie wichtig es ist, Fahrgäste an den Haltestellen zuverlässig aufzunehmen. Ihre Rückmeldung hilft uns, unsere Servicequalität stetig zu verbessern.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und die dadurch verursachte zusätzliche Wartezeit. Unser Ziel ist es, Ihnen und allen unseren Fahrgästen eine sichere und angenehme Fahrt zu bieten. Wir hoffen, Ihnen bei Ihrer nächsten Fahr mit unseren Bussen ein positives Erlebnis zu ermöglichen.\n\nNochmals vielen Dank für Ihre wertvolle Rückmeldung. Bitte bleiben Sie uns gewogen.\n\nIhr Lob&Kritik Team"
+}
+[2025-02-18T15:15:26.806Z] [INFO] De-anonymized email reply:
+{
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Parlings,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 835 an der Haltestelle Universität Südost informiert haben. Wir bedauern sehr, dass der Bus, der Richtung Belsenplatz unterwegs war, Sie und weitere Fahrgäste am heutigen Tag nicht mitgenommen hat.\n\nDieses Verhalten entspricht nicht unserem Serviceverständnis. Es ist unser Ziel, sämtliche Haltestellen anzufahren und Fahrgäste verlässlich und komfortabel zu befördern. Wir verstehen, dass die unerwartete Weiterfahrt ohne Halt sehr ärgerlich und frustrierend für Sie war. Möglicherweise kam es zu einem Missverständnis bezüglich der Sichtbarkeit der wartenden Fahrgäste oder es bestanden andere interne Gründe, die zur Weiterfahrt führten, die wir derzeit intern prüfen.\n\nBitte seien Sie versichert, dass wir diesen Vorfall ernst nehmen. Das verantwortliche Team wird über diese Angelegenheit informiert, und wir werden das Fahrpersonal nochmals darauf hinweisen, wie wichtig es ist, Fahrgäste an den Haltestellen zuverlässig aufzunehmen. Ihre Rückmeldung hilft uns, unsere Servicequalität stetig zu verbessern.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und die dadurch verursachte zusätzliche Wartezeit. Unser Ziel ist es, Ihnen und allen unseren Fahrgästen eine sichere und angenehme Fahrt zu bieten. Wir hoffen, Ihnen bei Ihrer nächsten Fahr mit unseren Bussen ein positives Erlebnis zu ermöglichen.\n\nNochmals vielen Dank für Ihre wertvolle Rückmeldung. Bitte bleiben Sie uns gewogen.\n\nIhr Lob&Kritik Team"
+}
+[2025-02-18T15:20:14.215Z] [INFO] Processing emails
+{
+  "count": 3
+}
+[2025-02-18T15:20:14.216Z] [INFO] Processed email 1 of 3
+[2025-02-18T15:20:14.216Z] [INFO] Processed email 2 of 3
+[2025-02-18T15:20:14.216Z] [INFO] Processed email 3 of 3
+[2025-02-18T15:20:26.767Z] [INFO] Text & anonymized text:
+{
+  "anonymizedText": {
+    "text": "Am 11.2.25 stand ich und mehrere andere Personen in kaiserswerth am Klemensplatz. Die 728 Richtung Duisburg über Angermund sollte um 15:44 fahren. Gegen 15:40 Uhr fuhr die 728 am klemensplatz vorbei, ohne anzuhalten. Gerade bei diesen Linien sehr ärgerlich, da man dann in der Kälte steht und die Linien leider ja nur alle 20-30 Minuten abfahren.",
+    "anonymized_text": "Am 11.2.25 stand ich und mehrere andere Personen in [ANON_LOCATION_5] am [ANON_LOCATION_4]. Die 728 Richtung [ANON_LOCATION_3] über [ANON_LOCATION_2] sollte um [TIME_2] fahren. Gegen [TIME_1] fuhr die 728 am [ANON_LOCATION_1] vorbei, ohne anzuhalten. Gerade bei diesen Linien sehr ärgerlich, da man dann in der Kälte steht und die Linien leider ja nur alle 20-30 Minuten abfahren.",
+    "replacements": {
+      "persons": [],
+      "locations": [
+        {
+          "[ANON_LOCATION_1]": "klemensplatz"
+        },
+        {
+          "[ANON_LOCATION_2]": "Angermund"
+        },
+        {
+          "[ANON_LOCATION_3]": "Duisburg"
+        },
+        {
+          "[ANON_LOCATION_4]": "Klemensplatz"
+        },
+        {
+          "[ANON_LOCATION_5]": "kaiserswerth"
+        }
+      ],
+      "names": [],
+      "dates": [],
+      "times": [
+        {
+          "[TIME_1]": "15:40 Uhr"
+        },
+        {
+          "[TIME_2]": "15:44"
+        }
+      ]
+    }
+  }
+}
+[2025-02-18T15:20:26.768Z] [INFO] Placeholders:
+{
+  "placeholders": [
+    "[ANON_LOCATION_1]",
+    "[ANON_LOCATION_2]",
+    "[ANON_LOCATION_3]",
+    "[ANON_LOCATION_4]",
+    "[ANON_LOCATION_5]",
+    "[TIME_1]",
+    "[TIME_2]"
+  ]
+}
+[2025-02-18T15:20:34.131Z] [INFO] emailReply
+{
+  "emailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 728 informiert haben. Wir bedauern sehr, dass die Linie am [TIME_1] an der Haltestelle [ANON_LOCATION_1] vorbeigefahren ist, ohne anzuhalten und Ihnen sowie weiteren Fahrgästen die Mitfahrt zu ermöglichen. Wir verstehen, wie unglücklich und frustrierend es war, insbesondere bei kaltem Wetter und der eher unregelmäßigen Taktung der Busse mit Abfahrten alle 20-30 Minuten.\n\nDieses Verhalten entspricht nicht unserem Anspruch an Service und Zuverlässigkeit. Normalerweise sollten unsere Busse selbstverständlich anhalten und Fahrgäste aufnehmen. Eine mögliche Ursache für das Vorbeifahren könnte ein Missverständnis seitens des Fahrpersonals gewesen sein oder ein technisches Problem, das die Wahrnehmung der Haltesignale beeinflusst hat. Bitte seien Sie versichert, dass wir diesen Vorfall intern prüfen werden und das Fahrpersonal nochmals dafür sensibilisieren, alle Haltestellen aufmerksam zu bedienen.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und die Wartezeit, die Ihnen und den weiteren Fahrgästen entstanden sind. Ihre Rückmeldung ist äußerst wichtig für uns, da sie dabei hilft, unsere Servicequalität kontinuierlich zu verbessern und ähnliche Vorfälle zukünftig zu vermeiden.\n\nWir hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrer nächsten Fahrt zu zeigen, dass dies nicht der Standard unserer Dienstleistungen ist. Zukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Lob&Kritik Team"
+}
+[2025-02-18T15:20:34.131Z] [INFO] De-anonymized email reply:
+{
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 728 informiert haben. Wir bedauern sehr, dass die Linie am 15:40 Uhr an der Haltestelle klemensplatz vorbeigefahren ist, ohne anzuhalten und Ihnen sowie weiteren Fahrgästen die Mitfahrt zu ermöglichen. Wir verstehen, wie unglücklich und frustrierend es war, insbesondere bei kaltem Wetter und der eher unregelmäßigen Taktung der Busse mit Abfahrten alle 20-30 Minuten.\n\nDieses Verhalten entspricht nicht unserem Anspruch an Service und Zuverlässigkeit. Normalerweise sollten unsere Busse selbstverständlich anhalten und Fahrgäste aufnehmen. Eine mögliche Ursache für das Vorbeifahren könnte ein Missverständnis seitens des Fahrpersonals gewesen sein oder ein technisches Problem, das die Wahrnehmung der Haltesignale beeinflusst hat. Bitte seien Sie versichert, dass wir diesen Vorfall intern prüfen werden und das Fahrpersonal nochmals dafür sensibilisieren, alle Haltestellen aufmerksam zu bedienen.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und die Wartezeit, die Ihnen und den weiteren Fahrgästen entstanden sind. Ihre Rückmeldung ist äußerst wichtig für uns, da sie dabei hilft, unsere Servicequalität kontinuierlich zu verbessern und ähnliche Vorfälle zukünftig zu vermeiden.\n\nWir hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrer nächsten Fahrt zu zeigen, dass dies nicht der Standard unserer Dienstleistungen ist. Zukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Lob&Kritik Team"
+}
+[2025-02-18T15:20:42.535Z] [INFO] Processing emails
+{
+  "count": 4
+}
+[2025-02-18T15:20:42.536Z] [INFO] Processed email 1 of 4
+[2025-02-18T15:20:42.536Z] [INFO] Processed email 2 of 4
+[2025-02-18T15:20:42.536Z] [INFO] Processed email 3 of 4
+[2025-02-18T15:20:42.536Z] [INFO] Processed email 4 of 4
+[2025-02-18T15:21:52.012Z] [INFO] Processing emails
+{
+  "count": 3
+}
+[2025-02-18T15:21:52.012Z] [INFO] Processed email 1 of 3
+[2025-02-18T15:21:52.012Z] [INFO] Processed email 2 of 3
+[2025-02-18T15:21:52.013Z] [INFO] Processed email 3 of 3

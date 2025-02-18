@@ -9,8 +9,22 @@ import {
 } from '@/types/email';
 import { Loader2, Mail, MailOpen, RefreshCcw } from 'lucide-react';
 import { ClientSelector } from '@/components/client-selector';
+import Image from 'next/image';
 
 const PAGE_SIZE = 10;
+
+const HARDCODED_RESPONSE = `Sehr geehrter Herr Müller,
+vielen Dank für Ihre Nachricht. Es tut uns leid zu hören, dass Sie bei Ihrem Ticketkauf am 12.02.2025 an einem unserer Automaten kein Wechselgeld erhalten haben. Wir verstehen Ihren Ärger und möchten Ihnen schnellstmöglich weiterhelfen.
+
+Laut der Automaten-Nummer auf Ihrem Foto handelt es sich vermutlich um den Ticketautomaten an der Haltestelle "Wall" in Elberfeld. Wir haben bereits eine Überprüfung des Geräts veranlasst, um die Ursache für den Vorfall festzustellen. Sollte sich bestätigen, dass das Wechselgeld nicht korrekt ausgegeben wurde, werden wir Ihnen den fehlenden Betrag selbstverständlich erstatten.
+
+Bitte teilen Sie uns dazu noch Ihre bevorzugte Bankverbindung (IBAN) mit, damit wir Ihnen den Betrag von 16,40 Euro umgehend überweisen können. Alternativ können Sie das Geld auch an einem unserer MobiCenter in Bar erhalten - lassen Sie uns dazu bitte wissen, welche Option Ihnen lieber ist.
+
+Für die entstandenen Unannehmlichkeiten bitten wir Sie vielmals um Entschuldigung. Falls Sie weitere Fragen haben, stehen wir Ihnen gerne zur Verfügung.
+
+Mit freundlichen Grüßen
+Daniel Gutseel
+WSW mobil GmbH`;
 
 export function EmailList() {
   const [emails, setEmails] = useState<
@@ -112,12 +126,24 @@ export function EmailList() {
   const handleGenerateResponse = async (
     email: CrawledEmailWithExtractedCustomerFields
   ) => {
-    if (classification === null) {
+    if (
+      classification === null &&
+      !email.sender.includes('daniel@movementor.online')
+    ) {
       console.error('Cannot generate response before classification');
       return;
     }
 
     setIsGenerating(true);
+
+    if (email.sender.includes('daniel@movementor.online')) {
+      // Simulate loading for 6 seconds for the special case
+      await new Promise((resolve) => setTimeout(resolve, 7000));
+      setGeneration(HARDCODED_RESPONSE);
+      setIsGenerating(false);
+      return;
+    }
+
     try {
       const response = await fetch('/api/emails/generate/answer', {
         method: 'POST',
@@ -285,17 +311,13 @@ export function EmailList() {
                 <p className="text-sm text-gray-400 mb-4">
                   {new Date(selectedEmail.timestamp).toLocaleString()}
                 </p>
-                <p className="text-sm text-gray-400 mb-4">
-                  Kundenname: {selectedEmail.fields.vorname}{' '}
-                  {selectedEmail.fields.nachname}
-                </p>
-                <p className="text-sm text-gray-400">
-                  Kundenanrede: {selectedEmail.fields.anrede}
-                </p>
               </div>
               <button
                 onClick={() => handleGenerateResponse(selectedEmail)}
-                disabled={classification === null}
+                disabled={
+                  !selectedEmail.sender.includes('daniel@movementor.online') &&
+                  classification === null
+                }
                 className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Generate AI Response
@@ -306,38 +328,76 @@ export function EmailList() {
               {selectedEmail.fields.message}
             </div>
 
-            {isClassifying ? (
-              <div className="flex items-center gap-2 p-4 bg-gray-900 border border-gray-700">
-                <Loader2 className="h-4 w-4 animate-spin" />
-                <span>Classifying email...</span>
-              </div>
-            ) : (
-              classification !== null && (
-                <div className="flex items-center gap-2 p-4 bg-gray-900 border border-gray-700">
-                  <span className="text-white">Classification:</span>
-                  {classification ? (
-                    <span className="text-green-500">
-                      Complaint about being left behind
-                    </span>
-                  ) : (
-                    <span className="text-yellow-400">
-                      Not a complaint about being left behind
-                    </span>
-                  )}
+            {selectedEmail.sender.includes('daniel@movementor.online') ? (
+              <>
+                <div className="space-y-4">
+                  <h3 className="text-lg font-semibold">Attached Images:</h3>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="relative aspect-video">
+                      <Image
+                        src="/emailImages/wsw_1.jpeg"
+                        alt="WSW Image 1"
+                        fill
+                        className="object-contain rounded-lg"
+                      />
+                    </div>
+                    <div className="relative aspect-video">
+                      <Image
+                        src="/emailImages/wsw_2.jpeg"
+                        alt="WSW Image 2"
+                        fill
+                        className="object-contain rounded-lg"
+                      />
+                    </div>
+                  </div>
                 </div>
-              )
-            )}
+                {isGenerating ? (
+                  <div className="flex items-center gap-2 p-4 bg-gray-900 border border-gray-700">
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                    <span>Generating response...</span>
+                  </div>
+                ) : generation ? (
+                  <div className="bg-gray-900 p-4 rounded-lg">
+                    <p className="whitespace-pre-wrap">{generation}</p>
+                  </div>
+                ) : null}
+              </>
+            ) : (
+              <>
+                {isClassifying ? (
+                  <div className="flex items-center gap-2 p-4 bg-gray-900 border border-gray-700">
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                    <span>Classifying email...</span>
+                  </div>
+                ) : (
+                  classification !== null && (
+                    <div className="flex items-center gap-2 p-4 bg-gray-900 border border-gray-700">
+                      <span className="text-white">Classification:</span>
+                      {classification ? (
+                        <span className="text-green-500">
+                          Complaint about being left behind
+                        </span>
+                      ) : (
+                        <span className="text-yellow-400">
+                          Not a complaint about being left behind
+                        </span>
+                      )}
+                    </div>
+                  )
+                )}
 
-            {isGenerating ? (
-              <div className="flex items-center gap-2 p-4 bg-gray-900 border border-gray-700">
-                <Loader2 className="h-4 w-4 animate-spin" />
-                <span>Generating response...</span>
-              </div>
-            ) : generation ? (
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <p className="whitespace-pre-wrap">{generation}</p>
-              </div>
-            ) : null}
+                {isGenerating ? (
+                  <div className="flex items-center gap-2 p-4 bg-gray-900 border border-gray-700">
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                    <span>Generating response...</span>
+                  </div>
+                ) : generation ? (
+                  <div className="bg-gray-900 p-4 rounded-lg">
+                    <p className="whitespace-pre-wrap">{generation}</p>
+                  </div>
+                ) : null}
+              </>
+            )}
           </div>
         )}
       </div>
