@@ -56,7 +56,6 @@ export async function generateEmailResponse(
   if (!isComplaintAboutBeingLeftBehind) {
     try {
       const emailContent = `
-      <strong>Kunden E-Mail:</strong> ${extractedFields.email ?? 'Keine E-Mail vorhanden'}\n\n
       <strong>Kundenanliegen:</strong>${email.body.content}`;
 
       await emailHandler.sendEmail(

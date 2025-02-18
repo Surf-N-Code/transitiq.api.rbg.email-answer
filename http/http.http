@@ -1,11 +1,3 @@
-### Generate Message
-POST http://localhost:3000/api/message/generate
-Content-Type: application/json
-
-{
-  "text": "Sehr geehrtes Team der Rheinbahn, Auch heute lässt mich die Rheinbahn wieder etwas ratlos in der Kälte stehen. Heute Morgen fuhr die 732 nicht um 8:59 Uhr an der Bushaltestelle in Hamm ab, sondern fuhr um 9:58 ungebremst an der Haltestelle vorbei. Gerade habe ich versucht um 17:24 Uhr mit der 732 vom Rheinturm zurück nach Hamm zu fahren. Seid inzwischen 8 Minuten ist die Verbindung überfällig obwohl die App behauptet sie wäre pünktlich. Als ich um 17:22 Uhr bereits in Sichtweite der Bushaltestelle war, sah ich etwas entfernt einen Bus die Hammer Str. Richtung Süden fahren und muss davon ausgehen, dass es sich dabei um besagte 17.24 Verbindung handelt. Da ihre Busse auf dieser Strecke regelmäßig deutlich zu spät fahren und teilweise unangekündigt, ganz ausfallen, ist es umso ärgerlicher wenn die Busse wenn sie pünktlich sein könnten, zu früh abfahren. So macht ÖPNV einfach gar keinen Spaß. Und die Tatsache, dass ich ähnliche Fehler schon mehrfach angemerkt habe , sich aber wohl keine Besserung einstellt macht es sooo schwer den ÖPNV zu empfehlen. Zumindest ist die Rheinbahn kein gutes Beispiel. Bitte überprüfen sie die Fahrkarten der o.g. Verbindungen und bitten Sie die ehrenwerten Fahrer sich doch bitte an den Fahrplan zu halten. Ein enttäuschter Rheinbahnkunde."
-}
-
 ### Create Email
 POST http://localhost:3000/api/processEmails
 Content-Type: application/json
@@ -15,12 +7,4 @@ Content-Type: application/json
   "toRecipients": ["Kundendialog@rheinbahn.de"],
   "ccRecipients": ["Brit.Wildau@rheinbahn.de", "daniel@movementor.online", "norman@movementor.online"],
   "nonCategoryRecipients": ["Kundendialog@rheinbahn.de", "Brit.Wildau@rheinbahn.de","daniel@movementor.online", "norman@movementor.online"]
-}
-
-### Classify Text
-POST http://localhost:3000/api/classifyText
-Content-Type: application/json
-
-{
-  "text": "Ergänzend zu meiner eben versandten Beschwerde: Da der Bus von der Haltestelle Meerbusch Zur Rheinfähre 4 min Verspätung hatte (geplante Abfahrtszeit 9:47 Uhr), hat mein Mann nun auch noch die U 76 am Haus Meer verpasst, obwohl doch eigentlich eine Anschlussgarantie gilt. Die Bahn (geplante Abfahrt am Haus Meer: 10:01 Uhr) stand sogar noch an der Haltestelle, als die Passagiere des Busses auf den Bahnsteig liefen, der Bahnfahrer hat jedoch die Türen nicht mehr geöffnet und ist dann losgefahren. Es ist für uns auch immer wieder unverständlich, warum der 839er Bus so häufig Verspätung hat, da es in Meerbusch um diese Uhrzeit ja schon lange keinen Stau mehr gibt."
 }
