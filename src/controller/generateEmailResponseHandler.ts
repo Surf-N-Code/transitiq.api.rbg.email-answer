@@ -8,6 +8,9 @@ import { ExtractMessageFromEmailError } from '@/exceptions/ExtractMessageFromEma
 import { EmailCategorizationError } from '@/exceptions/EmailCategorizationError';
 import { SendEmailError } from '@/exceptions/SendEmailError';
 import { AiAnswerGenerationError } from '@/exceptions/AiAnswerGenerationError';
+import * as fs from 'fs';
+import * as path from 'path';
+
 export async function generateEmailResponse(
   emailHandler: EmailHandler,
   email: CrawledEmail,
@@ -151,6 +154,28 @@ export async function generateEmailResponse(
       extractedFields.email
     );
 
+    //please append deAnonymizedEmailReply and extractedFields.message to a json file
+    const fileContent = {
+      userMessage: extractedFields.message,
+      deAnonymizedEmailReply,
+    };
+    const filePath = path.join(
+      process.cwd(),
+      'analysis-results',
+      'generated_email_responses.jsonl'
+    );
+    if (!fs.existsSync(filePath)) {
+      fs.writeFileSync(filePath, '');
+    }
+    try {
+      fs.appendFileSync(filePath, JSON.stringify(fileContent) + '\n', {
+        flag: 'a',
+      });
+    } catch (error) {
+      logError('Failed to append to responses file:', { error });
+      // Don't throw error as this is not critical to email sending
+    }
+
     logInfo(`Email response sent successfully.`, {
       id: email.id,
       subject: email.subject,
@@ -158,7 +183,7 @@ export async function generateEmailResponse(
   } catch (error: any) {
     logError('Failed to send email response:', {
       emailId: email.id,
-      error: error?.message,
+      error: error,
       subject: email.subject,
     });
     throw error;

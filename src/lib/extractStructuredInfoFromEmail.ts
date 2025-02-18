@@ -1,5 +1,6 @@
 import { EmailFields } from '@/types/email';
 import { logError, logInfo } from './logger';
+import * as fs from 'fs';
 
 const cheerio = require('cheerio');
 
@@ -24,11 +25,18 @@ export function extractStructuredInfoFromEmail(
     $('style').remove();
     $('head').remove();
 
+    $('p').after('\n');
+    $('br').after('\n');
+
     // Get text and preserve some formatting
     let text = $('body').text();
 
     // Clean up whitespace
-    text = text.replace(/\s+/g, ' ').trim();
+    text = text
+      .replace(/[^\S\n]+/g, ' ') // Replace whitespace except newlines with single space
+      .replace(/\n{2,}/g, '\n\n') // Convert 3+ newlines to double newline
+      .replace(/\n\s+/g, '\n') // Clean up spaces after newlines
+      .trim();
 
     // Remove any remaining HTML entities
     text = text
@@ -62,7 +70,20 @@ export function extractStructuredInfoFromEmail(
             /Vorname, Name:\s*([^\s]+)\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/i,
           nachname:
             /Vorname, Name:\s*[^\s]+\s+([^\n]+?)(?=\s*Straße\/Hausnummer:)/i,
-          datum: /Empfangen am\s*(\d{4}-\d{2}-\d{2},\s*\d{2}:\d{2})/i,
+          datum: /Empfangen am\s*([0-9\.]+\sum\s[0-9\:]+)\s+([^\n]+?)/i,
+        },
+      },
+      {
+        type: 'vrrForwardedComplaint2',
+        identifyingMarker: 'EFA-Freitext:',
+        startMarker: 'Meldetext:',
+        endMarkers: ['Kategorie0:', 'Rheinbahn AG | '],
+        fieldRecognitionPatterns: {
+          anrede: /Anrede:\s*([\s\S]*?)(?=\s*Vorname:)/i,
+          email: /Email:\s*([^\s]+)\s+(?=Geburtsdatum:)/i,
+          vorname: /Vorname:\s*([^\s]+)\s+([^\n]+?)/i,
+          nachname: /Nachname:\s*([^\s]+)\s+([^\n]+?)/i,
+          datum: /Anlagedatum:\s*([0-9\.]+\s[0-9\:]+)\s+([^\n]+?)/i,
         },
       },
       {
@@ -123,8 +144,8 @@ export function extractStructuredInfoFromEmail(
       throw new Error('Could not determine type of email');
     }
 
-    // Extract message content
     let startIndex = text.indexOf(matchedMarker.startMarker);
+    // This code block determines the end index of the message content by finding the earliest occurrence of any end marker.
     let endIndex = matchedMarker.endMarkers.reduce((minIndex, endMarker) => {
       const index = text.indexOf(endMarker);
       return index !== -1 && (index < minIndex || minIndex === -1)

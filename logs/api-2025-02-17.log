@@ -824,3 +824,1343 @@
 [2025-02-17T17:36:02.131Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583hAAA= and subject: WG: [Externe E-Mail]  [202502141029976941]: Anfrage über das Kontaktformular
 [2025-02-17T17:36:02.575Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583hAAA= and subject: WG: [Externe E-Mail]  [202502141029976941]: Anfrage über das Kontaktformular
 [2025-02-17T17:36:02.575Z] [INFO] Finished processing emails
+[2025-02-17T17:56:51.466Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-17T17:56:51.467Z] [INFO] Processed email 1 of 1
+[2025-02-17T17:56:51.468Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T17:56:51.490Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T17:56:52.448Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T17:56:52.592Z] [INFO] Anonymized text:
+{
+  "text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "anonymized_text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am [DATE_1] an der Haltestelle [ANON_LOCATION_3], Richtung [ANON_LOCATION_2]. Mein Freund wartete dort um [TIME_2] allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um [TIME_1] fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle [ANON_LOCATION_1] und [ANON_NAME_2] Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten [ANON_NAME_1]",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Bertrastrasse"
+      },
+      {
+        "[ANON_LOCATION_2]": "Erkrath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Bertastraße"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "GrüßenJessica Wewer"
+      },
+      {
+        "[ANON_NAME_2]": "Lidl wohneDieses"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "15.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "21:32 Uhr"
+      },
+      {
+        "[TIME_2]": "21:30 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T17:56:58.621Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T17:56:58.621Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme",
+  "userMessage": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung am [DATE_1] an der Haltestelle [ANON_LOCATION_3] zu informieren. Wir bedauern sehr, dass der Bus in Richtung [ANON_LOCATION_2] um [TIME_2] ohne Halt vorbeigefahren ist, obwohl Ihr Freund dort sichtbar wartete.\n\nWir verstehen, wie ärgerlich und frustrierend dies für Sie und Ihren Freund gewesen sein muss. Es entspricht nicht unseren Standards, dass Fahrgäste an unseren Haltestellen nicht ordnungsgemäß aufgenommen werden. Bitte akzeptieren Sie unsere aufrichtige Entschuldigung für diesen Vorfall.\n\nEs gibt mehrere mögliche Gründe, warum der Bus nicht gehalten haben könnte, wie z.B. eine versehentliche Fehlinterpretation der Haltestellenanzeige durch das Fahrpersonal oder ein technischer Defekt. Bitte seien Sie versichert, dass wir diesen Vorfall intern prüfen werden, um solche Situationen in Zukunft zu vermeiden. Dazu gehört auch, dass wir unser Fahrpersonal regelmäßig schulen, damit alle Haltestellen ordnungsgemäß bedient werden.\n\nIhre Rückmeldung ist für uns äußerst wertvoll, um die Qualität unseres Service kontinuierlich zu verbessern. Wir entschuldigen uns nochmals aufrichtig für die Unannehmlichkeiten und hoffen, dass wir Ihnen und Ihrem Freund zukünftig wieder eine reibungslose Fahrt mit unseren Bussen und Bahnen bieten können.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung am 15.02.2025 an der Haltestelle Bertastraße zu informieren. Wir bedauern sehr, dass der Bus in Richtung Erkrath um 21:30 Uhr ohne Halt vorbeigefahren ist, obwohl Ihr Freund dort sichtbar wartete.\n\nWir verstehen, wie ärgerlich und frustrierend dies für Sie und Ihren Freund gewesen sein muss. Es entspricht nicht unseren Standards, dass Fahrgäste an unseren Haltestellen nicht ordnungsgemäß aufgenommen werden. Bitte akzeptieren Sie unsere aufrichtige Entschuldigung für diesen Vorfall.\n\nEs gibt mehrere mögliche Gründe, warum der Bus nicht gehalten haben könnte, wie z.B. eine versehentliche Fehlinterpretation der Haltestellenanzeige durch das Fahrpersonal oder ein technischer Defekt. Bitte seien Sie versichert, dass wir diesen Vorfall intern prüfen werden, um solche Situationen in Zukunft zu vermeiden. Dazu gehört auch, dass wir unser Fahrpersonal regelmäßig schulen, damit alle Haltestellen ordnungsgemäß bedient werden.\n\nIhre Rückmeldung ist für uns äußerst wertvoll, um die Qualität unseres Service kontinuierlich zu verbessern. Wir entschuldigen uns nochmals aufrichtig für die Unannehmlichkeiten und hoffen, dass wir Ihnen und Ihrem Freund zukünftig wieder eine reibungslose Fahrt mit unseren Bussen und Bahnen bieten können.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T17:56:59.253Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T17:56:59.630Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA= and subject: WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme
+[2025-02-17T17:56:59.631Z] [INFO] Finished processing emails
+[2025-02-17T17:57:58.680Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-17T17:57:58.681Z] [INFO] Processed email 1 of 1
+[2025-02-17T17:57:58.681Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T17:57:58.699Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T17:57:59.620Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T17:57:59.715Z] [INFO] Anonymized text:
+{
+  "text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "anonymized_text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am [DATE_1] an der Haltestelle [ANON_LOCATION_3], Richtung [ANON_LOCATION_2]. Mein Freund wartete dort um [TIME_2] allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um [TIME_1] fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle [ANON_LOCATION_1] und [ANON_NAME_2] Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten [ANON_NAME_1]",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Bertrastrasse"
+      },
+      {
+        "[ANON_LOCATION_2]": "Erkrath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Bertastraße"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "GrüßenJessica Wewer"
+      },
+      {
+        "[ANON_NAME_2]": "Lidl wohneDieses"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "15.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "21:32 Uhr"
+      },
+      {
+        "[TIME_2]": "21:30 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T17:58:07.727Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T17:58:07.728Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme",
+  "userMessage": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über den Vorfall an der Haltestelle [ANON_LOCATION_3] am [DATE_1] zu informieren. Es tut uns sehr leid zu hören, dass der Bus an dieser Haltestelle um [TIME_1] vorbeigefahren ist, ohne Ihren Freund aufzunehmen, obwohl er sichtbar gewartet hat.\n\nWir verstehen, dass solche Erfahrungen äußerst frustrierend und ärgerlich sind und nicht dem Service entsprechen, den wir unseren Fahrgästen bieten möchten. Normalerweise sind unsere Fahrzeuge verpflichtet, an Haltestellen anzuhalten, an denen Fahrgäste offensichtlich auf die Beförderung warten, es sei denn, es liegt ein zwingender Grund wie ein bereits voll besetztes Fahrzeug vor. Es ist jedoch inakzeptabel, Fahrgäste ohne erkennbaren Grund zurückzulassen.\n\nWir haben den Vorfall an das zuständige Team weitergeleitet, um den Sachverhalt intern zu prüfen und sicherzustellen, dass unsere Mitarbeitenden im Fahrdienst für solche Situationen in Zukunft besser sensibilisiert werden. Ihre Rückmeldung ist uns sehr wichtig, da wir stets bestrebt sind, unseren Service zu verbessern und solche Vorkommnisse zu vermeiden.\n\nBitte nehmen Sie unsere aufrichtige Entschuldigung für die entstandenen Unannehmlichkeiten an. Wir hoffen, dass Sie Ihrem Freund von unserer Entschuldigung berichten können und ihm versichern, dass wir alles daran setzen, damit sich solch ein Vorfall nicht wiederholt.\n\nZukünftig wünschen wir Ihnen und Ihrem Freund wieder eine reibungslose und angenehme Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über den Vorfall an der Haltestelle Bertastraße am 15.02.2025 zu informieren. Es tut uns sehr leid zu hören, dass der Bus an dieser Haltestelle um 21:32 Uhr vorbeigefahren ist, ohne Ihren Freund aufzunehmen, obwohl er sichtbar gewartet hat.\n\nWir verstehen, dass solche Erfahrungen äußerst frustrierend und ärgerlich sind und nicht dem Service entsprechen, den wir unseren Fahrgästen bieten möchten. Normalerweise sind unsere Fahrzeuge verpflichtet, an Haltestellen anzuhalten, an denen Fahrgäste offensichtlich auf die Beförderung warten, es sei denn, es liegt ein zwingender Grund wie ein bereits voll besetztes Fahrzeug vor. Es ist jedoch inakzeptabel, Fahrgäste ohne erkennbaren Grund zurückzulassen.\n\nWir haben den Vorfall an das zuständige Team weitergeleitet, um den Sachverhalt intern zu prüfen und sicherzustellen, dass unsere Mitarbeitenden im Fahrdienst für solche Situationen in Zukunft besser sensibilisiert werden. Ihre Rückmeldung ist uns sehr wichtig, da wir stets bestrebt sind, unseren Service zu verbessern und solche Vorkommnisse zu vermeiden.\n\nBitte nehmen Sie unsere aufrichtige Entschuldigung für die entstandenen Unannehmlichkeiten an. Wir hoffen, dass Sie Ihrem Freund von unserer Entschuldigung berichten können und ihm versichern, dass wir alles daran setzen, damit sich solch ein Vorfall nicht wiederholt.\n\nZukünftig wünschen wir Ihnen und Ihrem Freund wieder eine reibungslose und angenehme Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T17:58:08.391Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA= and subject: WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme
+[2025-02-17T17:58:08.392Z] [INFO] Finished processing emails
+[2025-02-17T17:59:54.084Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-17T17:59:54.088Z] [INFO] Processed email 1 of 1
+[2025-02-17T17:59:54.088Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T17:59:54.104Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T17:59:54.852Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T17:59:54.952Z] [INFO] Anonymized text:
+{
+  "text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "anonymized_text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am [DATE_1] an der Haltestelle [ANON_LOCATION_3], Richtung [ANON_LOCATION_2]. Mein Freund wartete dort um [TIME_2] allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um [TIME_1] fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle [ANON_LOCATION_1] und [ANON_NAME_2] Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten [ANON_NAME_1]",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Bertrastrasse"
+      },
+      {
+        "[ANON_LOCATION_2]": "Erkrath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Bertastraße"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "GrüßenJessica Wewer"
+      },
+      {
+        "[ANON_NAME_2]": "Lidl wohneDieses"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "15.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "21:32 Uhr"
+      },
+      {
+        "[TIME_2]": "21:30 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T18:00:01.093Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:00:01.093Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme",
+  "userMessage": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohneDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.Mit verärgerten GrüßenJessica Wewer",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank für die Mitteilung zu Ihrer Erfahrung mit unserem Bus an der Haltestelle [ANON_LOCATION_3] am [DATE_1]. Es tut uns sehr leid zu hören, dass Ihr Freund am genannten Tag um [TIME_2] auf den Bus Richtung [ANON_LOCATION_2] gewartet hat und dieser um [TIME_1] vorbeigefahren ist, ohne anzuhalten. Wir verstehen, dass dies sowohl ärgerlich als auch frustrierend war.\n\nNormalerweise sind alle unsere Fahrzeuge verpflichtet, an Haltestellen anzuhalten, an denen Fahrgäste sichtbar warten. Es gibt einige wenige Gründe, warum ein Bus möglicherweise nicht hält – dazu zählen technische Probleme, die eventuell ein Weiterfahren erforderlich machen, oder Überfüllung, die es dem Fahrer oder der Fahrerin unmöglich macht, weitere Fahrgäste aufzunehmen. Wir bedauern zutiefst, dass Ihr Freund ohne ersichtlichen Grund nicht mitgenommen wurde, und werden umgehend eine interne Überprüfung durchführen, um herauszufinden, warum dies geschehen konnte.\n\nIhre Rückmeldung hilft uns, die Servicequalität zu prüfen und zu verbessern, und wir werden dafür sorgen, dass das Fahrpersonal nochmals für Situationen dieser Art sensibilisiert wird. Wir streben kontinuierlich danach, zuverlässige und komfortable Fahrten für unsere Fahrgäste zu gewährleisten.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und danken Ihnen für Ihr Verständnis und Ihre Geduld. Ihr Vertrauen ist uns sehr wichtig, und wir hoffen, dass Sie uns weiterhin die Gelegenheit geben, Ihnen unseren gewohnten guten Service zu bieten.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank für die Mitteilung zu Ihrer Erfahrung mit unserem Bus an der Haltestelle Bertastraße am 15.02.2025. Es tut uns sehr leid zu hören, dass Ihr Freund am genannten Tag um 21:30 Uhr auf den Bus Richtung Erkrath gewartet hat und dieser um 21:32 Uhr vorbeigefahren ist, ohne anzuhalten. Wir verstehen, dass dies sowohl ärgerlich als auch frustrierend war.\n\nNormalerweise sind alle unsere Fahrzeuge verpflichtet, an Haltestellen anzuhalten, an denen Fahrgäste sichtbar warten. Es gibt einige wenige Gründe, warum ein Bus möglicherweise nicht hält – dazu zählen technische Probleme, die eventuell ein Weiterfahren erforderlich machen, oder Überfüllung, die es dem Fahrer oder der Fahrerin unmöglich macht, weitere Fahrgäste aufzunehmen. Wir bedauern zutiefst, dass Ihr Freund ohne ersichtlichen Grund nicht mitgenommen wurde, und werden umgehend eine interne Überprüfung durchführen, um herauszufinden, warum dies geschehen konnte.\n\nIhre Rückmeldung hilft uns, die Servicequalität zu prüfen und zu verbessern, und wir werden dafür sorgen, dass das Fahrpersonal nochmals für Situationen dieser Art sensibilisiert wird. Wir streben kontinuierlich danach, zuverlässige und komfortable Fahrten für unsere Fahrgäste zu gewährleisten.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und danken Ihnen für Ihr Verständnis und Ihre Geduld. Ihr Vertrauen ist uns sehr wichtig, und wir hoffen, dass Sie uns weiterhin die Gelegenheit geben, Ihnen unseren gewohnten guten Service zu bieten.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:00:01.790Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA= and subject: WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme
+[2025-02-17T18:00:01.790Z] [INFO] Finished processing emails
+[2025-02-17T18:01:37.722Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-17T18:01:37.723Z] [INFO] Processed email 1 of 1
+[2025-02-17T18:01:37.724Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:01:37.744Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:01:40.263Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:01:40.417Z] [INFO] Anonymized text:
+{
+  "text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "anonymized_text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am [DATE_1] an der Haltestelle [ANON_LOCATION_3], Richtung [ANON_LOCATION_2]. Mein Freund wartete dort um [TIME_2] allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um [TIME_1] fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle [ANON_LOCATION_1] und [ANON_NAME_1] wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\n[ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Jessica Wewer"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Bertrastrasse"
+      },
+      {
+        "[ANON_LOCATION_2]": "Erkrath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Bertastraße"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Lidl"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "15.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "21:32 Uhr"
+      },
+      {
+        "[TIME_2]": "21:30 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T18:01:45.230Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:01:45.231Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme",
+  "userMessage": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über den Vorfall an der Haltestelle [ANON_LOCATION_3] am [DATE_1] informiert haben. Wir verstehen vollkommen, dass es äußerst ärgerlich und frustrierend für Ihren Freund war, als der Bus um [TIME_1] ohne Halt an ihm vorbeifuhr.\n\nEs ist natürlich unser Anspruch, dass unsere Busse alle Haltestellen bedienen, an denen Fahrgäste sichtbar warten. Nur in Ausnahmefällen, beispielsweise bei einer technischen Störung des Fahrzeugs oder wenn das Fahrzeug voll besetzt ist, kann es vorkommen, dass ein Bus eine Haltestelle nicht anfährt. Wir bitten um Entschuldigung, sollte dies an dem beschriebenen Tag nicht kommuniziert worden sein. Wir klären den Vorfall intern und werden darauf achten, dass unser Fahrpersonal verstärkt auf wartende Fahrgäste achtet.\n\nIhre Rückmeldung ist uns sehr wichtig und hilft uns, unseren Service kontinuierlich zu verbessern. Es tut uns aufrichtig leid, dass Ihr Freund und Sie selbst diese negative Erfahrung machen mussten, und wir arbeiten daran, solche Situationen in Zukunft zu vermeiden.\n\nWir hoffen, dass wir Ihnen bei Ihrem nächsten Fahrterlebnis zeigen können, dass dies nicht der Standard unserer Dienstleistungen ist, und wünschen Ihnen zukünftig wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über den Vorfall an der Haltestelle Bertastraße am 15.02.2025 informiert haben. Wir verstehen vollkommen, dass es äußerst ärgerlich und frustrierend für Ihren Freund war, als der Bus um 21:32 Uhr ohne Halt an ihm vorbeifuhr.\n\nEs ist natürlich unser Anspruch, dass unsere Busse alle Haltestellen bedienen, an denen Fahrgäste sichtbar warten. Nur in Ausnahmefällen, beispielsweise bei einer technischen Störung des Fahrzeugs oder wenn das Fahrzeug voll besetzt ist, kann es vorkommen, dass ein Bus eine Haltestelle nicht anfährt. Wir bitten um Entschuldigung, sollte dies an dem beschriebenen Tag nicht kommuniziert worden sein. Wir klären den Vorfall intern und werden darauf achten, dass unser Fahrpersonal verstärkt auf wartende Fahrgäste achtet.\n\nIhre Rückmeldung ist uns sehr wichtig und hilft uns, unseren Service kontinuierlich zu verbessern. Es tut uns aufrichtig leid, dass Ihr Freund und Sie selbst diese negative Erfahrung machen mussten, und wir arbeiten daran, solche Situationen in Zukunft zu vermeiden.\n\nWir hoffen, dass wir Ihnen bei Ihrem nächsten Fahrterlebnis zeigen können, dass dies nicht der Standard unserer Dienstleistungen ist, und wünschen Ihnen zukünftig wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:01:46.091Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA= and subject: WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme
+[2025-02-17T18:01:46.092Z] [INFO] Finished processing emails
+[2025-02-17T18:12:12.799Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-17T18:12:12.801Z] [INFO] Processed email 1 of 1
+[2025-02-17T18:12:12.802Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:12:12.821Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:12:13.632Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:12:13.741Z] [INFO] Anonymized text:
+{
+  "text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "anonymized_text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am [DATE_1] an der Haltestelle [ANON_LOCATION_3], Richtung [ANON_LOCATION_2]. Mein Freund wartete dort um [TIME_2] allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um [TIME_1] fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle [ANON_LOCATION_1] und [ANON_NAME_1] wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\n[ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Jessica Wewer"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Bertrastrasse"
+      },
+      {
+        "[ANON_LOCATION_2]": "Erkrath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Bertastraße"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Lidl"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "15.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "21:32 Uhr"
+      },
+      {
+        "[TIME_2]": "21:30 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T18:12:18.752Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:12:18.752Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme",
+  "userMessage": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über das Ereignis zu informieren, das sich am [DATE_1] an der Haltestelle [ANON_LOCATION_3] ereignet hat. Wir bedauern sehr, dass der Bus um [TIME_1] Uhr in Richtung [ANON_LOCATION_2] fuhr, ohne Ihren Freund, der gut sichtbar um [TIME_2] Uhr dort wartete, mitzunehmen.\n\nDieses Verhalten entspricht keinesfalls unserem Serviceverständnis. Unsere Fahrzeuge sind angewiesen, an den Haltestellen anzuhalten, um wartende Fahrgäste mitzunehmen. Mögliche Ursachen für das vorbeifahren des Busses könnten technische Probleme, eine Überfüllung des Busses oder auch ein Kommunikationsfehler des Fahrpersonals gewesen sein. Wir werden diesen Vorfall intern prüfen und das Fahrpersonal sensibilisieren, um sicherzustellen, dass unsere Fahrgäste zuverlässig und sicher befördert werden.\n\nWir entschuldigen uns aufrichtig für die Unannehmlichkeiten und Frustrationen, die durch dieses Fehlverhalten verursacht wurden. Ihre Rückmeldung ist für uns äußerst wichtig und hilfreich, um unseren Service kontinuierlich zu verbessern. Wir versichern Ihnen, dass wir alles daransetzen werden, um solche Vorfälle in Zukunft zu vermeiden.\n\nZukünftig wünschen wir Ihnen und Ihrem Freund wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über das Ereignis zu informieren, das sich am 15.02.2025 an der Haltestelle Bertastraße ereignet hat. Wir bedauern sehr, dass der Bus um 21:32 Uhr Uhr in Richtung Erkrath fuhr, ohne Ihren Freund, der gut sichtbar um 21:30 Uhr Uhr dort wartete, mitzunehmen.\n\nDieses Verhalten entspricht keinesfalls unserem Serviceverständnis. Unsere Fahrzeuge sind angewiesen, an den Haltestellen anzuhalten, um wartende Fahrgäste mitzunehmen. Mögliche Ursachen für das vorbeifahren des Busses könnten technische Probleme, eine Überfüllung des Busses oder auch ein Kommunikationsfehler des Fahrpersonals gewesen sein. Wir werden diesen Vorfall intern prüfen und das Fahrpersonal sensibilisieren, um sicherzustellen, dass unsere Fahrgäste zuverlässig und sicher befördert werden.\n\nWir entschuldigen uns aufrichtig für die Unannehmlichkeiten und Frustrationen, die durch dieses Fehlverhalten verursacht wurden. Ihre Rückmeldung ist für uns äußerst wichtig und hilfreich, um unseren Service kontinuierlich zu verbessern. Wir versichern Ihnen, dass wir alles daransetzen werden, um solche Vorfälle in Zukunft zu vermeiden.\n\nZukünftig wünschen wir Ihnen und Ihrem Freund wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:12:19.351Z] [ERROR] Failed to send email response:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "error": "path is not defined",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:12:19.351Z] [ERROR] Unknown error:
+{
+  "error": {}
+}
+[2025-02-17T18:12:19.352Z] [INFO] Finished processing emails
+[2025-02-17T18:13:31.874Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-17T18:13:31.878Z] [INFO] Processed email 1 of 1
+[2025-02-17T18:13:31.878Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:13:31.898Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:13:33.228Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:13:33.331Z] [INFO] Anonymized text:
+{
+  "text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "anonymized_text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am [DATE_1] an der Haltestelle [ANON_LOCATION_3], Richtung [ANON_LOCATION_2]. Mein Freund wartete dort um [TIME_2] allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um [TIME_1] fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle [ANON_LOCATION_1] und [ANON_NAME_1] wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\n[ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Jessica Wewer"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Bertrastrasse"
+      },
+      {
+        "[ANON_LOCATION_2]": "Erkrath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Bertastraße"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Lidl"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "15.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "21:32 Uhr"
+      },
+      {
+        "[TIME_2]": "21:30 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T18:13:39.007Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:13:39.007Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme",
+  "userMessage": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über den Vorfall an der Haltestelle [ANON_LOCATION_3] am [DATE_1] informiert haben. Wir bedauern sehr, dass Ihr Freund an der Haltestelle um [TIME_1] auf den Bus gewartet hat und dieser um [TIME_2] vorbeigefahren ist, ohne anzuhalten. Wir verstehen, dass diese Erfahrung frustrierend und unverständlich war, insbesondere da Sie das Ereignis aus Ihrer Wohnsituation heraus beobachten konnten.\n\nNormalerweise sollten unsere Busse an jeder Haltestelle halten, an der Fahrgäste sichtbar warten, es sei denn, das Fahrzeug ist vollständig ausgelastet und eine Mitnahme weiterer Fahrgäste ist nicht mehr sicher möglich. Auch unvorhersehbare Umstände wie technische Defekte oder betriebsbedingte Erfordernisse können mitunter dazu führen, dass ein Bus nicht wie vorgesehen hält.\n\nWir möchten Sie jedoch darüber informieren, dass wir diesen Vorfall intern untersuchen werden. Unser Ziel ist es, sicherzustellen, dass solche Zustände die Ausnahme bleiben. Ihre Rückmeldung ist für uns äußerst wertvoll und hilft uns, unseren Service weiter zu verbessern. Wir werden unser Fahrpersonal nochmals sensibilisieren, um solche Situationen in Zukunft zu vermeiden.\n\nBitte akzeptieren Sie unsere aufrichtige Entschuldigung für die entstandenen Unannehmlichkeiten. Wir hoffen, dass Sie und Ihr Freund uns die Möglichkeit geben, bei zukünftigen Fahrten einen besseren Service zu gewährleisten. Zögern Sie nicht, uns bei weiteren Fragen oder Anliegen zu kontaktieren.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über den Vorfall an der Haltestelle Bertastraße am 15.02.2025 informiert haben. Wir bedauern sehr, dass Ihr Freund an der Haltestelle um 21:32 Uhr auf den Bus gewartet hat und dieser um 21:30 Uhr vorbeigefahren ist, ohne anzuhalten. Wir verstehen, dass diese Erfahrung frustrierend und unverständlich war, insbesondere da Sie das Ereignis aus Ihrer Wohnsituation heraus beobachten konnten.\n\nNormalerweise sollten unsere Busse an jeder Haltestelle halten, an der Fahrgäste sichtbar warten, es sei denn, das Fahrzeug ist vollständig ausgelastet und eine Mitnahme weiterer Fahrgäste ist nicht mehr sicher möglich. Auch unvorhersehbare Umstände wie technische Defekte oder betriebsbedingte Erfordernisse können mitunter dazu führen, dass ein Bus nicht wie vorgesehen hält.\n\nWir möchten Sie jedoch darüber informieren, dass wir diesen Vorfall intern untersuchen werden. Unser Ziel ist es, sicherzustellen, dass solche Zustände die Ausnahme bleiben. Ihre Rückmeldung ist für uns äußerst wertvoll und hilft uns, unseren Service weiter zu verbessern. Wir werden unser Fahrpersonal nochmals sensibilisieren, um solche Situationen in Zukunft zu vermeiden.\n\nBitte akzeptieren Sie unsere aufrichtige Entschuldigung für die entstandenen Unannehmlichkeiten. Wir hoffen, dass Sie und Ihr Freund uns die Möglichkeit geben, bei zukünftigen Fahrten einen besseren Service zu gewährleisten. Zögern Sie nicht, uns bei weiteren Fragen oder Anliegen zu kontaktieren.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:13:40.004Z] [ERROR] Failed to send email response:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "error": {},
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:13:40.005Z] [ERROR] Unknown error:
+{
+  "error": {}
+}
+[2025-02-17T18:13:40.005Z] [INFO] Finished processing emails
+[2025-02-17T18:15:39.685Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-17T18:15:39.689Z] [INFO] Processed email 1 of 1
+[2025-02-17T18:15:39.689Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:15:39.712Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:15:42.479Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:15:42.577Z] [INFO] Anonymized text:
+{
+  "text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "anonymized_text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am [DATE_1] an der Haltestelle [ANON_LOCATION_3], Richtung [ANON_LOCATION_2]. Mein Freund wartete dort um [TIME_2] allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um [TIME_1] fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle [ANON_LOCATION_1] und [ANON_NAME_1] wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\n[ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Jessica Wewer"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Bertrastrasse"
+      },
+      {
+        "[ANON_LOCATION_2]": "Erkrath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Bertastraße"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Lidl"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "15.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "21:32 Uhr"
+      },
+      {
+        "[TIME_2]": "21:30 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T18:15:48.993Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:15:48.994Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme",
+  "userMessage": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Beobachtung an der Haltestelle [ANON_LOCATION_3] zu informieren. Es tut uns sehr leid zu hören, dass der Bus am [DATE_1] um [TIME_1] an der Haltestelle vorbeigefahren ist, ohne anzuhalten, obwohl Ihr Freund sichtlich auf den Bus warte.\n\nDieses Verhalten entspricht nicht unserem Serviceverständnis, und wir verstehen vollkommen, wie frustrierend und enttäuschend solche Erlebnisse sein können. Unsere oberste Priorität ist es, all unsere Fahrgäste sicher und zuverlässig zu befördern, und natürlich sollten alle Fahrzeuge an Haltestellen halten, an denen Fahrgäste warten. Eine mögliche Ursache für das Vorbeifahren könnte ein technischer Fehler, eine Misskommunikation oder ein menschliches Versehen gewesen sein. Wir sind dabei, diesen Vorfall eingehend zu untersuchen, um die genaue Ursache zu ermitteln und sicherzustellen, dass dies nicht erneut passiert.\n\nBitte seien Sie versichert, dass wir Ihre Rückmeldung sehr ernst nehmen und alle notwendigen Schritte unternehmen werden, um solche Vorfälle in Zukunft zu verhindern. Ihr Hinweis trägt maßgeblich dazu bei, unseren Service kontinuierlich zu überprüfen und zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und die Unannehmlichkeiten für Ihren Freund.\n\nWir hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei einem zukünftigen Fahrterlebnis zu zeigen, dass dies nicht dem Standard unserer Dienstleistungen entspricht. Zukünftig wünschen wir Ihnen und Ihrem Freund wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Beobachtung an der Haltestelle Bertastraße zu informieren. Es tut uns sehr leid zu hören, dass der Bus am 15.02.2025 um 21:32 Uhr an der Haltestelle vorbeigefahren ist, ohne anzuhalten, obwohl Ihr Freund sichtlich auf den Bus warte.\n\nDieses Verhalten entspricht nicht unserem Serviceverständnis, und wir verstehen vollkommen, wie frustrierend und enttäuschend solche Erlebnisse sein können. Unsere oberste Priorität ist es, all unsere Fahrgäste sicher und zuverlässig zu befördern, und natürlich sollten alle Fahrzeuge an Haltestellen halten, an denen Fahrgäste warten. Eine mögliche Ursache für das Vorbeifahren könnte ein technischer Fehler, eine Misskommunikation oder ein menschliches Versehen gewesen sein. Wir sind dabei, diesen Vorfall eingehend zu untersuchen, um die genaue Ursache zu ermitteln und sicherzustellen, dass dies nicht erneut passiert.\n\nBitte seien Sie versichert, dass wir Ihre Rückmeldung sehr ernst nehmen und alle notwendigen Schritte unternehmen werden, um solche Vorfälle in Zukunft zu verhindern. Ihr Hinweis trägt maßgeblich dazu bei, unseren Service kontinuierlich zu überprüfen und zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und die Unannehmlichkeiten für Ihren Freund.\n\nWir hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei einem zukünftigen Fahrterlebnis zu zeigen, dass dies nicht dem Standard unserer Dienstleistungen entspricht. Zukünftig wünschen wir Ihnen und Ihrem Freund wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:15:49.618Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:15:49.996Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA= and subject: WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme
+[2025-02-17T18:15:49.996Z] [INFO] Finished processing emails
+[2025-02-17T18:23:51.842Z] [INFO] Processing emails
+{
+  "count": 22
+}
+[2025-02-17T18:23:51.846Z] [INFO] Processed email 1 of 22
+[2025-02-17T18:23:51.847Z] [INFO] Processed email 2 of 22
+[2025-02-17T18:23:51.848Z] [INFO] Processed email 3 of 22
+[2025-02-17T18:23:51.848Z] [INFO] Processed email 4 of 22
+[2025-02-17T18:23:51.855Z] [INFO] Processed email 5 of 22
+[2025-02-17T18:23:51.856Z] [INFO] Processed email 6 of 22
+[2025-02-17T18:23:51.856Z] [INFO] Processed email 7 of 22
+[2025-02-17T18:23:51.857Z] [INFO] Processed email 8 of 22
+[2025-02-17T18:23:51.858Z] [INFO] Processed email 9 of 22
+[2025-02-17T18:23:51.863Z] [INFO] Processed email 10 of 22
+[2025-02-17T18:23:51.864Z] [INFO] Processed email 11 of 22
+[2025-02-17T18:23:51.864Z] [INFO] Processed email 12 of 22
+[2025-02-17T18:23:51.872Z] [INFO] Processed email 13 of 22
+[2025-02-17T18:23:51.873Z] [INFO] Processed email 14 of 22
+[2025-02-17T18:23:51.873Z] [INFO] Processed email 15 of 22
+[2025-02-17T18:23:51.874Z] [INFO] Processed email 16 of 22
+[2025-02-17T18:23:51.875Z] [INFO] Processed email 17 of 22
+[2025-02-17T18:23:51.876Z] [INFO] Processed email 18 of 22
+[2025-02-17T18:23:51.876Z] [INFO] Processed email 19 of 22
+[2025-02-17T18:23:51.877Z] [INFO] Processed email 20 of 22
+[2025-02-17T18:23:51.884Z] [INFO] Processed email 21 of 22
+[2025-02-17T18:23:51.884Z] [INFO] Processed email 22 of 22
+[2025-02-17T18:23:51.885Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:23:51.890Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:23:52.727Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:23:52.824Z] [INFO] Anonymized text:
+{
+  "text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "anonymized_text": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am [DATE_1] an der Haltestelle [ANON_LOCATION_3], Richtung [ANON_LOCATION_2]. Mein Freund wartete dort um [TIME_2] allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um [TIME_1] fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle [ANON_LOCATION_1] und [ANON_NAME_1] wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\n[ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Jessica Wewer"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Bertrastrasse"
+      },
+      {
+        "[ANON_LOCATION_2]": "Erkrath"
+      },
+      {
+        "[ANON_LOCATION_3]": "Bertastraße"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Lidl"
+      }
+    ],
+    "dates": [
+      {
+        "[DATE_1]": "15.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "21:32 Uhr"
+      },
+      {
+        "[TIME_2]": "21:30 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T18:23:58.850Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:23:58.851Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme",
+  "userMessage": "Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme\nSehr geehrte Damen und Herren,\nich bin empört über das Verhalten eines Ihrer Busfahrer am 15.02.2025 an der Haltestelle Bertastraße, Richtung Erkrath. Mein Freund wartete dort um 21:30 Uhr allein und gut sichtbar auf den Bus. Trotz pünktlicher Ankunft um 21:32 Uhr fuhr der Bus einfach weiter, ohne zu halten. Ich habe das ganze aus meinem Fenster beobachten können, da ich gegenüber der Haltestelle Bertrastrasse und Lidl wohne\nDieses Verhalten ist völlig inakzeptabel! Es ist nicht nur ärgerlich, sondern auch ein klarer Verstoß gegen die Pflicht, Fahrgäste mitzunehmen. Ich erwarte eine Erklärung für dieses Fehlverhalten und eine Stellungnahme dazu, wie solche Vorfälle in Zukunft verhindert werden.\nMit verärgerten Grüßen\nJessica Wewer",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung an der Haltestelle [ANON_LOCATION_3] am [DATE_1] informiert haben. Wir bedauern sehr, dass Ihr Freund um [TIME_2] dort auf den Bus gewartet hat und dieser um [TIME_1] einfach weitergefahren ist, ohne anzuhalten. Wir verstehen, dass dies nicht nur ärgerlich, sondern auch enttäuschend war.\n\nEs entspricht nicht unseren Standards, dass unsere Fahrzeuge an Haltestellen vorbeifahren, an denen Fahrgäste sichtbar warten. Eine mögliche Ursache für ein solches Verhalten könnte eine Überlastung des Fahrzeugs gewesen sein, oder es lag ein technisches Problem vor, das den sofortigen Rückzug in den Betriebshof notwendig machte. Dennoch sollte das Fahrpersonal in solchen Fällen stets darauf achten, die Wartenden zu informieren oder Ersatzmaßnahmen zu veranlassen.\n\nBitte seien Sie versichert, dass wir den Vorfall intern prüfen werden. Wir werden das Fahrpersonal daran erinnern, wie wichtig es ist, alle Fahrgäste zuverlässig mitzunehmen und bei etwaigen Problemen klar zu kommunizieren. Ihre Rückmeldung ist für uns äußerst wertvoll und hilft uns, unseren Service kontinuierlich zu verbessern.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und versichern Ihnen, dass wir bestrebt sind, solche Vorkommnisse in Zukunft zu vermeiden.\n\nZukünftig wünschen wir Ihnen und Ihrem Freund wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung an der Haltestelle Bertastraße am 15.02.2025 informiert haben. Wir bedauern sehr, dass Ihr Freund um 21:30 Uhr dort auf den Bus gewartet hat und dieser um 21:32 Uhr einfach weitergefahren ist, ohne anzuhalten. Wir verstehen, dass dies nicht nur ärgerlich, sondern auch enttäuschend war.\n\nEs entspricht nicht unseren Standards, dass unsere Fahrzeuge an Haltestellen vorbeifahren, an denen Fahrgäste sichtbar warten. Eine mögliche Ursache für ein solches Verhalten könnte eine Überlastung des Fahrzeugs gewesen sein, oder es lag ein technisches Problem vor, das den sofortigen Rückzug in den Betriebshof notwendig machte. Dennoch sollte das Fahrpersonal in solchen Fällen stets darauf achten, die Wartenden zu informieren oder Ersatzmaßnahmen zu veranlassen.\n\nBitte seien Sie versichert, dass wir den Vorfall intern prüfen werden. Wir werden das Fahrpersonal daran erinnern, wie wichtig es ist, alle Fahrgäste zuverlässig mitzunehmen und bei etwaigen Problemen klar zu kommunizieren. Ihre Rückmeldung ist für uns äußerst wertvoll und hilft uns, unseren Service kontinuierlich zu verbessern.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und versichern Ihnen, dass wir bestrebt sind, solche Vorkommnisse in Zukunft zu vermeiden.\n\nZukünftig wünschen wir Ihnen und Ihrem Freund wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:23:59.474Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme"
+}
+[2025-02-17T18:23:59.865Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5832AAA= and subject: WG: [Externe E-Mail]  Beschwerde über nicht erfolgten Halt – Bitte um Stellungnahme
+[2025-02-17T18:23:59.865Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5831AAA=",
+  "subject": "WG: [Externe E-Mail]  Anschluss U76/731"
+}
+[2025-02-17T18:23:59.872Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Anschluss U76/731\nSehr geehrte Damen und Herren,\nich wäre für eine umfassende Stellungnahme dankbar, warum die Linie U76 heute am Sonntag (!), 16.2.25 mit sechsminütiger Verspätung erst um 10:39 Uhr die Ickerswarder Straße erreichte und ob der Bus der Linie 731 FR Südpark angewiesen wurde, auf evtl. umsteigende Fahrgäste zu warten.\nMit freundlichen Grüßen\nIlyas Gencer\nMitglied der Bezirksvertretung 9 der Landeshauptstadt Düsseldorf\nAm Scheitenweg 14\n40589 Düsseldorf\nE-Mail: ilyas.gencer@juduesseldorf.de\nMobil: 0151-22727268",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:00.360Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:00.751Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5831AAA= and subject: WG: [Externe E-Mail]  Anschluss U76/731
+[2025-02-17T18:24:01.160Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5831AAA= and subject: WG: [Externe E-Mail]  Anschluss U76/731
+[2025-02-17T18:24:01.160Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5830AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502160818125368]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:01.174Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren Ich hatte heute Nacht Nachtdienst. Auf dem Hinweg von Messe Ost/Stockumer Kirchstraße habe ich 70 Minuten gebraucht statt den üblichen 20 Min. ,da ohne Begründung oder Vorankündigung 2 Bahnen der Linie U79 nicht nach Duisburg gefahren sind, sondern entweder gar nicht kamen oder nur nach Wittlaer gefahren sind. Nachdem der Nachtdienst nun hinter mir liegt, stehe ich nun wieder eine Stunde, diesmal an der Haltestelle St. Anna Krankenhaus, da wieder eine Bahn ohne Ankündigung ausgefallen ist. Besonders erfreut dabei, dass die Bahnen sowohl in der VRR als auch in der Rheinbahn App gelistet sind, als würden Sie ganz normal fahren. Wie vielleicht nachzuvollziehen ist, ist es nicht angenehm nach 13 Stunden Nachtdienst 1 Stunde in der Kälte zu stehen. Zumal der nächste Nachtdienst nach 10 Stunden Erholung folgt. Die Erholung verkürzt sich dann wieder zusätzlich, da ich nicht damit rechnen kann, dass der Fahrplan heute Abend eingehalten wird, somit werde ich wohl wieder eine Stunde früher losfahren müssen... Ich würde mir ein transparenteres Fehlermanagment wünschen. Außerdem würde es mich freuen, wenn ich mit der Rheinbahn auch ans Ziel komme, und das nicht mit 60 minütiger Verzögerung (und das gleich 2 mal in 24 Stunden...)",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:01.876Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:02.290Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5830AAA= and subject: WG: [Externe E-Mail]  [202502160818125368]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:02.662Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH5830AAA= and subject: WG: [Externe E-Mail]  [202502160818125368]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:02.662Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583zAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502160413032569]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:02.667Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Heute 16.2.25 wollte ich um 3:25 Uhr den S1 Ersatzbus von Düsseldorf Zoo S nehmen. Auf der Zoo Brücke angekommen sah ich um 3:21 Uhr dass der Buss bereits an der Haltestelle gehalten hatte und wieder losfuhr. Ich rannte auf die Straße und winkte, der Fahrer ignorierte mich und hielt dann aber an der nächsten Ampel. Ich rannte hibterger, schaffte es noch an die letzte Tür zu klopfen um dann wieder ignoriert zu werden. Ich arbeite am Flughafen Frühschicht und durch den Ersatzverkher bin ich gezwungen noch früher als üblich loszufahren um nicht zu spät zur Arbeit zu kommen. Erst unpünktlich sein und dann den einzigen Fahrgast einfach Mal ignorieren und stehen lassen. Dieser Ersatzverkher ist bereits eine Zumutung aber dieses Verhalten des Fahrers ist eine bodenlose Frechheit. Wenn Sie nicht in der Lage sind ihre eigenen Abfahrtzeiten einzuhalten und niemanden mitnehmen wozu schicken sie diese Busde überhaupt los? Ich bin sehr enttäuscht und Sauer über dieses Verhalten.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:03.294Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:24:03.346Z] [INFO] Anonymized text:
+{
+  "text": "Heute 16.2.25 wollte ich um 3:25 Uhr den S1 Ersatzbus von Düsseldorf Zoo S nehmen. Auf der Zoo Brücke angekommen sah ich um 3:21 Uhr dass der Buss bereits an der Haltestelle gehalten hatte und wieder losfuhr. Ich rannte auf die Straße und winkte, der Fahrer ignorierte mich und hielt dann aber an der nächsten Ampel. Ich rannte hibterger, schaffte es noch an die letzte Tür zu klopfen um dann wieder ignoriert zu werden. Ich arbeite am Flughafen Frühschicht und durch den Ersatzverkher bin ich gezwungen noch früher als üblich loszufahren um nicht zu spät zur Arbeit zu kommen. Erst unpünktlich sein und dann den einzigen Fahrgast einfach Mal ignorieren und stehen lassen. Dieser Ersatzverkher ist bereits eine Zumutung aber dieses Verhalten des Fahrers ist eine bodenlose Frechheit. Wenn Sie nicht in der Lage sind ihre eigenen Abfahrtzeiten einzuhalten und niemanden mitnehmen wozu schicken sie diese Busde überhaupt los? Ich bin sehr enttäuscht und Sauer über dieses Verhalten.",
+  "anonymized_text": "Heute 16.2.25 wollte ich um [TIME_2] den S1 Ersatzbus von [ANON_LOCATION_3] nehmen. Auf der [ANON_LOCATION_2] angekommen sah ich um [TIME_1] dass der [ANON_NAME_1] bereits an der Haltestelle gehalten hatte und wieder losfuhr. Ich rannte auf die Straße und winkte, der Fahrer ignorierte mich und hielt dann aber an der nächsten Ampel. Ich rannte [ANON_PERSON_2], schaffte es noch an die letzte Tür zu klopfen um dann wieder ignoriert zu werden. Ich arbeite am [ANON_LOCATION_1] und durch den Ersatzverkher bin ich gezwungen noch früher als üblich loszufahren um nicht zu spät zur Arbeit zu kommen. Erst unpünktlich sein und dann den einzigen Fahrgast einfach Mal ignorieren und stehen lassen. Dieser Ersatzverkher ist bereits eine Zumutung aber dieses Verhalten des Fahrers ist eine bodenlose Frechheit. Wenn Sie nicht in der Lage sind ihre eigenen Abfahrtzeiten einzuhalten und niemanden mitnehmen wozu schicken sie diese Busde überhaupt los? Ich bin sehr enttäuscht und [ANON_PERSON_1] über dieses Verhalten.",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Sauer"
+      },
+      {
+        "[ANON_PERSON_2]": "hibterger"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Flughafen Frühschicht"
+      },
+      {
+        "[ANON_LOCATION_2]": "Zoo Brücke"
+      },
+      {
+        "[ANON_LOCATION_3]": "Düsseldorf Zoo S"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Buss"
+      }
+    ],
+    "dates": [],
+    "times": [
+      {
+        "[TIME_1]": "3:21 Uhr"
+      },
+      {
+        "[TIME_2]": "3:25 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T18:24:08.542Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583zAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502160413032569]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:08.543Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583zAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502160413032569]: Anfrage über das Kontaktformular",
+  "userMessage": "Heute 16.2.25 wollte ich um 3:25 Uhr den S1 Ersatzbus von Düsseldorf Zoo S nehmen. Auf der Zoo Brücke angekommen sah ich um 3:21 Uhr dass der Buss bereits an der Haltestelle gehalten hatte und wieder losfuhr. Ich rannte auf die Straße und winkte, der Fahrer ignorierte mich und hielt dann aber an der nächsten Ampel. Ich rannte hibterger, schaffte es noch an die letzte Tür zu klopfen um dann wieder ignoriert zu werden. Ich arbeite am Flughafen Frühschicht und durch den Ersatzverkher bin ich gezwungen noch früher als üblich loszufahren um nicht zu spät zur Arbeit zu kommen. Erst unpünktlich sein und dann den einzigen Fahrgast einfach Mal ignorieren und stehen lassen. Dieser Ersatzverkher ist bereits eine Zumutung aber dieses Verhalten des Fahrers ist eine bodenlose Frechheit. Wenn Sie nicht in der Lage sind ihre eigenen Abfahrtzeiten einzuhalten und niemanden mitnehmen wozu schicken sie diese Busde überhaupt los? Ich bin sehr enttäuscht und Sauer über dieses Verhalten.",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit dem S1 Ersatzbus am [TIME_2] an der Haltestelle [ANON_LOCATION_3] informiert haben. Wir bedauern sehr, dass der Bus um [TIME_1] bereits abgefahren ist und Sie trotz Ihrer Bemühungen nicht mitnehmen konnte. Wir verstehen, dass dies besonders ärgerlich ist, insbesondere wenn der Ersatzverkehr ohnehin schon eine Herausforderung für Ihre tägliche Routine darstellt.\n\nIn Situationen, in denen unser Fahrpersonal bereits abgefahren ist, kann es je nach Verkehrssituation schwierig sein, spontan anzuhalten, insbesondere wenn sie sich mitten im Fahrbetrieb oder kurz vor einer Kreuzung befinden. Dies soll keinesfalls eine Entschuldigung sein und wir möchten uns aufrichtig bei Ihnen entschuldigen, dass Sie in dieser unangenehmen Situation waren.\n\nIhre Rückmeldung ist für uns äußerst wichtig, da sie uns hilft, unser Fahrpersonal nochmals darauf hinzuweisen, die Haltestellen sorgfältig zu bedienen und aufmerksam zu sein, insbesondere in Zeiten von Ersatzverkehren. Wir werden den Vorfall intern prüfen und Maßnahmen ergreifen, um sicherzustellen, dass unsere Fahrgäste sicher und zuverlässig befördert werden.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass Sie uns noch eine Chance geben, Sie bei Ihrem nächsten Fahrterlebnis mit unserem Service zu überzeugen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit dem S1 Ersatzbus am 3:25 Uhr an der Haltestelle Düsseldorf Zoo S informiert haben. Wir bedauern sehr, dass der Bus um 3:21 Uhr bereits abgefahren ist und Sie trotz Ihrer Bemühungen nicht mitnehmen konnte. Wir verstehen, dass dies besonders ärgerlich ist, insbesondere wenn der Ersatzverkehr ohnehin schon eine Herausforderung für Ihre tägliche Routine darstellt.\n\nIn Situationen, in denen unser Fahrpersonal bereits abgefahren ist, kann es je nach Verkehrssituation schwierig sein, spontan anzuhalten, insbesondere wenn sie sich mitten im Fahrbetrieb oder kurz vor einer Kreuzung befinden. Dies soll keinesfalls eine Entschuldigung sein und wir möchten uns aufrichtig bei Ihnen entschuldigen, dass Sie in dieser unangenehmen Situation waren.\n\nIhre Rückmeldung ist für uns äußerst wichtig, da sie uns hilft, unser Fahrpersonal nochmals darauf hinzuweisen, die Haltestellen sorgfältig zu bedienen und aufmerksam zu sein, insbesondere in Zeiten von Ersatzverkehren. Wir werden den Vorfall intern prüfen und Maßnahmen ergreifen, um sicherzustellen, dass unsere Fahrgäste sicher und zuverlässig befördert werden.\n\nWir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass Sie uns noch eine Chance geben, Sie bei Ihrem nächsten Fahrterlebnis mit unserem Service zu überzeugen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:24:09.376Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583zAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502160413032569]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:09.870Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583zAAA= and subject: WG: [Externe E-Mail]  [202502160413032569]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:09.870Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583yAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502160041533672]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:09.879Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Guten Abend, Heute Abend kam es zwischen 00:00-01:00 zu einem Verkehrsunfall auf der Linie U76 Höhe Belsenplatz. Der Bahnfahrer gab uns die Info, dass die Bahn hinter dem Unfall wartet und weiter fährt. Blöd nur, wenn ca. 150-200 Fahrgäste diese zeitlich nicht erreichen und sich eine nahezu leere Bahn bei der Abfahrt anschauen können und die nächste erst Planmäßig eine Stunde später fährt. Ich finde das angesicht der Temperatur und der eingeschränken Infrastruktur zu dieser Zeit mehr als anmaßend. Ich kenne euch als innovatives Unternehmen, dass solche schweren operativen Schritte gut handhabt, aber das war leider gar nichts. Erfrierende Grüße, Fabian Sillekens Mögen ihre Ärmel nass sein.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:10.380Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:10.851Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583yAAA= and subject: WG: [Externe E-Mail]  [202502160041533672]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:11.292Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583yAAA= and subject: WG: [Externe E-Mail]  [202502160041533672]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:11.292Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583xAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502151531052172]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:11.298Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Betreff: Beschwerde über vorbeifahrenden Bus (Linie 780, Wagen 7820 12.02.2025, 19:14 Uhr) Sehr geehrte Damen und Herren, ich möchte eine Beschwerde über ein Vorkommnis mit einem Ihrer Busse einreichen. Am 12.02.2025 um 19:14 Uhr wartete ich an der Haltestelle Schildsheider Straße auf den Busnummer 780 der in Richtung Hochdahler Markt unterwegs war. Trotz gut sichtbarer Beleuchtung an der Haltestelle und direktem Blickkontakt mit dem Fahrer hielt der Bus nicht an, sondern fuhr einfach weiter. Ich frage mich, warum dies passiert ist. Da ich ein Kopftuch trage und dies dass zweite mal beim selben Busfahrer gleiche Vorgehensweise geschehen ist, kann ich nicht ausschließen, dass dies der Grund für das Ignorieren meines Haltewunsches gewesen sein könnte. Am Endstation hab ich ihn darauf angesprochen . Ich bitte Sie, den Vorfall zu prüfen und mir eine Rückmeldung zu geben. Ich nutze den öffentlichen Nahverkehr regelmäßig und wünsche mir, dass alle Fahrgäste gleich behandelt werden. Vielen Dank im Voraus für Ihre Zeit und Mühe. Mit freundlichen Grüßen Samira El-Yojli",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:12.068Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:24:12.112Z] [INFO] Anonymized text:
+{
+  "text": "Betreff: Beschwerde über vorbeifahrenden Bus (Linie 780, Wagen 7820 12.02.2025, 19:14 Uhr) Sehr geehrte Damen und Herren, ich möchte eine Beschwerde über ein Vorkommnis mit einem Ihrer Busse einreichen. Am 12.02.2025 um 19:14 Uhr wartete ich an der Haltestelle Schildsheider Straße auf den Busnummer 780 der in Richtung Hochdahler Markt unterwegs war. Trotz gut sichtbarer Beleuchtung an der Haltestelle und direktem Blickkontakt mit dem Fahrer hielt der Bus nicht an, sondern fuhr einfach weiter. Ich frage mich, warum dies passiert ist. Da ich ein Kopftuch trage und dies dass zweite mal beim selben Busfahrer gleiche Vorgehensweise geschehen ist, kann ich nicht ausschließen, dass dies der Grund für das Ignorieren meines Haltewunsches gewesen sein könnte. Am Endstation hab ich ihn darauf angesprochen . Ich bitte Sie, den Vorfall zu prüfen und mir eine Rückmeldung zu geben. Ich nutze den öffentlichen Nahverkehr regelmäßig und wünsche mir, dass alle Fahrgäste gleich behandelt werden. Vielen Dank im Voraus für Ihre Zeit und Mühe. Mit freundlichen Grüßen Samira El-Yojli",
+  "anonymized_text": "Betreff: Beschwerde über vorbeifahrenden Bus (Linie 780, Wagen 7820 [DATE_2], [TIME_2]) Sehr geehrte Damen und Herren, ich möchte eine Beschwerde über ein Vorkommnis mit einem Ihrer Busse einreichen. Am [DATE_1] um [TIME_1] wartete ich an der Haltestelle [ANON_LOCATION_2] auf den Busnummer 780 der in Richtung [ANON_LOCATION_1] Markt unterwegs war. Trotz gut sichtbarer Beleuchtung an der Haltestelle und direktem Blickkontakt mit dem Fahrer hielt der Bus nicht an, sondern fuhr einfach weiter. Ich frage mich, warum dies passiert ist. Da ich ein Kopftuch trage und dies dass zweite mal beim selben Busfahrer gleiche Vorgehensweise geschehen ist, kann ich nicht ausschließen, dass dies der Grund für das Ignorieren meines Haltewunsches gewesen sein könnte. Am Endstation hab ich ihn darauf angesprochen . Ich bitte Sie, den Vorfall zu prüfen und mir eine Rückmeldung zu geben. Ich nutze den öffentlichen Nahverkehr regelmäßig und wünsche mir, dass alle Fahrgäste gleich behandelt werden. Vielen Dank im Voraus für Ihre Zeit und Mühe. Mit freundlichen Grüßen [ANON_PERSON_1]",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Samira El-Yojli"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Hochdahler"
+      },
+      {
+        "[ANON_LOCATION_2]": "Schildsheider Straße"
+      }
+    ],
+    "names": [],
+    "dates": [
+      {
+        "[DATE_1]": "12.02.2025"
+      },
+      {
+        "[DATE_2]": "12.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "19:14 Uhr"
+      },
+      {
+        "[TIME_2]": "19:14 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-17T18:24:18.673Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583xAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502151531052172]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:18.674Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583xAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502151531052172]: Anfrage über das Kontaktformular",
+  "userMessage": "Betreff: Beschwerde über vorbeifahrenden Bus (Linie 780, Wagen 7820 12.02.2025, 19:14 Uhr) Sehr geehrte Damen und Herren, ich möchte eine Beschwerde über ein Vorkommnis mit einem Ihrer Busse einreichen. Am 12.02.2025 um 19:14 Uhr wartete ich an der Haltestelle Schildsheider Straße auf den Busnummer 780 der in Richtung Hochdahler Markt unterwegs war. Trotz gut sichtbarer Beleuchtung an der Haltestelle und direktem Blickkontakt mit dem Fahrer hielt der Bus nicht an, sondern fuhr einfach weiter. Ich frage mich, warum dies passiert ist. Da ich ein Kopftuch trage und dies dass zweite mal beim selben Busfahrer gleiche Vorgehensweise geschehen ist, kann ich nicht ausschließen, dass dies der Grund für das Ignorieren meines Haltewunsches gewesen sein könnte. Am Endstation hab ich ihn darauf angesprochen . Ich bitte Sie, den Vorfall zu prüfen und mir eine Rückmeldung zu geben. Ich nutze den öffentlichen Nahverkehr regelmäßig und wünsche mir, dass alle Fahrgäste gleich behandelt werden. Vielen Dank im Voraus für Ihre Zeit und Mühe. Mit freundlichen Grüßen Samira El-Yojli",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über das von Ihnen erlebte Vorkommnis mit der Buslinie 780 informiert haben. Wir bedauern zutiefst, dass der Bus am [DATE_1] um [TIME_1] an der Haltestelle [ANON_LOCATION_2] nicht angehalten hat, obwohl Sie dort gewartet haben und im direkten Blickkontakt mit dem Fahrpersonal standen.\n\nSolche Situationen entsprechen nicht dem Servicestandard, den wir für unsere Fahrgäste gewährleisten wollen. Es könnte verschiedene Gründe geben, warum der Bus nicht angehalten hat, wie z.B. ein Missverständnis hinsichtlich der Sichtbarkeit des Haltewunsches oder möglicherweise interner Kommunikationsfehler. Dennoch entschuldigen wir uns aufrichtig, falls dieser Vorfall aus unzulässigen Gründen geschehen ist. Wir nehmen Ihre Bedenken sehr ernst, vor allem, da Sie vermuten, dass Ihr äußeres Erscheinungsbild möglicherweise eine Rolle gespielt haben könnte. Diskriminierung jeglicher Art passt nicht zu unseren Unternehmenswerten.\n\nWir werden diesen Vorfall gründlich untersuchen und sicherstellen, dass unser Fahrpersonal für die Gleichbehandlung aller Fahrgäste sensibilisiert wird. Ihre Rückmeldung hilft uns sehr dabei, unsere Servicequalität kontinuierlich zu verbessern.\n\nEs tut uns sehr leid, dass diese unangenehme Erfahrung erneut aufgetreten ist, und wir möchten Ihnen versichern, dass wir alles daransetzen werden, solche Vorfälle in Zukunft zu vermeiden. Wir hoffen, dass Sie uns auch weiterhin als Verkehrsmittel Ihres Vertrauens wählen und wir Sie bei Ihren nächsten Fahrten von unserem Service überzeugen können.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über das von Ihnen erlebte Vorkommnis mit der Buslinie 780 informiert haben. Wir bedauern zutiefst, dass der Bus am 12.02.2025 um 19:14 Uhr an der Haltestelle Schildsheider Straße nicht angehalten hat, obwohl Sie dort gewartet haben und im direkten Blickkontakt mit dem Fahrpersonal standen.\n\nSolche Situationen entsprechen nicht dem Servicestandard, den wir für unsere Fahrgäste gewährleisten wollen. Es könnte verschiedene Gründe geben, warum der Bus nicht angehalten hat, wie z.B. ein Missverständnis hinsichtlich der Sichtbarkeit des Haltewunsches oder möglicherweise interner Kommunikationsfehler. Dennoch entschuldigen wir uns aufrichtig, falls dieser Vorfall aus unzulässigen Gründen geschehen ist. Wir nehmen Ihre Bedenken sehr ernst, vor allem, da Sie vermuten, dass Ihr äußeres Erscheinungsbild möglicherweise eine Rolle gespielt haben könnte. Diskriminierung jeglicher Art passt nicht zu unseren Unternehmenswerten.\n\nWir werden diesen Vorfall gründlich untersuchen und sicherstellen, dass unser Fahrpersonal für die Gleichbehandlung aller Fahrgäste sensibilisiert wird. Ihre Rückmeldung hilft uns sehr dabei, unsere Servicequalität kontinuierlich zu verbessern.\n\nEs tut uns sehr leid, dass diese unangenehme Erfahrung erneut aufgetreten ist, und wir möchten Ihnen versichern, dass wir alles daransetzen werden, solche Vorfälle in Zukunft zu vermeiden. Wir hoffen, dass Sie uns auch weiterhin als Verkehrsmittel Ihres Vertrauens wählen und wir Sie bei Ihren nächsten Fahrten von unserem Service überzeugen können.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-17T18:24:19.933Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583xAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502151531052172]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:20.632Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583xAAA= and subject: WG: [Externe E-Mail]  [202502151531052172]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:20.632Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583wAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502151404096972]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:20.637Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Liebe Rheinbahn-Mitarbeiter/innen, einige Durchsagen in den Straßenbahnen werden zu leise eingesprochen, sodass die Informationen nicht zu verstehen sind. Das betrifft natürlich nur die nicht-automatisierten Durchsagen. Daher wollte ich gerne anregen, lauter zu sprechen. Viele Grüße G. Schott",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:22.240Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:23.803Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583wAAA= and subject: WG: [Externe E-Mail]  [202502151404096972]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:24.574Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583wAAA= and subject: WG: [Externe E-Mail]  [202502151404096972]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:24.574Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583vAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502151352428322]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:24.578Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Guten Tag, Bitte-bitte wie kann ich den Busfahrer Linien 725, Daelenstrasse Ri. Zoo heute, 15.02.2025 um 10.20 Uhr bedanken? Ein sehr netter, freundlicher und empathischer Mensch!!!!!!! Herzlichen Gruß und 1000 Mal Danke! Freundliche Grüße Susanna Kadzhoyan",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:25.106Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:25.601Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583vAAA= and subject: WG: [Externe E-Mail]  [202502151352428322]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:25.961Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583vAAA= and subject: WG: [Externe E-Mail]  [202502151352428322]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:25.962Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583uAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502151239725581]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:25.970Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Guten Tag. Ich fahre jeden Tag mit dem Bus (831) zur Arbeit,und nehme täglich mein Fahrrad mit Elektrofahrrad. Der unfreundliche Busfahrer hat mich eben nicht mitgenommen,mit der Aussage Elektrofahrräder dürfen nicht mit. Ich finde das eine Unverschämtheit von Busfahrer er sollte wissen das es erlaubt ist . Es ist mir bekannt das Elektro Roller nicht mitgenommen werden dürfen. Mit freundlichen Gruß. N. Kairies",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:26.503Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:27.159Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583uAAA= and subject: WG: [Externe E-Mail]  [202502151239725581]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:27.761Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583uAAA= and subject: WG: [Externe E-Mail]  [202502151239725581]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:27.762Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583tAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502151148268581]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:27.770Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren, ist die Haltestelle \"Rotdornweg\" in Haan-Gruiten aktuell noch verlegt oder folgen die Linien 742 und O1 in beide Richtungen wieder dem normalen Linienweg? Falls die Verlegung aktuell noch besteht: Wann wird sie voraussichtlich aufgehoben? Mit freundlichen Grüßen Julian Leske",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:28.283Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:28.791Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583tAAA= and subject: WG: [Externe E-Mail]  [202502151148268581]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:29.170Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583tAAA= and subject: WG: [Externe E-Mail]  [202502151148268581]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:29.171Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583sAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502150640159171]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:29.175Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Hallo, hiermit möchte ich mich bei Ihnen beschweren, dass der Bus Linie 731 an den Haltestellen \"In den Maisbanden\" und \"Am Pflanzkamp\" sehr oft in der App \"planmäßig\" abfährt aber dann ausfällt! Heute sollte er auch um 6:21 kommen und stand auch so in der App, jedoch ist er WIEDERMAL einfach ausgefallen! Dies ist sehr ärgerlich weil es die erste und einzige Verbindung an einem Samstag in unserer Siedlung ist und etliche Leute durch diese Unzuverlässigkeit zu spät zur Arbeit kommen!",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:29.632Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:30.069Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583sAAA= and subject: WG: [Externe E-Mail]  [202502150640159171]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:30.811Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583sAAA= and subject: WG: [Externe E-Mail]  [202502150640159171]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:30.811Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583rAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502142038096175]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:30.814Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Betrunkener Busfahrer 752 (13.02.2025 | Wagennnummer 7842) Sehr geehrte Damen und Herren, am 13.02.2025 befand ich mich in der Linie 752 Richtung Mülheim HBF (Kennzeichen: D C 7847), welche gegen 12:17Uhr an der Haltestelle Stadtmitte einfuhr. Beim Einsteigen nahm direkt rechts neben dem Eingang hinter der Scheibe Platz. Dabei fiel mir nach wenigen Momenten auf, dass der Fahrer stark auf die Spur des Gegenverkehrs zog, das Tempo sehr ungleichmäßig war (als würde er das Gaspedal nicht mehr betätigen und der Bus drohte, mitten auf der Straße stehenzubleiben) und er im Allgemeinen Schlängellinien fuhr. Aus meiner Position konnte ich das Gesicht des Fahrers im Rückspiegel erkennen und auch dieses sah alles andere als fahrtüchtig aus. Seine Haut war fahl, die Augen waren halb zu, manchmal waren sie gänzlich geschlossen (!) und sein Mund stand konstant offen. Entgegenkommende Busfahrer grüßte er \"mit Mühe\", indem er seinen Arm schwer hob. Ich fahre seit 20 Jahren mit den öffentlichen Verkehrsmitteln und hatte noch kein einziges Mal in meinem Leben Angst oder ein komisches Gefühl. Gestern aber fürchtete ich mich wirklich vor einem Unfall. Ich war mir nicht sicher, ob ich den Vorfall melden sollte oder nicht, aber kann das nicht mit meinem Gewissen vereinbaren, wenn er tatsächlich unter Einfluss von Rauschmitteln stand und damit dutzende Menschenleben gefährdet. Der Fahrer war adipös und hatte dunkelblondes, kurzes Haar sowie hellere Augen. Aus Selbstschutz möchte ich anonym bleiben, diese Emailadresse ist jedoch aktiv und Sie können mich bei Rückfragen über diese erreichen. Ich hoffe, dass diesem Problem nachgegangen wird und natürlich auch, dass es sich lösen lässt. Danke für Ihre Zeit Mit freundlichsten Grüßen J.L.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:31.347Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:31.738Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583rAAA= and subject: WG: [Externe E-Mail]  [202502142038096175]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:32.131Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583rAAA= and subject: WG: [Externe E-Mail]  [202502142038096175]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:32.131Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583qAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502141736826095]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:32.134Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren, wir sind vom 29.05. bis zum 01.06. in Düsseldorf auf Abschlussfahrt. Jetzt kommen wir mit dem Zug am Hauptbahnhof an und wir müssen zur Heinrich-Heine-Allee. Gibt es eine Möglichkeit für 14 Personen ein Gruppenticket zu kaufen bzw. auch schon vorher oder muss man das einzeln kaufen und vor Ort? Vielen Dank im Voraus! Mit freundlichen Grüßen Jannik Andermann",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:32.700Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:33.140Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583qAAA= and subject: WG: [Externe E-Mail]  [202502141736826095]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:33.627Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583qAAA= and subject: WG: [Externe E-Mail]  [202502141736826095]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:33.628Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583pAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502141838361736]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:33.630Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Guten Tag, am heutigen Tag bin ich um 17:06 von der Haltestelle Ludwigstraße Richtung Rheinturm gefahren und habe mir im Bus der Linie 732 ein Einzelticket gekauft. Komischerweise wurden die Leute in den nachfolgenden Haltestellen nicht nach einem Ticket gefragt und sind einfach am Fahrer vorbei gelaufen. Das kann ich überhaupt nicht nachvollziehen und es kommt leider öfters vor. Das sollte nicht so sein. Mit freundlichem Gruß Norbert Kraus",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:34.232Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:34.700Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583pAAA= and subject: WG: [Externe E-Mail]  [202502141838361736]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:35.205Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583pAAA= and subject: WG: [Externe E-Mail]  [202502141838361736]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:35.205Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583oAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502141821800677]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:35.211Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Guten Tag, ich verstehe nicht, warum bei den neuen U-Bahn Züge U79+U76 die vorderen und hinteren Anhängerkupplungen bei der Fahrt nicht hinter den Schutzverkleidungen versenkt werden. Insbesondere die vordere Verkleidung ist doch als Aufprallschutz so konstruiert worden um größere Verletzungen besonders für Fußgänger zu verhindern. Sind die Fahrer bei Fahrtantritt zu bequem oder nicht darauf ausgebildet die Kupplung zu versenken. Auf ihre Antwort von dem Verantwortlichen für den technischen Dienst bin ich neugierig. MfG Franz -Josef Pliszka",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:35.922Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:36.311Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583oAAA= and subject: WG: [Externe E-Mail]  [202502141821800677]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:36.799Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583oAAA= and subject: WG: [Externe E-Mail]  [202502141821800677]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:36.799Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583nAAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde M3"
+}
+[2025-02-17T18:24:36.800Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Beschwerde M3\nSehr geehrte Damen und Herren,\nhiermit beschwere ich mich darüber, dass der Bus der Linie M3 in Richtung Reisholz heute (14.2.) um 18:42 Uhr nicht am Kirchplatz abfuhr.\nIch möchte um eine Stellungnahme zu dem Fahrtausfall ersuchen. \nMit freundlichen Grüßen\nI. Gencer",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:37.368Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:37.866Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583nAAA= and subject: WG: [Externe E-Mail]  Beschwerde M3
+[2025-02-17T18:24:38.341Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583nAAA= and subject: WG: [Externe E-Mail]  Beschwerde M3
+[2025-02-17T18:24:38.341Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583mAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502142005030209]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:38.343Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren, es geht um eine Lärmbelästigung durch ihre Gleisanlage an der Haltestelle Karolinger Platz (Brunnenstraße 55). Am Fußgängerüberweg wurde neben den Gleisen eine Revisionsklappe verhaut. diese hat einen Metalldeckel, der wohl lose aufliegt, was zur Folge hat das er bei jeder Durchfahrt Richtung Innenstadt lautstark scheppert. Dieses permanente laute Scheppern hören wir jetzt schon seit Tagen in unserem Wohnzimmer was sehr ärgerlich ist. Ich möchte sie bitten dies zu überprüfen und Abhilfe zu schaffen. Besten Dank im Voraus! MfG Karl Lambert",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:39.072Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:39.453Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583mAAA= and subject: WG: [Externe E-Mail]  [202502142005030209]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:40.228Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583mAAA= and subject: WG: [Externe E-Mail]  [202502142005030209]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:40.228Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583lAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502141556566723]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:40.230Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren Ich konnte am 12.02.2024 um11.09uhr den Zug von Gelsenkirchen nach Düsseldorf Flughafen nicht nehmen weil der Zug nicht kam erst wurde er um 11.24 angesagt der dann auch abgesagt wurde und dann wurde der nachste Zug für 12.09 Uhr angesagt den ich dann aber nicht mehr nehmen konnte weil mein Flug um 14.15 von Düsseldorf nach Izmir ging ich musste deshalb auf pkw umsteigen und mich von meinem Sohn mit dem Auto fahren lassen bei Ankunft am 05.022025 nach Düsseldorf habe ich 2tickets gekauft den einen habe ich genutzt aber das Ticket am 12.02.25 konnte ich wie gesagt nicht nutzen und ich musste diesen entwerten am 12.02.25 den ich an diesem Tag nicht nutzen konnte. Ich schicke Ihnen mein entwertetes Ticket vom 12.02.25 als Anhang zu und schicke ihnen auch mein Flugticket zu damit können sie es nachvollziehen hâtte fast mein Flug verpasst ich möchte natürlich mein Geld zurückerstattet habe da ich es nicht nutzen konnte.Mit freundlichen Grüßen Aslantas",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:40.745Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:41.173Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583lAAA= and subject: WG: [Externe E-Mail]  [202502141556566723]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:41.562Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583lAAA= and subject: WG: [Externe E-Mail]  [202502141556566723]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:41.562Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583kAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502141452686467]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:41.565Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren , Ich habe heute in der Bahn Linie um 12:30 Uhr Von holthausen nach lobek 3 Haltestelle nach holthausen. Ich habe ganz starke Schmerzen in Rücken und knie Schmerzen. Beste Grüße V.Zaghari",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:42.111Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:42.610Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583kAAA= and subject: WG: [Externe E-Mail]  [202502141452686467]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:43.005Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583kAAA= and subject: WG: [Externe E-Mail]  [202502141452686467]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:43.005Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583jAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502141424286769]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:43.008Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Sehr geehrte Damen und Herren, Zum wiederholten Mal musste ich erleben, dass die bahn vorzeitig abfährt. Wozu haben wir denn die Fahrt Pläne??? Und meine Uhr habe ich geprüft, sie zeigte richtig. Entweder gibt es Verspätungen oder fährt die bahn zu früh. Ich wollte gerade (14.02./14:14 Uhr) die U77 nehmen. Sie ist früher abgefahren. Die nächste U77 ist um 14:21 Uhr statt 14:24 Uhr. Gott sei Dank ich sitze drin. Was soll das??? Bitte sensibilisieren Sie Ihre Fahrer, denn sowas nenne ich unprofessionell und nicht kundenfreundlich. Mit freundlichen Grüßen Eleni Angeli-Stark",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:43.661Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:44.176Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583jAAA= and subject: WG: [Externe E-Mail]  [202502141424286769]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:44.565Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583jAAA= and subject: WG: [Externe E-Mail]  [202502141424286769]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:44.565Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583iAAA=",
+  "subject": "WG: [Externe E-Mail]  Bestätigung"
+}
+[2025-02-17T18:24:44.566Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Bestätigung\nGuten Tag \nundzwar hatte ich grade mit ihren kollegen telefoniert, ich bräuchte bitte eine bestätigung für die schule das die 746 heute streikt und nicht fährt. \nViele Grüße Julia.Kontonatsis",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:45.203Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:45.589Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583iAAA= and subject: WG: [Externe E-Mail]  Bestätigung
+[2025-02-17T18:24:46.001Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583iAAA= and subject: WG: [Externe E-Mail]  Bestätigung
+[2025-02-17T18:24:46.002Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583hAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502141029976941]: Anfrage über das Kontaktformular"
+}
+[2025-02-17T18:24:46.008Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Hallo. Heute wurde ich von einem Ihrer Busfahrer beim Einstieg gebeten meine Red Bull Dose zu entsorgen. Mit Red Bull Dose dürfe er mich nicht befördern. Diese Aussage finde ich doch recht befremdlich, da mir in den Allgemeinen Beförderungsbedingungen der Rheinbahn nur der aausschluss alkoholischer Getränke und warmen Speisen bekannt ist. Gibt es eine neue Hausordnung, welche die Aussage des Busfahrers stützt? Wenn ja, wo finde ich diese Hausordnung?",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-17T18:24:46.533Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-17T18:24:46.922Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583hAAA= and subject: WG: [Externe E-Mail]  [202502141029976941]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:47.599Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH583hAAA= and subject: WG: [Externe E-Mail]  [202502141029976941]: Anfrage über das Kontaktformular
+[2025-02-17T18:24:47.599Z] [INFO] Finished processing emails

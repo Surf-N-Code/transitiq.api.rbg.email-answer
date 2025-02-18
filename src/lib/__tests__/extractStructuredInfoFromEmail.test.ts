@@ -1,4 +1,5 @@
 import { extractStructuredInfoFromEmail } from '../extractStructuredInfoFromEmail';
+import { emailExamples } from './htmlEmails';
 
 describe('extractStructuredInfoFromEmail', () => {
   test('extracts fields from website complaint form', () => {
@@ -128,116 +129,10 @@ describe('extractStructuredInfoFromEmail', () => {
     );
   });
 
-  test('extracts fields from VRR forwarded complaint', () => {
-    const html = `
-      <html>
-        <body>
-           
- 
-___________________________
-
-i.A. Nina Sternagel
-Team Kundendialog (K212.500)
- 
-Tel:      + 49 0211 582 1956
-Email:   kundendialog@rheinbahn.de
- 
-Von: Witte, Uwe <Uwe.Witte@rheinbahn.de>
-Gesendet: Montag, 13. Januar 2025 11:48
-An: Kundendialog <Kundendialog@rheinbahn.de>
-Betreff: WG: [Externe E-Mail] Weiterleitung VRR an Rheinbahn - MeldungsID 173617
- 
- 
- 
-Von: info@vrr.de <info@vrr.de>
-Gesendet: Montag, 13. Januar 2025 10:28
-An: Rheinbahn <Rheinbahn@rheinbahn.de>
-Betreff: [Externe E-Mail] Weiterleitung VRR an Rheinbahn - MeldungsID 173617
- 
-Liebe Kolleg*innen,
- 
-zuständigkeitshalber leiten wir Ihnen das bei uns eingegangene Kundenanliegen mit der Bitte um weitere Bearbeitung zu. Der Kundin/ dem Kunden wurde die Weiterleitung bereits mitgeteilt.
- 
-Für weitere Informationen oder Rückfragen stehen wir Ihnen gerne zur Verfügung.
- 
-Freundliche Grüße
- 
-Ihr VRR-Team
- 
-Verkehrsverbund Rhein-Ruhr AöR
-
-- Fachgruppe Kundenmanagement - 
-
-Augustastraße 1, 45879 Gelsenkirchen
-
-Fon 0209/ 1584 0 
-
-info@vrr.de
-
----
-
-Vorstand: Oliver Wittke (Sprecher)
-
-Vorsitzender des Verwaltungsrates: Uwe Schneidewind
-
-Sitz der Gesellschaft: Ribbeckstraße 15 (Rathaus), 45127 Essen
-
-USt-Id: DE 250 085 017 - Handelsregister: Amtsgericht Essen, HRA 8767
-
- 
-
-___________________________________________________
- 
-Von: Nordkap1@web.de
-Empfangen am 12.01.2025 um 19:59:54
- 
-Meldung des Kunden:
- 
-Meldungs ID: 173617
-Rückmeldungswunsch: E-Mail
- 
-Kundendaten:
-Vorname, Name: Benedikt  Lamerz
-Straße/Hausnummer:
-PLZ/Ort:
-Telefon privat: /
-Telefon mobil: /
-Mail: Nordkap1@web.de
- 
-Anliegen:
-Guten Abend,
-der Bus der Linie 746 in Richtung Mettmann ist heute (12.01.2025) an der Bushaltestelle Schöne Aussicht in Wülfrath (Abfahrtszeit 19:45 Uhr) ohne Anzuhalten vorbeigefahren obwohl wir winkend - also sichtbar - an der Bushaltestelle standen.
-Eine riesengroße Unverschämtheit vor allem bei diesen Temperaturen!!!
-So gewinnen Sie ganz gewiss keine Kunden für den ÖPNV!!!
-Wir erwarten eine Stellungnahme hierzu!
- 
-
- 
-
-
-
-
-
-Rheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf
-
-            
-______________________________________________________
-
-Annette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und Finanzvorständin
-Michael Richarz - Vorstand Technik und Betrieb
-Vorsitzender des Aufsichtsrats: Rolf Tups
-Sitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562
- 
-
-Datenschutz:
-Im Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.
-Die Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.
-Die personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.
-Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.
-Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.
-        </body>
-      </html>
-    `;
+  test('extracts fields from VRR forwarded complaint version 1 with "Anliegen:"', () => {
+    const html = emailExamples.filter(
+      (email) => email.type === 'vrrForwardedComplaint'
+    )[0].html;
 
     const result = extractStructuredInfoFromEmail(html);
     expect(result).toEqual(
@@ -246,13 +141,38 @@ Ein lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht mögl
         vorname: 'Benedikt',
         nachname: 'Lamerz',
         email: 'Nordkap1@web.de',
-        message:
-          'Guten Abend, der Bus der Linie 746 in Richtung Mettmann ist heute (12.01.2025) an der Bushaltestelle Schöne Aussicht in Wülfrath (Abfahrtszeit 19:45 Uhr) ohne Anzuhalten vorbeigefahren obwohl wir winkend - also sichtbar - an der Bushaltestelle standen. Eine riesengroße Unverschämtheit vor allem bei diesen Temperaturen!!! So gewinnen Sie ganz gewiss keine Kunden für den ÖPNV!!! Wir erwarten eine Stellungnahme hierzu!',
+        message: `Guten Abend,
+der Bus der Linie 746 in Richtung Mettmann ist heute (12.01.2025) an der Bushaltestelle Schöne Aussicht in Wülfrath (Abfahrtszeit 19:45 Uhr) ohne Anzuhalten vorbeigefahren obwohl wir winkend - also sichtbar - an der Bushaltestelle standen.
+Eine riesengroße Unverschämtheit vor allem bei diesen Temperaturen!!!
+So gewinnen Sie ganz gewiss keine Kunden für den ÖPNV!!!
+Wir erwarten eine Stellungnahme hierzu!`,
         linie: '',
         haltestelle: '',
         richtung: '',
         stadt: '',
-        datum: '',
+        datum: '12.01.2025 um 19:59:54',
+      })
+    );
+  });
+
+  test('extracts fields from VRR forwarded complaint version 2 with "Meldetext:"', () => {
+    const html = emailExamples.filter(
+      (email) => email.type === 'vrrForwardedComplaint2'
+    )[0].html;
+
+    const result = extractStructuredInfoFromEmail(html);
+    expect(result).toEqual(
+      expect.objectContaining({
+        anrede: '',
+        vorname: 'Philippe',
+        nachname: 'Favresse',
+        email: 'Delolmofavresse@hotmail.com',
+        message: `Der Bus 759 fährt immer vor 17:34 von der Düsseldorf Flughafen Bushaltestelle ab und kann diesen nicht erwischen, wenn mein Zug kurz davor am Düsseldorf Flughafen ankommt. Zusätzliche fährt dieser Bus auch noch fast leer von der Bushaltestelle! Bitten Sie doch einfach den Busfahrer nicht votr 17:34 loszufahren.`,
+        linie: '',
+        haltestelle: '',
+        richtung: '',
+        stadt: '',
+        datum: '10.02.2025 17:48:32',
       })
     );
   });

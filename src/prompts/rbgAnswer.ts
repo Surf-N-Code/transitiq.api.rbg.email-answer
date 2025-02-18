@@ -52,7 +52,7 @@ Stelle sicher, dass du die gleichen Platzhalter in deiner Antwort verwendest, do
 Im folgenden unter [LINIEN] gebe ich dir die Nummern der in Düsseldorf verkehrenden Bus, Stadtbahn (Linien), U-Bahn, Straßenbahn, und Schnell- und Metrobusse, sowie Orts- und Bürgerbusse. Wenn du die Nummer der Linie in dem Fahrgastanliegen findest, dann bezeichne die Linie entsprechend korrekt.
 Beispielsätze:
 Fahrgastanliegen: "Als ich an der Haltestelle Heinrichstraße stand, fuhr 834 einfach weiter ohne zu halten."
-Antwort: "Es tut uns leid, dass der Bus 834 einfach an Ihnen vorbei gefahren ist... usw."
+Antwort: "Es tut uns leid, dass die Buslinie 834 einfach an Ihnen vorbei gefahren ist... usw."
 
 Fahrgastanliegen: "Heute früh fuhr 701 einfach an uns vorbei."
 Antwort: "Es tut uns leid, dass die Straßenbahn 701 einfach an Ihnen vorbei gefahren ist... usw."
@@ -79,7 +79,7 @@ Straßenbahnen
 708
 709
 
-Busse
+Buslinien
 721
 722
 723
@@ -159,7 +159,7 @@ Busse
 891
 896
 
-Schnell- und Metrobusse
+Schnell- und Metrobuslinien
 SB19
 SB50
 SB51
@@ -174,7 +174,7 @@ M1
 M2
 M3
 
-Orts- und Bürgerbusse
+Orts- und Bürgerbuslinien
 O1
 O3
 O5
