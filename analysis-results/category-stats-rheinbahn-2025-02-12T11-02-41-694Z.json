@@ -1,0 +1,56 @@
+{
+  "totalEmails": 1,
+  "categorizedEmails": 0,
+  "uncategorizedCount": 1,
+  "categoryStats": [
+    {
+      "name": "Betriebsstörungen und Verspätungen",
+      "description": "Themen, die sich mit Verspätungen, Ausfällen und Störungen im Betrieb befassen.",
+      "emailCount": 0,
+      "emails": []
+    },
+    {
+      "name": "Kundenservice und Mitarbeiter",
+      "description": "Anfragen und Beschwerden bezüglich des Verhaltens und der Unterstützung durch Mitarbeiter.",
+      "emailCount": 0,
+      "emails": []
+    },
+    {
+      "name": "Fahrplan und Information",
+      "description": "Anfragen und Beschwerden zu Fahrplänen, Informationen und deren Genauigkeit.",
+      "emailCount": 0,
+      "emails": []
+    },
+    {
+      "name": "Infrastruktur und Ausstattung",
+      "description": "Themen, die sich mit der physischen Infrastruktur und Ausstattung der Verkehrsmittel und Haltestellen befassen.",
+      "emailCount": 0,
+      "emails": []
+    },
+    {
+      "name": "Sicherheit und Sauberkeit",
+      "description": "Anliegen und Beschwerden bezüglich der Sicherheit und Sauberkeit im öffentlichen Nahverkehr.",
+      "emailCount": 0,
+      "emails": []
+    },
+    {
+      "name": "Tickets und Abrechnung",
+      "description": "Anfragen und Beschwerden zu Ticketpreisen, -angeboten und -regelungen.",
+      "emailCount": 0,
+      "emails": []
+    }
+  ],
+  "uncategorizedList": [
+    {
+      "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABF5cRjAAA=",
+      "subject": "WG: [Externe E-Mail]  Anfrage zum Streik/ Busse + Bahnen",
+      "topic": "Request for schedule information",
+      "category": "Uncategorized"
+    }
+  ],
+  "metadata": {
+    "emailsFile": "email-analysis-rheinbahn-2025-02-12T11-02-41-694Z.json",
+    "clusteringFile": "topic-clustering-rheinbahn-2025-02-12T11-41-22-824Z.json",
+    "analysisTimestamp": "2025-02-12T12:53:59.968Z"
+  }
+}

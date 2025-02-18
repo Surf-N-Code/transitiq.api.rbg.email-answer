@@ -7,3 +7,12 @@ Content-Type: application/json
   "toRecipients": ["ndilthey@gmail.com"],
   "nonCategoryRecipients": ["ndilthey@gmail.com"]
 }
+
+### Discover New Classification
+GET http://localhost:3000/api/discover-new-classification?client=rheinbahn&unreadOnly=false&page=1&pageSize=200
+
+### Topic Summary
+GET http://localhost:3000/api/discover-new-classification/topic-summary?filename=email-analysis-rheinbahn-2025-02-12T11-41-22-824Z.json
+
+### Category Statistics
+GET http://localhost:3000/api/discover-new-classification/email-category-stats?emailsFile=email-analysis-rheinbahn-2025-02-12T11-41-22-824Z.json&clusteringFile=topic-clustering-rheinbahn-2025-02-12T11-41-22-824Z.json

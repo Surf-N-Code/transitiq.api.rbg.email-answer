@@ -5,5 +5,6 @@ export class AiAnswerGenerationError extends Error {
   ) {
     super(message);
     this.name = 'AiAnswerGenerationError';
+    this.cause = cause;
   }
 }

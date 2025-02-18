@@ -3,6 +3,16 @@ import { logError, logInfo } from '../lib/logger';
 const msal = require('@azure/msal-node');
 const axios = require('axios');
 
+function cleanEmailContent(content: string): string {
+  return content
+    .replace(/\\r/g, '')
+    .replace(/\\n/g, '\n')
+    .replace(/\\t/g, '\t')
+    .replace(/\\/g, '')
+    .replace(/"{2,}/g, '"')
+    .trim();
+}
+
 export class EmailHandler {
   private msalClient: any;
   private config: any;
@@ -66,16 +76,17 @@ export class EmailHandler {
     }
   }
 
-  async crawlUnreadEmails(): Promise<CrawledEmail[]> {
+  async crawlUnreadEmails(unreadOnly: boolean): Promise<CrawledEmail[]> {
     try {
       let endpoint =
-        `${this.GRAPH_API_ENDPOINT}/users/${this.inboxToProcess}/messages?` +
-        `$filter=isRead eq false&` +
+        `${this.GRAPH_API_ENDPOINT}/users/${this.inboxToProcess}/mailFolders/inbox/messages?` +
+        `$filter=isRead eq ${unreadOnly ? 'false' : 'true'}&` +
         '$orderby=receivedDateTime desc&' +
-        '$top=100&' +
+        '$top=200&' +
         '$select=id,subject,body,from,receivedDateTime,isRead';
 
       let totalEmails = 0;
+      let processedEmailsCount = 0;
       let emails: CrawledEmail[] = [];
 
       while (endpoint) {
@@ -83,7 +94,7 @@ export class EmailHandler {
           const response = await axios.get(endpoint, { headers: this.headers });
           const responseEmails = response.data.value;
           totalEmails += responseEmails.length;
-          logInfo('Processing email batch', { count: responseEmails.length });
+          logInfo('Processing emails', { count: responseEmails.length });
 
           for (const email of responseEmails) {
             if (email.from.emailAddress.address === this.inboxToProcess) {
@@ -94,6 +105,10 @@ export class EmailHandler {
             }
 
             emails.push(email);
+            processedEmailsCount++;
+            logInfo(
+              `Processed email ${processedEmailsCount} of ${totalEmails}`
+            );
           }
 
           // Check for more pages
@@ -117,7 +132,7 @@ export class EmailHandler {
     content: string,
     toRecipients: string[],
     ccRecipients?: string[],
-    replyTo?: string
+    replyToEmail?: string
   ) {
     try {
       const emailData = {
@@ -125,7 +140,7 @@ export class EmailHandler {
           subject: subject,
           body: {
             contentType: 'HTML',
-            content: content.replace(/\n/g, '<br>'),
+            content: cleanEmailContent(content).replace(/\n/g, '<br>'),
           },
           toRecipients: toRecipients.map((email) => ({
             emailAddress: { address: email },
@@ -134,7 +149,15 @@ export class EmailHandler {
             ccRecipients?.map((email) => ({
               emailAddress: { address: email },
             })) || [],
-          replyTo: replyTo ? [{ emailAddress: { address: replyTo } }] : [],
+          ...(replyToEmail && {
+            replyTo: [
+              {
+                emailAddress: {
+                  address: replyToEmail,
+                },
+              },
+            ],
+          }),
         },
       };
 

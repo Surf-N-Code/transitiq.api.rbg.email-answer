@@ -8,6 +8,8 @@ import { ExtractMessageFromEmailError } from '@/exceptions/ExtractMessageFromEma
 import { EmailCategorizationError } from '@/exceptions/EmailCategorizationError';
 import { SendEmailError } from '@/exceptions/SendEmailError';
 import { AiAnswerGenerationError } from '@/exceptions/AiAnswerGenerationError';
+import * as fs from 'fs';
+import * as path from 'path';
 
 export async function generateEmailResponse(
   emailHandler: EmailHandler,
@@ -37,6 +39,7 @@ export async function generateEmailResponse(
 
   let isComplaintAboutBeingLeftBehind = false;
   try {
+    //@TODO: pass anonymized text
     isComplaintAboutBeingLeftBehind = await classifyText(
       extractedFields.message
     );
@@ -52,11 +55,16 @@ export async function generateEmailResponse(
 
   if (!isComplaintAboutBeingLeftBehind) {
     try {
+      const emailContent = `
+      <strong>Kundenanliegen:</strong>${email.body.content}`;
+
       await emailHandler.sendEmail(
         inboxToProcess,
         `❌ Kategorie: Andere Kategorie -> ${email.subject}`,
-        email.body.content,
-        nonCategoryRecipients || []
+        emailContent,
+        nonCategoryRecipients || [],
+        [],
+        extractedFields.email
       );
       logInfo(
         `Email sent to non-category recipients: ${(nonCategoryRecipients || []).join(', ')} with id: ${email.id} and subject: ${email.subject}`
@@ -66,7 +74,7 @@ export async function generateEmailResponse(
         emailErrorObject,
         error,
       });
-      const e = new SendEmailError(
+      throw new SendEmailError(
         'Failed to send email to non-category recipients',
         new Error(JSON.stringify(emailErrorObject))
       );
@@ -81,12 +89,20 @@ export async function generateEmailResponse(
   const placeholders = getPlaceholderKeys(anonymizedText.replacements);
 
   let emailReply: string | null = null;
+  const gender =
+    extractedFields.anrede === 'Herr'
+      ? 'male'
+      : extractedFields.anrede === 'Frau'
+        ? 'female'
+        : 'neutral';
+  const hasLastname = extractedFields.nachname !== '';
   try {
     emailReply = await aiResponse(
       anonymizedText.anonymized_text,
       placeholders,
-      extractedFields,
-      'rheinbahn'
+      'rheinbahn',
+      gender,
+      hasLastname
     );
     logInfo(`Ai response generated for email`, {
       email: email.id,
@@ -108,7 +124,8 @@ export async function generateEmailResponse(
 
   const deAnonymizedEmailReply = deAnonymizeText(
     emailReply,
-    anonymizedText.replacements
+    anonymizedText.replacements,
+    extractedFields.nachname
   );
 
   // Log the original message and AI response
@@ -124,7 +141,6 @@ export async function generateEmailResponse(
   let content =
     `<strong>Kategorie:</strong>\nBeschwerde stehen gelassen` +
     `\n\n<strong>Kunden E-Mail:</strong> ${extractedFields.email ?? 'Keine E-Mail vorhanden'}` +
-    `${extractedFields.anrede ? `\n\n<strong>Kundendaten:</strong>\n${extractedFields.anrede} ${extractedFields.vorname} ${extractedFields.nachname}` : ''}` +
     `\n\n<strong>Kunden Beschwerde:</strong>\n${extractedFields.message}` +
     `\n\n<strong>KI Antwort:</strong>\n` +
     deAnonymizedEmailReply;
@@ -139,6 +155,28 @@ export async function generateEmailResponse(
       extractedFields.email
     );
 
+    //please append deAnonymizedEmailReply and extractedFields.message to a json file
+    const fileContent = {
+      userMessage: extractedFields.message,
+      deAnonymizedEmailReply,
+    };
+    const filePath = path.join(
+      process.cwd(),
+      'analysis-results',
+      'generated_email_responses.jsonl'
+    );
+    if (!fs.existsSync(filePath)) {
+      fs.writeFileSync(filePath, '');
+    }
+    try {
+      fs.appendFileSync(filePath, JSON.stringify(fileContent) + '\n', {
+        flag: 'a',
+      });
+    } catch (error) {
+      logError('Failed to append to responses file:', { error });
+      // Don't throw error as this is not critical to email sending
+    }
+
     logInfo(`Email response sent successfully.`, {
       id: email.id,
       subject: email.subject,
@@ -146,7 +184,7 @@ export async function generateEmailResponse(
   } catch (error: any) {
     logError('Failed to send email response:', {
       emailId: email.id,
-      error: error?.message,
+      error: error,
       subject: email.subject,
     });
     throw error;

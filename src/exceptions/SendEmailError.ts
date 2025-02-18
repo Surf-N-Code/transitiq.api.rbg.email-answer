@@ -5,5 +5,6 @@ export class SendEmailError extends Error {
   ) {
     super(message);
     this.name = 'SendEmailError';
+    this.cause = cause;
   }
 }

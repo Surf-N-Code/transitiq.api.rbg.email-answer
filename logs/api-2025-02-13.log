@@ -1,0 +1,271 @@
+[2025-02-13T08:54:36.749Z] [INFO] Text & anonymized text:
+{
+  "anonymizedText": {
+    "text": "Beschwerde über nicht haltenden Bus (Linie 746, Willibrandplatz, 9:39 Uhr) Sehr geehrte Damen und Herren, am 11.02.2025 wartete ich um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen Lorena Winkelmann",
+    "anonymized_text": "Beschwerde über nicht haltenden Bus (Linie 746, [ANON_LOCATION_3], [TIME_2]) Sehr geehrte Damen und Herren, am [DATE_1] wartete ich um [TIME_1] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen [ANON_PERSON_1]",
+    "replacements": {
+      "persons": [
+        {
+          "[ANON_PERSON_1]": "Lorena Winkelmann"
+        }
+      ],
+      "locations": [
+        {
+          "[ANON_LOCATION_1]": "Velbert"
+        },
+        {
+          "[ANON_LOCATION_2]": "Willibrandplatz"
+        },
+        {
+          "[ANON_LOCATION_3]": "Willibrandplatz"
+        }
+      ],
+      "names": [],
+      "dates": [
+        {
+          "[DATE_1]": "11.02.2025"
+        }
+      ],
+      "times": [
+        {
+          "[TIME_1]": "9:39 Uhr"
+        },
+        {
+          "[TIME_2]": "9:39 Uhr"
+        }
+      ]
+    }
+  }
+}
+[2025-02-13T08:54:36.750Z] [INFO] Placeholders:
+{
+  "placeholders": [
+    "[ANON_PERSON_1]",
+    "[ANON_LOCATION_1]",
+    "[ANON_LOCATION_2]",
+    "[ANON_LOCATION_3]",
+    "[DATE_1]",
+    "[TIME_1]",
+    "[TIME_2]"
+  ]
+}
+[2025-02-13T08:54:42.856Z] [INFO] emailReply
+{
+  "emailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Linie 746 an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] informiert haben. Es tut uns sehr leid zu hören, dass der Bus am [DATE_1] um [TIME_1] nicht regulär an der Haltestelle gehalten hat und Sie somit nicht einsteigen konnten.\n\nBitte seien Sie versichert, dass dies nicht unserem Serviceanspruch entspricht. Unsere Fahrzeuge sollten grundsätzlich an allen vorgesehenen Haltestellen anhalten, um unseren Fahrgästen eine pünktliche und bequeme Fahrt zu gewährleisten. Mögliche Gründe für das Fehlverhalten könnten Missverständnisse oder eine technische Störung im Fahrbetrieb gewesen sein. Wir werden den Vorfall intern prüfen lassen und unser Fahrpersonal nochmals darauf hinweisen, wie wichtig es ist, an jeder Haltestelle zu halten, an der Fahrgäste warten.\n\nIhre Rückmeldung ist entscheidend, um unseren Service zu optimieren und solche Vorkommnisse in Zukunft zu vermeiden. Wir verstehen, wie unerfreulich und stressig es sein kann, wenn Sie nicht wie geplant an Ihr Ziel gelangen. Dafür entschuldigen wir uns aufrichtig.\n\nDanke, dass Sie uns die Gelegenheit geben, unseren Service zu verbessern. Wir hoffen, dass Sie uns weiterhin Ihr Vertrauen schenken und wünschen Ihnen zukünftig nur positive Erfahrungen mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T08:54:42.857Z] [INFO] De-anonymized email reply:
+{
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Linie 746 an der Haltestelle Willibrandplatz in Velbert informiert haben. Es tut uns sehr leid zu hören, dass der Bus am 11.02.2025 um 9:39 Uhr nicht regulär an der Haltestelle gehalten hat und Sie somit nicht einsteigen konnten.\n\nBitte seien Sie versichert, dass dies nicht unserem Serviceanspruch entspricht. Unsere Fahrzeuge sollten grundsätzlich an allen vorgesehenen Haltestellen anhalten, um unseren Fahrgästen eine pünktliche und bequeme Fahrt zu gewährleisten. Mögliche Gründe für das Fehlverhalten könnten Missverständnisse oder eine technische Störung im Fahrbetrieb gewesen sein. Wir werden den Vorfall intern prüfen lassen und unser Fahrpersonal nochmals darauf hinweisen, wie wichtig es ist, an jeder Haltestelle zu halten, an der Fahrgäste warten.\n\nIhre Rückmeldung ist entscheidend, um unseren Service zu optimieren und solche Vorkommnisse in Zukunft zu vermeiden. Wir verstehen, wie unerfreulich und stressig es sein kann, wenn Sie nicht wie geplant an Ihr Ziel gelangen. Dafür entschuldigen wir uns aufrichtig.\n\nDanke, dass Sie uns die Gelegenheit geben, unseren Service zu verbessern. Wir hoffen, dass Sie uns weiterhin Ihr Vertrauen schenken und wünschen Ihnen zukünftig nur positive Erfahrungen mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T08:55:46.683Z] [INFO] Text & anonymized text:
+{
+  "anonymizedText": {
+    "text": "Beschwerde über nicht haltenden Bus (Linie 746, Willibrandplatz, 9:39 Uhr) Sehr geehrte Damen und Herren, am 11.02.2025 wartete ich um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen Lorena Winkelmann",
+    "anonymized_text": "Beschwerde über nicht haltenden Bus (Linie 746, [ANON_LOCATION_3], [TIME_2]) Sehr geehrte Damen und Herren, am [DATE_1] wartete ich um [TIME_1] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen [ANON_PERSON_1]",
+    "replacements": {
+      "persons": [
+        {
+          "[ANON_PERSON_1]": "Lorena Winkelmann"
+        }
+      ],
+      "locations": [
+        {
+          "[ANON_LOCATION_1]": "Velbert"
+        },
+        {
+          "[ANON_LOCATION_2]": "Willibrandplatz"
+        },
+        {
+          "[ANON_LOCATION_3]": "Willibrandplatz"
+        }
+      ],
+      "names": [],
+      "dates": [
+        {
+          "[DATE_1]": "11.02.2025"
+        }
+      ],
+      "times": [
+        {
+          "[TIME_1]": "9:39 Uhr"
+        },
+        {
+          "[TIME_2]": "9:39 Uhr"
+        }
+      ]
+    }
+  }
+}
+[2025-02-13T08:55:46.684Z] [INFO] Placeholders:
+{
+  "placeholders": [
+    "[ANON_PERSON_1]",
+    "[ANON_LOCATION_1]",
+    "[ANON_LOCATION_2]",
+    "[ANON_LOCATION_3]",
+    "[DATE_1]",
+    "[TIME_1]",
+    "[TIME_2]"
+  ]
+}
+[2025-02-13T08:55:54.031Z] [INFO] emailReply
+{
+  "emailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 746 am [DATE_1] informiert haben. Es tut uns sehr leid zu hören, dass der Bus um [TIME_2] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] vorbeigefahren ist und Sie dadurch nicht wie geplant Ihre Fahrt antreten konnten. Wir verstehen, wie ärgerlich und frustrierend dies für Sie war, insbesondere wenn Sie auf eine pünktliche Ankunft angewiesen sind.\n\nEs gibt verschiedene Ursachen, warum solche Situationen auftreten können, z. B. technische Probleme mit der Türenmechanik, eine unklare Darstellung der Haltestellen auf den Anzeigen oder auch unvorhergesehene betriebliche Gründe. Bitte seien Sie versichert, dass solches Verhalten des Fahrpersonals weder unserer Philosophie noch unserem Serviceverständnis entspricht. \n\nWir möchten Ihnen versprechen, dass wir den Vorfall umgehend intern prüfen werden. Unsere Fahrgäste sicher und komfortabel von A nach B zu bringen ist unser vorrangiges Ziel, und wir werden unser Personal erneut dafür sensibilisieren, auch in unvorhergesehenen Situationen die Anliegen unserer Fahrgäste ernst zu nehmen.\n\nWir entschuldigen uns aufrichtig für die Unannehmlichkeiten und hoffen, dass Sie bei Ihrer nächsten Fahrt mit uns ein besseres Erlebnis haben. Ihre Rückmeldung ist für uns äußerst wertvoll, da sie uns hilft, kontinuierlich an der Verbesserung unseres Services zu arbeiten.\n\nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T08:55:54.031Z] [INFO] De-anonymized email reply:
+{
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 746 am 11.02.2025 informiert haben. Es tut uns sehr leid zu hören, dass der Bus um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert vorbeigefahren ist und Sie dadurch nicht wie geplant Ihre Fahrt antreten konnten. Wir verstehen, wie ärgerlich und frustrierend dies für Sie war, insbesondere wenn Sie auf eine pünktliche Ankunft angewiesen sind.\n\nEs gibt verschiedene Ursachen, warum solche Situationen auftreten können, z. B. technische Probleme mit der Türenmechanik, eine unklare Darstellung der Haltestellen auf den Anzeigen oder auch unvorhergesehene betriebliche Gründe. Bitte seien Sie versichert, dass solches Verhalten des Fahrpersonals weder unserer Philosophie noch unserem Serviceverständnis entspricht. \n\nWir möchten Ihnen versprechen, dass wir den Vorfall umgehend intern prüfen werden. Unsere Fahrgäste sicher und komfortabel von A nach B zu bringen ist unser vorrangiges Ziel, und wir werden unser Personal erneut dafür sensibilisieren, auch in unvorhergesehenen Situationen die Anliegen unserer Fahrgäste ernst zu nehmen.\n\nWir entschuldigen uns aufrichtig für die Unannehmlichkeiten und hoffen, dass Sie bei Ihrer nächsten Fahrt mit uns ein besseres Erlebnis haben. Ihre Rückmeldung ist für uns äußerst wertvoll, da sie uns hilft, kontinuierlich an der Verbesserung unseres Services zu arbeiten.\n\nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T09:35:15.420Z] [INFO] Text & anonymized text:
+{
+  "anonymizedText": {
+    "text": "Sehr geehrte Damen und Herren, am 11.02.2025 wartete ich um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen Lorena Winkelmann",
+    "anonymized_text": "Sehr geehrte Damen und Herren, am [DATE_1] wartete ich um [TIME_1] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen [ANON_PERSON_1]",
+    "replacements": {
+      "persons": [
+        {
+          "[ANON_PERSON_1]": "Lorena Winkelmann"
+        }
+      ],
+      "locations": [
+        {
+          "[ANON_LOCATION_1]": "Velbert"
+        },
+        {
+          "[ANON_LOCATION_2]": "Willibrandplatz"
+        }
+      ],
+      "names": [],
+      "dates": [
+        {
+          "[DATE_1]": "11.02.2025"
+        }
+      ],
+      "times": [
+        {
+          "[TIME_1]": "9:39 Uhr"
+        }
+      ]
+    }
+  }
+}
+[2025-02-13T09:35:15.421Z] [INFO] Placeholders:
+{
+  "placeholders": [
+    "[ANON_PERSON_1]",
+    "[ANON_LOCATION_1]",
+    "[ANON_LOCATION_2]",
+    "[DATE_1]",
+    "[TIME_1]"
+  ]
+}
+[2025-02-13T09:35:21.044Z] [INFO] emailReply
+{
+  "emailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 746 am [DATE_1] um [TIME_1] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] informiert haben. Wir bedauern zutiefst, dass der Bus trotz Ihrer Anwesenheit an der Haltestelle nicht angehalten hat und Sie deshalb nicht einsteigen konnten. Wir verstehen, dass dies äußerst ärgerlich ist, insbesondere wenn Sie auf eine pünktliche Ankunft zur Arbeit angewiesen sind.\n\nNormalerweise sollten unsere Busse selbstverständlich an den vorgesehenen Haltestellen anhalten und Fahrgäste aufnehmen. Mögliche Gründe, warum dies nicht geschehen ist, könnten ein technisches Problem oder ein Missverständnis seitens des Fahrpersonals gewesen sein. Wir versichern Ihnen, dass wir den Vorfall intern prüfen werden, um die genaue Ursache zu ermitteln. Zudem werden wir unser Fahrpersonal nochmals darauf hinweisen, wie wichtig es ist, alle Fahrgäste zuverlässig zu befördern.\n\nIhre Rückmeldung ist für uns von großer Bedeutung, da sie uns hilft, unseren Service kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die Unannehmlichkeiten und die zusätzliche Wartezeit, die Ihnen durch diesen Vorfall entstanden sind.\n\nSollten Sie weitere Fragen oder Anmerkungen haben, zögern Sie bitte nicht, sich mit uns in Verbindung zu setzen. Zukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße  \nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T09:35:21.044Z] [INFO] De-anonymized email reply:
+{
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Buslinie 746 am 11.02.2025 um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert informiert haben. Wir bedauern zutiefst, dass der Bus trotz Ihrer Anwesenheit an der Haltestelle nicht angehalten hat und Sie deshalb nicht einsteigen konnten. Wir verstehen, dass dies äußerst ärgerlich ist, insbesondere wenn Sie auf eine pünktliche Ankunft zur Arbeit angewiesen sind.\n\nNormalerweise sollten unsere Busse selbstverständlich an den vorgesehenen Haltestellen anhalten und Fahrgäste aufnehmen. Mögliche Gründe, warum dies nicht geschehen ist, könnten ein technisches Problem oder ein Missverständnis seitens des Fahrpersonals gewesen sein. Wir versichern Ihnen, dass wir den Vorfall intern prüfen werden, um die genaue Ursache zu ermitteln. Zudem werden wir unser Fahrpersonal nochmals darauf hinweisen, wie wichtig es ist, alle Fahrgäste zuverlässig zu befördern.\n\nIhre Rückmeldung ist für uns von großer Bedeutung, da sie uns hilft, unseren Service kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die Unannehmlichkeiten und die zusätzliche Wartezeit, die Ihnen durch diesen Vorfall entstanden sind.\n\nSollten Sie weitere Fragen oder Anmerkungen haben, zögern Sie bitte nicht, sich mit uns in Verbindung zu setzen. Zukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nFreundliche Grüße  \nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T09:35:41.423Z] [INFO] Text & anonymized text:
+{
+  "anonymizedText": {
+    "text": "Sehr geehrte Damen und Herren, am 11.02.2025 wartete ich um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen Lorena Winkelmann",
+    "anonymized_text": "Sehr geehrte Damen und Herren, am [DATE_1] wartete ich um [TIME_1] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen [ANON_PERSON_1]",
+    "replacements": {
+      "persons": [
+        {
+          "[ANON_PERSON_1]": "Lorena Winkelmann"
+        }
+      ],
+      "locations": [
+        {
+          "[ANON_LOCATION_1]": "Velbert"
+        },
+        {
+          "[ANON_LOCATION_2]": "Willibrandplatz"
+        }
+      ],
+      "names": [],
+      "dates": [
+        {
+          "[DATE_1]": "11.02.2025"
+        }
+      ],
+      "times": [
+        {
+          "[TIME_1]": "9:39 Uhr"
+        }
+      ]
+    }
+  }
+}
+[2025-02-13T09:35:41.423Z] [INFO] Placeholders:
+{
+  "placeholders": [
+    "[ANON_PERSON_1]",
+    "[ANON_LOCATION_1]",
+    "[ANON_LOCATION_2]",
+    "[DATE_1]",
+    "[TIME_1]"
+  ]
+}
+[2025-02-13T09:35:48.523Z] [INFO] emailReply
+{
+  "emailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Linie 746 am [DATE_1] um [TIME_1] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] informiert haben. Es tut uns sehr leid zu hören, dass der Bus ohne Halt an der regulären Haltestelle direkt zur Ampel weiterfuhr und Ihnen somit die Möglichkeit genommen wurde, einzusteigen. Wir können sehr gut nachvollziehen, wie ärgerlich und frustrierend dies für Sie gewesen sein muss, insbesondere wenn Sie pünktlich bei der Arbeit erscheinen wollten.\n\nEs handelt sich hierbei um ein Verhalten, das nicht unserem Verständnis von Kundenservice entspricht. In der Regel sollten unsere Fahrzeuge an den entsprechenden Haltestellen anhalten und es allen wartenden Fahrgästen ermöglichen einzusteigen. Ein mögliches Szenario, das zu diesem Fehlverhalten führen könnte, wäre ein Missverständnis oder ein Kommunikationsproblem innerhalb unseres Fahrpersonals. Solche Situationen sollten jedoch keinesfalls auftreten, und wir entschuldigen uns aufrichtig für dieses unglückliche Ereignis.\n\nIhre Rückmeldung ist uns sehr wichtig und hilft uns dabei, unsere Services kontinuierlich zu verbessern. Wir werden den Vorfall intern genau überprüfen und die entsprechenden Maßnahmen ergreifen, um sicherzustellen, dass unser Fahrpersonal nochmals sensibilisiert wird, damit sich derartige Vorfälle in Zukunft nicht wiederholen.\n\nWir entschuldigen uns aufrichtig für die Ihnen entstandenen Unannehmlichkeiten und hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrem nächsten Fahrterlebnis zu zeigen, dass dies nicht der Standard unserer Dienstleistungen ist.\n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte und angenehme Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T09:35:48.523Z] [INFO] De-anonymized email reply:
+{
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit der Linie 746 am 11.02.2025 um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert informiert haben. Es tut uns sehr leid zu hören, dass der Bus ohne Halt an der regulären Haltestelle direkt zur Ampel weiterfuhr und Ihnen somit die Möglichkeit genommen wurde, einzusteigen. Wir können sehr gut nachvollziehen, wie ärgerlich und frustrierend dies für Sie gewesen sein muss, insbesondere wenn Sie pünktlich bei der Arbeit erscheinen wollten.\n\nEs handelt sich hierbei um ein Verhalten, das nicht unserem Verständnis von Kundenservice entspricht. In der Regel sollten unsere Fahrzeuge an den entsprechenden Haltestellen anhalten und es allen wartenden Fahrgästen ermöglichen einzusteigen. Ein mögliches Szenario, das zu diesem Fehlverhalten führen könnte, wäre ein Missverständnis oder ein Kommunikationsproblem innerhalb unseres Fahrpersonals. Solche Situationen sollten jedoch keinesfalls auftreten, und wir entschuldigen uns aufrichtig für dieses unglückliche Ereignis.\n\nIhre Rückmeldung ist uns sehr wichtig und hilft uns dabei, unsere Services kontinuierlich zu verbessern. Wir werden den Vorfall intern genau überprüfen und die entsprechenden Maßnahmen ergreifen, um sicherzustellen, dass unser Fahrpersonal nochmals sensibilisiert wird, damit sich derartige Vorfälle in Zukunft nicht wiederholen.\n\nWir entschuldigen uns aufrichtig für die Ihnen entstandenen Unannehmlichkeiten und hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrem nächsten Fahrterlebnis zu zeigen, dass dies nicht der Standard unserer Dienstleistungen ist.\n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte und angenehme Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T09:36:20.513Z] [INFO] Text & anonymized text:
+{
+  "anonymizedText": {
+    "text": "Sehr geehrte Damen und Herren, am 11.02.2025 wartete ich um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen Lorena Winkelmann",
+    "anonymized_text": "Sehr geehrte Damen und Herren, am [DATE_1] wartete ich um [TIME_1] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] auf den Bus der Linie 746, um zur Arbeit zu fahren. Leider hielt der Bus nicht regulär an der Haltestelle, sondern fuhr direkt bis zur Ampel weiter. Dort ließ der Fahrer Fahrgäste aussteigen, schloss jedoch die Tür direkt vor meiner Nase, ohne mir die Möglichkeit zum Einsteigen zu geben. Dieses Verhalten ist für Fahrgäste äußerst ärgerlich, insbesondere wenn sie auf eine pünktliche Ankunft angewiesen sind. Ich bitte Sie, den Vorfall zu prüfen und Ihre Fahrer entsprechend zu sensibilisieren, damit sich so etwas nicht wiederholt. Für eine Rückmeldung zu diesem Vorfall wäre ich Ihnen dankbar. Mit freundlichen Grüßen [ANON_PERSON_1]",
+    "replacements": {
+      "persons": [
+        {
+          "[ANON_PERSON_1]": "Lorena Winkelmann"
+        }
+      ],
+      "locations": [
+        {
+          "[ANON_LOCATION_1]": "Velbert"
+        },
+        {
+          "[ANON_LOCATION_2]": "Willibrandplatz"
+        }
+      ],
+      "names": [],
+      "dates": [
+        {
+          "[DATE_1]": "11.02.2025"
+        }
+      ],
+      "times": [
+        {
+          "[TIME_1]": "9:39 Uhr"
+        }
+      ]
+    }
+  }
+}
+[2025-02-13T09:36:20.513Z] [INFO] Placeholders:
+{
+  "placeholders": [
+    "[ANON_PERSON_1]",
+    "[ANON_LOCATION_1]",
+    "[ANON_LOCATION_2]",
+    "[DATE_1]",
+    "[TIME_1]"
+  ]
+}
+[2025-02-13T09:36:32.646Z] [INFO] emailReply
+{
+  "emailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung am [DATE_1] um [TIME_1] an der Haltestelle [ANON_LOCATION_2] in [ANON_LOCATION_1] mitgeteilt haben. Wir bedauern zutiefst, dass der Bus der Linie 746 nicht regulär an der Haltestelle gehalten hat und die Tür vor Ihrer Nase geschlossen wurde, ohne Ihnen die Möglichkeit zum Einsteigen zu geben. \n\nEin solches Verhalten entspricht keinesfalls unserem Serviceverständnis, denn wir möchten sicherstellen, dass alle Fahrgäste sicher und pünktlich ans Ziel gelangen. Manchmal können ungewöhnliche Situationen wie Betriebsstörungen oder technischer Probleme zu solchen Vorkommnissen führen, aber wir verstehen, dass dies für Sie besonders ärgerlich ist, wenn Sie auf eine pünktliche Ankunft angewiesen sind.\n\nBitte seien Sie versichert, dass wir Ihre Situation ernst nehmen und bereits Maßnahmen ergriffen haben, um den Vorfall intern zu prüfen. Unser Fahrpersonal wird nochmals sensibilisiert, um sicherzustellen, dass alle Fahrgäste ordnungsgemäß aufgenommen werden. Ihre Rückmeldung hilft uns sehr dabei, unsere Servicequalität kontinuierlich zu verbessern.\n\nWir möchten uns aufrichtig für die entstandenen Unannehmlichkeiten entschuldigen und hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrem nächsten Fahrterlebnis zu zeigen, dass dies nicht der Standard unserer Dienstleistungen ist. \n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn"
+}
+[2025-02-13T09:36:32.647Z] [INFO] De-anonymized email reply:
+{
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung am 11.02.2025 um 9:39 Uhr an der Haltestelle Willibrandplatz in Velbert mitgeteilt haben. Wir bedauern zutiefst, dass der Bus der Linie 746 nicht regulär an der Haltestelle gehalten hat und die Tür vor Ihrer Nase geschlossen wurde, ohne Ihnen die Möglichkeit zum Einsteigen zu geben. \n\nEin solches Verhalten entspricht keinesfalls unserem Serviceverständnis, denn wir möchten sicherstellen, dass alle Fahrgäste sicher und pünktlich ans Ziel gelangen. Manchmal können ungewöhnliche Situationen wie Betriebsstörungen oder technischer Probleme zu solchen Vorkommnissen führen, aber wir verstehen, dass dies für Sie besonders ärgerlich ist, wenn Sie auf eine pünktliche Ankunft angewiesen sind.\n\nBitte seien Sie versichert, dass wir Ihre Situation ernst nehmen und bereits Maßnahmen ergriffen haben, um den Vorfall intern zu prüfen. Unser Fahrpersonal wird nochmals sensibilisiert, um sicherzustellen, dass alle Fahrgäste ordnungsgemäß aufgenommen werden. Ihre Rückmeldung hilft uns sehr dabei, unsere Servicequalität kontinuierlich zu verbessern.\n\nWir möchten uns aufrichtig für die entstandenen Unannehmlichkeiten entschuldigen und hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrem nächsten Fahrterlebnis zu zeigen, dass dies nicht der Standard unserer Dienstleistungen ist. \n\nZukünftig wünschen wir Ihnen wieder eine unbeschwerte Fahrt mit unseren Bussen und Bahnen.\n\nIhr Kundenservice Team der Rheinbahn"
+}

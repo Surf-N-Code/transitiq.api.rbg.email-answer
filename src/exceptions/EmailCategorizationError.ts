@@ -5,5 +5,6 @@ export class EmailCategorizationError extends Error {
   ) {
     super(message);
     this.name = 'EmailCategorizationError';
+    this.cause = cause;
   }
 }

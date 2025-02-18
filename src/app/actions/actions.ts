@@ -5,6 +5,15 @@ import { openai } from '@/lib/openai';
 import { rbgClassifyEmail, rbgClassifyAndAnswer } from '@/prompts';
 import { EmailFields } from '@/types/email';
 import axios from 'axios';
+import { EmailHandler } from '@/controller/EmailHandler';
+import { extractStructuredInfoFromEmail } from '@/lib/extractStructuredInfoFromEmail';
+import {
+  Client,
+  CrawledEmail,
+  CrawledEmailWithExtractedCustomerFields,
+  EmailFilters,
+  EmailResponse,
+} from '@/types/email';
 
 export async function anonymizeText(text: string) {
   try {
@@ -20,8 +29,9 @@ export async function anonymizeText(text: string) {
 export async function aiResponse(
   anonymized_text: string,
   anonymized_text_parts: Record<string, any>,
-  clientData: EmailFields,
-  clientName: string
+  clientName: string,
+  gender: string,
+  hasLastname: boolean
 ) {
   // Get just the placeholder keys
   let clientClose = '';
@@ -35,8 +45,9 @@ export async function aiResponse(
     clientName,
     anonymized_text,
     anonymized_text_parts,
-    clientData,
-    clientClose
+    clientClose,
+    gender,
+    hasLastname
   );
 
   try {
@@ -84,4 +95,81 @@ export async function classifyText(text: string): Promise<boolean> {
   } catch (error) {
     throw new Error('Error classifying text');
   }
+}
+
+export async function fetchEmails(
+  filters: EmailFilters
+): Promise<EmailResponse> {
+  const { client, unreadOnly, page, pageSize } = filters;
+  let allEmails: CrawledEmail[] = [];
+  let emailHandler = new EmailHandler();
+  await emailHandler.initializeToken();
+
+  if (client === 'all' || client === 'rheinbahn') {
+    emailHandler.setInboxToProcess(process.env.MSAL_USER_EMAIL_RBG!);
+    const rbgEmails = await emailHandler.crawlUnreadEmails(unreadOnly);
+    allEmails = [...allEmails, ...rbgEmails];
+  }
+
+  if (client === 'all' || client === 'wsw') {
+    emailHandler.setInboxToProcess(process.env.MSAL_USER_EMAIL_WSW!);
+    const wswEmails = await emailHandler.crawlUnreadEmails(unreadOnly);
+    allEmails = [...allEmails, ...wswEmails];
+  }
+
+  let emailsWithExtractedCustomerFields: CrawledEmailWithExtractedCustomerFields[] =
+    [];
+
+  for (const email of allEmails) {
+    try {
+      const extractedFields = extractStructuredInfoFromEmail(
+        email.body.content
+      );
+      const emailWithFields = {
+        ...email,
+        text: extractedFields.message,
+        extractedFields,
+      };
+      emailsWithExtractedCustomerFields.push(emailWithFields);
+    } catch (error) {
+      logError('Field extraction from email failed:', {
+        id: email.id,
+        subject: email.subject,
+        error,
+      });
+      continue;
+    }
+  }
+
+  // Sort emails by timestamp
+  emailsWithExtractedCustomerFields.sort(
+    (a, b) =>
+      new Date(b.receivedDateTime).getTime() -
+      new Date(a.receivedDateTime).getTime()
+  );
+
+  // Transform to Email type
+  const transformedEmails = emailsWithExtractedCustomerFields.map((email) => ({
+    id: email.id,
+    sender: `${email.from.emailAddress.name} <${email.from.emailAddress.address}>`,
+    subject: email.subject,
+    text: email.extractedFields.message,
+    timestamp: email.receivedDateTime,
+    isRead: email.isRead,
+    client: filters.client === 'all' ? 'unknown' : filters.client,
+    fields: email.extractedFields,
+  }));
+
+  // Calculate pagination
+  const total = transformedEmails.length;
+  const startIndex = (page - 1) * pageSize;
+  const endIndex = startIndex + pageSize;
+  const paginatedEmails = transformedEmails.slice(startIndex, endIndex);
+
+  return {
+    emails: paginatedEmails,
+    total,
+    page,
+    pageSize,
+  };
 }

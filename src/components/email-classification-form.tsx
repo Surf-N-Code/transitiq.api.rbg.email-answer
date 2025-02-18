@@ -19,7 +19,7 @@ export function EmailClassificationForm() {
     setIsLoading(true);
 
     try {
-      const res = await fetch('/api/message/generate', {
+      const res = await fetch('/api/emails/generate/answer', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ export function EmailClassificationForm() {
       }
 
       const data = await res.json();
-      setResponse(data.finalResponse);
+      setResponse(data.text);
       setIsComplaintAboutBeingLeftBehind(data.isComplaintAboutBeingLeftBehind);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong');
@@ -68,15 +68,6 @@ export function EmailClassificationForm() {
         >
           {isLoading ? 'Generiere Antwort...' : 'Antwort generieren'}
         </button>
-        {(response || isComplaintAboutBeingLeftBehind === false) && (
-          <button
-            type="button"
-            onClick={handleClear}
-            className="px-6 py-2 bg-[#303134] text-white hover:border-red-400 border border-red-500"
-          >
-            Clear
-          </button>
-        )}
       </div>
 
       {isLoading && (
@@ -88,21 +79,6 @@ export function EmailClassificationForm() {
       {error && (
         <div className="p-4 bg-[#303134] border border-red-500 text-red-400">
           {error}
-        </div>
-      )}
-
-      {isComplaintAboutBeingLeftBehind !== null && (
-        <div className="flex items-center gap-2 p-4 bg-[#303134] border border-[#5f6368]">
-          <span className="text-white">Klassifizierung:</span>
-          {isComplaintAboutBeingLeftBehind ? (
-            <span className="text-yellow-400">
-              Beschwerde über Zurücklassen am Bahnhof
-            </span>
-          ) : (
-            <span className="text-gray-400">
-              Keine Beschwerde über "Zurücklassen an der Haltestellt"
-            </span>
-          )}
         </div>
       )}
 

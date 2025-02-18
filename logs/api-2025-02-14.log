@@ -1,0 +1,1524 @@
+[2025-02-14T13:33:49.792Z] [INFO] Processing emails
+{
+  "count": 26
+}
+[2025-02-14T13:33:49.792Z] [INFO] Processed email 1 of 26
+[2025-02-14T13:33:49.792Z] [INFO] Processed email 2 of 26
+[2025-02-14T13:33:49.792Z] [INFO] Processed email 3 of 26
+[2025-02-14T13:33:49.792Z] [INFO] Processed email 4 of 26
+[2025-02-14T13:33:49.792Z] [INFO] Processed email 5 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 6 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 7 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 8 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 9 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 10 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 11 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 12 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 13 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 14 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 15 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 16 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 17 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 18 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 19 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 20 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 21 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 22 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 23 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 24 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 25 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Processed email 26 of 26
+[2025-02-14T13:33:49.793Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH35D6AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502140750340002]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:33:49.837Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Christian_acht@gmx.de",
+  "vorname": "Christian",
+  "nachname": "Acht",
+  "message": "Guten Morgen, ich sitze gerade in, wie jeden Morgen, in der U79 von Düsseldorf nach Duisburg. Können Sie mir bitte erklären, warum zu 90% keine Heizung in den Bahnen läuft? Es ist bei den momentan Außentemperaturen und wenn man länger mit der Bahn unterwegs ist nicht zuzumuten. Die Bahn ist wie ein Eiskeller. Ich werde die Temperatur in der Bahn dokumentieren. Hier wird man ja krank in der Bahn. Danke für Ihre Rückmeldung. Beste Grüße, Acht",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:33:50.989Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:33:51.559Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH35D6AAA= and subject: WG: [Externe E-Mail]  [202502140750340002]: Anfrage über das Kontaktformular
+[2025-02-14T13:33:51.977Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH35D6AAA= and subject: WG: [Externe E-Mail]  [202502140750340002]: Anfrage über das Kontaktformular
+[2025-02-14T13:33:51.977Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj6_AAA=",
+  "subject": "WG: [Externe E-Mail]  Frage zu Entwertung Einzelticket"
+}
+[2025-02-14T13:33:51.986Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Frage zu Entwertung Einzelticket Von: Claudia Tripunoski <ctripunoski@web.de> Gesendet: Donnerstag, 13. Februar 2025 15:27An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Frage zu Entwertung Einzelticket Liebes Team der Rheinbahn,das angehängte Ticket wurde an der Haltestelle \"Am Seestern\" in Düsseldorf gekauft. Ist dieses Ticket bereits entwertet? Oder muss das in der U-Bahn noch entwertet werden?Ich bin etwas irritiert, da ich zwei unterschiedliche Aussagen bekommen habe. \"Ist bereits entwertet\" und \"Muss noch entwertet werden\". Seit gestern versuche ich es über das Kontaktformular auf der rheinbahn.de Seite,es funktionert leider nicht. Ich erhalte eine Fehlermeldung. Deshalb per E-mail. Vielen Dank für eine kurze Rückmeldung.MfG,Claudia Tripunoski",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:33:52.462Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:33:52.890Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj6_AAA= and subject: WG: [Externe E-Mail]  Frage zu Entwertung Einzelticket
+[2025-02-14T13:33:53.350Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj6_AAA= and subject: WG: [Externe E-Mail]  Frage zu Entwertung Einzelticket
+[2025-02-14T13:33:53.351Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:33:53.363Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "jutta.beuth@googlemail.com",
+  "vorname": "Jutta",
+  "nachname": "Beuth",
+  "message": "13.02.2025: Bus 724 Haltestelle \"Posener Straße\" Richtung Sportpark Niederheid, planmäßig 16:51 Uhr, kam mit Verspätung an der Haltestelle Posener Straße an, um ca. 17:04 Uhr. Der Gelenkbus hielt an. Machte mittig die Tür nicht auf, nur hinten. Ich bin vorne zur Tür gegangen. Der Fahrer öffnete die Tür auf 2-maliges Klopfen hin nicht, sondern schaute zu mir und tippte auf seine Uhr, dann fuhr er einfach ab, ohne mir Einstieg zu gewähren. So eine bodenlose Frechheit habe ich noch nie erlebt, der Kerl gehört....",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:33:53.814Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-14T13:33:54.149Z] [INFO] Anonymized text:
+{
+  "text": "13.02.2025: Bus 724 Haltestelle \"Posener Straße\" Richtung Sportpark Niederheid, planmäßig 16:51 Uhr, kam mit Verspätung an der Haltestelle Posener Straße an, um ca. 17:04 Uhr. Der Gelenkbus hielt an. Machte mittig die Tür nicht auf, nur hinten. Ich bin vorne zur Tür gegangen. Der Fahrer öffnete die Tür auf 2-maliges Klopfen hin nicht, sondern schaute zu mir und tippte auf seine Uhr, dann fuhr er einfach ab, ohne mir Einstieg zu gewähren. So eine bodenlose Frechheit habe ich noch nie erlebt, der Kerl gehört....",
+  "anonymized_text": "[DATE_1]: Bus 724 Haltestelle \"[ANON_LOCATION_4]\" Richtung [ANON_LOCATION_3], planmäßig [TIME_2], kam mit Verspätung an der Haltestelle [ANON_LOCATION_2] an, um ca. [TIME_1]. Der Gelenkbus hielt an. Machte mittig die Tür nicht auf, nur hinten. Ich bin vorne zur Tür gegangen. Der Fahrer öffnete die Tür auf 2-maliges Klopfen hin nicht, sondern schaute zu mir und tippte auf seine Uhr, dann fuhr er einfach ab, ohne mir Einstieg zu gewähren. So eine bodenlose Frechheit habe ich noch nie erlebt, der Kerl gehört[ANON_LOCATION_1]",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "...."
+      },
+      {
+        "[ANON_LOCATION_2]": "Posener Straße"
+      },
+      {
+        "[ANON_LOCATION_3]": "Sportpark Niederheid"
+      },
+      {
+        "[ANON_LOCATION_4]": "Posener Straße"
+      }
+    ],
+    "names": [],
+    "dates": [
+      {
+        "[DATE_1]": "13.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "17:04 Uhr"
+      },
+      {
+        "[TIME_2]": "16:51 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-14T13:34:00.989Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:00.990Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular",
+  "userMessage": "13.02.2025: Bus 724 Haltestelle \"Posener Straße\" Richtung Sportpark Niederheid, planmäßig 16:51 Uhr, kam mit Verspätung an der Haltestelle Posener Straße an, um ca. 17:04 Uhr. Der Gelenkbus hielt an. Machte mittig die Tür nicht auf, nur hinten. Ich bin vorne zur Tür gegangen. Der Fahrer öffnete die Tür auf 2-maliges Klopfen hin nicht, sondern schaute zu mir und tippte auf seine Uhr, dann fuhr er einfach ab, ohne mir Einstieg zu gewähren. So eine bodenlose Frechheit habe ich noch nie erlebt, der Kerl gehört....",
+  "aiResponse": "Sehr geehrter Herr [NAMEPLACEHOLDER],\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit dem Bus 724 an der Haltestelle [ANON_LOCATION_2] am [DATE_1] informiert haben. Wir bedauern zutiefst, dass Sie diese unangenehme Situation erleben mussten.\n\nEs ist für uns absolut unakzeptabel, dass das Fahrpersonal trotz Ihrer deutlichen Signale die Tür nicht geöffnet hat und stattdessen einfach weitergefahren ist. Ihr Erlebnis, bei dem der Fahrer auf seine Uhr deutete und keinerlei Gelegenheit zum Einstieg gewährte, entspricht in keiner Weise unseren Serviceansprüchen.\n\nMöglicherweise ist die verspätete Ankunft des Busses an der Haltestelle [ANON_LOCATION_2] gegen [TIME_1] ein Grund für die Eile des Fahrpersonals gewesen, da der Bus planmäßig bereits um [TIME_2] hätte weiterfahren sollen. Wir verstehen jedoch, dass dies keine Entschuldigung dafür ist, Fahrgäste stehen zu lassen.\n\nSeien Sie versichert, dass wir diesen Vorfall umgehend an die zuständige Abteilung weitergeleitet haben, um ihn detailliert zu prüfen. Wir werden mit dem Fahrpersonal sprechen und es noch einmal ausdrücklich darauf hinweisen, dass alle Fahrgäste mitgenommen werden müssen, wenn sie sichtbar warten.\n\nIhre Rückmeldung ist für uns äußerst wichtig und hilft uns dabei, unsere Servicequalität kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die Ihnen entstandenen Unannehmlichkeiten und die irrtümliche Behandlung durch unser Fahrpersonal.\n\nWir hoffen, dass Sie uns die Gelegenheit geben, Ihnen zukünftig zu zeigen, dass dies nicht unserem Standard entspricht und dass Ihre zukünftigen Fahrten mit uns angenehm und reibungslos verlaufen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Beuth,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit dem Bus 724 an der Haltestelle Posener Straße am 13.02.2025 informiert haben. Wir bedauern zutiefst, dass Sie diese unangenehme Situation erleben mussten.\n\nEs ist für uns absolut unakzeptabel, dass das Fahrpersonal trotz Ihrer deutlichen Signale die Tür nicht geöffnet hat und stattdessen einfach weitergefahren ist. Ihr Erlebnis, bei dem der Fahrer auf seine Uhr deutete und keinerlei Gelegenheit zum Einstieg gewährte, entspricht in keiner Weise unseren Serviceansprüchen.\n\nMöglicherweise ist die verspätete Ankunft des Busses an der Haltestelle [ANON_LOCATION_2] gegen 17:04 Uhr ein Grund für die Eile des Fahrpersonals gewesen, da der Bus planmäßig bereits um 16:51 Uhr hätte weiterfahren sollen. Wir verstehen jedoch, dass dies keine Entschuldigung dafür ist, Fahrgäste stehen zu lassen.\n\nSeien Sie versichert, dass wir diesen Vorfall umgehend an die zuständige Abteilung weitergeleitet haben, um ihn detailliert zu prüfen. Wir werden mit dem Fahrpersonal sprechen und es noch einmal ausdrücklich darauf hinweisen, dass alle Fahrgäste mitgenommen werden müssen, wenn sie sichtbar warten.\n\nIhre Rückmeldung ist für uns äußerst wichtig und hilft uns dabei, unsere Servicequalität kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die Ihnen entstandenen Unannehmlichkeiten und die irrtümliche Behandlung durch unser Fahrpersonal.\n\nWir hoffen, dass Sie uns die Gelegenheit geben, Ihnen zukünftig zu zeigen, dass dies nicht unserem Standard entspricht und dass Ihre zukünftigen Fahrten mit uns angenehm und reibungslos verlaufen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-14T13:34:01.542Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:01.977Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA= and subject: WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:01.977Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:01.987Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Christoph2502@gmx.de",
+  "vorname": "Christoph",
+  "nachname": "Müller",
+  "message": "Hallo, meine 14 jährigen Tochter wurde gerade (20:12uhr) an der Dellestraße nicht in den Bus (735er) gelassen. Ihr wurde erst garnicht die Türe geöffnet. Was ist denn da los? Ich möchte hierzu unbedingt eine Stellungnahme vom Busfahrer! Das ist ja wohl eine Frechheit. Stehen bleiben, Türe nicht öffnen und weiter fahren. Bin sprachlos.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:03.112Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-14T13:34:03.164Z] [INFO] Anonymized text:
+{
+  "text": "Hallo, meine 14 jährigen Tochter wurde gerade (20:12uhr) an der Dellestraße nicht in den Bus (735er) gelassen. Ihr wurde erst garnicht die Türe geöffnet. Was ist denn da los? Ich möchte hierzu unbedingt eine Stellungnahme vom Busfahrer! Das ist ja wohl eine Frechheit. Stehen bleiben, Türe nicht öffnen und weiter fahren. Bin sprachlos.",
+  "anonymized_text": "Hallo, meine 14 jährigen Tochter wurde gerade (20:12uhr) an der [ANON_LOCATION_1] nicht in den Bus (735er) gelassen. Ihr wurde erst garnicht die Türe geöffnet. Was ist denn da los? Ich möchte hierzu unbedingt eine Stellungnahme vom Busfahrer! Das ist ja wohl eine Frechheit. Stehen bleiben, Türe nicht öffnen und weiter fahren. [ANON_PERSON_1] sprachlos.",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Bin"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Dellestraße"
+      }
+    ],
+    "names": [],
+    "dates": [],
+    "times": []
+  }
+}
+[2025-02-14T13:34:08.058Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:08.059Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo, meine 14 jährigen Tochter wurde gerade (20:12uhr) an der Dellestraße nicht in den Bus (735er) gelassen. Ihr wurde erst garnicht die Türe geöffnet. Was ist denn da los? Ich möchte hierzu unbedingt eine Stellungnahme vom Busfahrer! Das ist ja wohl eine Frechheit. Stehen bleiben, Türe nicht öffnen und weiter fahren. Bin sprachlos.",
+  "aiResponse": "Sehr geehrter Herr [NAMEPLACEHOLDER],\n\nvielen Dank, dass Sie uns über den Vorfall an der Haltestelle [ANON_LOCATION_1] mit der Buslinie 735 berichtet haben. Wir bedauern zutiefst, dass Ihre Tochter am heutigen Tag um 20:12 Uhr nicht in den Bus einsteigen konnte, weil die Türen nicht geöffnet wurden. \n\nBitte entschuldigen Sie vielmals das unglückliche Erlebnis und die dadurch entstandenen Unannehmlichkeiten. Dies entspricht nicht unserem Serviceverständnis. Unsere Fahrgäste, insbesondere Kinder, sollen stets sicher und zuverlässig befördert werden. \n\nEs könnte verschiedene Gründe für das Verhalten des Fahrzeuges geben, wie etwa technische Schwierigkeiten mit der Tür oder andere unvorhergesehene Umstände. Dennoch sind wir uns bewusst, wie frustrierend und beunruhigend eine solche Situation ist.\n\nWir haben Ihre Rückmeldung an die zuständige Abteilung weitergeleitet, um den Vorfall genauer zu prüfen. Unser Fahrpersonal wird regelmäßig geschult, um solche Situationen, in denen unsere Fahrgäste zurückgelassen werden, zu vermeiden.\n\nIhre Rückmeldung ist uns äußerst wichtig, da sie uns hilft, unseren Service kontinuierlich zu verbessern. Wir danken Ihnen, dass Sie sich die Zeit genommen haben, uns zu informieren. \n\nWir hoffen, dass Sie und Ihre Tochter uns auch weiterhin Ihr Vertrauen schenken und bitten Sie nochmals um Entschuldigung für das Vorkommnis.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Müller,\n\nvielen Dank, dass Sie uns über den Vorfall an der Haltestelle Dellestraße mit der Buslinie 735 berichtet haben. Wir bedauern zutiefst, dass Ihre Tochter am heutigen Tag um 20:12 Uhr nicht in den Bus einsteigen konnte, weil die Türen nicht geöffnet wurden. \n\nBitte entschuldigen Sie vielmals das unglückliche Erlebnis und die dadurch entstandenen Unannehmlichkeiten. Dies entspricht nicht unserem Serviceverständnis. Unsere Fahrgäste, insbesondere Kinder, sollen stets sicher und zuverlässig befördert werden. \n\nEs könnte verschiedene Gründe für das Verhalten des Fahrzeuges geben, wie etwa technische Schwierigkeiten mit der Tür oder andere unvorhergesehene Umstände. Dennoch sind wir uns bewusst, wie frustrierend und beunruhigend eine solche Situation ist.\n\nWir haben Ihre Rückmeldung an die zuständige Abteilung weitergeleitet, um den Vorfall genauer zu prüfen. Unser Fahrpersonal wird regelmäßig geschult, um solche Situationen, in denen unsere Fahrgäste zurückgelassen werden, zu vermeiden.\n\nIhre Rückmeldung ist uns äußerst wichtig, da sie uns hilft, unseren Service kontinuierlich zu verbessern. Wir danken Ihnen, dass Sie sich die Zeit genommen haben, uns zu informieren. \n\nWir hoffen, dass Sie und Ihre Tochter uns auch weiterhin Ihr Vertrauen schenken und bitten Sie nochmals um Entschuldigung für das Vorkommnis.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-14T13:34:08.604Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:09.014Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA= and subject: WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:09.014Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj67AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502131853993745]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:09.018Z] [INFO] Extracted fields:
+{
+  "anrede": "Keine Angabe",
+  "email": "Ferigor@web.de",
+  "vorname": "Eric",
+  "nachname": "Braaksma",
+  "message": "Hallo. Die u79 ist soeben ausgefallen und danach kam noch eine welche dann vorbei gefahren ist. Das Problem ist nicht das ausfallen sondern die fehlende Kommunikation. Fickt euch.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:09.569Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:10.006Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj67AAA= and subject: WG: [Externe E-Mail]  [202502131853993745]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:10.450Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj67AAA= and subject: WG: [Externe E-Mail]  [202502131853993745]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:10.451Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj66AAA=",
+  "subject": "WG: [Externe E-Mail]  FWD: 830 Ri Meerbusch [Ticket#166791]"
+}
+[2025-02-14T13:34:10.455Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "FWD: 830 Ri Meerbusch [Ticket#166791] Hallo zusammen, hier ein Fall für euch. VG Daniel ---Anfang der weitergeleiteten Nachricht:---Betreff: 830 Ri MeerbuschDatum: 13.02.2025 12:09Von: Michael Becker <michaelbecker1966@gmail.com>An: \"rheinbahn@movementor.online\" <rheinbahn@movementor.online>Sehr geehrtes Rheinbahn-Team. Bus 830 ab Handweiser planmäßig 10:53. hatte 6 Minuten Verspätung. Das ist nicht schlimm. Aber das Verhalten des Busfahrers geht wirklich nicht. Anstatt die Fahrgäste schnellstmöglich einzulassen, öffnet er nur die vordere Tür, kontrolliert in Seelenruhe 10 Tickets. Sei das noch seine Pflicht (was ich angesichts des Verhaltens anderer Busfahrer bezweifle), so ist es wirklich den Kunden gegenüber eine Unverschämtheit, ohne Haltewunsch an offensichtlich leere Haltestellen anzufahren, Türen zu öffnen, zu warten und dann seelenruhig weiter zu fahren. Wenn ich eine Verbindung per App angeboten bekomme, akzeptiere ich selbstverständlich Verspätungen. Aber nicht wenn sie so produziert werden. Seien Sie so freundlich und reden mit dem Mann (der an anderen Haltestellen plötzlich nicht mehr kontrolliert) DankeLG Michael BeckerAn der Ulanenkaserne 3440476 Düsseldorf0162.2438779",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:10.906Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:12.658Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj66AAA= and subject: WG: [Externe E-Mail]  FWD: 830 Ri Meerbusch [Ticket#166791]
+[2025-02-14T13:34:13.067Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj66AAA= and subject: WG: [Externe E-Mail]  FWD: 830 Ri Meerbusch [Ticket#166791]
+[2025-02-14T13:34:13.068Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj65AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502131510769095]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:13.079Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Torsten.g@ok.de",
+  "vorname": "Torsten",
+  "nachname": "Gieraß",
+  "message": "Guten Tag. Was habt ihr da bitte für einen Busfahrer losgelassen? Linie 771 Abfahrt 15;07 an der Ter Stegen Schule Richtung Ratingen Ost. Findet Namen nicht auf dem Ticket ist Mister super genau… aber dann fährt er an der ter stergen Schule eine Minute zu früh ab. Ehemannshof sind es schon 2minuten zu früh. Ja also bitte lesen sollte auch ein Busfahrer können. Einmal auf dem Ticket den Namen und dann die Zahlen für seine Abfahrt.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:13.777Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:14.422Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj65AAA= and subject: WG: [Externe E-Mail]  [202502131510769095]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:14.847Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj65AAA= and subject: WG: [Externe E-Mail]  [202502131510769095]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:14.847Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj64AAA=",
+  "subject": "WG: [Externe E-Mail]  Frechheit"
+}
+[2025-02-14T13:34:14.849Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Frechheit Von: DNL 3 <dnlbms3@gmx.de> Gesendet: Donnerstag, 13. Februar 2025 14:37An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Frechheit Hallo. Am Mergelsberg 11:51 Uhr 733 Richtig Innenstadt. Der Bus ist ausgefallen. Um 11:55 war ein Ersatzbus vor Ort um 12:08 kam der nächste 733 von der Innenstadt. Es waren hinterher 3 Busse in Knittkuhl und sie lassen eine ganze Linie ausfallen. Welcher Otto plant denn das bei euch. Euer Entschuldigungsschreiben könnt ihr euch mal wieder sonst wo hin. Mit freundlichen Grüßen Daniel",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:15.327Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:15.744Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj64AAA= and subject: WG: [Externe E-Mail]  Frechheit
+[2025-02-14T13:34:16.135Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj64AAA= and subject: WG: [Externe E-Mail]  Frechheit
+[2025-02-14T13:34:16.135Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCchAAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über SB52-Bus"
+}
+[2025-02-14T13:34:16.139Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Beschwerde über SB52-Bus Von: Ratika <ratikaganjoo1@gmail.com> Gesendet: Mittwoch, 12. Februar 2025 08:42An: rheinbahn@movementor.online; poststelle@brd.nrw.de; Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Beschwerde über SB52-Bus Hallo zusammen und guten Morgen Ich möchte Sie darauf aufmerksam machen, dass die Einwohner von Meerbusch und Umgebung, die mit dem Bus SB 52 von Meerbusch nach Düsseldorf fahren, jeden zweiten Tag Probleme haben, weil der Bus zu spät kommt. Das ist ein großes Problem für alle. Dieser Bus SB 52 ist der kürzeste und schnellste und die einzige Möglichkeit, Düsseldorf schnell zu erreichen. Jeden zweiten Tag kommt dieser Bus zu spät. Alte Leute, junge Kinder, alle sind jeden Morgen in Not und Panik. Es gibt keine Ankündigungen, es werden keine App-Updates durchgeführt. Das ist wirklich ein großes Problem. Ich schreibe an alle E-Mail-Adressen, die ich gefunden habe. Ich stelle keine Gruppe oder Organisation vor, aber ich bin selbst sehr verärgert, und ich sehe jeden Morgen, wie die Leute die Busse und Züge verfluchen. Wir können nicht jeden zweiten Tag zu spät kommen, das ist alles. Bitte sagen Sie mir, wohin ich schreiben soll, denn solange es keine Lösung gibt, werde ich weiterhin die Beschwerde-E-Mails an alle möglichen E-Mail-Adressen senden, die ich finde. Ich bitte Sie, etwas dagegen zu unternehmen. Dank und GrüßeRatika Ganjoo",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:16.597Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:17.047Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCchAAA= and subject: WG: [Externe E-Mail]  Beschwerde über SB52-Bus
+[2025-02-14T13:34:17.440Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCchAAA= and subject: WG: [Externe E-Mail]  Beschwerde über SB52-Bus
+[2025-02-14T13:34:17.440Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcgAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130806812000]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:17.447Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "kannenvon@web.de",
+  "vorname": "Kerstin",
+  "nachname": "von",
+  "message": "Guten Morgen, gestern, 12.02., fuhr ich mit dem M1 (Wagen 8611) um 11:11 Uhr ab Haltestelle Knuppertsbrück Richtung Benrath. An der Haltestelle Vennhauser Allee (Ankunft 11:18 Uhr) gab der Fahrer die Durchsage durch, dass er nun 5 Minuten Wartezeit hätte. Daraufhin habe ich ihn hingewiesen (ich saß vorne rechts), dass das ja nicht sein könnte, denn laut Fahrplan ist seine Abfahrtszeit sofort (so stand es auf der Anzeigetafel!) und laut App ist die Abfahrtszeit 11:19 Uhr. Er dreht sich dann um, murmelte etwas von Anschlussgarantie und rauchte sich in Ruhe abseits des Busses eine Zigarette! Als er fertig war, kam er in den Bus und sagte mir sinngemäß: ich hätte ja keine Ahnung und zeigte auf sein Display und verwies auf die dortige Abfahrtszeit. Ich habe ihm dann gesagt, dass ich über die Abfahrtszeit nicht mit ihm diskutieren würde, da ich mich auf die verlassen muss, die angezeigt wird und in der App steht - darauf sagte er zu mir wortwörtlich \"wenn Sie keine Lust haben zu diskutieren, dann halten Sie ...\" - den Rest hat er nicht mehr gesagt, aber ich denke, Sie wissen, wie der Satz vollendet wird! Nun gut, habe ich gedacht, lass ihn ... jeder kann mal einen schlechten Tag haben. Er ist dann um 11:21 Uhr abgefahren - also mit 2 Minuten Verspätung und nach 3 Minuten Pause! Nun gut, habe ich gedacht, Vorgang erledigt - meinen Anschluss in Benrath bekomme ich ja doch noch! Aber dann kam der Gipfel: Auf der Fahrt zum Reisholzer S-Bahnhof hat er sich an seine Leitstelle gewandt und behauptet, dass sich ein Fahrgast wegen 2 Minuten verspäteter Abfahrt beschwerden würde und wird! Das ist eine bodenlose Frechheit! Ich habe mich bei ihm wegen der 5 (!) Minuten beschwert gehabt. Aber nachdem er der Leitstelle eine falsche Aussage von mir hat zukommen lassen und dieser nicht die Wahrheit gesagt hat, was er um 11:18 Uhr durchgesagt hatte, denke ich mir, dass doch eine Beschwerde an Sie über Ihren Fahrer nötig ist, was ich auch hiermit mache. Bitte richten Sie Ihrem Fahrer einen lieben Gruß von mir aus, aber es soll demnächst bei der Wahrheit bleiben, wenn er mit der Leitstelle redet! Oder dieses erst machen, wenn der Fahrgast ausgestiegen ist - dann kann dieser nämlich nicht mithören! Ich gehe davon aus, dass Sie keine Beweisfotos der Zeiten benötigen, da es mir hauptsächlich um den Umgang Ihrers Fahrers mit mir geht. Viele Grüße Kerstin von Kannen",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:18.000Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:18.462Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcgAAA= and subject: WG: [Externe E-Mail]  [202502130806812000]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:18.924Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcgAAA= and subject: WG: [Externe E-Mail]  [202502130806812000]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:18.924Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcfAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130814646173]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:18.928Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "dominique.lauter@web.de",
+  "vorname": "Dominique",
+  "nachname": "Lauter",
+  "message": "Sehr geehrte Damen und Herren, in letzter Zeit fahren auf der Linie U73 vermehrt Kurzzüge. Gerade in den Zeiten wo Schüler und berufstätige Menschen unterwegs sind. Ich steige 3 Haltestellen nach der Endhaltestelle Gerresheim S ein und die Bahn ist schon überfüllt. Da durch dauert das Ein- und Aussteigen deutlich länger wo durch die Bahn dann immer mehr Verspätung aufbaut. Das geht einfach auf dieser Linie und um diese Uhrzeit nicht. Bitte geben Sie dies mal an die Disposition weiter. Ich fahre eigentlich mit dem Auto zur Arbeit und bin gerade nur vorübergehend auf den ÖPNV angewiesen, aber diese Situation gerade in der vollen Bahn, macht auch keine Werbung dafür, dauerhaft auf Bus und Bahn umzusteigen. Mit freundlichen Grüßen Dominique Lauter",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:19.455Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:19.887Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcfAAA= and subject: WG: [Externe E-Mail]  [202502130814646173]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:20.398Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcfAAA= and subject: WG: [Externe E-Mail]  [202502130814646173]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:20.398Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCceAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130816231629]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:20.403Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "c1vongall@yahoo.de",
+  "vorname": "Charlotte",
+  "nachname": "von",
+  "message": "Die Busfahrerin der Linie 779 Richtung Benrath über Garath Ost am 13.2 7:53 Uhr ab Herrmann vom Endt Strasse war extrem unfreundlich und verbal aggressiv",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:21.002Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:21.412Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCceAAA= and subject: WG: [Externe E-Mail]  [202502130816231629]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:21.828Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCceAAA= and subject: WG: [Externe E-Mail]  [202502130816231629]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:21.828Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcdAAA=",
+  "subject": "WG: [Externe E-Mail]  Obdachloser auf Linie 72"
+}
+[2025-02-14T13:34:21.829Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Obdachloser auf Linie 72 Guten Morgen, jeden Morgen schläft in der U72 von Ratingen kommend ein Obdachloser in der Rheinbahn. Es ist der Zug, der um ca. 8:27 am Wehrhahn S Bahnhof ist. Viele Fahrgäste ekeln sich. Vielleicht könnte dort der Sicherheitsdienst mal mitfahren und eingreifen. Beste Grüße Sebastian Juli Sebastian JuliZur Wildkirsche 2140470 Düsseldorf sebastian.juli@icloud.com",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:23.029Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:23.542Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcdAAA= and subject: WG: [Externe E-Mail]  Obdachloser auf Linie 72
+[2025-02-14T13:34:23.969Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcdAAA= and subject: WG: [Externe E-Mail]  Obdachloser auf Linie 72
+[2025-02-14T13:34:23.969Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCccAAA=",
+  "subject": "WG: [Externe E-Mail]  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme"
+}
+[2025-02-14T13:34:23.970Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme Von: Felipe Mang-Ordejón <felipe.mangordejon@icloud.com> Gesendet: Mittwoch, 12. Februar 2025 11:18An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich möchte mich über die wiederholten Verspätungen der U72 in Richtung Ratingen Mitte beschweren.Am 12.02.2025 sollte die Bahn planmäßig um 11:08 Uhr ankommen, ist jedoch erst um 11:22 Uhr eingetroffen – also mit 14 Minuten Verspätung. Dies ist kein Einzelfall: Bereits am 11.02.2025 kam die gleiche Bahn erst um 7:52 Uhr statt um 7:38 Uhr. Auch in den letzten zwei Monaten habe ich immer wieder Verspätungen festgestellt.Ich habe bereits mehrfach per E-Mail nachgefragt, erhielt jedoch stets eine nahezu identische Antwort, die den Eindruck erweckt, dass es sich lediglich um eine Standardantwort handelt.Ich bitte daher ausdrücklich um eine individuelle Antwort eines Mitarbeiters, in der mir die konkreten Gründe für diese häufigen Verspätungen genannt werden.Mit freundlichen GrüßenFelipe Mang Ordejón",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:24.575Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:25.037Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCccAAA= and subject: WG: [Externe E-Mail]  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme
+[2025-02-14T13:34:25.419Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCccAAA= and subject: WG: [Externe E-Mail]  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme
+[2025-02-14T13:34:25.419Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130723156727]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:25.421Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "s.golletz@outlook.de",
+  "vorname": "Sebastian",
+  "nachname": "Golletz",
+  "message": "Liebe Rheinbahn, ich frage mich was los ist. Seit einigen Wochen steige ich um kurz vor 07:00 Uht aus dem Haus und stehe auf der Acker Str. und was sehe ich? Nichts! Paradiesische Ruhe, wo eigentlich Busse und Bahnen fahren sollten. Dass ich um 07:00 Uhr 8 Minuten auf die nächste 9 Richtung Hbf warten soll empfinde ich als Zumutung. In der Zeit fahren dreimal so viele Bahnen im die entgegengesetzte Richtung. Auch der Bus kommt immer später. Wenn über den ÖPNV geschimpft wird, nehme ich euch normalerweise in Schutz, weil es in der Regel gut klappt. Aber in letzter Zeit ist die Verbindung von der Haltestelle Birkenstraße zum HBF(!) wirklich bescheiden. Wenn das in der Stadtmitte einer der größten Städte des Landes in der urbansten Region des Landes nicht klappt, wie soll es im Rest des Landes klappen? Ich bin sicher ihr könnt das besser Mit freundlichen Grüßen Sebastian Golletz",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:25.967Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:26.374Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcbAAA= and subject: WG: [Externe E-Mail]  [202502130723156727]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:26.759Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcbAAA= and subject: WG: [Externe E-Mail]  [202502130723156727]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:26.759Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcaAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130705274231]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:26.764Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Stephanie.Lichius@stephlic.de",
+  "vorname": "Stephanie",
+  "nachname": "Lichius",
+  "message": "Hallo liebes Rheinbahn-Team. Könnt ihr mir bitte erklären, warum die Verbindung Abfahrt Benrath S um 7:30 Uhr mit dem M1 und dann Umstieg Torfruchstraße in den Bus 733 zum Krankenhaus Gerresheim nicht angezeigt wird? ich hab es jetzt auf alle möglichen Arten versucht. Diese Verbindung finde ich ausschließlich in der App der DB. Das kann doch nicht sein? Besten Gruß Stephanie Lichius",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:27.221Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:27.641Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcaAAA= and subject: WG: [Externe E-Mail]  [202502130705274231]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:28.070Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcaAAA= and subject: WG: [Externe E-Mail]  [202502130705274231]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:28.070Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcZAAA=",
+  "subject": "WG: [Externe E-Mail]  WO IST MEIN BUS ?????"
+}
+[2025-02-14T13:34:28.071Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  WO IST MEIN BUS ????? -----Ursprüngliche Nachricht----- Von: Leon Peters Gesendet: Mittwoch, 12. Februar 2025 22:26 An: Rheinbahn Betreff:  WO IST MEIN BUS ????? Man zahlt sich dumm und dämlich für eure beschissenen und über teure Tickets und dann seid ihr weder dazu in der Lage pünktlich zu kommen, noch durch irgendwelche Social Media Kanäle über eure Verspätungen oder sogar Ausfälle zu berichten. Das ist an Respektlosigkeit nicht mehr zu übertreffen, schämt euch in Grund und Boden!!!",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:28.572Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:28.995Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcZAAA= and subject: WG: [Externe E-Mail]  WO IST MEIN BUS ?????
+[2025-02-14T13:34:29.399Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcZAAA= and subject: WG: [Externe E-Mail]  WO IST MEIN BUS ?????
+[2025-02-14T13:34:29.399Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcYAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502122242179699]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:29.406Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "C.aksoy200a@gmail.com",
+  "vorname": "Cigdem",
+  "nachname": "Aksoy",
+  "message": "Fährt die Buslinie 743 morgen von Mettmann Jubiläumsplatz nach Erkrath Wagnerstraße um 13:19 Uhr? Ich muss so schnell wie möglich wissen ob der Buslinie 743 nach Erkrath fährt oder nicht ?",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:29.928Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:30.340Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcYAAA= and subject: WG: [Externe E-Mail]  [202502122242179699]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:30.728Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcYAAA= and subject: WG: [Externe E-Mail]  [202502122242179699]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:30.728Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcXAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121617664913]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:30.734Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "Baotam@gmx.de",
+  "vorname": "Tam",
+  "nachname": "Nguyen",
+  "message": "Sehr geehrte Damen und Herren, Ich möchte auf eine gefährliche Straßenverkehrssituation hinweisen, in der ich mich heute mit einem/einer Fahrer:in Ihres Unternehmens befand. Um 15:45 Uhr war ich auf der Theodor Heuss Brücke standeinwärts unterwegs, der/die beteiligte Busfahrer:in (ich glaube, sie war weiblich mit langen lockigen Haaren) stand noch an der Haltestelle Theodor Heuss Brücke und hatte nach rechts geblinkt, zu dem Zeitpunkt war ich bereits neben aufHöhe des Busses, dennoch ist dieser links ausgeschert unter Missachtung des fließenden Verkehrs und hatte einen Unfall in Kauf genommen. Ich musste eine Vollbremsung durchführen, um einen Unfall zu vermeiden. Ich habe hierfür kein Verständnis, dass ein Unfall mit eventueller Beteiligung mehrerer Autos und Verletzung von Personen (mein 5 Jähriger Sohn und ich sowie alle Passagiere im Bus) in Kauf genommen wird. Ich würde mich freuen, wenn dieser Casus intern besprochen wird und eine eventuelle Nachschulung bezüglich umsichtiges Verhalten im Personenförderungsverkehr erfolgen würde. Auf eine Anzeige werde ich hier verzichten. Dennoch sollte dieser Vorfall ernst genommen werden. Ich freue mich auf Ihre Ruckmeldung. Das Kennzeichen war: D NG 8511 Mit freundlichen Grüßen Tam Nguyen",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:31.277Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:31.703Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcXAAA= and subject: WG: [Externe E-Mail]  [202502121617664913]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:32.122Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcXAAA= and subject: WG: [Externe E-Mail]  [202502121617664913]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:32.122Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcWAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121647604686]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:32.126Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "willi-fonk@t-online.de",
+  "vorname": "Willi",
+  "nachname": "Fonk",
+  "message": "Wir möchten von Düsseldorf Itter Auf'm Winkel über Holthausen nach Ratingen Ost und von dort mit dem Buss nach Heiligenhaus Pinner Straße 46. Welches Ticket benötigen wir und wo bekommen wir das Ticket. Über eine Antwort würden wir uns sehr freuen. Mit freundlichen Grüßen Willi Fonk",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:32.654Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:33.067Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcWAAA= and subject: WG: [Externe E-Mail]  [202502121647604686]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:33.469Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcWAAA= and subject: WG: [Externe E-Mail]  [202502121647604686]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:33.470Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcVAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121656778974]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:33.474Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "sebastian.stoewer@gmail.com",
+  "vorname": "Sebastian",
+  "nachname": "Stöwer",
+  "message": "Liebes Team, seit vielen Jahren darf ich mich glücklich schätzen, dass vor meiner Haustür eine Straßenbahnhaltestelle ist, die mich direkt bis zu meiner Arbeit bringt. Seit dem Rheintakt fahren dort konkret die Linien U71 und U83. Das funktioniert meist gut, solange ich in die U71 steige. Die U83 jedoch ist oft nur eine einfache Bahn mit einem Wagon. Gerade zu Stoßzeiten sorgt das regelmäßig für völlig überfüllte Bahnen, Gedrängel und Unwohlsein bei vielen Fahrgästen. Das Ganze würde sich erheblich entspannen, wenn die U83 mit zwei Wagons fahren würde. Aktuell warte ich lieber 10 Minuten mehr, um nicht in diese Bahn steigen zu müssen. Gibt es einen guten Grund dafür, dass sie häufig nur mit einem Wagon fährt? Lässt sich das ändern? Viele Grüße aus Bilk Sebastian Stöwer PS: Das Deutschlandticket muss bleiben.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:34.015Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:34.498Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcVAAA= and subject: WG: [Externe E-Mail]  [202502121656778974]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:34.887Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcVAAA= and subject: WG: [Externe E-Mail]  [202502121656778974]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:34.888Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcUAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121805135754]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:34.891Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "armin.haertel@gmx.de",
+  "vorname": "Armin",
+  "nachname": "Härtel",
+  "message": "Hallo, ein passendes Thema zu meiner Anfrage wird mir im Drop-down-Menu nicht angezeigt, also habe ich wahlfrei \"Qualitätsmängel\" ausgewählt. Ihr solltet vielleicht einen Menupunkt \"Sonstiges\" einpflegen. Ich habe vorhin die VRR-APP geöffnet und dort poppte als erstes eine Streik-Warnmeldung auf, mit dem Hinweis, dass man sich bei \"betreffenden Verkehrsunternehmen\" weiter informieren soll. Nun, ich wohne in Düsseldorf und möchte innerhalb Düsseldorfs per Bus und Bahn mobil sein. Ich habe ein Deutschlandticket. Bin ich nun bei Euch richtig, bzgl. möglicher Streiks im ÖPNV Düsseldorfs? Wo kann ich mich denn eigenständig und rechtzeitig darüber informieren? Gibt es einen Newsletter dazu, eine dedizierte Unterseite auf Eurer Website, die stets über (mögliche) Streiks aktuell informiert, oder anderes? Wie komme ich an diese Infos heran? Ich bin täglich mehrfach darauf angewiesen, per ÖPNV mobil zu sein, weil ich kein Auto (mehr) fahre. Danke für Eure zeitnahe Hilfe und Auskunft im voraus! Schöne Grüße, Armin Härtel",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:35.435Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:35.870Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcUAAA= and subject: WG: [Externe E-Mail]  [202502121805135754]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:36.247Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcUAAA= and subject: WG: [Externe E-Mail]  [202502121805135754]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:36.247Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcTAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121811497513]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:36.252Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "bellaajoian@web.de",
+  "vorname": "",
+  "nachname": "Ajoian",
+  "message": "Wieso fallen immer die M3 Linien aus? Jedes mal wenn sie ich versuche die Verbindung mit der M3 zu nehmen, fallen die Busse aus. Das kann doch nicht wahr sein, dass dieser Bus regelmäßig ausfällt! MfG",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:39.250Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:39.651Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcTAAA= and subject: WG: [Externe E-Mail]  [202502121811497513]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:40.039Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcTAAA= and subject: WG: [Externe E-Mail]  [202502121811497513]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:40.039Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcSAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121831064091]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:40.043Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "sebastian.wittstruck@icloud.com",
+  "vorname": "Sebastian",
+  "nachname": "Wittstruck",
+  "message": "Breite Spurrillen Straßenbahn Guten Tag, können Sie mir mitteilen, wie breit die Spurrillen im Straßenbahn-Netz in Düsseldorf ist? Der Hintergrund meiner Frage ist, wie breit Fahrradreifen sein müssen, dass diese nicht in die Rillen gelangen und hängen bleiben - ein Pilotprojekt zur Absicherung der Rillen wurde offenbar nicht mehr verfolgt? Vielen Dank, S. Wittstruck",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:40.531Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:40.953Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcSAAA= and subject: WG: [Externe E-Mail]  [202502121831064091]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:41.362Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcSAAA= and subject: WG: [Externe E-Mail]  [202502121831064091]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:41.363Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcRAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121922811804]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:41.366Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "brigittegregor@googlemail.com",
+  "vorname": "Brigitte",
+  "nachname": "Gregor",
+  "message": "Welches Ticket muss ich lösen, wenn ich mit 2 Personen am Samstag mit dem Ticket 2000 A plus von Düsseldorf nach Arnheim Centraal fahre ?",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:41.854Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:42.259Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcRAAA= and subject: WG: [Externe E-Mail]  [202502121922811804]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:42.741Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcRAAA= and subject: WG: [Externe E-Mail]  [202502121922811804]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:42.741Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcQAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502122147920485]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T13:34:42.742Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Adadoganay2109@gmail.com",
+  "vorname": "Ada",
+  "nachname": "Doganay",
+  "message": "Die Rheinbahn App sagte mir dass die Linie 834 Belsenplatz um 21:11 an der Heinrichstrasse ankommen sollte. Als ich aber dort wartete standen dort 40 Minuten und der Bus hat sogar noch länger als 40 Minuten gebraucht. Es ist verständlich, dass um diese Uhrzeit Busse nicht sehr oft fahren aber bei einer oft benutzen Linie wie 834 kann es nicht sein dass man 40 Minuten auf einen Bus warten soll der viel früher kommen sollte. Anscheinend soll der Bus viel früher da gewesen sein… Diese Linie kommt entweder zu spät oder zu früh, bitte lösen sie dieses Problem sodass der Bus wider mal nach Plan fährt",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T13:34:43.336Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T13:34:43.733Z] [INFO] Email sent to non-category recipients: ndilthey@gmail.com with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcQAAA= and subject: WG: [Externe E-Mail]  [202502122147920485]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:44.156Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcQAAA= and subject: WG: [Externe E-Mail]  [202502122147920485]: Anfrage über das Kontaktformular
+[2025-02-14T13:34:44.156Z] [INFO] Finished processing emails
+[2025-02-14T13:56:56.066Z] [INFO] Processing emails
+{
+  "count": 0
+}
+[2025-02-14T13:56:56.068Z] [INFO] Finished processing emails
+[2025-02-14T14:39:27.941Z] [INFO] Processing emails
+{
+  "count": 26
+}
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 1 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 2 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 3 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 4 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 5 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 6 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 7 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 8 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 9 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 10 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 11 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 12 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 13 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 14 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 15 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 16 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 17 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 18 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 19 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 20 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 21 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 22 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 23 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 24 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 25 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Processed email 26 of 26
+[2025-02-14T14:39:27.943Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH35D6AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502140750340002]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:27.950Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Christian_acht@gmx.de",
+  "vorname": "Christian",
+  "nachname": "Acht",
+  "message": "Guten Morgen, ich sitze gerade in, wie jeden Morgen, in der U79 von Düsseldorf nach Duisburg. Können Sie mir bitte erklären, warum zu 90% keine Heizung in den Bahnen läuft? Es ist bei den momentan Außentemperaturen und wenn man länger mit der Bahn unterwegs ist nicht zuzumuten. Die Bahn ist wie ein Eiskeller. Ich werde die Temperatur in der Bahn dokumentieren. Hier wird man ja krank in der Bahn. Danke für Ihre Rückmeldung. Beste Grüße, Acht",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:28.747Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:29.393Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH35D6AAA= and subject: WG: [Externe E-Mail]  [202502140750340002]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:29.775Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABH35D6AAA= and subject: WG: [Externe E-Mail]  [202502140750340002]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:29.775Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj6_AAA=",
+  "subject": "WG: [Externe E-Mail]  Frage zu Entwertung Einzelticket"
+}
+[2025-02-14T14:39:29.777Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Frage zu Entwertung Einzelticket Von: Claudia Tripunoski <ctripunoski@web.de> Gesendet: Donnerstag, 13. Februar 2025 15:27An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Frage zu Entwertung Einzelticket Liebes Team der Rheinbahn,das angehängte Ticket wurde an der Haltestelle \"Am Seestern\" in Düsseldorf gekauft. Ist dieses Ticket bereits entwertet? Oder muss das in der U-Bahn noch entwertet werden?Ich bin etwas irritiert, da ich zwei unterschiedliche Aussagen bekommen habe. \"Ist bereits entwertet\" und \"Muss noch entwertet werden\". Seit gestern versuche ich es über das Kontaktformular auf der rheinbahn.de Seite,es funktionert leider nicht. Ich erhalte eine Fehlermeldung. Deshalb per E-mail. Vielen Dank für eine kurze Rückmeldung.MfG,Claudia Tripunoski",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:30.394Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:30.793Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj6_AAA= and subject: WG: [Externe E-Mail]  Frage zu Entwertung Einzelticket
+[2025-02-14T14:39:31.169Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj6_AAA= and subject: WG: [Externe E-Mail]  Frage zu Entwertung Einzelticket
+[2025-02-14T14:39:31.169Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:31.180Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "jutta.beuth@googlemail.com",
+  "vorname": "Jutta",
+  "nachname": "Beuth",
+  "message": "13.02.2025: Bus 724 Haltestelle \"Posener Straße\" Richtung Sportpark Niederheid, planmäßig 16:51 Uhr, kam mit Verspätung an der Haltestelle Posener Straße an, um ca. 17:04 Uhr. Der Gelenkbus hielt an. Machte mittig die Tür nicht auf, nur hinten. Ich bin vorne zur Tür gegangen. Der Fahrer öffnete die Tür auf 2-maliges Klopfen hin nicht, sondern schaute zu mir und tippte auf seine Uhr, dann fuhr er einfach ab, ohne mir Einstieg zu gewähren. So eine bodenlose Frechheit habe ich noch nie erlebt, der Kerl gehört....",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:31.742Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-14T14:39:31.816Z] [INFO] Anonymized text:
+{
+  "text": "13.02.2025: Bus 724 Haltestelle \"Posener Straße\" Richtung Sportpark Niederheid, planmäßig 16:51 Uhr, kam mit Verspätung an der Haltestelle Posener Straße an, um ca. 17:04 Uhr. Der Gelenkbus hielt an. Machte mittig die Tür nicht auf, nur hinten. Ich bin vorne zur Tür gegangen. Der Fahrer öffnete die Tür auf 2-maliges Klopfen hin nicht, sondern schaute zu mir und tippte auf seine Uhr, dann fuhr er einfach ab, ohne mir Einstieg zu gewähren. So eine bodenlose Frechheit habe ich noch nie erlebt, der Kerl gehört....",
+  "anonymized_text": "[DATE_1]: Bus 724 Haltestelle \"[ANON_LOCATION_4]\" Richtung [ANON_LOCATION_3], planmäßig [TIME_2], kam mit Verspätung an der Haltestelle [ANON_LOCATION_2] an, um ca. [TIME_1]. Der Gelenkbus hielt an. Machte mittig die Tür nicht auf, nur hinten. Ich bin vorne zur Tür gegangen. Der Fahrer öffnete die Tür auf 2-maliges Klopfen hin nicht, sondern schaute zu mir und tippte auf seine Uhr, dann fuhr er einfach ab, ohne mir Einstieg zu gewähren. So eine bodenlose Frechheit habe ich noch nie erlebt, der Kerl gehört[ANON_LOCATION_1]",
+  "replacements": {
+    "persons": [],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "...."
+      },
+      {
+        "[ANON_LOCATION_2]": "Posener Straße"
+      },
+      {
+        "[ANON_LOCATION_3]": "Sportpark Niederheid"
+      },
+      {
+        "[ANON_LOCATION_4]": "Posener Straße"
+      }
+    ],
+    "names": [],
+    "dates": [
+      {
+        "[DATE_1]": "13.02.2025"
+      }
+    ],
+    "times": [
+      {
+        "[TIME_1]": "17:04 Uhr"
+      },
+      {
+        "[TIME_2]": "16:51 Uhr"
+      }
+    ]
+  }
+}
+[2025-02-14T14:39:37.139Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:37.140Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular",
+  "userMessage": "13.02.2025: Bus 724 Haltestelle \"Posener Straße\" Richtung Sportpark Niederheid, planmäßig 16:51 Uhr, kam mit Verspätung an der Haltestelle Posener Straße an, um ca. 17:04 Uhr. Der Gelenkbus hielt an. Machte mittig die Tür nicht auf, nur hinten. Ich bin vorne zur Tür gegangen. Der Fahrer öffnete die Tür auf 2-maliges Klopfen hin nicht, sondern schaute zu mir und tippte auf seine Uhr, dann fuhr er einfach ab, ohne mir Einstieg zu gewähren. So eine bodenlose Frechheit habe ich noch nie erlebt, der Kerl gehört....",
+  "aiResponse": "Sehr geehrter Herr [NAMEPLACEHOLDER],\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung mit der Buslinie 724 zu informieren. Wir bedauern sehr, dass Sie am [DATE_1] an der Haltestelle [ANON_LOCATION_2] um circa [TIME_1] nicht mitgenommen wurden. Wir wissen, wie frustrierend und ärgerlich es für Sie gewesen sein muss, dass der Bus nicht wie erwartet die Türen geöffnet hat.\n\nDieses Verhalten entspricht nicht unserem Serviceverständnis, und wir entschuldigen uns aufrichtig für die Unannehmlichkeiten, die Ihnen dadurch entstanden sind. Möglicherweise kam es aufgrund der verspäteten Ankunft des Busses an der Haltestelle zu einem Missverständnis hinsichtlich der Sichtbarkeit der wartenden Fahrgäste. Wir werden den Vorfall intern prüfen und das Fahrpersonal nochmals daran erinnern, wie wichtig die zuverlässige und freundliche Beförderung unserer Fahrgäste ist.\n\nWir schätzen Ihr Feedback sehr, denn es hilft uns, die Qualität unserer Dienstleistungen kontinuierlich zu überprüfen und zu verbessern. Unser Ziel ist es, Ihnen und allen unseren Fahrgästen stets eine sichere und angenehme Fahrt zu bieten, und wir setzen alles daran, solche Vorfälle zukünftig zu vermeiden.\n\nWir hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrer nächsten Fahrt ein positives Erlebnis zu bieten und bedanken uns nochmals für Ihre wertvolle Rückmeldung.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Beuth,\n\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung mit der Buslinie 724 zu informieren. Wir bedauern sehr, dass Sie am 13.02.2025 an der Haltestelle Posener Straße um circa 17:04 Uhr nicht mitgenommen wurden. Wir wissen, wie frustrierend und ärgerlich es für Sie gewesen sein muss, dass der Bus nicht wie erwartet die Türen geöffnet hat.\n\nDieses Verhalten entspricht nicht unserem Serviceverständnis, und wir entschuldigen uns aufrichtig für die Unannehmlichkeiten, die Ihnen dadurch entstanden sind. Möglicherweise kam es aufgrund der verspäteten Ankunft des Busses an der Haltestelle zu einem Missverständnis hinsichtlich der Sichtbarkeit der wartenden Fahrgäste. Wir werden den Vorfall intern prüfen und das Fahrpersonal nochmals daran erinnern, wie wichtig die zuverlässige und freundliche Beförderung unserer Fahrgäste ist.\n\nWir schätzen Ihr Feedback sehr, denn es hilft uns, die Qualität unserer Dienstleistungen kontinuierlich zu überprüfen und zu verbessern. Unser Ziel ist es, Ihnen und allen unseren Fahrgästen stets eine sichere und angenehme Fahrt zu bieten, und wir setzen alles daran, solche Vorfälle zukünftig zu vermeiden.\n\nWir hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrer nächsten Fahrt ein positives Erlebnis zu bieten und bedanken uns nochmals für Ihre wertvolle Rückmeldung.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-14T14:39:38.122Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:38.511Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj69AAA= and subject: WG: [Externe E-Mail]  [202502132325207534]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:38.512Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:38.517Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Christoph2502@gmx.de",
+  "vorname": "Christoph",
+  "nachname": "Müller",
+  "message": "Hallo, meine 14 jährigen Tochter wurde gerade (20:12uhr) an der Dellestraße nicht in den Bus (735er) gelassen. Ihr wurde erst garnicht die Türe geöffnet. Was ist denn da los? Ich möchte hierzu unbedingt eine Stellungnahme vom Busfahrer! Das ist ja wohl eine Frechheit. Stehen bleiben, Türe nicht öffnen und weiter fahren. Bin sprachlos.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:39.314Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-14T14:39:39.348Z] [INFO] Anonymized text:
+{
+  "text": "Hallo, meine 14 jährigen Tochter wurde gerade (20:12uhr) an der Dellestraße nicht in den Bus (735er) gelassen. Ihr wurde erst garnicht die Türe geöffnet. Was ist denn da los? Ich möchte hierzu unbedingt eine Stellungnahme vom Busfahrer! Das ist ja wohl eine Frechheit. Stehen bleiben, Türe nicht öffnen und weiter fahren. Bin sprachlos.",
+  "anonymized_text": "Hallo, meine 14 jährigen Tochter wurde gerade (20:12uhr) an der [ANON_LOCATION_1] nicht in den Bus (735er) gelassen. Ihr wurde erst garnicht die Türe geöffnet. Was ist denn da los? Ich möchte hierzu unbedingt eine Stellungnahme vom Busfahrer! Das ist ja wohl eine Frechheit. Stehen bleiben, Türe nicht öffnen und weiter fahren. [ANON_PERSON_1] sprachlos.",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Bin"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Dellestraße"
+      }
+    ],
+    "names": [],
+    "dates": [],
+    "times": []
+  }
+}
+[2025-02-14T14:39:44.478Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:44.479Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular",
+  "userMessage": "Hallo, meine 14 jährigen Tochter wurde gerade (20:12uhr) an der Dellestraße nicht in den Bus (735er) gelassen. Ihr wurde erst garnicht die Türe geöffnet. Was ist denn da los? Ich möchte hierzu unbedingt eine Stellungnahme vom Busfahrer! Das ist ja wohl eine Frechheit. Stehen bleiben, Türe nicht öffnen und weiter fahren. Bin sprachlos.",
+  "aiResponse": "Sehr geehrter Herr [ANON_PERSON_1],\n\nvielen Dank, dass Sie uns über das Erlebnis Ihrer Tochter mit dem Bus 735 an der Haltestelle [ANON_LOCATION_1] informiert haben. Wir bedauern sehr, dass der Bus am heutigen Tag um 20:12 Uhr nicht angehalten hat, um Ihre Tochter mitfahren zu lassen, und dass ihr die Tür nicht geöffnet wurde. \n\nDiese Erfahrung entspricht nicht unserem Serviceverständnis. Unsere oberste Priorität ist es sicherzustellen, dass unsere Fahrgäste zuverlässig und sicher an ihr Ziel gelangen. Wir möchten uns aufrichtig für die Unannehmlichkeiten entschuldigen, die Ihrer Tochter durch dieses Ereignis entstanden sind.\n\nEs kann mehrere Gründe geben, warum ein Fahrzeug die Tür nicht öffnet, wie etwa technische Probleme oder ein Missverständnis bezüglich der Haltestellensteuerung. Es könnte auch sein, dass das Fahrzeug als voll besetzt angesehen wurde, obwohl dies bei der genannten Uhrzeit eher ungewöhnlich ist. Dennoch werden wir den Vorfall intern prüfen und unser Fahrpersonal stärker darauf hinweisen, aufmerksam auf wartende Fahrgäste zu achten, um solche Situationen in der Zukunft zu vermeiden.\n\nIhre Rückmeldung ist uns äußerst wichtig, da sie uns dabei hilft, unseren Service stetig zu verbessern. Bitte seien Sie versichert, dass wir alles in unserer Macht Stehende tun, um Vorfälle wie diesen zu verhindern.\n\nZukünftig wünschen wir Ihrer Tochter und Ihnen wieder unbeschwerte Fahrten mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Herr Bin,\n\nvielen Dank, dass Sie uns über das Erlebnis Ihrer Tochter mit dem Bus 735 an der Haltestelle Dellestraße informiert haben. Wir bedauern sehr, dass der Bus am heutigen Tag um 20:12 Uhr nicht angehalten hat, um Ihre Tochter mitfahren zu lassen, und dass ihr die Tür nicht geöffnet wurde. \n\nDiese Erfahrung entspricht nicht unserem Serviceverständnis. Unsere oberste Priorität ist es sicherzustellen, dass unsere Fahrgäste zuverlässig und sicher an ihr Ziel gelangen. Wir möchten uns aufrichtig für die Unannehmlichkeiten entschuldigen, die Ihrer Tochter durch dieses Ereignis entstanden sind.\n\nEs kann mehrere Gründe geben, warum ein Fahrzeug die Tür nicht öffnet, wie etwa technische Probleme oder ein Missverständnis bezüglich der Haltestellensteuerung. Es könnte auch sein, dass das Fahrzeug als voll besetzt angesehen wurde, obwohl dies bei der genannten Uhrzeit eher ungewöhnlich ist. Dennoch werden wir den Vorfall intern prüfen und unser Fahrpersonal stärker darauf hinweisen, aufmerksam auf wartende Fahrgäste zu achten, um solche Situationen in der Zukunft zu vermeiden.\n\nIhre Rückmeldung ist uns äußerst wichtig, da sie uns dabei hilft, unseren Service stetig zu verbessern. Bitte seien Sie versichert, dass wir alles in unserer Macht Stehende tun, um Vorfälle wie diesen zu verhindern.\n\nZukünftig wünschen wir Ihrer Tochter und Ihnen wieder unbeschwerte Fahrten mit unseren Bussen und Bahnen.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-14T14:39:44.993Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:45.424Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj68AAA= and subject: WG: [Externe E-Mail]  [202502132023126121]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:45.425Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj67AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502131853993745]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:45.428Z] [INFO] Extracted fields:
+{
+  "anrede": "Keine Angabe",
+  "email": "Ferigor@web.de",
+  "vorname": "Eric",
+  "nachname": "Braaksma",
+  "message": "Hallo. Die u79 ist soeben ausgefallen und danach kam noch eine welche dann vorbei gefahren ist. Das Problem ist nicht das ausfallen sondern die fehlende Kommunikation. Fickt euch.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:45.936Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:46.363Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj67AAA= and subject: WG: [Externe E-Mail]  [202502131853993745]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:46.798Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj67AAA= and subject: WG: [Externe E-Mail]  [202502131853993745]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:46.798Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj66AAA=",
+  "subject": "WG: [Externe E-Mail]  FWD: 830 Ri Meerbusch [Ticket#166791]"
+}
+[2025-02-14T14:39:46.802Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "FWD: 830 Ri Meerbusch [Ticket#166791] Hallo zusammen, hier ein Fall für euch. VG Daniel ---Anfang der weitergeleiteten Nachricht:---Betreff: 830 Ri MeerbuschDatum: 13.02.2025 12:09Von: Michael Becker <michaelbecker1966@gmail.com>An: \"rheinbahn@movementor.online\" <rheinbahn@movementor.online>Sehr geehrtes Rheinbahn-Team. Bus 830 ab Handweiser planmäßig 10:53. hatte 6 Minuten Verspätung. Das ist nicht schlimm. Aber das Verhalten des Busfahrers geht wirklich nicht. Anstatt die Fahrgäste schnellstmöglich einzulassen, öffnet er nur die vordere Tür, kontrolliert in Seelenruhe 10 Tickets. Sei das noch seine Pflicht (was ich angesichts des Verhaltens anderer Busfahrer bezweifle), so ist es wirklich den Kunden gegenüber eine Unverschämtheit, ohne Haltewunsch an offensichtlich leere Haltestellen anzufahren, Türen zu öffnen, zu warten und dann seelenruhig weiter zu fahren. Wenn ich eine Verbindung per App angeboten bekomme, akzeptiere ich selbstverständlich Verspätungen. Aber nicht wenn sie so produziert werden. Seien Sie so freundlich und reden mit dem Mann (der an anderen Haltestellen plötzlich nicht mehr kontrolliert) DankeLG Michael BeckerAn der Ulanenkaserne 3440476 Düsseldorf0162.2438779",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:47.352Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:47.732Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj66AAA= and subject: WG: [Externe E-Mail]  FWD: 830 Ri Meerbusch [Ticket#166791]
+[2025-02-14T14:39:48.110Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj66AAA= and subject: WG: [Externe E-Mail]  FWD: 830 Ri Meerbusch [Ticket#166791]
+[2025-02-14T14:39:48.110Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj65AAA=",
+  "subject": "WG: [Externe E-Mail]  [202502131510769095]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:48.115Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Torsten.g@ok.de",
+  "vorname": "Torsten",
+  "nachname": "Gieraß",
+  "message": "Guten Tag. Was habt ihr da bitte für einen Busfahrer losgelassen? Linie 771 Abfahrt 15;07 an der Ter Stegen Schule Richtung Ratingen Ost. Findet Namen nicht auf dem Ticket ist Mister super genau… aber dann fährt er an der ter stergen Schule eine Minute zu früh ab. Ehemannshof sind es schon 2minuten zu früh. Ja also bitte lesen sollte auch ein Busfahrer können. Einmal auf dem Ticket den Namen und dann die Zahlen für seine Abfahrt.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:48.581Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:48.985Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj65AAA= and subject: WG: [Externe E-Mail]  [202502131510769095]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:49.385Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj65AAA= and subject: WG: [Externe E-Mail]  [202502131510769095]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:49.385Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj64AAA=",
+  "subject": "WG: [Externe E-Mail]  Frechheit"
+}
+[2025-02-14T14:39:49.387Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Frechheit Von: DNL 3 <dnlbms3@gmx.de> Gesendet: Donnerstag, 13. Februar 2025 14:37An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Frechheit Hallo. Am Mergelsberg 11:51 Uhr 733 Richtig Innenstadt. Der Bus ist ausgefallen. Um 11:55 war ein Ersatzbus vor Ort um 12:08 kam der nächste 733 von der Innenstadt. Es waren hinterher 3 Busse in Knittkuhl und sie lassen eine ganze Linie ausfallen. Welcher Otto plant denn das bei euch. Euer Entschuldigungsschreiben könnt ihr euch mal wieder sonst wo hin. Mit freundlichen Grüßen Daniel",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:49.955Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:50.353Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj64AAA= and subject: WG: [Externe E-Mail]  Frechheit
+[2025-02-14T14:39:50.725Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHxj64AAA= and subject: WG: [Externe E-Mail]  Frechheit
+[2025-02-14T14:39:50.726Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCchAAA=",
+  "subject": "WG: [Externe E-Mail]  Beschwerde über SB52-Bus"
+}
+[2025-02-14T14:39:50.729Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Beschwerde über SB52-Bus Von: Ratika <ratikaganjoo1@gmail.com> Gesendet: Mittwoch, 12. Februar 2025 08:42An: rheinbahn@movementor.online; poststelle@brd.nrw.de; Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Beschwerde über SB52-Bus Hallo zusammen und guten Morgen Ich möchte Sie darauf aufmerksam machen, dass die Einwohner von Meerbusch und Umgebung, die mit dem Bus SB 52 von Meerbusch nach Düsseldorf fahren, jeden zweiten Tag Probleme haben, weil der Bus zu spät kommt. Das ist ein großes Problem für alle. Dieser Bus SB 52 ist der kürzeste und schnellste und die einzige Möglichkeit, Düsseldorf schnell zu erreichen. Jeden zweiten Tag kommt dieser Bus zu spät. Alte Leute, junge Kinder, alle sind jeden Morgen in Not und Panik. Es gibt keine Ankündigungen, es werden keine App-Updates durchgeführt. Das ist wirklich ein großes Problem. Ich schreibe an alle E-Mail-Adressen, die ich gefunden habe. Ich stelle keine Gruppe oder Organisation vor, aber ich bin selbst sehr verärgert, und ich sehe jeden Morgen, wie die Leute die Busse und Züge verfluchen. Wir können nicht jeden zweiten Tag zu spät kommen, das ist alles. Bitte sagen Sie mir, wohin ich schreiben soll, denn solange es keine Lösung gibt, werde ich weiterhin die Beschwerde-E-Mails an alle möglichen E-Mail-Adressen senden, die ich finde. Ich bitte Sie, etwas dagegen zu unternehmen. Dank und GrüßeRatika Ganjoo",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:51.235Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:51.616Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCchAAA= and subject: WG: [Externe E-Mail]  Beschwerde über SB52-Bus
+[2025-02-14T14:39:51.990Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCchAAA= and subject: WG: [Externe E-Mail]  Beschwerde über SB52-Bus
+[2025-02-14T14:39:51.990Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcgAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130806812000]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:51.994Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "kannenvon@web.de",
+  "vorname": "Kerstin",
+  "nachname": "von",
+  "message": "Guten Morgen, gestern, 12.02., fuhr ich mit dem M1 (Wagen 8611) um 11:11 Uhr ab Haltestelle Knuppertsbrück Richtung Benrath. An der Haltestelle Vennhauser Allee (Ankunft 11:18 Uhr) gab der Fahrer die Durchsage durch, dass er nun 5 Minuten Wartezeit hätte. Daraufhin habe ich ihn hingewiesen (ich saß vorne rechts), dass das ja nicht sein könnte, denn laut Fahrplan ist seine Abfahrtszeit sofort (so stand es auf der Anzeigetafel!) und laut App ist die Abfahrtszeit 11:19 Uhr. Er dreht sich dann um, murmelte etwas von Anschlussgarantie und rauchte sich in Ruhe abseits des Busses eine Zigarette! Als er fertig war, kam er in den Bus und sagte mir sinngemäß: ich hätte ja keine Ahnung und zeigte auf sein Display und verwies auf die dortige Abfahrtszeit. Ich habe ihm dann gesagt, dass ich über die Abfahrtszeit nicht mit ihm diskutieren würde, da ich mich auf die verlassen muss, die angezeigt wird und in der App steht - darauf sagte er zu mir wortwörtlich \"wenn Sie keine Lust haben zu diskutieren, dann halten Sie ...\" - den Rest hat er nicht mehr gesagt, aber ich denke, Sie wissen, wie der Satz vollendet wird! Nun gut, habe ich gedacht, lass ihn ... jeder kann mal einen schlechten Tag haben. Er ist dann um 11:21 Uhr abgefahren - also mit 2 Minuten Verspätung und nach 3 Minuten Pause! Nun gut, habe ich gedacht, Vorgang erledigt - meinen Anschluss in Benrath bekomme ich ja doch noch! Aber dann kam der Gipfel: Auf der Fahrt zum Reisholzer S-Bahnhof hat er sich an seine Leitstelle gewandt und behauptet, dass sich ein Fahrgast wegen 2 Minuten verspäteter Abfahrt beschwerden würde und wird! Das ist eine bodenlose Frechheit! Ich habe mich bei ihm wegen der 5 (!) Minuten beschwert gehabt. Aber nachdem er der Leitstelle eine falsche Aussage von mir hat zukommen lassen und dieser nicht die Wahrheit gesagt hat, was er um 11:18 Uhr durchgesagt hatte, denke ich mir, dass doch eine Beschwerde an Sie über Ihren Fahrer nötig ist, was ich auch hiermit mache. Bitte richten Sie Ihrem Fahrer einen lieben Gruß von mir aus, aber es soll demnächst bei der Wahrheit bleiben, wenn er mit der Leitstelle redet! Oder dieses erst machen, wenn der Fahrgast ausgestiegen ist - dann kann dieser nämlich nicht mithören! Ich gehe davon aus, dass Sie keine Beweisfotos der Zeiten benötigen, da es mir hauptsächlich um den Umgang Ihrers Fahrers mit mir geht. Viele Grüße Kerstin von Kannen",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:52.742Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:53.174Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcgAAA= and subject: WG: [Externe E-Mail]  [202502130806812000]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:53.562Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcgAAA= and subject: WG: [Externe E-Mail]  [202502130806812000]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:53.562Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcfAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130814646173]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:53.568Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "dominique.lauter@web.de",
+  "vorname": "Dominique",
+  "nachname": "Lauter",
+  "message": "Sehr geehrte Damen und Herren, in letzter Zeit fahren auf der Linie U73 vermehrt Kurzzüge. Gerade in den Zeiten wo Schüler und berufstätige Menschen unterwegs sind. Ich steige 3 Haltestellen nach der Endhaltestelle Gerresheim S ein und die Bahn ist schon überfüllt. Da durch dauert das Ein- und Aussteigen deutlich länger wo durch die Bahn dann immer mehr Verspätung aufbaut. Das geht einfach auf dieser Linie und um diese Uhrzeit nicht. Bitte geben Sie dies mal an die Disposition weiter. Ich fahre eigentlich mit dem Auto zur Arbeit und bin gerade nur vorübergehend auf den ÖPNV angewiesen, aber diese Situation gerade in der vollen Bahn, macht auch keine Werbung dafür, dauerhaft auf Bus und Bahn umzusteigen. Mit freundlichen Grüßen Dominique Lauter",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:54.067Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:54.493Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcfAAA= and subject: WG: [Externe E-Mail]  [202502130814646173]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:54.896Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcfAAA= and subject: WG: [Externe E-Mail]  [202502130814646173]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:54.896Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCceAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130816231629]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:54.899Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "c1vongall@yahoo.de",
+  "vorname": "Charlotte",
+  "nachname": "von",
+  "message": "Die Busfahrerin der Linie 779 Richtung Benrath über Garath Ost am 13.2 7:53 Uhr ab Herrmann vom Endt Strasse war extrem unfreundlich und verbal aggressiv",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:55.398Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:55.838Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCceAAA= and subject: WG: [Externe E-Mail]  [202502130816231629]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:56.226Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCceAAA= and subject: WG: [Externe E-Mail]  [202502130816231629]: Anfrage über das Kontaktformular
+[2025-02-14T14:39:56.227Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcdAAA=",
+  "subject": "WG: [Externe E-Mail]  Obdachloser auf Linie 72"
+}
+[2025-02-14T14:39:56.229Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Obdachloser auf Linie 72 Guten Morgen, jeden Morgen schläft in der U72 von Ratingen kommend ein Obdachloser in der Rheinbahn. Es ist der Zug, der um ca. 8:27 am Wehrhahn S Bahnhof ist. Viele Fahrgäste ekeln sich. Vielleicht könnte dort der Sicherheitsdienst mal mitfahren und eingreifen. Beste Grüße Sebastian Juli Sebastian JuliZur Wildkirsche 2140470 Düsseldorf sebastian.juli@icloud.com",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:57.113Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:57.544Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcdAAA= and subject: WG: [Externe E-Mail]  Obdachloser auf Linie 72
+[2025-02-14T14:39:57.990Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcdAAA= and subject: WG: [Externe E-Mail]  Obdachloser auf Linie 72
+[2025-02-14T14:39:57.991Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCccAAA=",
+  "subject": "WG: [Externe E-Mail]  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme"
+}
+[2025-02-14T14:39:57.991Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme Von: Felipe Mang-Ordejón <felipe.mangordejon@icloud.com> Gesendet: Mittwoch, 12. Februar 2025 11:18An: Rheinbahn <Rheinbahn@rheinbahn.de>Betreff:  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme Sehr geehrte Damen und Herren,ich möchte mich über die wiederholten Verspätungen der U72 in Richtung Ratingen Mitte beschweren.Am 12.02.2025 sollte die Bahn planmäßig um 11:08 Uhr ankommen, ist jedoch erst um 11:22 Uhr eingetroffen – also mit 14 Minuten Verspätung. Dies ist kein Einzelfall: Bereits am 11.02.2025 kam die gleiche Bahn erst um 7:52 Uhr statt um 7:38 Uhr. Auch in den letzten zwei Monaten habe ich immer wieder Verspätungen festgestellt.Ich habe bereits mehrfach per E-Mail nachgefragt, erhielt jedoch stets eine nahezu identische Antwort, die den Eindruck erweckt, dass es sich lediglich um eine Standardantwort handelt.Ich bitte daher ausdrücklich um eine individuelle Antwort eines Mitarbeiters, in der mir die konkreten Gründe für diese häufigen Verspätungen genannt werden.Mit freundlichen GrüßenFelipe Mang Ordejón",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:39:58.669Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:39:59.091Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCccAAA= and subject: WG: [Externe E-Mail]  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme
+[2025-02-14T14:39:59.535Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCccAAA= and subject: WG: [Externe E-Mail]  Wiederholte Verspätungen der U72 – Bitte um Stellungnahme
+[2025-02-14T14:39:59.535Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcbAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130723156727]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:39:59.538Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "s.golletz@outlook.de",
+  "vorname": "Sebastian",
+  "nachname": "Golletz",
+  "message": "Liebe Rheinbahn, ich frage mich was los ist. Seit einigen Wochen steige ich um kurz vor 07:00 Uht aus dem Haus und stehe auf der Acker Str. und was sehe ich? Nichts! Paradiesische Ruhe, wo eigentlich Busse und Bahnen fahren sollten. Dass ich um 07:00 Uhr 8 Minuten auf die nächste 9 Richtung Hbf warten soll empfinde ich als Zumutung. In der Zeit fahren dreimal so viele Bahnen im die entgegengesetzte Richtung. Auch der Bus kommt immer später. Wenn über den ÖPNV geschimpft wird, nehme ich euch normalerweise in Schutz, weil es in der Regel gut klappt. Aber in letzter Zeit ist die Verbindung von der Haltestelle Birkenstraße zum HBF(!) wirklich bescheiden. Wenn das in der Stadtmitte einer der größten Städte des Landes in der urbansten Region des Landes nicht klappt, wie soll es im Rest des Landes klappen? Ich bin sicher ihr könnt das besser Mit freundlichen Grüßen Sebastian Golletz",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:00.082Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:00.516Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcbAAA= and subject: WG: [Externe E-Mail]  [202502130723156727]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:00.922Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcbAAA= and subject: WG: [Externe E-Mail]  [202502130723156727]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:00.922Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcaAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502130705274231]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:00.925Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Stephanie.Lichius@stephlic.de",
+  "vorname": "Stephanie",
+  "nachname": "Lichius",
+  "message": "Hallo liebes Rheinbahn-Team. Könnt ihr mir bitte erklären, warum die Verbindung Abfahrt Benrath S um 7:30 Uhr mit dem M1 und dann Umstieg Torfruchstraße in den Bus 733 zum Krankenhaus Gerresheim nicht angezeigt wird? ich hab es jetzt auf alle möglichen Arten versucht. Diese Verbindung finde ich ausschließlich in der App der DB. Das kann doch nicht sein? Besten Gruß Stephanie Lichius",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:01.737Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:02.324Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcaAAA= and subject: WG: [Externe E-Mail]  [202502130705274231]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:02.743Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcaAAA= and subject: WG: [Externe E-Mail]  [202502130705274231]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:02.743Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcZAAA=",
+  "subject": "WG: [Externe E-Mail]  WO IST MEIN BUS ?????"
+}
+[2025-02-14T14:40:02.744Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "WG:  WO IST MEIN BUS ????? -----Ursprüngliche Nachricht----- Von: Leon Peters Gesendet: Mittwoch, 12. Februar 2025 22:26 An: Rheinbahn Betreff:  WO IST MEIN BUS ????? Man zahlt sich dumm und dämlich für eure beschissenen und über teure Tickets und dann seid ihr weder dazu in der Lage pünktlich zu kommen, noch durch irgendwelche Social Media Kanäle über eure Verspätungen oder sogar Ausfälle zu berichten. Das ist an Respektlosigkeit nicht mehr zu übertreffen, schämt euch in Grund und Boden!!!",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:03.245Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:04.038Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcZAAA= and subject: WG: [Externe E-Mail]  WO IST MEIN BUS ?????
+[2025-02-14T14:40:04.414Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcZAAA= and subject: WG: [Externe E-Mail]  WO IST MEIN BUS ?????
+[2025-02-14T14:40:04.414Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcYAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502122242179699]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:04.418Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "C.aksoy200a@gmail.com",
+  "vorname": "Cigdem",
+  "nachname": "Aksoy",
+  "message": "Fährt die Buslinie 743 morgen von Mettmann Jubiläumsplatz nach Erkrath Wagnerstraße um 13:19 Uhr? Ich muss so schnell wie möglich wissen ob der Buslinie 743 nach Erkrath fährt oder nicht ?",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:05.148Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:05.558Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcYAAA= and subject: WG: [Externe E-Mail]  [202502122242179699]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:05.935Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcYAAA= and subject: WG: [Externe E-Mail]  [202502122242179699]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:05.935Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcXAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121617664913]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:05.937Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "Baotam@gmx.de",
+  "vorname": "Tam",
+  "nachname": "Nguyen",
+  "message": "Sehr geehrte Damen und Herren, Ich möchte auf eine gefährliche Straßenverkehrssituation hinweisen, in der ich mich heute mit einem/einer Fahrer:in Ihres Unternehmens befand. Um 15:45 Uhr war ich auf der Theodor Heuss Brücke standeinwärts unterwegs, der/die beteiligte Busfahrer:in (ich glaube, sie war weiblich mit langen lockigen Haaren) stand noch an der Haltestelle Theodor Heuss Brücke und hatte nach rechts geblinkt, zu dem Zeitpunkt war ich bereits neben aufHöhe des Busses, dennoch ist dieser links ausgeschert unter Missachtung des fließenden Verkehrs und hatte einen Unfall in Kauf genommen. Ich musste eine Vollbremsung durchführen, um einen Unfall zu vermeiden. Ich habe hierfür kein Verständnis, dass ein Unfall mit eventueller Beteiligung mehrerer Autos und Verletzung von Personen (mein 5 Jähriger Sohn und ich sowie alle Passagiere im Bus) in Kauf genommen wird. Ich würde mich freuen, wenn dieser Casus intern besprochen wird und eine eventuelle Nachschulung bezüglich umsichtiges Verhalten im Personenförderungsverkehr erfolgen würde. Auf eine Anzeige werde ich hier verzichten. Dennoch sollte dieser Vorfall ernst genommen werden. Ich freue mich auf Ihre Ruckmeldung. Das Kennzeichen war: D NG 8511 Mit freundlichen Grüßen Tam Nguyen",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:06.580Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:07.009Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcXAAA= and subject: WG: [Externe E-Mail]  [202502121617664913]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:07.396Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcXAAA= and subject: WG: [Externe E-Mail]  [202502121617664913]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:07.397Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcWAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121647604686]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:07.401Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "willi-fonk@t-online.de",
+  "vorname": "Willi",
+  "nachname": "Fonk",
+  "message": "Wir möchten von Düsseldorf Itter Auf'm Winkel über Holthausen nach Ratingen Ost und von dort mit dem Buss nach Heiligenhaus Pinner Straße 46. Welches Ticket benötigen wir und wo bekommen wir das Ticket. Über eine Antwort würden wir uns sehr freuen. Mit freundlichen Grüßen Willi Fonk",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:07.979Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:08.384Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcWAAA= and subject: WG: [Externe E-Mail]  [202502121647604686]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:08.934Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcWAAA= and subject: WG: [Externe E-Mail]  [202502121647604686]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:08.934Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcVAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121656778974]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:08.938Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "sebastian.stoewer@gmail.com",
+  "vorname": "Sebastian",
+  "nachname": "Stöwer",
+  "message": "Liebes Team, seit vielen Jahren darf ich mich glücklich schätzen, dass vor meiner Haustür eine Straßenbahnhaltestelle ist, die mich direkt bis zu meiner Arbeit bringt. Seit dem Rheintakt fahren dort konkret die Linien U71 und U83. Das funktioniert meist gut, solange ich in die U71 steige. Die U83 jedoch ist oft nur eine einfache Bahn mit einem Wagon. Gerade zu Stoßzeiten sorgt das regelmäßig für völlig überfüllte Bahnen, Gedrängel und Unwohlsein bei vielen Fahrgästen. Das Ganze würde sich erheblich entspannen, wenn die U83 mit zwei Wagons fahren würde. Aktuell warte ich lieber 10 Minuten mehr, um nicht in diese Bahn steigen zu müssen. Gibt es einen guten Grund dafür, dass sie häufig nur mit einem Wagon fährt? Lässt sich das ändern? Viele Grüße aus Bilk Sebastian Stöwer PS: Das Deutschlandticket muss bleiben.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:09.501Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:09.912Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcVAAA= and subject: WG: [Externe E-Mail]  [202502121656778974]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:10.312Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcVAAA= and subject: WG: [Externe E-Mail]  [202502121656778974]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:10.312Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcUAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121805135754]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:10.314Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "armin.haertel@gmx.de",
+  "vorname": "Armin",
+  "nachname": "Härtel",
+  "message": "Hallo, ein passendes Thema zu meiner Anfrage wird mir im Drop-down-Menu nicht angezeigt, also habe ich wahlfrei \"Qualitätsmängel\" ausgewählt. Ihr solltet vielleicht einen Menupunkt \"Sonstiges\" einpflegen. Ich habe vorhin die VRR-APP geöffnet und dort poppte als erstes eine Streik-Warnmeldung auf, mit dem Hinweis, dass man sich bei \"betreffenden Verkehrsunternehmen\" weiter informieren soll. Nun, ich wohne in Düsseldorf und möchte innerhalb Düsseldorfs per Bus und Bahn mobil sein. Ich habe ein Deutschlandticket. Bin ich nun bei Euch richtig, bzgl. möglicher Streiks im ÖPNV Düsseldorfs? Wo kann ich mich denn eigenständig und rechtzeitig darüber informieren? Gibt es einen Newsletter dazu, eine dedizierte Unterseite auf Eurer Website, die stets über (mögliche) Streiks aktuell informiert, oder anderes? Wie komme ich an diese Infos heran? Ich bin täglich mehrfach darauf angewiesen, per ÖPNV mobil zu sein, weil ich kein Auto (mehr) fahre. Danke für Eure zeitnahe Hilfe und Auskunft im voraus! Schöne Grüße, Armin Härtel",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:10.950Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:11.360Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcUAAA= and subject: WG: [Externe E-Mail]  [202502121805135754]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:11.768Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcUAAA= and subject: WG: [Externe E-Mail]  [202502121805135754]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:11.768Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcTAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121811497513]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:11.771Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "bellaajoian@web.de",
+  "vorname": "",
+  "nachname": "Ajoian",
+  "message": "Wieso fallen immer die M3 Linien aus? Jedes mal wenn sie ich versuche die Verbindung mit der M3 zu nehmen, fallen die Busse aus. Das kann doch nicht wahr sein, dass dieser Bus regelmäßig ausfällt! MfG",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:12.313Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:12.712Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcTAAA= and subject: WG: [Externe E-Mail]  [202502121811497513]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:13.134Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcTAAA= and subject: WG: [Externe E-Mail]  [202502121811497513]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:13.134Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcSAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121831064091]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:13.138Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "sebastian.wittstruck@icloud.com",
+  "vorname": "Sebastian",
+  "nachname": "Wittstruck",
+  "message": "Breite Spurrillen Straßenbahn Guten Tag, können Sie mir mitteilen, wie breit die Spurrillen im Straßenbahn-Netz in Düsseldorf ist? Der Hintergrund meiner Frage ist, wie breit Fahrradreifen sein müssen, dass diese nicht in die Rillen gelangen und hängen bleiben - ein Pilotprojekt zur Absicherung der Rillen wurde offenbar nicht mehr verfolgt? Vielen Dank, S. Wittstruck",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:13.936Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:14.349Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcSAAA= and subject: WG: [Externe E-Mail]  [202502121831064091]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:14.719Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcSAAA= and subject: WG: [Externe E-Mail]  [202502121831064091]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:14.719Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcRAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502121922811804]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:14.726Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "brigittegregor@googlemail.com",
+  "vorname": "Brigitte",
+  "nachname": "Gregor",
+  "message": "Welches Ticket muss ich lösen, wenn ich mit 2 Personen am Samstag mit dem Ticket 2000 A plus von Düsseldorf nach Arnheim Centraal fahre ?",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:15.224Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:15.628Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcRAAA= and subject: WG: [Externe E-Mail]  [202502121922811804]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:16.010Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcRAAA= and subject: WG: [Externe E-Mail]  [202502121922811804]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:16.010Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcQAAA=",
+  "subject": "WG: [Externe E-Mail]  [202502122147920485]: Anfrage über das Kontaktformular"
+}
+[2025-02-14T14:40:16.012Z] [INFO] Extracted fields:
+{
+  "anrede": "Herr",
+  "email": "Adadoganay2109@gmail.com",
+  "vorname": "Ada",
+  "nachname": "Doganay",
+  "message": "Die Rheinbahn App sagte mir dass die Linie 834 Belsenplatz um 21:11 an der Heinrichstrasse ankommen sollte. Als ich aber dort wartete standen dort 40 Minuten und der Bus hat sogar noch länger als 40 Minuten gebraucht. Es ist verständlich, dass um diese Uhrzeit Busse nicht sehr oft fahren aber bei einer oft benutzen Linie wie 834 kann es nicht sein dass man 40 Minuten auf einen Bus warten soll der viel früher kommen sollte. Anscheinend soll der Bus viel früher da gewesen sein… Diese Linie kommt entweder zu spät oder zu früh, bitte lösen sie dieses Problem sodass der Bus wider mal nach Plan fährt",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-14T14:40:16.450Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": false
+}
+[2025-02-14T14:40:16.848Z] [INFO] Email sent to non-category recipients: Kundendialog@rheinbahn.de, Brit.Wildau@rheinbahn.de, daniel@movementor.online, norman@movementor.online with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcQAAA= and subject: WG: [Externe E-Mail]  [202502122147920485]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:17.310Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABHGCcQAAA= and subject: WG: [Externe E-Mail]  [202502122147920485]: Anfrage über das Kontaktformular
+[2025-02-14T14:40:17.310Z] [INFO] Finished processing emails
+[2025-02-17T11:57:31.188Z] [INFO] Processing emails
+{
+  "count": 21
+}
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 1 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 2 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 3 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 4 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 5 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 6 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 7 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 8 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 9 of 21
+[2025-02-17T11:57:31.188Z] [INFO] Processed email 10 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 11 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 12 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 13 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 14 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 15 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 16 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 17 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 18 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 19 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 20 of 21
+[2025-02-17T11:57:31.189Z] [INFO] Processed email 21 of 21
