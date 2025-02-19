@@ -7,7 +7,7 @@ import {
   EmailFilters,
   GeneratedResponse,
 } from '@/types/email';
-import { Loader2, Mail, MailOpen, RefreshCcw } from 'lucide-react';
+import { Loader2, Mail, MailOpen, RefreshCcw, X } from 'lucide-react';
 import { ClientSelector } from '@/components/client-selector';
 import Image from 'next/image';
 
@@ -44,6 +44,7 @@ export function EmailList() {
   const [totalEmails, setTotalEmails] = useState(0);
   const [generation, setGeneration] = useState<string>('');
   const [isGenerating, setIsGenerating] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   useEffect(() => {
     if (filters.client !== 'all') {
@@ -333,7 +334,12 @@ export function EmailList() {
                 <div className="space-y-4">
                   <h3 className="text-lg font-semibold">Attached Images:</h3>
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="relative aspect-video">
+                    <div
+                      className="relative aspect-video cursor-pointer hover:opacity-90 transition-opacity"
+                      onClick={() =>
+                        setSelectedImage('/emailImages/wsw_1.jpeg')
+                      }
+                    >
                       <Image
                         src="/emailImages/wsw_1.jpeg"
                         alt="WSW Image 1"
@@ -341,7 +347,12 @@ export function EmailList() {
                         className="object-contain rounded-lg"
                       />
                     </div>
-                    <div className="relative aspect-video">
+                    <div
+                      className="relative aspect-video cursor-pointer hover:opacity-90 transition-opacity"
+                      onClick={() =>
+                        setSelectedImage('/emailImages/wsw_2.jpeg')
+                      }
+                    >
                       <Image
                         src="/emailImages/wsw_2.jpeg"
                         alt="WSW Image 2"
@@ -401,6 +412,31 @@ export function EmailList() {
           </div>
         )}
       </div>
+
+      {/* Image Preview Modal */}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center"
+          onClick={() => setSelectedImage(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white hover:text-gray-300 p-2"
+            onClick={() => setSelectedImage(null)}
+          >
+            <X className="w-8 h-8" />
+          </button>
+          <div className="relative w-[90vw] h-[90vh]">
+            <Image
+              src={selectedImage}
+              alt="Full size preview"
+              fill
+              className="object-contain"
+              quality={100}
+              priority
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
