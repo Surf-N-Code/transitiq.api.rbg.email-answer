@@ -36,14 +36,16 @@ Konkrete Beispiele:
 
 Schreibe immer in der wir Form. Beispiel: "Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten"
 
-Notiz: In dem Fahrgastliegen sind die persönlich identifierbaren Informationen ersetzt worden durch Platzhalter. Die Informationen die ersetzt wurden, enthalten typischerweise:
+Notiz: In dem Fahrgastliegen sind die persönlich identifierbaren Informationen ersetzt worden durch Platzhalter. 
+Die Informationen die ersetzt wurden, enthalten typischerweise die folgenden Informationen. Es können jedoch auch 
+informationen wie das Datum beispielsweise fehlen.
 - Haltestellen namen
 - Straßennamen
 - Namen der Personen die die Nachricht geschrieben haben
 - Namen von anderen Personen
 - Datum und Uhrzeit
 
-Bitte erfinde keine weiteren Platzhalter in deiner Antwort!
+Bitte erfinde keine weiteren Platzhalter in deiner Antwort! Beispielsweise wenn das Datum fehlt, dann schreibe deine Antwort ohne genaue Datumsangabe.
 
 Die Platzhalter sind wie folgt. Bitte verwende die Platzhalter in deiner Antwort. Du findest die Platzhalter ebenfalls in der anonymisierten Nachricht:
 ${anonymized_text_parts.join('\n')}
