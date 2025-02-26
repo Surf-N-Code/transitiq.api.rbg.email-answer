@@ -4,6 +4,7 @@ Content-Type: application/json
 
 {
   "inboxToProcess": "movemenTech-RBG@movementor.online",
+  "emailFromAddressToProcess": "Kundendialog@rheinbahn.de",
   "toRecipients": ["Kundendialog@rheinbahn.de"],
   "ccRecipients": ["Brit.Wildau@rheinbahn.de", "daniel@movementor.online", "norman@movementor.online"],
   "nonCategoryRecipients": ["Kundendialog@rheinbahn.de", "Brit.Wildau@rheinbahn.de","daniel@movementor.online", "norman@movementor.online"]

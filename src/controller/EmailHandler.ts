@@ -20,7 +20,7 @@ export class EmailHandler {
   private headers: any;
   public accessToken: string;
   private inboxToProcess: string;
-
+  private emailFromAddressToProcess: string;
   constructor() {
     this.GRAPH_API_ENDPOINT = 'https://graph.microsoft.com/v1.0';
     this.msalClient = new msal.ConfidentialClientApplication({
@@ -35,6 +35,7 @@ export class EmailHandler {
       'Content-Type': 'application/json',
     };
     this.inboxToProcess = '';
+    this.emailFromAddressToProcess = '';
     this.initializeToken();
   }
 
@@ -45,6 +46,10 @@ export class EmailHandler {
 
   public setInboxToProcess(inboxToProcess: string) {
     this.inboxToProcess = inboxToProcess;
+  }
+
+  public setEmailFromAddressToProcess(emailFromAddressToProcess: string) {
+    this.emailFromAddressToProcess = emailFromAddressToProcess;
   }
 
   async getAccessToken() {
@@ -101,6 +106,15 @@ export class EmailHandler {
               logInfo('Skipping self-sent email', {
                 totalProcessed: totalEmails,
               });
+              continue;
+            }
+
+            if (
+              email.from.emailAddress.address !== this.emailFromAddressToProcess
+            ) {
+              logInfo(
+                `Skipping email as not sent from ${this.emailFromAddressToProcess}`
+              );
               continue;
             }
 

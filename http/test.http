@@ -4,6 +4,7 @@ Content-Type: application/json
 
 {
   "inboxToProcess": "movemenTech-RBG@movementor.online",
+  "emailFromAddressToProcess": "Kundendialog@rheinbahn.de",
   "toRecipients": ["ndilthey@gmail.com"],
   "nonCategoryRecipients": ["ndilthey@gmail.com"]
 }

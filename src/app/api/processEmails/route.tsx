@@ -37,6 +37,7 @@ export async function POST(request: Request) {
   try {
     const {
       inboxToProcess,
+      emailFromAddressToProcess,
       toRecipients,
       ccRecipients,
       nonCategoryRecipients,
@@ -55,6 +56,7 @@ export async function POST(request: Request) {
 
     await handleRequest(
       inboxToProcess,
+      emailFromAddressToProcess,
       toRecipients,
       ccRecipients,
       nonCategoryRecipients
@@ -71,6 +73,7 @@ export async function POST(request: Request) {
 
 async function handleRequest(
   inboxToProcess: string,
+  emailFromAddressToProcess: string,
   toRecipients: string[],
   ccRecipients?: string[],
   nonCategoryRecipients?: string[]
@@ -78,6 +81,7 @@ async function handleRequest(
   const emailHandler = new EmailHandler();
   await emailHandler.initializeToken();
   emailHandler.setInboxToProcess(inboxToProcess);
+  emailHandler.setEmailFromAddressToProcess(emailFromAddressToProcess);
   const emails = await emailHandler.crawlUnreadEmails(true);
   for (const email of emails) {
     try {
