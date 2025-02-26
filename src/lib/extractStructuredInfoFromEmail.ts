@@ -18,7 +18,7 @@ export function extractStructuredInfoFromEmail(
   textToAnalyze: string
 ): EmailFields {
   try {
-    fs.writeFileSync('unedited_text.txt', textToAnalyze);
+    // fs.writeFileSync('unedited_text.txt', textToAnalyze);
     const $ = cheerio.load(textToAnalyze);
 
     // Remove script and style tags
