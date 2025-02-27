@@ -11,7 +11,7 @@ import { AiAnswerGenerationError } from '@/exceptions/AiAnswerGenerationError';
 
 dotenv.config();
 
-const askForConfirmation = async (
+export const askForConfirmation = async (
   inboxToProcess: string,
   toRecipients: string[],
   ccRecipients: string[],

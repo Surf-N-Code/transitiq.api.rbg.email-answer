@@ -1,12 +1,28 @@
+export type Client = 'rbg' | 'transitiq';
+
 export interface Email {
   id: string;
-  sender: string;
   subject: string;
-  text: string;
-  timestamp: string;
+  body: string;
+  sender: string;
+  receivedAt: string;
+  client: Client;
   isRead: boolean;
-  client: string;
-  fields: { [key: string]: string };
+  classification?: string;
+}
+
+export interface EmailsResponse {
+  emails: Email[];
+  totalCount: number;
+  page: number;
+  pageSize: number;
+}
+
+export interface EmailsRequest {
+  client: Client | 'all';
+  unreadOnly: boolean;
+  page: number;
+  pageSize: number;
 }
 
 export interface CrawledEmail {
@@ -44,8 +60,6 @@ export interface EmailFields {
   stadt: string;
   datum: string;
 }
-
-export type Client = 'rheinbahn' | 'wsw';
 
 export interface EmailResponse {
   emails: Email[];
