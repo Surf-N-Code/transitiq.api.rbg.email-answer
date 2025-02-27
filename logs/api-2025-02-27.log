@@ -1,0 +1,235 @@
+[2025-02-27T12:23:20.737Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-27T12:23:20.737Z] [INFO] Processed email 1 of 1
+[2025-02-27T12:23:20.737Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABQQg6MAAA=",
+  "subject": "Rückmeldung Kategorie: Beschwerde stehen gelassen -> Kundenbeschwerde"
+}
+[2025-02-27T12:23:20.760Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "",
+  "vorname": "",
+  "nachname": "",
+  "message": "Hallo,\nbei der untenstehenden Beschwerde wurde der Name nicht übernommen. Bitte daher um Korrektur. \nMit freundlichen Grüßen,\nFinja Paula Below\n__________________________\ni.A. Finja Paula Below\nAuszubildende Industriekauffrau\nTel: +49 211 582 1956\nE-Mail: Kundendialog@rheinbahn.de\nKategorie:\nBeschwerde stehen gelassen\nKunden E-Mail: mariamchirina@gmail.com\nKunden Beschwerde:\nLaut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.\nKI Antwort:\nSehr geehrter Fahrgast,\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung zu informieren. Wir bedauern sehr, dass der Busfahrer nicht an der von Ihnen angegebenen Haltestelle angehalten hat und einfach durchgefahren ist.\nEs tut uns leid, dass Sie diese Unannehmlichkeiten erfahren mussten. Unser Fahrpersonal ist verpflichtet, an allen Haltestellen zu halten, an denen Fahrgäste sichtbar warten. Mögliche Ursachen für das Verhalten des Fahrpersonals könnten ein Missverständnis oder eine eingeschränkte Sicht auf wartende Personen sein. Wir werden den Vorfall intern prüfen und dafür sorgen, dass unser Fahrpersonal nochmals auf die Wichtigkeit der zuverlässigen Beförderung unserer Fahrgäste hingewiesen wird.\nIhre Rückmeldung ist für uns äußerst wertvoll, da sie uns dabei hilft, unsere Servicequalität kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass wir Ihnen bei Ihrer nächsten Fahrt ein positives Erlebnis bieten können.\nFür weitere Fragen oder Anmerkungen stehen wir Ihnen gerne zur Verfügung.\nFreundliche Grüße Ihre Rheinbahn \nRheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf\n______________________________________________________\nAnnette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und Finanzvorständin\nMichael Richarz - Vorstand Technik und Betrieb\nVorsitzender des Aufsichtsrats: Rolf Tups\nSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562\nDatenschutz:\nIm Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.\nDie Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.\nDie personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.\nEin lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "linie": "",
+  "haltestelle": "",
+  "richtung": "",
+  "stadt": "",
+  "datum": ""
+}
+[2025-02-27T12:23:22.038Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-27T12:23:22.221Z] [INFO] Anonymized text:
+{
+  "text": "Hallo,\nbei der untenstehenden Beschwerde wurde der Name nicht übernommen. Bitte daher um Korrektur. \nMit freundlichen Grüßen,\nFinja Paula Below\n__________________________\ni.A. Finja Paula Below\nAuszubildende Industriekauffrau\nTel: +49 211 582 1956\nE-Mail: Kundendialog@rheinbahn.de\nKategorie:\nBeschwerde stehen gelassen\nKunden E-Mail: mariamchirina@gmail.com\nKunden Beschwerde:\nLaut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.\nKI Antwort:\nSehr geehrter Fahrgast,\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung zu informieren. Wir bedauern sehr, dass der Busfahrer nicht an der von Ihnen angegebenen Haltestelle angehalten hat und einfach durchgefahren ist.\nEs tut uns leid, dass Sie diese Unannehmlichkeiten erfahren mussten. Unser Fahrpersonal ist verpflichtet, an allen Haltestellen zu halten, an denen Fahrgäste sichtbar warten. Mögliche Ursachen für das Verhalten des Fahrpersonals könnten ein Missverständnis oder eine eingeschränkte Sicht auf wartende Personen sein. Wir werden den Vorfall intern prüfen und dafür sorgen, dass unser Fahrpersonal nochmals auf die Wichtigkeit der zuverlässigen Beförderung unserer Fahrgäste hingewiesen wird.\nIhre Rückmeldung ist für uns äußerst wertvoll, da sie uns dabei hilft, unsere Servicequalität kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass wir Ihnen bei Ihrer nächsten Fahrt ein positives Erlebnis bieten können.\nFür weitere Fragen oder Anmerkungen stehen wir Ihnen gerne zur Verfügung.\nFreundliche Grüße Ihre Rheinbahn \nRheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf\n______________________________________________________\nAnnette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und Finanzvorständin\nMichael Richarz - Vorstand Technik und Betrieb\nVorsitzender des Aufsichtsrats: Rolf Tups\nSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562\nDatenschutz:\nIm Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.\nDie Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.\nDie personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.\nEin lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "anonymized_text": "Hallo,\nbei der untenstehenden Beschwerde wurde der Name nicht übernommen. Bitte daher um Korrektur. \nMit freundlichen Grüßen,\n[ANON_PERSON_5]\n__________________________\ni.A. [ANON_PERSON_4]\nAuszubildende Industriekauffrau\n[ANON_LOCATION_7]: +49 211 582 1956\nE-Mail: Kundendialog@rheinbahn.de\nKategorie:\nBeschwerde stehen gelassen\nKunden E-Mail: mariamchirina@gmail.com\nKunden Beschwerde:\nLaut [ANON_NAME_3] hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.\n[ANON_NAME_2] Antwort:\nSehr geehrter Fahrgast,\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung zu informieren. Wir bedauern sehr, dass der Busfahrer nicht an der von Ihnen angegebenen Haltestelle angehalten hat und einfach durchgefahren ist.\nEs tut uns leid, dass Sie diese Unannehmlichkeiten erfahren mussten. Unser Fahrpersonal ist verpflichtet, an allen Haltestellen zu halten, an denen Fahrgäste sichtbar warten. Mögliche Ursachen für das Verhalten des Fahrpersonals könnten ein Missverständnis oder eine eingeschränkte Sicht auf wartende Personen sein. Wir werden den Vorfall intern prüfen und dafür sorgen, dass unser Fahrpersonal nochmals auf die Wichtigkeit der zuverlässigen Beförderung unserer Fahrgäste hingewiesen wird.\nIhre Rückmeldung ist für uns äußerst wertvoll, da sie uns dabei hilft, unsere Servicequalität kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass wir Ihnen bei Ihrer nächsten Fahrt ein positives Erlebnis bieten können.\nFür weitere Fragen oder Anmerkungen stehen wir Ihnen gerne zur Verfügung.\nFreundliche Grüße Ihre Rheinbahn \nRheinbahn AG | [ANON_LOCATION_6] 42 | 40231 [ANON_LOCATION_5] | ([ANON_LOCATION_4]) [ANON_LOCATION_3]\n______________________________________________________\n[ANON_PERSON_3] - Sprecherin des Vorstands, Arbeitsdirektorin und [ANON_PERSON_2] - Vorstand Technik und Betrieb\nVorsitzender des Aufsichtsrats: [ANON_PERSON_1]\nSitz der [ANON_NAME_1] [ANON_LOCATION_2], [ANON_LOCATION_1] - HRB 562\nDatenschutz:\nIm Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.\nDie Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.\nDie personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.\nEin lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "replacements": {
+    "persons": [
+      {
+        "[ANON_PERSON_1]": "Rolf Tups"
+      },
+      {
+        "[ANON_PERSON_2]": "Finanzvorständin\nMichael Richarz"
+      },
+      {
+        "[ANON_PERSON_3]": "Annette Grabbe"
+      },
+      {
+        "[ANON_PERSON_4]": "Finja Paula Below"
+      },
+      {
+        "[ANON_PERSON_5]": "Finja Paula Below"
+      }
+    ],
+    "locations": [
+      {
+        "[ANON_LOCATION_1]": "Amtsgericht Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_2]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_3]": "Lierenfeld Btf"
+      },
+      {
+        "[ANON_LOCATION_4]": "H"
+      },
+      {
+        "[ANON_LOCATION_5]": "Düsseldorf"
+      },
+      {
+        "[ANON_LOCATION_6]": "Lierenfelder Str."
+      },
+      {
+        "[ANON_LOCATION_7]": "Tel"
+      }
+    ],
+    "names": [
+      {
+        "[ANON_NAME_1]": "Gesellschaft:"
+      },
+      {
+        "[ANON_NAME_2]": "KI"
+      },
+      {
+        "[ANON_NAME_3]": "KD"
+      }
+    ],
+    "dates": [],
+    "times": []
+  }
+}
+[2025-02-27T12:23:28.933Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABQQg6MAAA=",
+  "subject": "Rückmeldung Kategorie: Beschwerde stehen gelassen -> Kundenbeschwerde"
+}
+[2025-02-27T12:23:28.933Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABQQg6MAAA=",
+  "subject": "Rückmeldung Kategorie: Beschwerde stehen gelassen -> Kundenbeschwerde",
+  "userMessage": "Hallo,\nbei der untenstehenden Beschwerde wurde der Name nicht übernommen. Bitte daher um Korrektur. \nMit freundlichen Grüßen,\nFinja Paula Below\n__________________________\ni.A. Finja Paula Below\nAuszubildende Industriekauffrau\nTel: +49 211 582 1956\nE-Mail: Kundendialog@rheinbahn.de\nKategorie:\nBeschwerde stehen gelassen\nKunden E-Mail: mariamchirina@gmail.com\nKunden Beschwerde:\nLaut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.\nKI Antwort:\nSehr geehrter Fahrgast,\nvielen Dank, dass Sie sich die Zeit genommen haben, uns über Ihre Erfahrung zu informieren. Wir bedauern sehr, dass der Busfahrer nicht an der von Ihnen angegebenen Haltestelle angehalten hat und einfach durchgefahren ist.\nEs tut uns leid, dass Sie diese Unannehmlichkeiten erfahren mussten. Unser Fahrpersonal ist verpflichtet, an allen Haltestellen zu halten, an denen Fahrgäste sichtbar warten. Mögliche Ursachen für das Verhalten des Fahrpersonals könnten ein Missverständnis oder eine eingeschränkte Sicht auf wartende Personen sein. Wir werden den Vorfall intern prüfen und dafür sorgen, dass unser Fahrpersonal nochmals auf die Wichtigkeit der zuverlässigen Beförderung unserer Fahrgäste hingewiesen wird.\nIhre Rückmeldung ist für uns äußerst wertvoll, da sie uns dabei hilft, unsere Servicequalität kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und hoffen, dass wir Ihnen bei Ihrer nächsten Fahrt ein positives Erlebnis bieten können.\nFür weitere Fragen oder Anmerkungen stehen wir Ihnen gerne zur Verfügung.\nFreundliche Grüße Ihre Rheinbahn \nRheinbahn AG | Lierenfelder Str. 42 | 40231 Düsseldorf | (H) Lierenfeld Btf\n______________________________________________________\nAnnette Grabbe - Sprecherin des Vorstands, Arbeitsdirektorin und Finanzvorständin\nMichael Richarz - Vorstand Technik und Betrieb\nVorsitzender des Aufsichtsrats: Rolf Tups\nSitz der Gesellschaft: Düsseldorf, Amtsgericht Düsseldorf - HRB 562\nDatenschutz:\nIm Rahmen eines geschäftlichen Austauschs haben wir Ihre Kontaktdaten elektronisch gespeichert, um in Zukunft mit Ihnen in Kontakt treten zu können.\nDie Rheinbahn AG, als Verantwortliche für die Erhebung und Verarbeitung Ihrer Daten, nimmt den Schutz Ihrer persönlichen Informationen sehr ernst.\nDie personenbezogenen Angaben werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie der Datenschutzerklärung behandelt.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.\nEin lückenloser Schutz Ihrer Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über die Situation informiert haben. Wir bedauern zutiefst, dass der Bus an der von Ihnen angegebenen Haltestelle nicht angehalten hat und Sie deshalb stehen gelassen wurden. Solche Vorkommnisse sind äußerst bedauerlich und entsprechen nicht unserem Serviceverständnis.\n\nEs kann verschiedene Gründe geben, warum unser Fahrpersonal nicht wie vorgesehen an einer Haltestelle hält. Ein Missverständnis, eine eingeschränkte Sicht auf wartende Fahrgäste oder auch technische Probleme können dazu führen, dass Haltestellen nicht ordnungsgemäß bedient werden. Dennoch ist es unser Anspruch, solche Vorfälle zu vermeiden und sicherzustellen, dass unsere Fahrgäste zuverlässig und sicher an ihr Ziel gelangen.\n\nSeien Sie versichert, wir werden den Vorfall umfassend intern prüfen und unsere Mitarbeitenden im Fahrdienst nochmals für die Wichtigkeit der zuverlässigen Unterstützung und Beförderung unserer Fahrgäste sensibilisieren.\n\nIhre Rückmeldung ist für uns von großer Bedeutung, da sie uns hilft, unsere Dienstleistungen kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und nehmen Ihr Feedback sehr ernst.\n\nWir hoffen, Ihnen bei Ihrer nächsten Fahrt ein angenehmes Erlebnis bieten zu können und stehen Ihnen für weitere Fragen oder Anmerkungen selbstverständlich gerne zur Verfügung.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über die Situation informiert haben. Wir bedauern zutiefst, dass der Bus an der von Ihnen angegebenen Haltestelle nicht angehalten hat und Sie deshalb stehen gelassen wurden. Solche Vorkommnisse sind äußerst bedauerlich und entsprechen nicht unserem Serviceverständnis.\n\nEs kann verschiedene Gründe geben, warum unser Fahrpersonal nicht wie vorgesehen an einer Haltestelle hält. Ein Missverständnis, eine eingeschränkte Sicht auf wartende Fahrgäste oder auch technische Probleme können dazu führen, dass Haltestellen nicht ordnungsgemäß bedient werden. Dennoch ist es unser Anspruch, solche Vorfälle zu vermeiden und sicherzustellen, dass unsere Fahrgäste zuverlässig und sicher an ihr Ziel gelangen.\n\nSeien Sie versichert, wir werden den Vorfall umfassend intern prüfen und unsere Mitarbeitenden im Fahrdienst nochmals für die Wichtigkeit der zuverlässigen Unterstützung und Beförderung unserer Fahrgäste sensibilisieren.\n\nIhre Rückmeldung ist für uns von großer Bedeutung, da sie uns hilft, unsere Dienstleistungen kontinuierlich zu verbessern. Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten und nehmen Ihr Feedback sehr ernst.\n\nWir hoffen, Ihnen bei Ihrer nächsten Fahrt ein angenehmes Erlebnis bieten zu können und stehen Ihnen für weitere Fragen oder Anmerkungen selbstverständlich gerne zur Verfügung.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-27T12:23:29.713Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABQQg6MAAA=",
+  "subject": "Rückmeldung Kategorie: Beschwerde stehen gelassen -> Kundenbeschwerde"
+}
+[2025-02-27T12:23:30.167Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABQQg6MAAA= and subject: Rückmeldung Kategorie: Beschwerde stehen gelassen -> Kundenbeschwerde
+[2025-02-27T12:23:30.167Z] [INFO] Finished processing emails
+[2025-02-27T12:27:49.809Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-27T12:27:49.811Z] [INFO] Processed email 1 of 1
+[2025-02-27T12:27:49.812Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA=",
+  "subject": "Kundenbeschwerde"
+}
+[2025-02-27T12:27:49.831Z] [INFO] Extracted fields:
+{
+  "anrede": "",
+  "email": "mariamchirina@gmail.com",
+  "vorname": "Aurelie",
+  "nachname": "Mvondo",
+  "message": "Laut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.",
+  "linie": "SB50",
+  "haltestelle": "Haan Windhövel",
+  "richtung": "D-Rheinterrasse",
+  "stadt": "Haan",
+  "datum": "2025-02-18, 15:37"
+}
+[2025-02-27T12:27:50.570Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-27T12:27:50.655Z] [INFO] Anonymized text:
+{
+  "text": "Laut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.",
+  "anonymized_text": "Laut [ANON_NAME_1] hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.",
+  "replacements": {
+    "persons": [],
+    "locations": [],
+    "names": [
+      {
+        "[ANON_NAME_1]": "KD"
+      }
+    ],
+    "dates": [],
+    "times": []
+  }
+}
+[2025-02-27T12:27:56.164Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA=",
+  "subject": "Kundenbeschwerde"
+}
+[2025-02-27T12:27:56.164Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA=",
+  "subject": "Kundenbeschwerde",
+  "userMessage": "Laut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.",
+  "aiResponse": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mitgeteilt haben. Wir bedauern es sehr, dass der Busfahrer nicht angehalten hat und einfach weitergefahren ist. Wir verstehen, dass eine solche Situation ärgerlich und frustrierend für Sie sein muss.\n\nNormalerweise halten unsere Fahrzeuge an allen Haltestellen, an denen Fahrgäste warten. Eine Ausnahme besteht nur, wenn das Fahrzeug voll besetzt ist und keine weiteren Fahrgäste mehr aufnehmen kann. In solchen Fällen ist es dem Fahrpersonal gestattet, vorbeizufahren, um Diskussionen an der Haltestelle zu vermeiden. Ebenso kann ein technischer Defekt oder eine missverständliche Kommunikation zu solch einem Vorfall führen. In jedem Fall tut es uns leid, dass Sie dadurch Unannehmlichkeiten erfahren haben.\n\nBitte seien Sie versichert, dass wir diesen Vorfall intern prüfen und unser Fahrpersonal nochmals schulen werden, damit solche unangenehmen Situationen in Zukunft vermieden werden. Ihr Feedback ist äußerst wertvoll für uns und hilft uns, unseren Service kontinuierlich zu verbessern.\n\nWir hoffen, dass Sie uns auch in Zukunft die Gelegenheit geben, Ihnen bei Ihrer nächsten Fahrt ein positives Erlebnis zu bieten.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrter Fahrgast,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mitgeteilt haben. Wir bedauern es sehr, dass der Busfahrer nicht angehalten hat und einfach weitergefahren ist. Wir verstehen, dass eine solche Situation ärgerlich und frustrierend für Sie sein muss.\n\nNormalerweise halten unsere Fahrzeuge an allen Haltestellen, an denen Fahrgäste warten. Eine Ausnahme besteht nur, wenn das Fahrzeug voll besetzt ist und keine weiteren Fahrgäste mehr aufnehmen kann. In solchen Fällen ist es dem Fahrpersonal gestattet, vorbeizufahren, um Diskussionen an der Haltestelle zu vermeiden. Ebenso kann ein technischer Defekt oder eine missverständliche Kommunikation zu solch einem Vorfall führen. In jedem Fall tut es uns leid, dass Sie dadurch Unannehmlichkeiten erfahren haben.\n\nBitte seien Sie versichert, dass wir diesen Vorfall intern prüfen und unser Fahrpersonal nochmals schulen werden, damit solche unangenehmen Situationen in Zukunft vermieden werden. Ihr Feedback ist äußerst wertvoll für uns und hilft uns, unseren Service kontinuierlich zu verbessern.\n\nWir hoffen, dass Sie uns auch in Zukunft die Gelegenheit geben, Ihnen bei Ihrer nächsten Fahrt ein positives Erlebnis zu bieten.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-27T12:27:56.720Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA=",
+  "subject": "Kundenbeschwerde"
+}
+[2025-02-27T12:27:57.130Z] [INFO] Email marked as read with id: AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA= and subject: Kundenbeschwerde
+[2025-02-27T12:27:57.131Z] [INFO] Finished processing emails
+[2025-02-27T12:30:42.574Z] [INFO] Processing emails
+{
+  "count": 1
+}
+[2025-02-27T12:30:42.574Z] [INFO] Processed email 1 of 1
+[2025-02-27T12:30:42.574Z] [INFO] Start processing email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA=",
+  "subject": "Kundenbeschwerde"
+}
+[2025-02-27T12:30:42.591Z] [INFO] Extracted fields:
+{
+  "anrede": "Frau",
+  "email": "mariamchirina@gmail.com",
+  "vorname": "Aurelie",
+  "nachname": "Mvondo",
+  "message": "Laut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.",
+  "linie": "SB50",
+  "haltestelle": "Haan Windhövel",
+  "richtung": "D-Rheinterrasse",
+  "stadt": "Haan",
+  "datum": "2025-02-18, 15:37"
+}
+[2025-02-27T12:30:43.893Z] [INFO] Is complaint about being left behind:
+{
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-27T12:30:43.993Z] [INFO] Anonymized text:
+{
+  "text": "Laut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.",
+  "anonymized_text": "Laut [ANON_NAME_1] hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.",
+  "replacements": {
+    "persons": [],
+    "locations": [],
+    "names": [
+      {
+        "[ANON_NAME_1]": "KD"
+      }
+    ],
+    "dates": [],
+    "times": []
+  }
+}
+[2025-02-27T12:30:49.905Z] [INFO] Ai response generated for email
+{
+  "email": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA=",
+  "subject": "Kundenbeschwerde"
+}
+[2025-02-27T12:30:49.906Z] [INFO] Deanonymized email reply:
+{
+  "emailId": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA=",
+  "subject": "Kundenbeschwerde",
+  "userMessage": "Laut KD hat der Busfahrer nicht angehalten, er ist einfach durchgefahren.",
+  "aiResponse": "Sehr geehrte Frau [NAMEPLACEHOLDER],\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit unserem Fahrpersonal informiert haben. Wir bedauern aufrichtig, dass der Bus einfach vorbeigefahren ist, ohne an der Haltestelle zu halten und Fahrgäste aufzunehmen. Wir verstehen, wie frustrierend und ärgerlich dies für Sie gewesen sein muss.\n\nNormalerweise halten unsere Busse und Bahnen selbstverständlich an jeder Haltestelle, an der Fahrgäste sichtbar warten. Wir möchten uns ausdrücklich für die entstandenen Unannehmlichkeiten und die zusätzliche Wartezeit entschuldigen. Es könnte verschiedene Gründe geben, warum das Fahrzeug nicht angehalten hat, wie beispielsweise eine volle Belegung oder ein Missverständnis hinsichtlich der Haltepflicht. Solche Situationen sollten jedoch nicht vorkommen.\n\nIhr Feedback ist für uns sehr wertvoll, da es uns hilft, ähnliche Vorfälle in Zukunft zu vermeiden und unseren Service laufend zu verbessern. Wir werden den Vorfall intern prüfen und unser Fahrpersonal nochmals dafür sensibilisieren, wie wichtig die zuverlässige und freundliche Beförderung unserer Fahrgäste ist.\n\nWir hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrem nächsten Fahrterlebnis ein positives Serviceerlebnis zu bieten.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "deAnonymizedEmailReply": "Sehr geehrte Frau Mvondo,\n\nvielen Dank, dass Sie uns über Ihre Erfahrung mit unserem Fahrpersonal informiert haben. Wir bedauern aufrichtig, dass der Bus einfach vorbeigefahren ist, ohne an der Haltestelle zu halten und Fahrgäste aufzunehmen. Wir verstehen, wie frustrierend und ärgerlich dies für Sie gewesen sein muss.\n\nNormalerweise halten unsere Busse und Bahnen selbstverständlich an jeder Haltestelle, an der Fahrgäste sichtbar warten. Wir möchten uns ausdrücklich für die entstandenen Unannehmlichkeiten und die zusätzliche Wartezeit entschuldigen. Es könnte verschiedene Gründe geben, warum das Fahrzeug nicht angehalten hat, wie beispielsweise eine volle Belegung oder ein Missverständnis hinsichtlich der Haltepflicht. Solche Situationen sollten jedoch nicht vorkommen.\n\nIhr Feedback ist für uns sehr wertvoll, da es uns hilft, ähnliche Vorfälle in Zukunft zu vermeiden und unseren Service laufend zu verbessern. Wir werden den Vorfall intern prüfen und unser Fahrpersonal nochmals dafür sensibilisieren, wie wichtig die zuverlässige und freundliche Beförderung unserer Fahrgäste ist.\n\nWir hoffen, dass Sie uns die Möglichkeit geben, Ihnen bei Ihrem nächsten Fahrterlebnis ein positives Serviceerlebnis zu bieten.\n\nFreundliche Grüße Ihre Rheinbahn",
+  "isComplaintAboutBeingLeftBehind": true
+}
+[2025-02-27T12:30:50.496Z] [INFO] Email response sent successfully.
+{
+  "id": "AAMkADhiODRiMTU2LTllZjItNDdkZC1iYmU3LTJlZjlmNGFiNzEwMQBGAAAAAACw8vG0No7qSaVCXuiJIeBjBwCEM4NFCrV4T6QyoXZQeTVgAAAAAAEMAACEM4NFCrV4T6QyoXZQeTVgAABO35JoAAA=",
+  "subject": "Kundenbeschwerde"
+}
+[2025-02-27T12:30:50.496Z] [INFO] Finished processing emails

@@ -1,7 +1,8 @@
-import { CrawledEmail, EmailFields } from '@/types/email';
+import { CrawledEmail } from '@/types/email';
 import { logError, logInfo } from '../lib/logger';
 const msal = require('@azure/msal-node');
 const axios = require('axios');
+const fs = require('fs');
 
 function cleanEmailContent(content: string): string {
   return content
@@ -102,6 +103,8 @@ export class EmailHandler {
           logInfo('Processing emails', { count: responseEmails.length });
 
           for (const email of responseEmails) {
+            //write email body to file: unedited_text.txt
+            fs.writeFileSync('unedited_text.txt', email.body.content);
             if (email.from.emailAddress.address === this.inboxToProcess) {
               logInfo('Skipping self-sent email', {
                 totalProcessed: totalEmails,

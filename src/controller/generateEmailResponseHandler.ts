@@ -1,4 +1,4 @@
-import { anonymizeText, classifyText, aiResponse } from '@/app/actions/actions';
+import { anonymizeText, classifyText, aiResponse } from '@/actions';
 import { extractStructuredInfoFromEmail } from '@/lib/extractStructuredInfoFromEmail';
 import { logError, logInfo } from '@/lib/logger';
 import { CrawledEmail, EmailFields } from '@/types/email';
@@ -23,7 +23,7 @@ export async function generateEmailResponse(
     id: email.id,
     from: email.from.emailAddress.address,
     subject: email.subject,
-    receivedDateTime: email.receivedDateTime,
+    receivedDateTime: email.timestamp,
   };
 
   let extractedFields: EmailFields;

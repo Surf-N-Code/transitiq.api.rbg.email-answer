@@ -100,6 +100,7 @@ export function extractStructuredInfoFromEmail(
           '___________________________',
         ],
         fieldRecognitionPatterns: {
+          anrede: /Anrede:\s*([\s\S]*?)(?=\s*Titel:)/i,
           email: /E_Mail:\s*([^\n]+?)(?=\s*\n)/i,
           vorname: /Vorname:\s*([\s\S]*?)(?=\s*Nachname:)/i,
           nachname: /Nachname:\s*([\s\S]*?)(?=\s*Geburtsdatum:)/i,

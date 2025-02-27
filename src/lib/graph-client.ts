@@ -10,35 +10,60 @@ interface EmailsQueryParams {
 }
 
 export class GraphClient {
-  private client: Client;
-  private msalClient: ConfidentialClientApplication;
+  private client: Client | null = null;
+  private msalClient: ConfidentialClientApplication | null = null;
+  private readonly inboxToProcess: string;
 
-  constructor() {
-    this.msalClient = new ConfidentialClientApplication({
-      auth: {
-        clientId: process.env.AZURE_CLIENT_ID!,
-        clientSecret: process.env.AZURE_CLIENT_SECRET!,
-        authority: `https://login.microsoftonline.com/${process.env.AZURE_TENANT_ID}`,
-      },
-    });
+  constructor(inboxToProcess: string) {
+    if (!inboxToProcess) {
+      throw new Error('inboxToProcess parameter is required');
+    }
+    this.inboxToProcess = inboxToProcess;
+  }
 
-    const authProvider: AuthProvider = async (done) => {
-      try {
-        const result = await this.msalClient.acquireTokenByClientCredential({
-          scopes: ['https://graph.microsoft.com/.default'],
-        });
-        done(null, result?.accessToken || null);
-      } catch (error) {
-        done(error as Error, null);
+  private async initialize() {
+    if (!this.client) {
+      const clientId = process.env.AZURE_CLIENT_ID;
+      const clientSecret = process.env.AZURE_CLIENT_SECRET;
+      const tenantId = process.env.AZURE_TENANT_ID;
+
+      if (!clientId || !clientSecret || !tenantId) {
+        throw new Error('Azure credentials not properly configured');
       }
-    };
 
-    this.client = Client.init({
-      authProvider,
-    });
+      try {
+        this.msalClient = new ConfidentialClientApplication({
+          auth: {
+            clientId,
+            clientSecret,
+            authority: `https://login.microsoftonline.com/${tenantId}`,
+          },
+        });
+
+        const authProvider: AuthProvider = async (done) => {
+          try {
+            const result =
+              await this.msalClient!.acquireTokenByClientCredential({
+                scopes: ['https://graph.microsoft.com/.default'],
+              });
+            done(null, result?.accessToken || null);
+          } catch (error) {
+            done(error as Error, null);
+          }
+        };
+
+        this.client = Client.init({
+          authProvider,
+        });
+      } catch (error) {
+        console.error('Error initializing GraphClient:', error);
+        throw error;
+      }
+    }
   }
 
   async getEmails(params: EmailsQueryParams): Promise<Email[]> {
+    await this.initialize();
     const { client, unreadOnly, skip, top } = params;
     let filter = '';
 
@@ -46,14 +71,12 @@ export class GraphClient {
       filter = 'isRead eq false';
     }
 
-    if (client !== 'all') {
-      filter = filter ? `${filter} and ` : '';
-      filter += `contains(subject,'[${client}]')`;
-    }
-
-    const response = await this.client
-      .api('/me/messages')
+    const response = await this.client!.api(
+      `/users/${this.inboxToProcess}/mailFolders/inbox/messages`
+    )
+      .select('id,subject,body,from,receivedDateTime,isRead,categories')
       .filter(filter)
+      .orderby('receivedDateTime desc')
       .skip(skip)
       .top(top)
       .get();
@@ -65,34 +88,14 @@ export class GraphClient {
       sender: email.from.emailAddress.address,
       receivedAt: email.receivedDateTime,
       isRead: email.isRead,
-      client: this.extractClientFromSubject(email.subject) as EmailClient,
       classification: email.categories?.[0],
     }));
   }
 
   async markAsRead(emailId: string): Promise<void> {
-    await this.client.api(`/me/messages/${emailId}`).patch({ isRead: true });
-  }
-
-  async updateEmail(emailId: string, update: Partial<Email>): Promise<Email> {
-    const response = await this.client.api(`/me/messages/${emailId}`).patch({
-      categories: update.classification ? [update.classification] : [],
-    });
-
-    return {
-      id: response.id,
-      subject: response.subject,
-      body: response.body.content,
-      sender: response.from.emailAddress.address,
-      receivedAt: response.receivedDateTime,
-      isRead: response.isRead,
-      client: this.extractClientFromSubject(response.subject) as EmailClient,
-      classification: response.categories?.[0],
-    };
-  }
-
-  private extractClientFromSubject(subject: string): string {
-    const match = subject.match(/\[(.*?)\]/);
-    return match ? match[1].toLowerCase() : 'unknown';
+    await this.initialize();
+    await this.client!.api(
+      `/users/${this.inboxToProcess}/messages/${emailId}`
+    ).patch({ isRead: true });
   }
 }

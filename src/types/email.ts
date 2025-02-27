@@ -1,4 +1,4 @@
-export type Client = 'rbg' | 'transitiq';
+export type Client = 'rbg' | 'wsw';
 
 export interface Email {
   id: string;

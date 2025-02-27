@@ -1,5 +1,5 @@
 ### Create Email
-POST http://localhost:3000/api/processEmails
+POST http://localhost:3000/api/rbg/emails/process-emails
 Content-Type: application/json
 
 {
@@ -8,6 +8,9 @@ Content-Type: application/json
   "toRecipients": ["ndilthey@gmail.com"],
   "nonCategoryRecipients": ["ndilthey@gmail.com"]
 }
+
+### Get Emails
+GET http://localhost:3000/api/rbg/emails
 
 ### Discover New Classification
 GET http://localhost:3000/api/discover-new-classification?client=rheinbahn&unreadOnly=false&page=1&pageSize=200

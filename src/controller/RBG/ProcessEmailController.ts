@@ -7,25 +7,27 @@ import { ExtractMessageFromEmailError } from '@/exceptions/ExtractMessageFromEma
 import { EmailCategorizationError } from '@/exceptions/EmailCategorizationError';
 import { AiAnswerGenerationError } from '@/exceptions/AiAnswerGenerationError';
 import { SendEmailError } from '@/exceptions/SendEmailError';
-import { classifyEmail, fetchEmails, markEmailAsRead } from '@/lib/actions';
 import { Client } from '@/types/email';
+import { GraphClient } from '@/lib/graph-client';
+import { classifyText } from '@/actions';
 
 export class ProcessEmailController {
   static async getEmails(req: Request, res: Response) {
+    const graphClient = new GraphClient(process.env.INBOX_TO_PROCESS!);
     try {
       const client = (req.query.client as Client | 'all') || 'rbg';
-      const unreadOnly = req.query.unreadOnly === 'true';
+      const unreadOnly = req.query.unreadOnly === 'true' || true;
       const page = parseInt((req.query.page as string) || '1');
       const pageSize = parseInt((req.query.pageSize as string) || '10');
 
-      const response = await fetchEmails({
+      const emails = await graphClient.getEmails({
         client,
         unreadOnly,
-        page,
-        pageSize,
+        skip: (page - 1) * pageSize,
+        top: pageSize,
       });
 
-      res.json(response);
+      res.json(emails);
     } catch (error) {
       console.error('Error fetching emails:', error);
       res.status(500).json({ error: 'Failed to fetch emails' });
@@ -34,8 +36,9 @@ export class ProcessEmailController {
 
   static async markAsRead(req: Request, res: Response) {
     try {
+      const graphClient = new GraphClient(process.env.INBOX_TO_PROCESS!);
       const { id } = req.params;
-      await markEmailAsRead(id);
+      await graphClient.markAsRead(id);
       res.json({ success: true });
     } catch (error) {
       console.error('Error marking email as read:', error);
@@ -46,14 +49,14 @@ export class ProcessEmailController {
   static async classifyEmail(req: Request, res: Response) {
     try {
       const { id } = req.params;
-      const { classification } = req.body;
+      const { text } = req.body;
 
-      if (!classification) {
-        return res.status(400).json({ error: 'Classification is required' });
+      if (!text) {
+        return res.status(400).json({ error: 'Email text is required' });
       }
 
-      const updatedEmail = await classifyEmail(id, classification);
-      res.json(updatedEmail);
+      const classification = await classifyText(text);
+      res.json({ classification });
     } catch (error) {
       console.error('Error classifying email:', error);
       res.status(500).json({ error: 'Failed to classify email' });
@@ -78,7 +81,7 @@ export class ProcessEmailController {
       );
 
       if (!confirmed) {
-        return Response.json({ message: 'Operation cancelled by user' });
+        return res.status(200).json({ message: 'Operation cancelled by user' });
       }
 
       const emailHandler = new EmailHandler();
@@ -86,6 +89,7 @@ export class ProcessEmailController {
       emailHandler.setInboxToProcess(inboxToProcess);
       emailHandler.setEmailFromAddressToProcess(emailFromAddressToProcess);
       const emails = await emailHandler.crawlUnreadEmails(true);
+
       for (const email of emails) {
         try {
           logInfo(`Start processing email`, {
@@ -112,8 +116,6 @@ export class ProcessEmailController {
           } else {
             logError('Unknown error:', { error });
           }
-
-          // All Emails with problems should remain unread
           continue;
         }
 
@@ -129,14 +131,14 @@ export class ProcessEmailController {
           });
         }
       }
+
       logInfo('Finished processing emails');
-      return Response.json({ success: true });
+      return res.json({ success: true });
     } catch (error: any) {
       console.error('Error in POST handler:', error?.message);
-      return Response.json(
-        { error: error?.message || 'An error occurred' },
-        { status: 500 }
-      );
+      return res.status(500).json({
+        error: error?.message || 'An error occurred',
+      });
     }
   }
 }

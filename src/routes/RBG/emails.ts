@@ -10,9 +10,9 @@ router.get('/', ProcessEmailController.getEmails);
 router.post('/:id/read', ProcessEmailController.markAsRead);
 
 // POST /api/rbg/emails/:id/classify
-router.post('/:id/classify', ProcessEmailController.classifyEmail);
+router.post('/classify/:id', ProcessEmailController.classifyEmail);
 
 // POST /api/rbg/emails/:id/process
-router.post('/:id/process', ProcessEmailController.processEmails);
+router.post('/process-emails', ProcessEmailController.processEmails);
 
 export default router;
